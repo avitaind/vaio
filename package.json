@@ -23,6 +23,6 @@
     },
     "dependencies": {
         "ajv": "^6.5.0",
-        "minimist": "^1.2.0"
+        "minimist": "^1.2.3"
     }
 }
