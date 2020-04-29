@@ -1,0 +1,39 @@
+{
+    "name": "realripley00/bootstrap-4-form",
+    "description": "Laravel 5 form wrappers for Bootstrap 4.",
+    "keywords": ["laravel", "form", "bootstrap"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RealRipley00",
+            "email": "realripley00@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "~5.0",
+        "illuminate/session": "~5.0",
+        "illuminate/support": "~5.0",
+        "laravelcollective/html": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RealRipley\\BootstrapForm\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RealRipley\\BootstrapForm\\BootstrapFormServiceProvider"
+            ],
+            "aliases": {
+                "BootForm": "RealRipley\\BootstrapForm\\Facades\\BootstrapForm"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
