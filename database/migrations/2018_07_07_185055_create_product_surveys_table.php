@@ -22,7 +22,7 @@ class CreateProductSurveysTable extends Migration
             $table->date('birthday')->nullable();
             $table->string('age_group')->nullable();
             $table->string('gender')->nullable();
-            $table->json('data');
+            $table->text('data');
             $table->dateTime('completed_at');
             $table->timestamps();
         });

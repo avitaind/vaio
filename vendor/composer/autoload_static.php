@@ -4,25 +4,25 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7de573ac6c558bb8c7ea047ae2a4d4b8
+class ComposerStaticInit61b30bfcf313d23fc86b1f419023c6f8
 {
     public static $files = array (
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        'f1fc7a7a353e3515a5d5efd255977059' => __DIR__ . '/..' . '/vinkla/alert/src/helpers.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
+        'f1fc7a7a353e3515a5d5efd255977059' => __DIR__ . '/..' . '/vinkla/alert/src/helpers.php',
         '1aff2f8abd60e952b4bdd52d4f05a132' => __DIR__ . '/../..' . '/app/helper.php',
     );
 
@@ -151,8 +151,8 @@ class ComposerStaticInit7de573ac6c558bb8c7ea047ae2a4d4b8
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -4812,10 +4812,10 @@ class ComposerStaticInit7de573ac6c558bb8c7ea047ae2a4d4b8
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7de573ac6c558bb8c7ea047ae2a4d4b8::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7de573ac6c558bb8c7ea047ae2a4d4b8::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit7de573ac6c558bb8c7ea047ae2a4d4b8::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit7de573ac6c558bb8c7ea047ae2a4d4b8::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit61b30bfcf313d23fc86b1f419023c6f8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit61b30bfcf313d23fc86b1f419023c6f8::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit61b30bfcf313d23fc86b1f419023c6f8::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit61b30bfcf313d23fc86b1f419023c6f8::$classMap;
 
         }, null, ClassLoader::class);
     }
