@@ -1,9 +1,9 @@
 @extends('layout.app')
 
-@section('title', 'VAIO SX14')
+@section('title', 'VAIO FE14')
 
 @section('product_nav')
-    @include('products.sx14.product_nav')
+    @include('products.fe14.product_nav')
 @stop
 
 @section('content')
@@ -66,100 +66,100 @@
 	data-carouselmargin="-150"
     data-showplaybutton="false"
 	>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver01.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver01.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver01.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver01.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver02.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver02.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver02.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver02.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver03.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver03.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver03.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver03.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver04.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver04.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver04.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver04.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver05.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver05.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver05.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver05.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver06.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver06.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver06.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver06.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver07.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver07.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver07.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver07.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver08.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver08.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver08.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver08.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver09.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver09.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver09.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver09.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-silver10.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-silver10.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-silver10.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-silver10.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14bottom.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14bottom.jpg" alt="VAIO SX14" >
-            </a>
-
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown01.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown01.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown02.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown02.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown03.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown03.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown04.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown04.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown05.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown05.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown06.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown06.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown07.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown07.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown08.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown08.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown09.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown09.jpg" alt="VAIO SX14" >
-            </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-brown10.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-brown10.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14bottom.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14bottom.jpg" alt="VAIO FE14" >
             </a>
 
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black01.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black01.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown01.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown01.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black02.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black02.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown02.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown02.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black03.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black03.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown03.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown03.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black04.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black04.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown04.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown04.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black05.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black05.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown05.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown05.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black06.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black06.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown06.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown06.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black07.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black07.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown07.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown07.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black08.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black08.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown08.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown08.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black09.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black09.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown09.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown09.jpg" alt="VAIO FE14" >
             </a>
-            <a href="https://hk.vaio.com/images/gallery/sx14/sx14-black10.jpg">
-                <img src="https://hk.vaio.com/images/gallery/sx14/sx14-black10.jpg" alt="VAIO SX14" >
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-brown10.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-brown10.jpg" alt="VAIO FE14" >
+            </a>
+
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black01.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black01.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black02.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black02.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black03.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black03.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black04.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black04.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black05.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black05.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black06.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black06.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black07.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black07.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black08.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black08.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black09.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black09.jpg" alt="VAIO FE14" >
+            </a>
+            <a href="https://hk.vaio.com/images/gallery/fe14/fe14-black10.jpg">
+                <img src="https://hk.vaio.com/images/gallery/fe14/fe14-black10.jpg" alt="VAIO FE14" >
             </a>
 
 
