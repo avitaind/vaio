@@ -93,7 +93,7 @@ return [
     'nav'           => [
         'buy_now'      => 'eStore',
         'Nexstmall'      => 'Nexstmall',
-		'Nexstmall_link'      => 'https://vaio-sg.nexstmall.com/',
+		'Nexstmall_link'      => 'https://in.nexstmall.com/',
         'AddOn'      => 'AddOn Systems',
         'AddOn_link'      => 'https://addonsystems.net/vaio?utm_source=sg.vaio.com&utm_medium=mainmenu&utm_campaign=vaiomallhomepage1',
         'offer'        => 'Offer',
@@ -104,7 +104,8 @@ return [
             'vaio_s14' => 'VAIO SE14', 
             'vaio_sx14' => 'VAIO SX14',
             'vaio_a12' => 'VAIO A12',
-			'vaio_sx12' => 'VAIO SX12'
+			'vaio_sx12' => 'VAIO SX12',
+            'vaio_fe14' => 'VAIO FE14'
 			
         ],
         'quality'      => [
