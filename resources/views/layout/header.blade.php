@@ -78,17 +78,17 @@
                             </li>
                             --->
                              <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx12') }}">@lang('common.nav.product.vaio_sx12_whl')</a>
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx12_whl') }}">@lang('common.nav.product.vaio_sx12_whl')</a>
                             </li>
                           	<li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14') }}">@lang('common.nav.product.vaio_sx14_whl')</a>
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14_whl') }}">@lang('common.nav.product.vaio_sx14_whl')</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14') }}">@lang('common.nav.product.vaio_sx14_cml')</a>
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14_cml') }}">@lang('common.nav.product.vaio_sx14_cml')</a>
                             </li>
                              
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14') }}">@lang('common.nav.product.vaio_se14_whl')</a>
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14_whl') }}">@lang('common.nav.product.vaio_se14_whl')</a>
                             </li>
                                <!---
                           <li class="nav-item text-center">
