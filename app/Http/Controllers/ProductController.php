@@ -271,4 +271,188 @@ class ProductController extends Controller
         return view('products.fe14.gallery');
     }
 	
+    
+    // New Products
+    
+     public function getProductOverviewSx12whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx12.whl.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.sx12.whl.overview', $view_data);
+    }
+
+    public function getProductSpecificationSx12whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx12.whl.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx12.whl.spec');
+    }
+    public function getProductGallerySx12whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx12.whl.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx12.whl.gallery');
+    }
+	
+    
+      public function getProductOverviewSx14whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14.whl.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.sx14.whl.overview', $view_data);
+    }
+
+    public function getProductSpecificationSx14whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14.whl.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14.whl.spec');
+    }
+    public function getProductGallerySx14whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14.whl.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14.whl.gallery');
+    }
+	
+    
+     public function getProductOverviewSx14cml( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14.cml.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.sx14.cml.overview', $view_data);
+    }
+
+    public function getProductSpecificationSx14cml( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14.cml.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14.cml.spec');
+    }
+    public function getProductGallerySx14cml( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14.cml.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14.cml.gallery');
+    }
+    
+    
+     
+      public function getProductOverviewSe14whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.se14.whl.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.se14.whl.overview', $view_data);
+    }
+
+    public function getProductSpecificationSe14whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.se14.whl.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.se14.whl.spec');
+    }
+    public function getProductGallerySe14whl( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.se14.whl.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.se14.whl.gallery');
+    }
+	
+    
 }
