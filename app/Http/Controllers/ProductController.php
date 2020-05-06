@@ -225,5 +225,50 @@ class ProductController extends Controller
         return view('products.sx12.gallery');
     }
 	
+	/*FE14*/
+   
+ public function getProductOverviewFe14( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.fe14.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.fe12.overview', $view_data);
+    }
+
+    public function getProductSpecificationFe14( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.fe14.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.fe14.spec');
+    }
+    public function getProductGalleryFe14( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.fe14.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.fe14.gallery');
+    }
 	
 }
