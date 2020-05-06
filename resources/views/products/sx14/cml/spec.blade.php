@@ -19,7 +19,7 @@
                     <ul class="color-pick-list list-unstyled d-flex flex-wrap mx-auto align-items-center justify-content-center">
                         <li class="color-pick active" style="background-color: #37383a" data-src="/images/sx14/SX14vaio-black.png"></li>
                         <li class="color-pick" style="background-color: #926c65" data-src="/images/sx14/SX14vaio-brown.png"></li>
-                        <li class="color-pick" style="background-color: #cccccc" data-src="/images/sx14/SX14vaio-silver.png"></li>
+                        <li class="color-pick" style="background-color: #cccccc" data-src="/images/sx14/SX14vaio-red.png"></li>
                     </ul>
                 </a>
             </nav>
@@ -32,15 +32,15 @@
           <ul class="list-unstyled spec-list">
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Color</div>
-              <div class="offset-md-1 spec-item-content">Black, Silver, Brown</div>
+              <div class="offset-md-1 spec-item-content">Black, Red, Brown</div>
             </li>
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Processor<sup>1</sup></div>
-              <div class="offset-md-1 spec-item-content">Intel® Core<sup>TM</sup> i7-8565U Processor<br/>Intel® Core<sup>TM</sup> i5-8265U Processor</div>
+              <div class="offset-md-1 spec-item-content">Intel® Core<sup>TM</sup> i7-10710U Processor<br/>Intel® Core<sup>TM</sup> i5-0210U Processor</div>
             </li>
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Operating System<sup>2</sup></div>
-              <div class="offset-md-1 spec-item-content">Windows 10 Home / Windows 10 Pro</div>
+              <div class="offset-md-1 spec-item-content">Windows 10 Pro</div>
             </li>
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Display</div>
@@ -56,7 +56,7 @@
             </li>
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Storage</div>
-              <div class="offset-md-1 spec-item-content">256GB PCIe NVMe SSD / 512GB PCIe NVMe SSD</div>
+              <div class="offset-md-1 spec-item-content">256GB PCIe NVMe SSD / 512GB PCIe NVMe SSD / 1TB PCIe NVMe SSD</div>
             </li>
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>
