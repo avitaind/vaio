@@ -105,7 +105,11 @@ return [
             'vaio_sx14' => 'VAIO SX14',
             'vaio_a12' => 'VAIO A12',
 			'vaio_sx12' => 'VAIO SX12',
-            'vaio_fe14' => 'VAIO FE14'
+            'vaio_fe14' => 'VAIO FE14',
+             'vaio_sx12_whl' => 'VAIO SX12 WHL',
+             'vaio_sx14_cml' => 'VAIO SX14 CML',
+             'vaio_sx14_whl' => 'VAIO SX14 WHL',
+             'vaio_se14_whl' => 'VAIO SE14 WHL'
 			
         ],
         'quality'      => [
