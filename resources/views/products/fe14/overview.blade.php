@@ -1,9 +1,9 @@
 @extends('layout.app')
 
-@section('title', 'VAIO SX14')
+@section('title', 'VAIO FE14')
 
 @section('product_nav')
-    @include('products.sx14.product_nav')
+    @include('products.fe14.product_nav')
 @stop
 
 @section('content')
@@ -12,7 +12,7 @@
     <div class="swiper-container swiper-container-horizontal">
 			
 			<a href="javascript:void(0);" target="_blank"  class="swiper-slide">
-                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/sx14/SX14.jpg)">
+                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/fe14/FE14.jpg)">
                             <div class="main-banner" title=""></div>
                         </div>
                     </a>
@@ -31,24 +31,24 @@
             }
         }
         .cms-banner-5 .main-banner {
-            background-image: url(/images/sx14/SX14.jpg);
+            background-image: url(/images/fe14/FE14.jpg);
         }
         @media(max-width: 991px) {
         .cms-banner-5 .main-banner {
-            background-image: url(/images/sx14/SX14-2.jpg);
+            background-image: url(/images/fe14/FE14-2.jpg);
             }
         }
 		
-		/* CSS for SX14 images */
+		/* CSS for FE14 images */
 		.mb_px-10 {
 			padding: 0px 0px 0px 0px;
 		}
-		.sx14_bg1 {
-			background-image: url(/images/sx14/sx14_bg01.jpg);
+		.fe14_bg1 {
+			background-image: url(/images/fe14/fe14_bg01.jpg);
 			height:550px;
 		}
-		.sx14_bg2 {
-			background-image: url(/images/sx14/sx14_bg02.jpg);
+		.fe14_bg2 {
+			background-image: url(/images/fe14/fe14_bg02.jpg);
 			height:450px;
 
 		}
@@ -64,11 +64,11 @@
 		.mb_px-10 {
 			padding: 10px 0px 10px 0px;
 		}
-			.sx14_bg1 {
+			.fe14_bg1 {
 			background-color:#000;
 			background-image: url();
 			}
-			.sx14_bg2 {
+			.fe14_bg2 {
 			background-color:#000;
 			background-image: url();
 			}
@@ -86,10 +86,10 @@
 <!--- Banner end here------------------------------------>
 
 <!---Page content here--------------------------------------------->
-	<section class="pt-section d-flex flex-wrap text-center text-white p-0 sx14_bg1">
+	<section class="pt-section d-flex flex-wrap text-center text-white p-0 fe14_bg1">
                 <div class="col-12 col-lg-6 py-5 order-1 order-lg-2" >
                     <div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
-                        <h2 class="pt-title mt-4">VAIO SX14</h2>
+                        <h2 class="pt-title mt-4">VAIO FE14</h2>
                         <hr class="pt-title-hr bg-white">
                         <div class="pt-content-wrapper-lg mx-auto">                            
                             <p class="pt-content mx-auto" style="color: #fff; text-align:left;">Take business productivity to the next level with more power, bigger display, expanded connectivity and legendary durability</p>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-12 mb_only" >
-                        <img src="/images/sx14/sx14_bg01B.jpg" alt="">
+                        <img src="/images/fe14/fe14_bg01B.jpg" alt="">
             	</div>
     </section>
 <!------------------TAB Menu 1---------------------------------------------->   
@@ -123,7 +123,7 @@
 	<section class="pt-section d-flex flex-wrap text-center p-0" id="pt-1" >
                 <div class="col-12 col-lg-6 order-2 order-lg-1 px-0" >
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/sx14/sx14_pic01.png" alt="">
+                        <img src="/images/fe14/fe14_pic01.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 py-5 order-1 order-lg-2" >
@@ -134,13 +134,13 @@
                         <div class="pt-content-wrapper-lg mx-auto">                            
 						<p class="pt-content-title mx-auto">Ultra  High Definition</p>						
                       <p class="pt-content text-left">
-                            Not only will you be able to view more with a thin bezel 14-inch display, the VAIO SX14 just made viewing your work more vibrant with an available 4K Ultra High Definition display. 
+                            Not only will you be able to view more with a thin bezel 14-inch display, the VAIO FE14 just made viewing your work more vibrant with an available 4K Ultra High Definition display. 
                         </p>
                         </div>
                     </div>
                 </div>
     </section>
-	<section class="pt-section d-flex flex-wrap text-center text-white p-0 sx14_bg2">
+	<section class="pt-section d-flex flex-wrap text-center text-white p-0 fe14_bg2">
         <div class="container">
                 <div class="col-12 col-lg-12 py-5 order-2 order-lg-2" >
                     <div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
@@ -154,7 +154,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 rect-banner-wrapper px-0 mb_only">
-                    <div class="rect-banner" style="background-image: url(/images/sx14/sx14_bg02.jpg);"></div>
+                    <div class="rect-banner" style="background-image: url(/images/fe14/fe14_bg02.jpg);"></div>
                 </div>
             	</div>
         </div>
@@ -165,7 +165,7 @@
 	<section class="pt-section d-flex flex-wrap text-center text-white p-0" style="background-color:#000; ">
             <div class="container">
                 <div class="col-12 col-lg-12 py-5 order-1 order-lg-2" >
-                        <img src="/images/sx14/vaio-sx14-pdp-true-performance-min.png" alt="">
+                        <img src="/images/fe14/vaio-fe14-pdp-true-performance-min.png" alt="">
             	</div>
             </div>
                 <div class="col-12 col-lg-6 " >
@@ -183,7 +183,7 @@
                 </div>
                 <div class="col-12 col-lg-6 " >
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/sx14/vaio-sx14-pdp-true-performance-animated-min.gif" alt="">
+                        <img src="/images/fe14/vaio-fe14-pdp-true-performance-animated-min.gif" alt="">
                     </div>
                 </div>    
     </section>
@@ -191,7 +191,7 @@
 
 	<section class="pt-section d-flex flex-wrap text-center p-0" >
                 <div class="col-12 col-lg-4 rect-banner-wrapper px-0 pc_only">
-                    <div class="rect-banner" style="background-image: url(/images/sx14/vaio-sx14-pdp-fingerprint-scan.jpg);"></div>
+                    <div class="rect-banner" style="background-image: url(/images/fe14/vaio-fe14-pdp-fingerprint-scan.jpg);"></div>
                 </div>
                 <div class="col-12 col-lg-8 " style="background-color: #ddd;">
                     <div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
@@ -199,12 +199,12 @@
                         <hr class="pt-title-hr">
                         <div class="pt-content-wrapper-lg mx-auto">                            
                             <p class="pt-content-title mb-0 mt-4">Access Denied</p>
-                            <p class="pt-content mx-auto" > Security literally at your fingertips. Instantly login to your VAIO SX14 with the new fingerprint reader. Exceptional security to prevent malicious intent.</p>
+                            <p class="pt-content mx-auto" > Security literally at your fingertips. Instantly login to your VAIO FE14 with the new fingerprint reader. Exceptional security to prevent malicious intent.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 rect-banner-wrapper px-0 mb_only">
-                    <div class="rect-banner" style="background-image: url(/images/sx14/vaio-sx14-pdp-fingerprint-scan.jpg);"></div>
+                    <div class="rect-banner" style="background-image: url(/images/fe14/vaio-fe14-pdp-fingerprint-scan.jpg);"></div>
                 </div>
 	</section>
 
@@ -232,7 +232,7 @@
 
 <section class="pt-section d-flex flex-wrap text-center p-0" id="pt-2">
                 <div class="col-12 col-lg-6">
-                   <img src="/images/sx14/img_main2.jpg" alt="">
+                   <img src="/images/fe14/img_main2.jpg" alt="">
                 </div>
 
                 <div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #fff;">
@@ -255,7 +255,7 @@ Through the utilization of UD carbon fiber and strategic reinforcing rib placeme
                     <div class="pt-content-wrapper mx-auto">	
 						<p class="pt-content-title mx-auto">Nothing Less Than Perfect</p>						
                       <p class="pt-content text-left">
-To guarantee precision and maintain exacting standards, every new VAIO SX14 is completed at VAIO headquarters in Nagano, Japan.                        </p>
+To guarantee precision and maintain exacting standards, every new VAIO FE14 is completed at VAIO headquarters in Nagano, Japan.                        </p>
                     </div>
 
                     </div>
@@ -308,7 +308,7 @@ With a USB Type-C<sup>TM</sup> port, 3 USB ports, an HDMI port, a VGA connector 
                     <div class="px-3" style="border: 1px solid #808090; display: inline-block; margin:3px;"> Headphone Jack</div>
                     </div>
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/sx14/vaio-sx14-top.jpg" alt="">
+                        <img src="/images/fe14/vaio-fe14-top.jpg" alt="">
                     </div>
 
 <!---------------------------------------------------------------->                    
@@ -323,12 +323,12 @@ With a USB Type-C<sup>TM</sup> port, 3 USB ports, an HDMI port, a VGA connector 
                         <hr class="pt-title-hr">
                         <div class="pt-content-wrapper-lg mx-auto">                            
                             <p class="pt-content-title mb-0 mt-4">Thin And Light</p>
-                            <p class="pt-content mx-auto" >Normally a larger screen equals more weight however the VAIO SX14 is weighted 1.05kg only and at 15mm thick.</p>
+                            <p class="pt-content mx-auto" >Normally a larger screen equals more weight however the VAIO FE14 is weighted 1.05kg only and at 15mm thick.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 rect-banner-wrapper px-0">
-                    <div class="rect-banner" style="background-image: url(/images/sx14/vaio-sx14-pdp-performance-lightweight-min.jpg);"></div>
+                    <div class="rect-banner" style="background-image: url(/images/fe14/vaio-fe14-pdp-performance-lightweight-min.jpg);"></div>
                 </div>
 	</section>
     
@@ -360,7 +360,7 @@ With a USB Type-C<sup>TM</sup> port, 3 USB ports, an HDMI port, a VGA connector 
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">	
                       <p class="pt-content text-left">
-Every SX14 is carefully assembled at the VAIO headquarters in Azumino, Nagano Prefecture, Japan. Each VAIO notebook computer has to pass a stringent series of quality control tests before it can be delivered to the hands of customers.
+Every FE14 is carefully assembled at the VAIO headquarters in Azumino, Nagano Prefecture, Japan. Each VAIO notebook computer has to pass a stringent series of quality control tests before it can be delivered to the hands of customers.
 						</p>
                       <p class="pt-content text-left">
 We named this particular set of procedures, designed to ensure the highest quality and standards, the “Azumino Finish”. It is the definition of how we pursue perfection at VAIO.
