@@ -3,7 +3,7 @@
 @section('title', 'VAIO SX12')
 
 @section('product_nav')
-    @include('products.sx12.whl.product_nav')
+    @include('products.sx12.product_nav')
 @stop
 
 @section('content')
