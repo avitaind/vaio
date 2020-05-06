@@ -17,8 +17,8 @@
                     <h3 class="spec-product-name mb-4 pt-5 pt-lg-0">VAIO&#174; SE14</h3>
                     <img src="/images/pt-pic/SE14vaio-black.png" class="my-4" alt="VAIO® SE14">
                     <ul class="color-pick-list list-unstyled d-flex flex-wrap mx-auto align-items-center justify-content-center">
-                        <li class="color-pick active" style="background-color: #37383a" data-src="/images/pt-pic/SE14vaio-black.png"></li>
-                        <li class="color-pick" style="background-color: #926c65" data-src="/images/pt-pic/SE14vaio-brown.png"></li>
+                        <li class="color-pick active" style="background-color: #37383a" data-src="/images/se14/SE14vaio-black.png"></li>
+                        <li class="color-pick" style="background-color: #926c65" data-src="/images/se14/SE14vaio-brown.png"></li>
                     </ul>
                 </a>
             </nav>
