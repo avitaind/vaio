@@ -241,7 +241,7 @@ class ProductController extends Controller
             return view($view_file, $view_data);
         }
 
-        return view('products.fe12.overview', $view_data);
+        return view('products.fe14.overview', $view_data);
     }
 
     public function getProductSpecificationFe14( ) {
