@@ -1,9 +1,9 @@
 @extends('layout.app')
 
-@section('title', 'VAIO SX14 Specification')
+@section('title', 'VAIO FE14 Specification')
 
 @section('product_nav')
-    @include('products.sx14.product_nav')
+    @include('products.fe14.product_nav')
 @stop
 
 @section('content')
@@ -14,12 +14,12 @@
         <div class="container">
             <nav class="nav nav-tabs">
                 <a href="#spec-1" class="text-center spec-product nav-link col-12 active" data-toggle="tab" role="tab">
-                    <h3 class="spec-product-name mb-4 pt-5 pt-lg-0">VAIO&#174; SX14</h3>
-                    <img src="/images/sx14/SX14vaio-black.png" class="my-4" alt="VAIO® SE14">
+                    <h3 class="spec-product-name mb-4 pt-5 pt-lg-0">VAIO&#174; FE14</h3>
+                    <img src="/images/fe14/FE14vaio-black.png" class="my-4" alt="VAIO® SE14">
                     <ul class="color-pick-list list-unstyled d-flex flex-wrap mx-auto align-items-center justify-content-center">
-                        <li class="color-pick active" style="background-color: #37383a" data-src="/images/sx14/SX14vaio-black.png"></li>
-                        <li class="color-pick" style="background-color: #926c65" data-src="/images/sx14/SX14vaio-brown.png"></li>
-                        <li class="color-pick" style="background-color: #cccccc" data-src="/images/sx14/SX14vaio-silver.png"></li>
+                        <li class="color-pick active" style="background-color: #37383a" data-src="/images/fe14/FE14vaio-black.png"></li>
+                        <li class="color-pick" style="background-color: #926c65" data-src="/images/fe14/FE14vaio-brown.png"></li>
+                        <li class="color-pick" style="background-color: #cccccc" data-src="/images/fe14/FE14vaio-silver.png"></li>
                     </ul>
                 </a>
             </nav>
