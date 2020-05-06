@@ -33,13 +33,13 @@
 	}
 	
 	.html5gallery-elem-image{
-		top:50px !important;		
+		top:0px !important;		
 	}
 }
 </style>
  
 
-    <div style="text-align:center;">
+    <div style="text-align:center; margin-top:50px;">
     
      <div style="display:none;margin:-150px auto 0px;" 
 	class="html5gallery"
