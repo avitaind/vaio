@@ -19,7 +19,7 @@
                     <ul class="color-pick-list list-unstyled d-flex flex-wrap mx-auto align-items-center justify-content-center">
                         <li class="color-pick active" style="background-color: #37383a" data-src="/images/sx14/SX14vaio-black.png"></li>
                         <li class="color-pick" style="background-color: #926c65" data-src="/images/sx14/SX14vaio-brown.png"></li>
-                        <li class="color-pick" style="background-color: #cccccc" data-src="/images/sx14/SX14vaio-red.png"></li>
+                       <!--- <li class="color-pick" style="background-color: #cccccc" data-src="/images/sx14/SX14vaio-red.png"></li> --->
                     </ul>
                 </a>
             </nav>
