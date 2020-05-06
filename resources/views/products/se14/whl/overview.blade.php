@@ -12,7 +12,7 @@
     <div class="swiper-container swiper-container-horizontal">
 			
 			<a href="https://vaio-sg.nexstmall.com" target="_blank"  class="swiper-slide">
-                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/pt-pic/SE14.jpg)">
+                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/se14/SE14.jpg)">
                             <div class="main-banner" title=""></div>
                         </div>
                     </a>
@@ -31,12 +31,12 @@
             }
         }
         .cms-banner-5 .main-banner {
-            background-image: url(/images/pt-pic/SE14.jpg);
+            background-image: url(/images/se14/SE14.jpg);
         }
 
         @media(max-width: 991px) {
             .cms-banner-5 .main-banner {
-            background-image: url(/images/pt-pic/SE14-2.jpg);
+            background-image: url(/images/se14/SE14-2.jpg);
             }
         }
 
@@ -71,7 +71,7 @@
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">	
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0318.jpg" alt="">
+                        <img src="/images/se14/VAIO_0318.jpg" alt="">
                     </div>
 						<p class="pt-content-title mx-auto">Moving conference center</p>						
                         <p class="pt-content text-left">
@@ -95,7 +95,7 @@
                     
 				
 				<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/se14pt01-2.png" class="w-50" alt=""><img src="/images/pt-pic/se14pt01-3.png" class="w-50" alt="">
+                        <img src="/images/se14/se14pt01-2.png" class="w-50" alt=""><img src="/images/se14/se14pt01-3.png" class="w-50" alt="">
                     </div>
 				
 
@@ -112,7 +112,7 @@
                             * Data on battery life is obtained from tests deploying internal tools by engineers. The actual battery performances could vary from battery life tests shown above, due to differences in operating environment and conditions.
                         </p>	
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0492.jpg" alt="">
+                        <img src="/images/se14/VAIO_0492.jpg" alt="">
                     </div>
                     </div>
 
@@ -147,7 +147,7 @@
 							 More Airflow, Better Performance: SE14 will be lifted slightly because of the tilted body. It not only increase the airflow but also decreases the body temperature for better performance.
 </p>	
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0419.jpg" alt="">
+                        <img src="/images/se14/VAIO_0419.jpg" alt="">
                     </div>
                     </div>
 					
@@ -193,7 +193,7 @@
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0524.jpg" alt="">
+                        <img src="/images/se14/VAIO_0524.jpg" alt="">
                     </div>
                         <h3 class="pt-content-title">Seamless Connectivity</h3>
                         <!--<p class="pt-content-sm mt-3 mb-2">Highly connectivity (Multiple I/O ports)</p>-->
@@ -256,7 +256,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0">
-                    <div class="rect-banner" title="VAIO SE14 Thin and Lightweight Body" style="background-image: url('/images/pt-pic/product-banner-se14-1.jpg');"></div>
+                    <div class="rect-banner" title="VAIO SE14 Thin and Lightweight Body" style="background-image: url('/images/se14/product-banner-se14-1.jpg');"></div>
                 </div>
             </section>
 
