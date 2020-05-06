@@ -72,24 +72,31 @@
 
                     <div class="dropdown">
                         <ul class="list-unstyled">
-	                        <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx12') }}">@lang('common.nav.product.vaio_sx12')</a>
-                            </li>
+	                      <!---
                            <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_a12') }}">@lang('common.nav.product.vaio_a12')</a>
                             </li>
+                            --->
                           	<li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14') }}">@lang('common.nav.product.vaio_sx14')</a>
+                            </li>
+                              <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx12') }}">@lang('common.nav.product.vaio_sx12')</a>
                             </li>
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14') }}">@lang('common.nav.product.vaio_s14')</a>
                             </li>
-                            <li class="nav-item text-center">
+                             <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_fe14') }}">@lang('common.nav.product.vaio_fe14')</a>
+                            </li>
+                          <!---
+                          <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview') }}">@lang('common.nav.product.vaio_s11')</a>
                             </li>
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview') }}">@lang('common.nav.product.vaio_s13')</a>
                             </li>
+                            --->
                         </ul>
                     </div>
                 </li>
