@@ -33,7 +33,7 @@
 	}
 	
 	.html5gallery-elem-image{
-		top:0px !important;		
+		top:50px !important;		
 	}
 }
 </style>
