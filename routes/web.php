@@ -85,7 +85,7 @@ Route::group([
     Route::get('/product/sx12/gallery', 'ProductController@getProductGallerySx12')->name('product.gallery_sx12');
     
     Route::get('/product/fe14/overview', 'ProductController@getProductOverviewFe14')->name('product.overview_fe14');
-    Route::get('/product/fe14/spec', 'ProductController@getProductSpecificationFe4')->name('product.spec_fe14');
+    Route::get('/product/fe14/spec', 'ProductController@getProductSpecificationFe14')->name('product.spec_fe14');
     Route::get('/product/fe14/gallery', 'ProductController@getProductGalleryFe14')->name('product.gallery_fe14');
 	
     // Drivers
