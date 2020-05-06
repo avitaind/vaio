@@ -88,6 +88,29 @@ Route::group([
     Route::get('/product/fe14/spec', 'ProductController@getProductSpecificationFe14')->name('product.spec_fe14');
     Route::get('/product/fe14/gallery', 'ProductController@getProductGalleryFe14')->name('product.gallery_fe14');
 	
+    // New Products 
+    
+    Route::get('/product/sx12/whl/overview', 'ProductController@getProductOverviewSx12whl')->name('product.overview_sx12_whl');
+    Route::get('/product/sx12/whl/spec', 'ProductController@getProductSpecificationSx12whl')->name('product.spec_sx12_whl');
+    Route::get('/product/sx12/whl/gallery', 'ProductController@getProductGallerySx12whl')->name('product.gallery_sx12_whl');
+	
+    
+    Route::get('/product/sx14/whl/overview', 'ProductController@getProductOverviewSx14whl')->name('product.overview_sx14_whl');
+    Route::get('/product/sx14/whl/spec', 'ProductController@getProductSpecificationSx14whl')->name('product.spec_sx14_whl');
+    Route::get('/product/sx14/whl/gallery', 'ProductController@getProductGallerySx14whl')->name('product.gallery_sx14_whl');
+	
+    
+    Route::get('/product/sx14/cml/overview', 'ProductController@getProductOverviewSx14cml')->name('product.overview_sx14_cml');
+    Route::get('/product/sx14/cml/spec', 'ProductController@getProductSpecificationSx14cml')->name('product.spec_sx14_cml');
+    Route::get('/product/sx14/cml/gallery', 'ProductController@getProductGallerySx14cml')->name('product.gallery_sx14_cml');
+	
+    Route::get('/product/se14/whl/overview', 'ProductController@getProductOverviewSe14whl')->name('product.overview_se14_whl');
+    Route::get('/product/se14/whl/spec', 'ProductController@getProductSpecificationSe14whl')->name('product.spec_se14_whl');
+    Route::get('/product/se14/whl/gallery', 'ProductController@getProductGallerySe14whl')->name('product.gallery_se14_whl');
+	
+    
+    //
+    
     // Drivers
     Route::get('/drivers', 'ProductDriverController@showDriverList');
 
