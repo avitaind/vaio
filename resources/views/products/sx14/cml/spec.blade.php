@@ -36,7 +36,7 @@
             </li>
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Processor<sup>1</sup></div>
-              <div class="offset-md-1 spec-item-content">Intel® Core<sup>TM</sup> i7-10710U Processor<br/>Intel® Core<sup>TM</sup> i5-0210U Processor</div>
+              <div class="offset-md-1 spec-item-content">Intel® Core<sup>TM</sup> i7-10710U Processor<br/>Intel® Core<sup>TM</sup> i5-10210u Processor</div>
             </li>
             <li class="spec-item d-flex">
               <div class="offset-md-1 col-4 col-md-3 spec-item-name">Operating System<sup>2</sup></div>
