@@ -88,7 +88,7 @@
                             </li>
                              --->
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14_whl') }}">@lang('common.nav.product.vaio_se14_whl')</a>
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14_whl') }}">@lang('common.nav.product.vaio_se14')</a>
                             </li>
                                <!---
                           <li class="nav-item text-center">
