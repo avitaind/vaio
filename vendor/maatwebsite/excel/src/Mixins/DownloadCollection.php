@@ -2,10 +2,12 @@
 
 namespace Maatwebsite\Excel\Mixins;
 
+use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsite\Excel\Concerns\WithHeadings;
+use Maatwebsite\Excel\Sheet;
 
 class DownloadCollection
 {
@@ -51,7 +53,17 @@ class DownloadCollection
                  */
                 public function headings(): array
                 {
-                    return $this->withHeadings ? $this->collection->collapse()->keys()->all() : [];
+                    if (!$this->withHeadings) {
+                        return [];
+                    }
+
+                    $firstRow = $this->collection->first();
+
+                    if ($firstRow instanceof Arrayable || \is_object($firstRow)) {
+                        return array_keys(Sheet::mapArraybleRow($firstRow));
+                    }
+
+                    return $this->collection->collapse()->keys()->all();
                 }
             };
 

@@ -19,6 +19,11 @@ class QueryCollector extends PDOCollector
     protected $explainTypes = ['SELECT']; // ['SELECT', 'INSERT', 'UPDATE', 'DELETE']; for MySQL 5.6.3+
     protected $showHints = false;
     protected $reflection = [];
+    protected $backtraceExcludePaths = [
+        '/vendor/laravel/framework/src/Illuminate/Database',
+        '/vendor/laravel/framework/src/Illuminate/Events',
+        '/vendor/barryvdh/laravel-debugbar',
+    ];
 
     /**
      * @param TimeDataCollector $timeCollector
@@ -62,6 +67,16 @@ class QueryCollector extends PDOCollector
     }
 
     /**
+     * Set additional paths to exclude from the backtrace
+     *
+     * @param array $excludePaths Array of file paths to exclude from backtrace
+     */
+    public function mergeBacktraceExcludePaths(array $excludePaths)
+    {
+        $this->backtraceExcludePaths = array_merge($this->backtraceExcludePaths, $excludePaths);
+    }
+
+    /**
      * Enable/disable the EXPLAIN queries
      *
      * @param  bool $enabled
@@ -70,9 +85,10 @@ class QueryCollector extends PDOCollector
     public function setExplainSource($enabled, $types)
     {
         $this->explainQuery = $enabled;
-        if($types){
-            $this->explainTypes = $types;
-        }
+        // workaround ['SELECT'] only. https://github.com/barryvdh/laravel-debugbar/issues/888
+//        if($types){
+//            $this->explainTypes = $types;
+//        }
     }
 
     /**
@@ -90,11 +106,16 @@ class QueryCollector extends PDOCollector
         $startTime = $endTime - $time;
         $hints = $this->performQueryAnalysis($query);
 
-        $pdo = $connection->getPdo();
+        $pdo = null;
+        try {
+            $pdo = $connection->getPdo();
+        } catch (\Exception $e) {
+            // ignore error for non-pdo laravel drivers
+        }
         $bindings = $connection->prepareBindings($bindings);
 
         // Run EXPLAIN on this query (if needed)
-        if ($this->explainQuery && preg_match('/^('.implode($this->explainTypes).') /i', $query)) {
+        if ($this->explainQuery && $pdo && preg_match('/^\s*('.implode('|', $this->explainTypes).') /i', $query)) {
             $statement = $pdo->prepare('EXPLAIN ' . $query);
             $statement->execute($bindings);
             $explainResults = $statement->fetchAll(\PDO::FETCH_CLASS);
@@ -109,7 +130,17 @@ class QueryCollector extends PDOCollector
                 $regex = is_numeric($key)
                     ? "/\?(?=(?:[^'\\\']*'[^'\\\']*')*[^'\\\']*$)/"
                     : "/:{$key}(?=(?:[^'\\\']*'[^'\\\']*')*[^'\\\']*$)/";
-                $query = preg_replace($regex, $pdo->quote($binding), $query, 1);
+
+                // Mimic bindValue and only quote non-integer and non-float data types
+                if (!is_int($binding) && !is_float($binding)) {
+                    if ($pdo) {
+                        $binding = $pdo->quote($binding);
+                    } else {
+                        $binding = $this->emulateQuote($binding);
+                    }
+                }
+
+                $query = preg_replace($regex, $binding, $query, 1);
             }
         }
 
@@ -117,7 +148,7 @@ class QueryCollector extends PDOCollector
 
         if ($this->findSource) {
             try {
-                $source = $this->findSource();
+                $source = array_slice($this->findSource(), 0, 5);
             } catch (\Exception $e) {
             }
         }
@@ -136,6 +167,20 @@ class QueryCollector extends PDOCollector
         if ($this->timeCollector !== null) {
             $this->timeCollector->addMeasure($query, $startTime, $endTime);
         }
+    }
+
+    /**
+     * Mimic mysql_real_escape_string
+     *
+     * @param string $value
+     * @return string
+     */
+    protected function emulateQuote($value)
+    {
+        $search = ["\\",  "\x00", "\n",  "\r",  "'",  '"', "\x1a"];
+        $replace = ["\\\\","\\0","\\n", "\\r", "\'", '\"', "\\Z"];
+
+        return "'" . str_replace($search, $replace, $value) . "'";
     }
 
     /**
@@ -265,15 +310,9 @@ class QueryCollector extends PDOCollector
      */
     protected function fileIsInExcludedPath($file)
     {
-        $excludedPaths = [
-            '/vendor/laravel/framework/src/Illuminate/Database',
-            '/vendor/laravel/framework/src/Illuminate/Events',
-            '/vendor/barryvdh/laravel-debugbar',
-        ];
-
         $normalizedPath = str_replace('\\', '/', $file);
 
-        foreach ($excludedPaths as $excludedPath) {
+        foreach ($this->backtraceExcludePaths as $excludedPath) {
             if (strpos($normalizedPath, $excludedPath) !== false) {
                 return true;
             }

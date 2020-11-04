@@ -14,10 +14,7 @@ class Drawing extends WriterPart
     /**
      * Write drawings to XML format.
      *
-     * @param \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet $pWorksheet
      * @param bool $includeCharts Flag indicating if we should include drawing details for charts
-     *
-     * @throws WriterException
      *
      * @return string XML Output
      */
@@ -43,7 +40,12 @@ class Drawing extends WriterPart
         $i = 1;
         $iterator = $pWorksheet->getDrawingCollection()->getIterator();
         while ($iterator->valid()) {
-            $this->writeDrawing($objWriter, $iterator->current(), $i);
+            /** @var BaseDrawing $pDrawing */
+            $pDrawing = $iterator->current();
+            $pRelationId = $i;
+            $hlinkClickId = $pDrawing->getHyperlink() === null ? null : ++$i;
+
+            $this->writeDrawing($objWriter, $pDrawing, $pRelationId, $hlinkClickId);
 
             $iterator->next();
             ++$i;
@@ -77,10 +79,9 @@ class Drawing extends WriterPart
      * Write drawings to XML format.
      *
      * @param XMLWriter $objWriter XML Writer
-     * @param \PhpOffice\PhpSpreadsheet\Chart\Chart $pChart
      * @param int $pRelationId
      */
-    public function writeChart(XMLWriter $objWriter, \PhpOffice\PhpSpreadsheet\Chart\Chart $pChart, $pRelationId = -1)
+    public function writeChart(XMLWriter $objWriter, \PhpOffice\PhpSpreadsheet\Chart\Chart $pChart, $pRelationId = -1): void
     {
         $tl = $pChart->getTopLeftPosition();
         $tl['colRow'] = Coordinate::coordinateFromString($tl['cell']);
@@ -148,12 +149,10 @@ class Drawing extends WriterPart
      * Write drawings to XML format.
      *
      * @param XMLWriter $objWriter XML Writer
-     * @param BaseDrawing $pDrawing
      * @param int $pRelationId
-     *
-     * @throws WriterException
+     * @param null|int $hlinkClickId
      */
-    public function writeDrawing(XMLWriter $objWriter, BaseDrawing $pDrawing, $pRelationId = -1)
+    public function writeDrawing(XMLWriter $objWriter, BaseDrawing $pDrawing, $pRelationId = -1, $hlinkClickId = null): void
     {
         if ($pRelationId >= 0) {
             // xdr:oneCellAnchor
@@ -187,6 +186,10 @@ class Drawing extends WriterPart
             $objWriter->writeAttribute('id', $pRelationId);
             $objWriter->writeAttribute('name', $pDrawing->getName());
             $objWriter->writeAttribute('descr', $pDrawing->getDescription());
+
+            //a:hlinkClick
+            $this->writeHyperLinkDrawing($objWriter, $hlinkClickId);
+
             $objWriter->endElement();
 
             // xdr:cNvPicPr
@@ -276,10 +279,6 @@ class Drawing extends WriterPart
 
     /**
      * Write VML header/footer images to XML format.
-     *
-     * @param \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet $pWorksheet
-     *
-     * @throws WriterException
      *
      * @return string XML Output
      */
@@ -430,7 +429,7 @@ class Drawing extends WriterPart
      * @param string $pReference Reference
      * @param HeaderFooterDrawing $pImage Image
      */
-    private function writeVMLHeaderFooterImage(XMLWriter $objWriter, $pReference, HeaderFooterDrawing $pImage)
+    private function writeVMLHeaderFooterImage(XMLWriter $objWriter, $pReference, HeaderFooterDrawing $pImage): void
     {
         // Calculate object id
         preg_match('{(\d+)}', md5($pReference), $m);
@@ -467,8 +466,6 @@ class Drawing extends WriterPart
     /**
      * Get an array of all drawings.
      *
-     * @param Spreadsheet $spreadsheet
-     *
      * @return \PhpOffice\PhpSpreadsheet\Worksheet\Drawing[] All drawings in PhpSpreadsheet
      */
     public function allDrawings(Spreadsheet $spreadsheet)
@@ -489,5 +486,20 @@ class Drawing extends WriterPart
         }
 
         return $aDrawings;
+    }
+
+    /**
+     * @param null|int $hlinkClickId
+     */
+    private function writeHyperLinkDrawing(XMLWriter $objWriter, $hlinkClickId): void
+    {
+        if ($hlinkClickId === null) {
+            return;
+        }
+
+        $objWriter->startElement('a:hlinkClick');
+        $objWriter->writeAttribute('xmlns:r', 'http://schemas.openxmlformats.org/officeDocument/2006/relationships');
+        $objWriter->writeAttribute('r:id', 'rId' . $hlinkClickId);
+        $objWriter->endElement();
     }
 }

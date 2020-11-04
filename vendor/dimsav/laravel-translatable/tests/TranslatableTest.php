@@ -5,6 +5,7 @@ use Dimsav\Translatable\Test\Model\Person;
 use Dimsav\Translatable\Test\Model\Country;
 use Dimsav\Translatable\Test\Model\CountryStrict;
 use Dimsav\Translatable\Test\Model\CountryWithCustomLocaleKey;
+use Dimsav\Translatable\Test\Model\CountryWithCustomTranslationModel;
 
 class TranslatableTest extends TestsBase
 {
@@ -13,6 +14,15 @@ class TranslatableTest extends TestsBase
         $country = new Country();
         $this->assertEquals(
             'Dimsav\Translatable\Test\Model\CountryTranslation',
+            $country->getTranslationModelNameDefault());
+    }
+
+    public function test_it_finds_the_translation_class_with_namespace_set()
+    {
+        $this->app->make('config')->set('translatable.translation_model_namespace', 'App\Models\Translations');
+        $country = new Country();
+        $this->assertEquals(
+            'App\Models\Translations\CountryTranslation',
             $country->getTranslationModelNameDefault());
     }
 
@@ -117,6 +127,29 @@ class TranslatableTest extends TestsBase
         $this->assertEquals('5678', $translation->name);
     }
 
+    public function test_it_does_not_lazy_load_translations_when_updating_non_translated_attributes()
+    {
+        DB::enableQueryLog();
+
+        $country = Country::create(['code' => 'be']);
+        $this->assertFalse($country->relationLoaded('translations'));
+        $this->assertCount(1, DB::getQueryLog());
+
+        DB::flushQueryLog();
+
+        $country->update(['code' => 'de']);
+        $this->assertFalse($country->relationLoaded('translations'));
+        $this->assertCount(1, DB::getQueryLog());
+
+        DB::flushQueryLog();
+
+        $country->update(['name' => 'Germany']);
+        $this->assertTrue($country->relationLoaded('translations'));
+        $this->assertCount(2, DB::getQueryLog());
+
+        DB::disableQueryLog();
+    }
+
     public function test_it_uses_default_locale_to_return_translations()
     {
         $country = Country::whereCode('gr')->first();
@@ -184,11 +217,9 @@ class TranslatableTest extends TestsBase
         $this->assertEquals('Belgique', $country->translate('fr')->name);
     }
 
-    /**
-     * @expectedException Illuminate\Database\Eloquent\MassAssignmentException
-     */
     public function test_it_skips_mass_assignment_if_attributes_non_fillable()
     {
+        $this->expectException(Illuminate\Database\Eloquent\MassAssignmentException::class);
         $data = [
             'code' => 'be',
             'en'   => ['name' => 'Belgium'],
@@ -215,6 +246,9 @@ class TranslatableTest extends TestsBase
         $this->assertSame($country->getTranslation('ch', true)->name, 'Griechenland');
         $this->assertSame($country->translateOrDefault('ch')->name, 'Griechenland');
         $this->assertSame($country->getTranslation('ch', false), null);
+
+        $this->app->setLocale('ch');
+        $this->assertSame($country->translateOrDefault()->name, 'Griechenland');
     }
 
     public function test_fallback_option_in_config_overrides_models_fallback_option()
@@ -305,6 +339,18 @@ class TranslatableTest extends TestsBase
         $this->assertEquals($country->getLocaleKey(), 'language_id');
     }
 
+    public function test_the_translation_model_can_be_customized()
+    {
+        $country = CountryWithCustomTranslationModel::create([
+            'code' => 'es',
+            'name:en' => 'Spain',
+            'name:de' => 'Spanien',
+        ]);
+        $this->assertTrue($country->exists());
+        $this->assertEquals($country->translate('en')->name, 'Spain');
+        $this->assertEquals($country->translate('de')->name, 'Spanien');
+    }
+
     public function test_it_reads_the_configuration()
     {
         $this->assertEquals(App::make('config')->get('translatable.translation_suffix'), 'Translation');
@@ -328,11 +374,10 @@ class TranslatableTest extends TestsBase
         $this->assertSame($country->getTranslation('en'), null);
     }
 
-    /**
-     * @expectedException Dimsav\Translatable\Exception\LocalesNotDefinedException
-     */
     public function test_if_locales_are_not_defined_throw_exception()
     {
+        $this->expectException(Dimsav\Translatable\Exception\LocalesNotDefinedException::class);
+
         $this->app->config->set('translatable.locales', []);
         new Country(['code' => 'pl']);
     }
@@ -341,6 +386,9 @@ class TranslatableTest extends TestsBase
     {
         $country = Country::find(1)->first();
         $this->assertSame('abc', $country->translateOrNew('abc')->locale);
+
+        $this->app->setLocale('xyz');
+        $this->assertSame('xyz', $country->translateOrNew()->locale);
     }
 
     public function test_it_returns_if_attribute_is_translated()
@@ -422,6 +470,7 @@ class TranslatableTest extends TestsBase
 
     public function test_to_array_and_fallback_with_country_based_locales_enabled()
     {
+        $this->app->config->set('translatable.locale', 'en-GB');
         $this->app->config->set('translatable.use_fallback', true);
         $this->app->config->set('translatable.fallback_locale', 'fr');
         $this->app->config->set('translatable.locales', ['en' => ['GB'], 'fr']);
@@ -657,6 +706,8 @@ class TranslatableTest extends TestsBase
 
     public function test_translation_with_multiconnection()
     {
+        $this->migrate('mysql2');
+
         // Add country & translation in second db
         $country = new Country();
         $country->setConnection('mysql2');
@@ -669,18 +720,20 @@ class TranslatableTest extends TestsBase
         // Verify added country & translation in second db
         $country = new Country();
         $country->setConnection('mysql2');
-        $sgCountry = $country->find($countryId);
-        $this->assertEquals('Singapore', $sgCountry->translate('sg')->name);
+        $sgCountry2 = $country->newQuery()->find($countryId);
+        $this->assertEquals('Singapore', $sgCountry2->translate('sg')->name);
 
         // Verify added country not in default db
         $country = new Country();
-        $sgCountry = $country::where('code', 'sg')->get();
-        $this->assertEmpty($sgCountry);
+        $country->setConnection('mysql');
+        $sgCountry1 = $country->newQuery()->where('code', 'sg')->get();
+        $this->assertEmpty($sgCountry1);
 
         // Verify added translation not in default db
         $country = new Country();
-        $sgCountry = $country->find($countryId);
-        $this->assertEmpty($sgCountry->translate('sg'));
+        $country->setConnection('mysql');
+        $sgCountry1 = $country->newQuery()->find($countryId);
+        $this->assertEmpty($sgCountry1->translate('sg'));
     }
 
     public function test_empty_translated_attribute()
@@ -688,5 +741,42 @@ class TranslatableTest extends TestsBase
         $country = Country::whereCode('gr')->first();
         $this->app->setLocale('invalid');
         $this->assertSame(null, $country->name);
+    }
+
+    public function test_numeric_translated_attribute()
+    {
+        $this->app->config->set('translatable.fallback_locale', 'de');
+        $this->app->config->set('translatable.use_fallback', true);
+
+        $city = new class extends \Dimsav\Translatable\Test\Model\City {
+            protected $fillable = [
+                'country_id',
+            ];
+            protected $table = 'cities';
+            public $translationModel = \Dimsav\Translatable\Test\Model\CityTranslation::class;
+            public $translationForeignKey = 'city_id';
+
+            protected function isEmptyTranslatableAttribute(string $key, $value): bool
+            {
+                if ($key === 'name') {
+                    return is_null($value);
+                }
+
+                return empty($value);
+            }
+        };
+        $city->fill([
+            'country_id' => Country::first()->getKey(),
+            'en' => ['name' => '0'],
+            'de' => ['name' => '1'],
+            'fr' => ['name' => null],
+        ]);
+        $city->save();
+
+        $this->app->setLocale('en');
+        $this->assertSame('0', $city->name);
+
+        $this->app->setLocale('fr');
+        $this->assertSame('1', $city->name);
     }
 }

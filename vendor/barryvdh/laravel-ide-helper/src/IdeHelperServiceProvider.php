@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Laravel IDE Helper Generator
  *
@@ -37,8 +38,10 @@ class IdeHelperServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $viewPath = __DIR__.'/../resources/views';
-        $this->loadViewsFrom($viewPath, 'ide-helper');
+        if ($this->app->has('view')) {
+            $viewPath = __DIR__ . '/../resources/views';
+            $this->loadViewsFrom($viewPath, 'ide-helper');
+        }
 
         $configPath = __DIR__ . '/../config/ide-helper.php';
         if (function_exists('config_path')) {
