@@ -10,7 +10,7 @@
         <div class="navbar-user-toggle navbar-toggler-right hidden-lg-up d-flex align-items-center justify-content-center lead text-muted">
             <a class="user-toggle text-white" href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
         </div>
-    @else
+     @else
 
         @if( Request::is('login') || Request::is('register') )
 
@@ -63,7 +63,7 @@
                 @if( $offer_enabled )
                     <li class="nav-item"><a class="nav-link py-4" href="{{ route('news.offers') }}">@lang('common.nav.offer')</a></li>
                 @endif
-                                
+                  <!---                 
                 <li class="nav-item has-dropdown">
                     <input id="header_product" type="checkbox" hidden="">
                     <a class="nav-link py-4">
@@ -72,7 +72,7 @@
 
                     <div class="dropdown">
                         <ul class="list-unstyled">
-	                      <!---
+	                   
                            <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_a12') }}">@lang('common.nav.product.vaio_a12')</a>
                             </li>
@@ -86,11 +86,11 @@
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14_cml') }}">@lang('common.nav.product.vaio_sx14_cml')</a>
                             </li>
-                             --->
+                            
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14_whl') }}">@lang('common.nav.product.vaio_s14')</a>
                             </li>
-                               <!---
+                             
                           <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_fe14') }}">@lang('common.nav.product.vaio_fe14')</a>
                             </li>
@@ -101,10 +101,11 @@
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview') }}">@lang('common.nav.product.vaio_s13')</a>
                             </li>
-                            --->
+                          
                         </ul>
                     </div>
                 </li>
+                --->
 
                 <!-- Hidden by Kevin 2018-07-08, Would be useful when more product added.
                 <li class="nav-item has-dropdown">
@@ -126,6 +127,7 @@
                 </li>
                 -->
 
+            <!---
                 <li class="nav-item has-dropdown">
                     <input id="header_quality" type="checkbox" hidden="">
                     {{-- <a class="nav-link py-4"> --}}
@@ -145,13 +147,14 @@
                     </div>
 
                 </li>
-
+            ---->
                 @if( $life_enabled )
                 <li class="nav-item">
                     <a class="nav-link py-4" href="{{ route('news.life') }}">@lang('common.nav.life')</a>
                 </li>
                 @endif
 
+            <!---
                 <li class="nav-item  has-dropdown">
                     <input id="header_support" type="checkbox" hidden="">
 
@@ -179,30 +182,38 @@
                         </ul>
                     </div>
                 </li>
+
+                --->
                 <li class="nav-item has-dropdown">
                     <input id="header_about_vaio" type="checkbox" hidden="">
-                    {{-- <a class="nav-link py-4"> --}}
-                    <label class="nav-link py-4" for="header_about_vaio">@lang('common.nav.about.title')</label>
+                    {{-- <a class="nav-link py-4" > --}}
+                    <label class="nav-link py-4" for="header_about_vaio"> <a href="{{ route('about_us') }}">@lang('common.nav.about.title')</a> </label>
                     {{-- </a> --}}
-
+                
+                <!---
                     <div class="dropdown">
                         <ul class="list-unstyled">
-                            <li class="nav-item text-center">
+                          
+                          
+                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('about_us') }}">@lang('common.nav.about.title')</a>
                             </li>
+                           
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('news.news') }}">@lang('common.nav.about.news')</a>
                             </li>
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('contact_us') }}">@lang('common.nav.about.contact_us')</a>
                             </li>
+                            
                         </ul>
 
                     </div>
+                    --->
                 </li>
 
                 <li class="nav-item"> 
-                     <a class="nav-link py-4" href="{{ route('where_to_buy') }}" target="_blank">@lang('common.nav.where_to_buy')</a>
+                     <a class="nav-link py-4" href="{{ route('where_to_buy') }}" >@lang('common.nav.where_to_buy')</a>
                       
                 </li>
 
