@@ -208,7 +208,7 @@
 
                                 <div class="col-12 p-0">
                                     <div class="col-12 p-0">
-                                        <a href="https://vaio-sg.nexstmall.com/"  target="_blank" class="footer-title  footer-where d-flex">
+                                        <a href="{{ route('where_to_buy') }}"  target="_blank" class="footer-title  footer-where d-flex">
                                             <div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div>
                                             {{-- <i class="fa fa-chevron-down text-white" aria-hidden="true"></i> --}}
                                         </a>
@@ -240,8 +240,8 @@
                 </div>
                 <div class="col-12 col-md-2 pb-3 py-md-0 text-md-right text-center">
                     <h4 class="text-white">@lang('common.footer.follow_us')</h4>
-                    <a class="ml-0 ml-md-auto pr-2 pr-lg-0" href="https://www.facebook.com/VAIOSingapore/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="ml-0 ml-md-3  pl-2 pl-lg-0" href="https://www.instagram.com/vaiosingapore/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a class="ml-0 ml-md-auto pr-2 pr-lg-0" href="https://www.facebook.com/VAIOIndia" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="ml-0 ml-md-3  pl-2 pl-lg-0" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
