@@ -19,7 +19,7 @@
                                     </div>
                                 </div>
                             @endif
-
+                        <!---
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <a href="{{ route('product.overview') }}" class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.product.title')</a>
@@ -30,13 +30,16 @@
                                     <a href="{{ route('news.news') }}" class=""><div class="sub-title my-1 text-white">@lang('common.nav.offer')</div></a>
                                 </div>
                             </div>
+                            --->
                             {{--<div class="footer-content col-12 p-0 mb-3">--}}
                                 {{--<div class="footer-title col-12 p-0">--}}
                                     {{--<a href="{{ route('news.life') }}" class=""><div class="sub-title my-1 text-white">@lang('common.nav.life')</div></a>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
                         </div>
+                      
                         <div class="col-4 mr-3 ml-md-0 small-lsm-little">
+                          <!---
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.quality.title')</div>
@@ -48,6 +51,7 @@
                                     <a href="{{ route('quality') }}" class="">@lang('common.nav.quality.tests')</a>
                                 </div>
                             </div>
+                            --->
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.support.title')</div>
@@ -106,11 +110,13 @@
 
                     <div class="footer-md col-12 p-0 hidden-sm-up">
                         <div class="col-12 p-0">
+                       
                                 <div class="col-12 p-0">
                                 <div class="footer-title footer-product d-flex">
                                     <a href="{{ route('product.overview') }}" class="sub-title my-1 text-white">@lang('common.nav.product.title')</a>
                                 </div>
                             </div>
+                           
                                {{--   <div class="col-12 p-0">
                                  <a class="footer-title footer-product d-flex" data-toggle="collapse" href="#footerProduct" aria-expanded="false" aria-controls="footerProduct">
                                     <div class="sub-title my-1 text-white">@lang('common.nav.product.title')</div>
@@ -143,6 +149,8 @@
                                     </div>
                                 </div>
                             </div> -->
+
+                            
                             <div class="col-12 p-0">
                                 <div class="col-12 p-0">
                                     <a class="footer-title footer-quality d-flex"  data-toggle="collapse" href="#footerQuality" aria-expanded="false" aria-controls="footerQuality">
