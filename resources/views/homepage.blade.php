@@ -5,6 +5,7 @@
     @include('home.banner')
  
     <!-- Recommended Products -->
+             <!---
     <section class="py-5">
         <div class="container py-0 py-lg-4">
             <h2 class="section-title mb-3 mb-lg-5">@lang('common.homepage.recommended_products')</h2>
@@ -14,11 +15,12 @@
                        
           <div class="home-product-list">
           
-           <!-- Row 1 -->
+          
+          
             <div class="row no-gutters">
             
             
-            <!---
+        
                  <div class="col-6 d-flex align-items-end text-center recommend-item">
                         <a href="{{ route('product.overview_sx12') }}" class="d-block w-100">
                             <img src="/images/elements/sx12.jpg">
@@ -81,7 +83,7 @@
                         </div>
                     </a>
                 </div>
-                ---->
+              
                 
                     
                     <div class="col-6 d-flex align-items-end text-center recommend-item">
@@ -110,18 +112,16 @@
                     </div>  
                     
                   
-                  
+                
                     
-          </div><!--row -->
-
+          </div>
           
-          </div><!-- home-product-list-->
-          
+          </div>
           
              
         </div>
     </section>
-
+    ---->
     <!-- VAIO Life -->
 
     @if( $lifes->count() > 0 )
@@ -152,6 +152,9 @@
 
 
     <!-- Support -->
+
+    <!--- 
+
     <section id="main-support-section" class="main-banner-section">
         <div class="main-support-content container">
             <h2 class="section-title pb-0 pb-lg-4 mb-5">@lang('common.homepage.support')</h2>
@@ -183,7 +186,7 @@
             </div>
         </div>
     </section>
-
+--->
 
     @if( $offers->count() > 0 )
         <!-- Offer -->
@@ -222,6 +225,7 @@
     @endif
 
     <!-- Contact Us -->
+    <!---
     <section id="main-contact-section" class="main-banner-section"  style="background-position: 35%">
         <div class="main-contact-content container">
             <h2 class="section-title mb-5">@lang('common.homepage.contact_us')</h2>
@@ -229,6 +233,8 @@
             <a href="{{ route('contact_us') }}" class="d-inline-block orange-btn px-5 mx-auto text-center contact-btn">@lang('common.homepage.contact_now')</a>
         </div>
     </section>
+
+    --->
 
 @stop
 
