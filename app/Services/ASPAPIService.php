@@ -11,7 +11,7 @@ class ASPAPIService
     protected static $brand = 'vaio';
 
     protected static function asp_url( ) {
-        return env('ASP_URL', 'http://avita_asp.dev');
+        return env('ASP_URL', 'https://asp.avita.global/');
     }
 
     protected static function getClient() {
