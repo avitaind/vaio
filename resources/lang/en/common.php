@@ -275,7 +275,7 @@ During impact tests, the VAIO notebook computers are dropped on all six sides, a
                 'title'   => 'Pressurized Vibration Test',
                 'content' => '<p class="content-text">VAIO laptops are robust and built to last, even under pressure and vibration.
 
-Imagine yourself carrying a laptop inside a crowded train compartment during peak hours, the screen, keyboard and the body unit of the laptop could be under serious pressure like a hard squeezed sandwich. During pressurized vibration tests, a VAIO laptop was tested for functionalities when a 150kgf* pressure was applied to it. Although boasting an ultra thin casing, VAIO laptops were tested to be sturdy under extreme conditions. </p><p class="content-text">* kgf is a gravitational metric unit of force, equalling to the magnitude of the force exerted on one kilogram of mass under standard gravity.</p>'
+Imagine yourself carrying a laptop inside a crowded train compartment during peak hours, the screen, keyboard and the body unit of the laptop could be under serious pressure like a hard squeezed sandwich. During pressurized vibration tests, a VAIO laptop was tested for functionalities when a 150kgf* pressure was applied to it. Although boasting an ultra thin casing, VAIO laptops were tested to be sturdy under extreme conditions.</p><p class="content-text">* kgf is a gravitational metric unit of force, equalling to the magnitude of the force exerted on one kilogram of mass under standard gravity.</p>'
             ],
             'card_7' => [
                 'title'   => 'Corner Impact Test',

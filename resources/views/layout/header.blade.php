@@ -5,7 +5,7 @@
             <span></span>
         </div>
         <a class="navbar-brand mr-0 hidden-lg-up" href="/"><img src="/images/vaio.png" /></a>
-
+<!---
         @if( $user = Auth::user( ) )
         <div class="navbar-user-toggle navbar-toggler-right hidden-lg-up d-flex align-items-center justify-content-center lead text-muted">
             <a class="user-toggle text-white" href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
@@ -24,7 +24,7 @@
 
 
     @endif
-
+--->
 
         <div class="navbar-collapse">
             <ul class="main-nav navbar-nav mr-auto d-lg-flex flex-lg-row align-items-lg-center justify-content-lg-between nav-fill w-100">
@@ -183,12 +183,20 @@
                     </div>
                 </li>
 
-                --->
+          
                 <li class="nav-item has-dropdown">
-                    <input id="header_about_vaio" type="checkbox" hidden="">
+              <input id="header_about_vaio" type="checkbox" hidden="">
+              <a href="{{ route('about_us') }}"> 
                     {{-- <a class="nav-link py-4" > --}}
-                    <label class="nav-link py-4" for="header_about_vaio"> <a href="{{ route('about_us') }}">@lang('common.nav.about.title')</a> </label>
+                    <label class="nav-link py-4" for="header_about_vaio"> @lang('common.nav.about.title')</label></a> 
                     {{-- </a> --}}
+      --->
+
+                    <li class="nav-item"> 
+                     <a class="nav-link py-4" href="{{ route('about_us') }}" > @lang('common.nav.about.title')</a>
+                      
+                </li>
+
                 
                 <!---
                     <div class="dropdown">
@@ -209,20 +217,23 @@
                         </ul>
 
                     </div>
-                    --->
+                   
                 </li>
-
+            --->
                 <li class="nav-item"> 
                      <a class="nav-link py-4" href="{{ route('where_to_buy') }}" >@lang('common.nav.where_to_buy')</a>
                       
                 </li>
 
+                <!---
                     @if( Auth::user() )
+                    
                     <li class="nav-item hidden-md-down">
                         <a class="nav-link py-4 px-2" href="{{ route('member.profile') }}">
                             <i class="fa fa-user-o" aria-hidden="true"></i>
                         </a>
                     </li>
+                   
                     <li class="nav-item hidden-md-down">
 
                         <a class="nav-link py-4 px-2" href="" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
@@ -234,6 +245,7 @@
                             {{ csrf_field() }}
                         </form>
                     </li>
+                   
                     @else
                     <li class="nav-item hidden-md-down">
                         <a class="nav-link py-4" href="{{ route('login') }}">
@@ -241,7 +253,7 @@
                         </a>
                     </li>
                     @endif
-
+                --->
                 @php
                     $supportedLocales = LaravelLocalization::getSupportedLocales();
                 @endphp

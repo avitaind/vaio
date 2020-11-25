@@ -23,17 +23,14 @@
                 <div class="row ">
                     <div class="row no-gutters my-4 col-12 mx-auto ml-0 ml-md-4">
                         <div class="col-12 page-title mb-3 ls-0">@lang('common.support.warranty.title')</div>
-
-
-                        <div class="warranty-img col-12 mb-3">
-                            <div class="sub-panel py-5 px-3">
-                                <div class="col-md-6 offset-md-6 text-right">
-                                    <div class="content-title text-white my-2">@lang('common.support.warranty.banner_content_1')</div>
-                                    <div class="py-0 sub-panel-content">
-                                        <div class="content-title text-white mt-1 mb-4">
-                                            
-                                            {{--@lang('common.support.warranty.banner_content_2')--}}
-                                        </div>
+                            <div class="warranty-img col-12 mb-3">
+                                <div class="sub-panel py-5 px-3">
+                                    <div class="col-md-6 offset-md-6 text-right">
+                                        <div class="content-title text-white my-2">@lang('common.support.warranty.banner_content_1')</div>
+                                        <div class="py-0 sub-panel-content">
+                                            <div class="content-title text-white mt-1 mb-4">
+                                                {{--@lang('common.support.warranty.banner_content_2')--}}
+                                            </div>
                                     </div>
                                     @if( Auth::user() )
                                     <div class="text-right">

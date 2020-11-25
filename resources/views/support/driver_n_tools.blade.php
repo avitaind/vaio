@@ -1,7 +1,32 @@
 <div id="driver_n_tools" class="support-search-wrap py-5">
     <div class="container">
         <div class="row">
+
+        <div class="warranty-center-wrap py-5 text-center" style="background-color:#fff;">            
+            	<div class="container h-100">
+                	<div class="row h-100 align-items-center">
+                    
+                    	<div class="col-12 col-lg-6">
+	                        <img src="/images/warranty-extension/VAIO_warranty.png" style="width:100%; max-width:600px;">
+                        </div>
+                        <div class="col-12 col-lg-6">                        
+                            <div class="h1 text-center mt-4 mb-3 font-weight-light">Warranty Extension Service is available now</div>                            
+                            <div class="warranty-content text-left mt-4 mb-3 font-weight-light">
+                            Thanks for the valuable suggestion from our customers. You can purchase the newly launched “Warranty Extension Service” online now. You may choose to extend 1 or 2 years to enjoy our worry-free warranty service.
+                            </div>                           
+                            <div class="text-center purchase_steps">
+                                <a href="https://hk.vaio.com/en/warranty-extension" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
+                                    See More
+                                </a> 
+                            </div>  
+                        </div>                                     
+	                </div><!--row-->  
+                </div><!--container-->
+            </div>
+
+
             <div class="col-12 col-lg-10">
+            
                 <div>
                     <form method="POST" action="" class="">
                         <div class="row no-gutters my-4 col-12 mx-auto ml-0">
