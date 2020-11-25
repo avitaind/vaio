@@ -7,7 +7,9 @@
     <section class="top-nav-padding" style="background-color:white;">
 
         <div class="container py-5">
-            <h2 class="page-title mb-5">@lang('common.nav.where_to_buy')</h2>
+          <!--- <h2 class="page-title mb-5">@lang('common.nav.where_to_buy')</h2> --->
+            <h2 class="page-title mb-5">Stay Tuned For More</h2>
+
             <div class="row">
                 
                 

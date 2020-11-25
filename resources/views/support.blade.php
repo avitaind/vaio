@@ -30,7 +30,7 @@
                                         <div class="py-0 sub-panel-content">
                                             <div class="content-title text-white mt-1 mb-4">
                                                 {{--@lang('common.support.warranty.banner_content_2')--}}
-                                            </div>
+                                        </div>
                                     </div>
                                     @if( Auth::user() )
                                     <div class="text-right">

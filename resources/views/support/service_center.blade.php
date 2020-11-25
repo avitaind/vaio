@@ -147,7 +147,7 @@
             $("#support-center-list .shop-info").click(function( element ) {
 
                 // hideCenterPicker();
-console.log("SHOP CLICK!");
+    console.log("SHOP CLICK!");
 
                 var index = $(this).data('shop-index');
                 selected_shop_index = index;
