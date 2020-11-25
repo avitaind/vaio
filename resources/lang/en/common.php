@@ -2,12 +2,12 @@
 
 return [
     'meta'          => [
-        'keywords'    => 'VAIO, VAIO is back, UNFOLD THE EXCELLENCE OF JAPAN, vaio s, VAIO S11, VAIO S13, VAIO laptop, Made in Japan, MIJ, Nagano Prefecture, Azumino Finish, TruePerformance, VAIO Asia, VAIO Singapore sg 新加坡',
+        'keywords'    => 'VAIO, VAIO is back, UNFOLD THE EXCELLENCE OF JAPAN, vaio s, VAIO S11, VAIO S13, VAIO laptop, Made in Japan, MIJ, Nagano Prefecture, Azumino Finish, TruePerformance, VAIO Asia, VAIO India sg 新加坡',
         'description' => 'UNFOLD THE EXCELLENCE OF JAPAN.  Located in Azumino, Nagano Prefecture, Japan, the VAIO Corporation prides itself as a notebook computer manufacturer with a relentless pursuit of quality.  VAIO is available now!',
     ],
-    'website_title' => 'VAIO | VAIO Singapore Official Website',
+    'website_title' => 'VAIO | VAIO INDIA Official Website',
 
-    'website_title_suffix' => '| VAIO Singapore Official Website',
+    'website_title_suffix' => '| VAIO INDIA Official Website',
 
     'overview'  => 'Overview',
     'spec'      => 'Tech Spec',
@@ -17,7 +17,7 @@ return [
     'hk'        => 'Hong Kong',
     'macau'     => 'Macau',
     'taiwan'    => 'Taiwan',
-    'singapore' => 'Singapore',
+    'india' => 'India',
     'malaysia'  => 'Malaysia',
 
     'sony_url' => 'http://www.sony.com.hk/en/electronics/computers/vaio-laptops',
@@ -76,7 +76,7 @@ return [
             'q'    => 'Where are you from?',
             'ans1' => 'Hong Kong',
             'ans2' => 'Taiwan',
-            'ans3' => 'Singapore',
+            'ans3' => 'India',
             'ans4' => 'Malaysia',
         ],
         'agree_news'    => 'Keep me up to date by eDMs with VAIO news, latest product and service information.',
@@ -388,7 +388,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
     //about us
     'about_us'       => [
         'title'   => 'About Us',
-        'content' => 'June 4th, 2018, Nexstgo Company Limited announced that they will be licensed by VAIO Corporation to oversee the business in Asia. This license agreement between Hong Kong-based Nexstgo and the Japan-based VAIO Corporation will include manufacturing, sales and marketing as well as servicing of VAIO laptops under the VAIO trademark in the Hong Kong, Macau, Malaysia, Singapore and Taiwan markets.',
+        'content' => 'June 4th, 2018, Nexstgo Company Limited announced that they will be licensed by VAIO Corporation to oversee the business in Asia. This license agreement between Hong Kong-based Nexstgo and the Japan-based VAIO Corporation will include manufacturing, sales and marketing as well as servicing of VAIO laptops under the VAIO trademark in the Hong Kong, Macau, Malaysia, India and Taiwan markets.',
 
         'vaio'    => [
             'title'   => 'About VAIO Corporation',
