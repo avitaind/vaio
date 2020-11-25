@@ -90,7 +90,7 @@
                             </div>
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
-                                    <a href="https://vaio-sg.nexstmall.com/" class=""  target="_blank"><div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div></a>
+                                    <a href="{{ route('where_to_buy') }}" class=""  target="_blank"><div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div></a>
                                 </div>
                             </div>
                             {{--
