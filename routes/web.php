@@ -141,6 +141,9 @@ Route::group([
 
 Route::post("/form", "HomeController@form_handler")->name("form_submit");
 
+Route::post('subscribe', 'HomeController@handleSubscription');
+
+
 
 
 

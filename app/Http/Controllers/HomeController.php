@@ -10,6 +10,7 @@ use Validator;
 use LaravelLocalization;
 use App\Form;
 use App\Services\ASPAPIService;
+use App\Mailers\AppMailer;
 
 class HomeController extends Controller
 {
@@ -29,6 +30,25 @@ class HomeController extends Controller
         $banners = Banner::whereType('home')->orderBy('seq')->get();
 
         return view('homepage', compact('model_numbers', 'news', 'lifes', 'offers', 'banners'));
+    }
+
+    public function handleSubscription(Request $request, AppMailer $mailer) {
+
+        $this->validate($request, [
+             'email'     => 'required',
+            ]);
+    
+        $subscription = new Subscription([
+           'email'     => $request->input('email'),
+         ]);
+        
+           
+        $subscription->save();
+        $mailer->sendSubscriberInformation(Auth::user(), $subscription);
+        return redirect()->back()->with("status", "Thanks for Subscribing, We will connect you shortly.");
+        
+
+
     }
 
 }
