@@ -382,7 +382,7 @@ html.overlay-open, body.overlay-open{
 
 @media(max-width: 991px){
   .swiper-container{
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
   .swiper-container-horizontal>.swiper-pagination-bullets{
     right: 50%;
