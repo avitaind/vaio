@@ -63,7 +63,7 @@
                     <div class="col-12 col-md-6 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/email-icon.png">
                         <p class="content-text mt-3 mb-0">@lang('common.contact_us.sales.email')</p>
-                        <a href="mailto:sales@nexstgo.com" class="sub-text">sales@nexstgo.com</a>
+                        <a href="mailto:insales@nexstgo.com" class="sub-text">Insales@nexstgo.com</a>
                     </div>
                 </div>
             </div>
@@ -87,9 +87,7 @@
             $('.google_map').each(function (index, item) {
 
                 var data = $(item).data();
-
                 var location = new google.maps.LatLng(data.lat, data.lng);
-
                 var map = new google.maps.Map(item, {
                     zoom: 18,
                     maxZoom: 18,

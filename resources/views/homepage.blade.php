@@ -9,19 +9,9 @@
     <section class="py-5">
         <div class="container py-0 py-lg-4">
             <h2 class="section-title mb-3 mb-lg-5">@lang('common.homepage.recommended_products')</h2>
-            
-            
-            
-                       
-          <div class="home-product-list">
-          
-          
-          
-            <div class="row no-gutters">
-            
-            
-        
-                 <div class="col-6 d-flex align-items-end text-center recommend-item">
+                <div class="home-product-list">
+                     <div class="row no-gutters">
+                <div class="col-6 d-flex align-items-end text-center recommend-item">
                         <a href="{{ route('product.overview_sx12') }}" class="d-block w-100">
                             <img src="/images/elements/sx12.jpg">
                             <div class="recommend-item-info">
@@ -31,10 +21,8 @@
                                 <div class="py-3"></div>
                             </div>
                         </a>
-                    </div>  
-                    
-                    
-                     <div class="col-6 d-flex align-items-end text-center recommend-item">
+                </div>  
+                <div class="col-6 d-flex align-items-end text-center recommend-item">
                         <a href="{{ route('product.overview_a12') }}" class="d-block w-100">
                             <img src="/images/elements/a12.jpg">
                             <div class="recommend-item-info">
@@ -44,10 +32,10 @@
                                 <div class="py-3"></div>
                             </div>
                         </a>
-                    </div>  
+                </div>  
                    
                   
-                     <div class="col-6 d-flex align-items-end text-center recommend-item">
+                <div class="col-6 d-flex align-items-end text-center recommend-item">
                         <a href="{{ route('product.overview_sx14') }}" class="d-block w-100">
                             <img src="/images/elements/sx14.jpg">
                             <div class="recommend-item-info">
@@ -57,11 +45,11 @@
                                 <div class="py-3"></div>
                             </div>
                         </a>
-                    </div>  
+                </div>  
                     
                 
                     
-                 <div class="col-6 d-flex align-items-end text-center recommend-item">
+                <div class="col-6 d-flex align-items-end text-center recommend-item">
                     <a href="{{ route('product.overview') }}" class="d-block w-100">
                         <img src="/images/elements/s11.jpg">
                         <div class="recommend-item-info">
@@ -86,7 +74,7 @@
               
                 
                     
-                    <div class="col-6 d-flex align-items-end text-center recommend-item">
+                <div class="col-6 d-flex align-items-end text-center recommend-item">
                         <a href="{{ route('product.overview_se14_whl') }}" class="d-block w-100">
                             <img src="/images/elements/se14.jpg">
                             <div class="recommend-item-info">
@@ -96,7 +84,7 @@
                                 <div class="py-3"></div>
                             </div>
                         </a>
-                    </div>  
+                </div>  
                     
                           
                     <div class="col-6 d-flex align-items-end text-center recommend-item">
@@ -129,8 +117,6 @@
         <div class="container">
             <h2 class="section-title mb-3 mb-lg-5">@lang('common.life.title')</h2>
             <div class="row no-gutters">
-
-
                 <div class="col-12 main-life-col-lg mr-0 mr-lg-1 mr-xl-2 mb-3 mb-lg-0">
                     @component('home.life_card_big', ['item' => $lifes[0] ])
                     @endcomponent
@@ -224,7 +210,7 @@
     </section>
     @endif
 
-<!----
+<!---
     <section class="email-subscription py-5 ls-0">
     <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST" action="{{ url('/subscribe') }}"  enctype="multipart/form-data" >
     {!! csrf_field() !!}
@@ -252,8 +238,8 @@
       
 
     </section>
+--->
 
----->
     <!-- Contact Us -->
     <!---
     <section id="main-contact-section" class="main-banner-section"  style="background-position: 35%">

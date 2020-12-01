@@ -14,7 +14,7 @@ return [
     'blog'    => 'Blog',
     'sales enquiry'    => 'Sales Enquiry',
     'home_join'    => 'Join the VAIO Community',
-    'home_receiving'    => "Receiving VAIO's latest news, promotions and offer",
+    'home_receiving'    => "Subscribe Us to Get Latest Updates",
     'home_subscribe'    => 'Subscribe Now',
     'brochuer'    => 'Download Brochure',
     'about_us'    => 'About Us',

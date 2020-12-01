@@ -52,6 +52,7 @@
                                 </div>
                             </div>
                             --->
+                            <!---
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.support.title')</div>
@@ -72,6 +73,8 @@
                                     <a href="{{ route('support.repair_tnc') }}" class="">@lang('common.nav.support.terms_cond')</a>
                                 </div>
                             </div>
+                      
+                        --->
                         </div>
                         <div class="col-4 mr-3 ml-md-0 small-lsm-little">
                             <div class="footer-content col-12 p-0 mb-3">
