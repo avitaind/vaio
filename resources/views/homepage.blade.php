@@ -3,7 +3,7 @@
 @section('content')
 
     @include('home.banner')
- 
+
     <!-- Recommended Products -->
              <!---
     <section class="py-5">
@@ -279,6 +279,7 @@
 @stop
 
 @section('js')
+
     <script>
         var swiper = new Swiper('.swiper-container', {
             loop: true,
