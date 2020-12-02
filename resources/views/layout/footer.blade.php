@@ -113,7 +113,7 @@
 
                     <div class="footer-md col-12 p-0 hidden-sm-up">
                         <div class="col-12 p-0">
-                       
+                       <!--
                                 <div class="col-12 p-0">
                                 <div class="footer-title footer-product d-flex">
                                     <a href="{{ route('product.overview') }}" class="sub-title my-1 text-white">@lang('common.nav.product.title')</a>
@@ -143,7 +143,7 @@
                                     </div>
                                 </div>
                             </div>
-                        <!--
+                        
                             <div class="col-12 p-0">
                                 <div class="col-12 p-0">
                                     <div class="footer-title footer-life d-flex">
@@ -151,7 +151,9 @@
                                         {{-- <i class="fa fa-chevron-down text-white" aria-hidden="true"></i> --}}
                                     </div>
                                 </div>
-                            </div> -->
+                            </div> 
+                            
+                           
 
                             
                             <div class="col-12 p-0">
@@ -195,6 +197,8 @@
                                     </div>
                                 </div>
                             </div>
+
+                             -->
                                 <div class="col-12 p-0">
                                     <div class="col-12 p-0">
                                         <a class="footer-title  footer-about d-flex"  data-toggle="collapse" href="#footerAbout" aria-expanded="false" aria-controls="footerAbout">
