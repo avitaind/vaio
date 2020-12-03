@@ -116,10 +116,10 @@
 
                     <div class="footer-md col-12 p-0 hidden-sm-up">
                         <div class="col-12 p-0">
-                        <span class="demo">
+                       <!--- <span class="demo">
                                Count Down <p id="demo"> </p> Stay Tuned!
                                </span>
-      
+                        --->
                        <!--
                                 <div class="col-12 p-0">
                                 <div class="footer-title footer-product d-flex">
