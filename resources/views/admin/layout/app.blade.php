@@ -49,7 +49,6 @@
     <div class="content p-4">
         <h2 class="mb-4">@yield('title')</h2>
 
-        @include('alert::bootstrap')
 
         @yield('content')
 

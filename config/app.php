@@ -162,6 +162,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        
 
         /*
          * Package Service Providers...
@@ -177,7 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
         App\Providers\ComposerServiceProvider::class,
-
+        Laracasts\Flash\FlashServiceProvider::class,
     ],
 
     /*
@@ -234,7 +235,7 @@ return [
         'Bouncer' => Silber\Bouncer\BouncerFacade::class,
         'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-
+        'Flash' => Laracasts\Flash\Flash::class,
     ],
 
 ];

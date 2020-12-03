@@ -6,6 +6,8 @@ use App\News;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\NewsCategory;
+use Alert;
+
 
 class NewsController extends Controller
 {
