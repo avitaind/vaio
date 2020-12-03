@@ -123,10 +123,6 @@
         function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
         gtag('config', 'AW-878181922');
     </script>
-
-
-
-
 </head>
 <body>
 
@@ -143,6 +139,7 @@
 </div>
 
 <script src="{{ asset('js/main.js') }}"></script>
+
 @yield('js')
 @stack('js')
 

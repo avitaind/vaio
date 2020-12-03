@@ -24,4 +24,9 @@ $(document).ready(function(){
 
     $(this).parent().siblings('img').attr('src', $(this).attr('data-src'));
   })
+
+
+
+  
 });
+

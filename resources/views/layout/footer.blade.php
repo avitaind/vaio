@@ -11,14 +11,14 @@
 
                 <div class="col-12 col-md-8 py-3 py-md-0 text-center">
                     <div class="d-flex justify-content-between hidden-xs-down">
-                   
+                   <!---
                         <div class="col-9">
                          <span class="demo">
                                Count Down <p id="demo"> </p> Stay Tuned!
                           </span>
                        
                         </div>
-                    
+                    ---->
                      
                         <div class="col-4 mr-3 ml-md-0 small-lsm-little">
                             <div class="footer-content col-12 p-0 mb-3">
@@ -55,11 +55,13 @@
 
                     <!-- Mobile Footer -->
                     
-                    <div class="footer-md col-12 p-0 hidden-sm-up">
-                    <span class="demo">
+                    <div class="footer-md col-12 p-0 hidden-sm-up" id="footerMain">
+                       <div class="col-12 p-0">
+                      <!---
+                             <span class="demo">
                                Count Down <p id="demo"> </p> Stay Tuned!
-                          </span>
-                        <div class="col-12 p-0">
+                            </span>
+                            ---->
                             <div class="col-12 p-0">
                                     <div class="col-12 p-0">
                                         <a class="footer-title  footer-about d-flex"  data-toggle="collapse" href="#footerAbout" aria-expanded="false" aria-controls="footerAbout">
@@ -110,6 +112,7 @@
                                 --}}
 
                             </div>
+                            
 
                     </div>
                 
