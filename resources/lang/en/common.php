@@ -446,7 +446,9 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         'title'        => 'Newsroom',
         'old_news'     => 'Older News',
         'related_news' => 'Related News',
-        'select_month' => 'Select Month'
+        'select_month' => 'Select Month',
+        'article'      => 'Articles'
+
     ],
 
     //Life page

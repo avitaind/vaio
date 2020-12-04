@@ -52,6 +52,7 @@ Route::group([
 
     Route::get('/news', 'NewsController@getNews')->name('news.news');
     Route::get('/news/{news}', 'NewsController@getNewsDetail')->name('news.news.detail');
+    Route::get('/news/{news}', 'NewsController@getNewsDetail')->name('news.news.detail');
     Route::get('/offers', 'NewsController@getOffers')->name('news.offers');
     Route::get('/offers/{news}', 'NewsController@getNewsDetail')->name('news.offers.detail');
     Route::get('/vaio-life', 'NewsController@getVAIOLifes')->name('news.life');
@@ -142,10 +143,6 @@ Route::group([
 Route::post("/form", "HomeController@form_handler")->name("form_submit");
 
 Route::post('subscribe', 'HomeController@handleSubscription');
-
-
-
-
 
 
 /**

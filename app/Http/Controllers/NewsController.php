@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Banner;
 use App\News;
 use App\NewsCategory;
+use App\Article;
 use Illuminate\Http\Request;
+
 
 class NewsController extends Controller
 {
@@ -13,11 +15,13 @@ class NewsController extends Controller
     public function getNews( ) {
 
         $news = News::news()->paginate();
+       // $article = Article::news()->paginate();
+        $article = Article::latest()->orderBy('id', 'desc')->get();
 
         $feature_news = News::news()->published()->orderBy('start_date', 'desc')->limit('4')->get();
+       // $feature_article = Article::article()->published()->orderBy('start_date', 'desc')->limit('4')->get();
 
-
-        return view('news.news_list', compact('news', 'feature_news'));
+        return view('news.news_list', compact('news', 'feature_news','article'));
     }
 
     public function getOffers( ) {
