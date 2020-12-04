@@ -23,7 +23,7 @@
             <div class="row">
 
                 @foreach($article as $item )
-           <a class="list-item d-flex flex-column col-12 col-md-6 col-lg-4 mb-4" href="{{ $item->url }}">
+           <a class="list-item d-flex flex-column col-12 col-md-6 col-lg-4 mb-4" target="_blank" href="{{ $item->url }}">
 
              <div class="list-pic-wrapper">
                 <div class="bg-item" style="background-image: url('{{ $item->image_path }}')"></div>
