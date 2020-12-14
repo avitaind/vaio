@@ -83,7 +83,37 @@ class ProductController extends Controller
         return view('products.se14.gallery');
     }
 
+    public function getProductOverview15() {
 
+        $locale = \App::getLocale();
+
+        $view_file = 'products.e15.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.e15.overview', $view_data);
+    }
+
+
+    public function getProductSpecification15() {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.e15.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.e15.spec');
+    }
 
 
 	

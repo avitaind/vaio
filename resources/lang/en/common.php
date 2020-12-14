@@ -102,6 +102,7 @@ return [
             'vaio_s11' => 'VAIO S11',
             'vaio_s13' => 'VAIO S13',
             'vaio_s14' => 'VAIO SE14', 
+            'vaio_e15' => 'VAIO E15', 
             'vaio_sx14' => 'VAIO SX14',
             'vaio_a12' => 'VAIO A12',
 			'vaio_sx12' => 'VAIO SX12',
@@ -152,7 +153,7 @@ Intel, the Intel logo, the Intel Inside logo and Intel Core are trademarks of In
 The use of the "VAIO" <img src="/images/vaio.png" style="height:10px"> trademark is by the permission of and subject to license with VAIO Corporation.
 ',
 
-        'company'              => '© 2019 Nexstgo Company Ltd.',
+        'company'              => '© 2020 Nexstgo Company Ltd.',
 
     ],
 

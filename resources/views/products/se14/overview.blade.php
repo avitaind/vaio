@@ -10,12 +10,13 @@
 <!--- Banner here------------------------------------>
 <section class="main-banner-section" style="height: fit-content;">
     <div class="swiper-container swiper-container-horizontal">
-			
-			<a href="https://vaio-sg.nexstmall.com" target="_blank"  class="swiper-slide">
+
+       <!--- 	<a href="https://vaio-sg.nexstmall.com" target="_blank"  class="swiper-slide"> --->
                         <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/pt-pic/SE14.jpg)">
                             <div class="main-banner" title=""></div>
                         </div>
-                    </a>
+         <!---           </a>  ---->
+        
     </div>
 </section>
 @push('css')

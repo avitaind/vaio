@@ -65,13 +65,24 @@ Route::group([
     Route::get('/quality', 'PageController@getQuality')->name('quality');
     Route::get('/quality/azumino-finish', 'PageController@getQualityAzuminoFinish')->name('quality.azumino_finish');
 
+   
     // Product
     Route::get('/product/s11-s13/overview', 'ProductController@getProductOverview')->name('product.overview');
     Route::get('/product/s11-s13/spec', 'ProductController@getProductSpecification')->name('product.spec');
-	
+    
+
+    ///
+
+    //e15
+    Route::get('/product/e15/overview', 'ProductController@getProductOverview15')->name('product.overview');
+    Route::get('/product/e15/spec', 'ProductController@getProductSpecification15')->name('product.spec');
+    
+    //se14
     Route::get('/product/se14/overview', 'ProductController@getProductOverview14')->name('product.overview_se14');
     Route::get('/product/se14/spec', 'ProductController@getProductSpecification14')->name('product.spec_se14');
     Route::get('/product/se14/gallery', 'ProductController@getProductGallery14')->name('product.gallery_se14');
+
+    ///
 	
 	Route::get('/product/sx14/overview', 'ProductController@getProductOverviewSx14')->name('product.overview_sx14');
     Route::get('/product/sx14/spec', 'ProductController@getProductSpecificationSx14')->name('product.spec_sx14');
