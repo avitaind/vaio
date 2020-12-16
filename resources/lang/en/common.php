@@ -148,7 +148,7 @@ return [
     'footer'        => [
         'follow_us'            => 'FOLLOW US!',
         'policy_terms'         => 'Privacy Policy & Terms of Use Notice',
-        'policy_terms_content' => 'All support information on this site is limited to VAIO\'s personal computer products manufactured and sold by NEXSTGO.<br>If your PC was manufactured by Sony Corporation, please visit<a href="http://www.sony.com.hk/en/electronics/computers/vaio-laptops" target="_blank" class="text-white" style="text-decoration: underline"> Sony’s website </a>for support.</br>
+        'policy_terms_content' => 'All support information on this site is limited to VAIO\'s personal computer products manufactured and sold by NEXSTGO.<br>If your PC was manufactured by Sony Corporation, please visit<a href="https://www.sony.co.in/electronics/computers/vaio-laptops" target="_blank" class="text-white" style="text-decoration: underline"> Sony’s website </a>for support.</br>
 Intel, the Intel logo, the Intel Inside logo and Intel Core are trademarks of Intel Corporation in the U.S. and/or other countries.</br>
 The use of the "VAIO" <img src="/images/vaio.png" style="height:10px"> trademark is by the permission of and subject to license with VAIO Corporation.
 ',

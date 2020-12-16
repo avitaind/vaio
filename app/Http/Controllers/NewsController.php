@@ -16,7 +16,7 @@ class NewsController extends Controller
 
         $news = News::news()->paginate();
        // $article = Article::news()->paginate();
-        $article = Article::latest()->orderBy('id', 'desc')->get();
+        $article = Article::latest()->orderBy('id', 'asc')->get();
 
         $feature_news = News::news()->published()->orderBy('start_date', 'desc')->limit('4')->get();
        // $feature_article = Article::article()->published()->orderBy('start_date', 'desc')->limit('4')->get();
