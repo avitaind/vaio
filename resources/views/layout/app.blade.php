@@ -124,7 +124,8 @@
         gtag('config', 'AW-878181922');
     </script>
 
-     <!-- Facebook Pixel Code -->
+ <!-- Facebook Pixel Code -->
+    <!---
      <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -143,6 +144,7 @@
         src="https://www.facebook.com/tr?id=235106801230662&ev=PageView
         &noscript=1"/>
         </noscript>
+        --->
         
 <!-- End Facebook Pixel Code -->
 
