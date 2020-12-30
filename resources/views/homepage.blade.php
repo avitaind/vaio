@@ -275,6 +275,17 @@
 
 @section('js')
 
+
+<script>
+    var msg = '{{Session::get('alert')}}';
+    var exist = '{{Session::has('alert')}}';
+    if(msg){
+      alert(msg);
+    }
+  </script>
+
+
+
     <script>
         var swiper = new Swiper('.swiper-container', {
             loop: true,
