@@ -48,7 +48,7 @@ class HomeController extends Controller
         $subscription->save();
       //  $mailer->sendSubscriberInformation(Auth::user(), $subscription);
       //  return redirect()->back()->with("status", "Thanks for Subscribing, We will connect you shortly.");
-        return redirect()->back()->with('alert', 'Thanks for Subscribing, We will connect you shortly!');
+        return redirect()->back()->with('alert', 'Thanks for Subscribing.');
 
         
 
