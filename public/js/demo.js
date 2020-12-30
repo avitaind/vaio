@@ -188,8 +188,8 @@ $(function() {
 });
 
 /***************** Form  ******************/
-
-/*$(function() {
+/*
+$(function() {
 	$('.email-subscription-form').on('submit', function(e){
 		e.preventDefault();
 
@@ -200,7 +200,7 @@ $(function() {
 			$.post('/subscription', form);
 		}
 
-		alert('感謝您的訂閱!');
+		alert('Thanks for Subscribing, We will connect you shortly!');
 	});
 	
 });

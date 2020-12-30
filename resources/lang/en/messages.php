@@ -13,7 +13,7 @@ return [
     'buy_online'    => 'Buy Online',
     'blog'    => 'Blog',
     'sales enquiry'    => 'Sales Enquiry',
-    'home_join'    => 'Join the VAIO Community',
+    'home_join'    => 'Tune in to experience the future',
     'home_receiving'    => "Subscribe Us to Get Latest Updates",
     'home_subscribe'    => 'Subscribe Now',
     'get_notified'    => 'Get Notified',

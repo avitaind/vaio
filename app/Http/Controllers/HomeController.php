@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Banner;
+use App\Subscription;
 use App\News;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -11,6 +11,8 @@ use LaravelLocalization;
 use App\Form;
 use App\Services\ASPAPIService;
 use App\Mailers\AppMailer;
+use Illuminate\Support\Facades\Auth;
+
 
 class HomeController extends Controller
 {
