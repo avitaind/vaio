@@ -94,6 +94,19 @@
     </script>
     <!-- End Google Analytics -->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8MS82GVESW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8MS82GVESW');
+</script>
+
+
+
+
     <!-- Facebook Pixel Code -->
 
     <script>
