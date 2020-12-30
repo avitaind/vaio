@@ -194,7 +194,7 @@
 
     @if( $news->count() > 0 )
     <!-- News -->
-    <section class="deep-grey-section pb-4">
+ <section class="deep-grey-section pb-4">
         <div class="container">
             <h2 class="section-title text-white pt-4 pb-3">@lang('common.homepage.newsroom')</h2>
             <div class="row">
@@ -207,18 +207,17 @@
 
             </div>
         </div>
-    </section>
+  </section>
     @endif
 
-<!---
-    <section class="email-subscription py-5 ls-0">
-    <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST" action="{{ url('/subscribe') }}"  enctype="multipart/form-data" >
+<section class="email-subscription py-5 ls-0">
+  <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST" action="{{ url('/subscribe') }}"  enctype="multipart/form-data" >
     {!! csrf_field() !!}
 
     @include('includes.flash')
-
-    <h2 class="text-center mt-4 mb-3 font-weight-light">{{ __('messages.home_join') }}</h2>
+  <!---  <h2 class="text-center mt-4 mb-3 font-weight-light">{{ __('messages.home_join') }}</h2> --->
                 <div class="text-center mt-3 mb-4 lead">{{ __('messages.home_receiving') }}</div>
+             
                   <div class="row my-4 no-gutters justify-content-center">
                     <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                 <div class="input-group">
@@ -228,17 +227,12 @@
               </div>
               <div class="form-group">
               <div class="col-12 col-sm-4 col-md-4">
-                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit">{{ __('messages.home_subscribe') }}</button>
+                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit">{{ __('messages.get_notified') }}</button>
                 </div>
             </div>
         </div>
-            
-           
     </form>
-      
-
-    </section>
---->
+</section>
 
     <!-- Contact Us -->
     <!---

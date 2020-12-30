@@ -16,6 +16,7 @@ return [
     'home_join'    => 'Join the VAIO Community',
     'home_receiving'    => "Subscribe Us to Get Latest Updates",
     'home_subscribe'    => 'Subscribe Now',
+    'get_notified'    => 'Get Notified',
     'brochuer'    => 'Download Brochure',
     'about_us'    => 'About Us',
     'contact_VAIO'    => 'Contact VAIO',
