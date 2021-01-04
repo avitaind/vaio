@@ -6,7 +6,7 @@
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
                         <video class="leadin-video video-bgv1" muted autoplay playsinline>
-                          <source src="/videos/VAIO-Launch-Date-v1.21.mp4" type="video/mp4">
+                            <source src="/videos/VAIO-Launch-Date-v1.21.mp4" type="video/mp4">
                         </video>
                        
                     </div>
@@ -25,12 +25,13 @@
             -webkit-transform: translate(-50%,-50%);
             -ms-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
+            background-color:#000;
             top: 50%;
             left: 50%;
             min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
+            min-height: 200%;
+            width: 100%;
+            height: 100%;
         }
     </style>
 @endsection
