@@ -264,6 +264,7 @@
                     <h4 class="text-white">@lang('common.footer.follow_us')</h4>
                     <a class="ml-0 ml-md-auto pr-2 pr-lg-0" href="https://www.facebook.com/VAIOIndia/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a class="ml-0 ml-md-3  pl-2 pl-lg-0" href="https://www.instagram.com/vaioind/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a class="ml-0 ml-md-3  pl-2 pl-lg-0" href="https://twitter.com/vaioind/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

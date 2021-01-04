@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include('home.banner')
+    @include('home.banner-home')
 
     <!-- Recommended Products -->
              <!---
@@ -216,7 +216,7 @@
 
     @include('includes.flash')
   <h2 class="text-center mt-4 mb-3 font-weight-light">{{ __('messages.home_join') }}</h2>
-                <div class="text-center mt-3 mb-4 lead">{{ __('messages.home_receiving') }}</div>
+      <!---    <div class="text-center mt-3 mb-4 lead">{{ __('messages.home_receiving') }}</div> --->
              
                   <div class="row my-4 no-gutters justify-content-center">
                     <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
