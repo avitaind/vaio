@@ -55,4 +55,11 @@ class HomeController extends Controller
 
     }
 
+
+    public function launchEvent(){
+        
+        return view('launch');
+
+    }
+
 }
