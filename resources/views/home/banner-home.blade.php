@@ -4,8 +4,9 @@
              <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
-                           <iframe width="100%" height="100%" src="/videos/VAIO-Launch-Date-v1.21.mp4?autoplay=1&mute=1" controls frameborder="0" allowfullscreen>
-                    </iframe>
+                        <video class="leadin-video video-bgv1" muted autoplay playsinline loop>
+                            <source src="/videos/VAIO-Launch-Date-v1.21.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
