@@ -4,7 +4,7 @@
              <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
-                        <video class="leadin-video video-bgv1" autoplay playsinline loop>
+                        <video class="leadin-video video-bgv1" muted autoplay playsinline loop>
                             <source src="https://in.vaio.com/videos/VAIO-Launch-Date-v1.21.mp4" type="video/mp4">
                         </video>
                     </div>
