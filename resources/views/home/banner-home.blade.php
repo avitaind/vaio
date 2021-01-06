@@ -1,19 +1,15 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-      
-            <div class="carousel-item active">
+             <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
-                        <video class="leadin-video video-bgv1" muted autoplay playsinline loop>
-                            <source src="/videos/VAIO-Launch-Date-v1.21.mp4" type="video/mp4">
-                        </video>
-                       
+                           <iframe width="100%" height="100%" src="/videos/VAIO-Launch-Date-v1.21.mp4?autoplay=1&mute=1" controls frameborder="0" allowfullscreen>
+                    </iframe>
                     </div>
                 </div>
             </div>
         </div>
-   
     </div>
 </section>
 
