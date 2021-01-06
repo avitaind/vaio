@@ -690,7 +690,7 @@ section {
   color:white;
 }
 
-@media(min-width:1920px){
+@media(min-width:768px){
   .footer-disclaimer {
     background-color:#4d5268;
     color:white;
