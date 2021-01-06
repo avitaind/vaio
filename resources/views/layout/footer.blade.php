@@ -271,17 +271,17 @@
         <div class="footer-disclaimer py-3">
             <div class="container-fluid px-5">
                 <div class="row">
-                    <div class="offset-md-2 col-md-8 offset-md-2 my-3 p-0">
+                    <div class="offset-md-2 col-md-8 offset-md-2 my-3 p-0" style="text-align: justify;">
                         <a style="color: inherit;" href="{{ route('privacy') }}">@lang('common.footer.policy_terms')</a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="offset-md-2 col-md-8 offset-md-2 p-0">
+                    <div class="offset-md-2 col-md-8 offset-md-2 p-0"  style="text-align: justify;">
                         @lang('common.footer.policy_terms_content')
                     </div>
                 </div>
                 <div class="row">
-                    <div class="offset-md-2 col-md-8 offset-md-2 my-3 p-0">
+                    <div class="offset-md-2 col-md-8 offset-md-2 my-3 p-0"  style="text-align: justify;">
                         <?php echo '© '.date('Y').' Nexstgo Company Ltd'; ?> 
                     </div>
                 </div>

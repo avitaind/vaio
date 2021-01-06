@@ -9,7 +9,7 @@
             <div class="container py-3 py-md-5">
                 <div class="aboutus-main-content">
                     <h1 class="page-title mb-4 text-white">@lang('common.about_us.title')</h1>
-                    <div class="content-text text-white">
+                    <div class="content-text text-white"  style="text-align: justify;">
                         @lang('common.about_us.content')
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                     <div class="col-12 col-lg-6 d-flex align-items-center mb-4 mb-lg-0">
                         <div class="quality-content pr-lg-5">
                             <div class="content-title mb-3">@lang('common.about_us.vaio.title')</div>
-                            <div class="content-text">@lang('common.about_us.vaio.content')</div>
+                            <div class="content-text"  style="text-align: justify;">@lang('common.about_us.vaio.content')</div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-9 px-lg-0 d-flex align-items-center aboutus-item-pic">
@@ -33,7 +33,7 @@
                     <div class="col-12 col-lg-6 d-flex align-items-center flex-first flex-lg-last mb-4 mb-lg-0">
                         <div class="quality-content pl-lg-5">
                             <div class="content-title mb-3">@lang('common.about_us.nexstgo.title')</div>
-                            <div class="content-text">@lang('common.about_us.nexstgo.content')</div>
+                            <div class="content-text"  style="text-align: justify;">@lang('common.about_us.nexstgo.content')</div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-9 px-lg-0 flex-last flex-lg-first aboutus-item-pic">
