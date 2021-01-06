@@ -2,8 +2,8 @@
 
 return [
     'meta'          => [
-        'keywords'    => 'VAIO, VAIO is back, UNFOLD THE EXCELLENCE OF JAPAN, vaio s, VAIO S11, VAIO S13, VAIO laptop, Made in Japan, MIJ, Nagano Prefecture, Azumino Finish, TruePerformance, VAIO Asia, VAIO India sg 新加坡',
-        'description' => 'UNFOLD THE EXCELLENCE OF JAPAN.  Located in Azumino, Nagano Prefecture, Japan, the VAIO Corporation prides itself as a notebook computer manufacturer with a relentless pursuit of quality.  VAIO is available now!',
+        'keywords'    => 'VAIO laptops India, VAIO laptops 2020, VAIO laptops coming back, VAIO laptops under 30000, VAIO laptop amazon, VAIO all laptops, VAIO laptops flipkart, VAIO laptops buy online, VAIO laptops battery, VAIO laptop deals',
+        'description' => 'Bringing Japanese craftsmanship to India, VAIO presents a range of premium laptops that are designed to deliver robust performance in a premium build',
     ],
     'website_title' => 'VAIO | VAIO INDIA Official Website',
 

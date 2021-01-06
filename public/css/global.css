@@ -690,6 +690,13 @@ section {
   color:white;
 }
 
+@media(min-width:1920px){
+  .footer-disclaimer {
+    background-color:#4d5268;
+    color:white;
+    margin-left: -143px;
+  }
+}
 
 .footer-info a > i.fa-instagram , .footer-info a > i.fa-facebook , .footer-info a > i.fa-twitter {
   background-color: white;
