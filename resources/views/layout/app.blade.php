@@ -7,7 +7,6 @@
     <meta name="author" content="VAIO Corporation.">
     <meta name="keywords" content="@lang('common.meta.keywords')">
     <meta name="description" content="@lang('common.meta.description')">
-
     <meta property="og:title" content="VAIO">
     <meta property="og:site_name" content="VAIO">
     <meta property="og:type" content="website">
@@ -40,7 +39,6 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/swiper/swiper.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/tether/css/tether.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}" />
-
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/azumino.css') }}" />--}}
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/main.css') }}" />--}}
 
@@ -96,16 +94,13 @@
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8MS82GVESW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
 
-  gtag('config', 'G-8MS82GVESW');
-</script>
-
-
-
+   gtag('config', 'G-8MS82GVESW');
+ </script>
 
     <!-- Facebook Pixel Code -->
 
