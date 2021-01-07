@@ -4,7 +4,7 @@
              <div class="carousel-item active">
                 <div class="responsive-block">
                      <div class="video-wrapper">
-                         <video frameborder="0" allowfullscreen src="/videos/VAIO-Launch-Date.mp4" ></video>
+                         <video frameborder="0" allowfullscreen loop src="/videos/VAIO-Launch-Date.mp4" ></video>
                     </div>
               
                </div>
