@@ -12,7 +12,6 @@
 
             <div class="row">
                 
-                
                 <!--<div class="col-12 col-md-12 col-lg-8 mt-3">
                     <div class="map-wrap embed-responsive embed-responsive-1by1">
                         <div id="gmap-embed" class="embed-responsive-item google_map" data-lng="114.181758" data-lat="22.278394" style="height:100%;"></div>

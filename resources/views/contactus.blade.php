@@ -40,7 +40,7 @@
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/email-icon.png">
                         <p class="content-text mt-3 mb-0">@lang('common.contact_us.headquarter.press')</p>
-                        <a href="mailto:abhishek.lamba@nexstgo.com"class="sub-text">abhishek.lamba@nexstgo.com</a>
+                        <a href="mailto:prin@in.vaio.com"class="sub-text">prin@in.vaio.com</a>
                     </div>
                 </div>
             </div>

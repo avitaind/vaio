@@ -698,16 +698,16 @@ section {
   }
 }
 
-.footer-info a > i.fa-instagram , .footer-info a > i.fa-facebook , .footer-info a > i.fa-twitter {
+.footer-info a > i.fa-instagram , .footer-info a > i.fa-facebook , .footer-info a > i.fa-twitter, .footer-info a > i.fa-youtube {
   background-color: white;
-  width: 2.7rem;
-  height: 2.7rem;
-  line-height: 2.7rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  line-height: 2.2rem;
   border-radius: 100%;
   color: #868686;
   text-align: center;
-  font-size: 1.5rem;
-  opacity: .7
+  font-size: 1.0rem;
+  opacity: .7;
 }
 
 .footer-info {

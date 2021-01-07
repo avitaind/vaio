@@ -63,7 +63,7 @@
                 @if( $offer_enabled )
                     <li class="nav-item"><a class="nav-link py-4" href="{{ route('news.offers') }}">@lang('common.nav.offer')</a></li>
                 @endif
-                  <!---                 
+                                 
                 <li class="nav-item has-dropdown">
                     <input id="header_product" type="checkbox" hidden="">
                     <a class="nav-link py-4">
@@ -71,8 +71,8 @@
                     </a>
 
                     <div class="dropdown">
-                        <ul class="list-unstyled">
-	                   
+                       <ul class="list-unstyled ">
+                          <!---
                            <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_a12') }}">@lang('common.nav.product.vaio_a12')</a>
                             </li>
@@ -86,11 +86,15 @@
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14_cml') }}">@lang('common.nav.product.vaio_sx14_cml')</a>
                             </li>
-                            
+                            ---->
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14_whl') }}">@lang('common.nav.product.vaio_s14')</a>
+                                <a class="nav-link px-md-4 py-2">@lang('common.nav.product.vaio_s14')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2">@lang('common.nav.product.vaio_e15')</a>
                             </li>
                              
+                           <!--------- 
                           <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_fe14') }}">@lang('common.nav.product.vaio_fe14')</a>
                             </li>
@@ -101,11 +105,11 @@
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview') }}">@lang('common.nav.product.vaio_s13')</a>
                             </li>
-                          
+                          ---->
                         </ul>
                     </div>
                 </li>
-                --->
+              
 
                 <!-- Hidden by Kevin 2018-07-08, Would be useful when more product added.
                 <li class="nav-item has-dropdown">
@@ -220,9 +224,20 @@
                    
                 </li>
             --->
-                <li class="nav-item"> 
-                     <a class="nav-link py-4" href="{{ route('where_to_buy') }}" >@lang('common.nav.where_to_buy')</a>
-                      
+
+
+            <li class="nav-item has-dropdown">
+                                <input id="header_product_liber" type="checkbox" hidden="">
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">@lang('common.nav.where_to_buy')</label></a>
+                                <div class="dropdown">
+                                    <ul class="list-unstyled">
+
+
+                         <li class="nav-item"> 
+                                  <a class="nav-link py-4" href="https://www.flipkart.com/vaio-laptops-store?otracker=clp_banner_1_4.banner.BANNER_laptops-store_I9MXHU2TP6HG">Flipkart</a>
+                         </li>
+                         </ul>
+                    </div>
                 </li>
 
                 <!---

@@ -4,15 +4,14 @@
              <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
-                        <video class="leadin-video video-bgv1" muted autoplay playsinline loop>
-                            <source src="videos/VAIO-Launch-Date-v1.21.mp4" type="video/mp4">
-                        </video>
+                    <iframe width="100%" height="100%" src="/videos/VAIO-Launch-Date.mp4" frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 
 @section('css')
