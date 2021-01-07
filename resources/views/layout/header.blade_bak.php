@@ -141,7 +141,9 @@
                     </div>
                 </li>
 
-            
+                <li class="nav-item">
+                    <a class="nav-link py-4" href="{{ route('where_to_buy') }}">@lang('common.nav.where_to_buy')</a>
+                </li>
 
                     @if( Auth::user() )
                     <li class="nav-item hidden-md-down">

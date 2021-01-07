@@ -226,10 +226,6 @@
             --->
 
             
-                <li class="nav-item"> 
-                     <a class="nav-link py-4" href="{{ route('where_to_buy') }}" >@lang('common.nav.where_to_buy')</a>
-                      
-                </li>
                 <li class="nav-item has-dropdown">
                                 <input id="header_product_liber" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('where_to_buy') }}"> @lang('common.nav.where_to_buy')</a>
