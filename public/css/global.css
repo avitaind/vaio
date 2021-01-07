@@ -1895,7 +1895,7 @@ font-size: 1.2rem;
 .homepage-banner .responsive-block:before {
   content: '';
   display: block;
-  padding-top: 34.375%;
+  /*padding-top: 34.375%;*/
 }
 
 .homepage-banner .banner-info .brand, .homepage-banner .banner-info .btn-group {
@@ -1960,7 +1960,7 @@ font-size: 1.2rem;
 
 @media (max-width: 767px) {
   .homepage-banner .responsive-block:before {
-    padding-top: 160%;
+    /*padding-top: 160%;*/
   }
 }
 
