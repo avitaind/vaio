@@ -119,6 +119,10 @@ return [
             'azumino_finish' => 'Azumino Finish',
         ],
         'life'         => 'VAIO Life',
+        'launch'      => [
+            'title'          => 'VAIO Launch',
+         
+        ],
         'support'      => [
             'title'          => 'Support',
             'product_reg'    => 'Product Registration',
