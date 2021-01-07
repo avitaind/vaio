@@ -75,9 +75,7 @@
 
 @section('js')
 
-
-
-    <script>
+   <script>
         var maps;
         var icon = '/images/marker.png';
 
