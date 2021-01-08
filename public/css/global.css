@@ -366,7 +366,7 @@ section {
   text-decoration: none;
 }
 .header .navbar-collapse .nav-link label{
-  padding: 0 15px;
+  padding: 0;
   margin-bottom: 0;
   width: 100%;
 }
