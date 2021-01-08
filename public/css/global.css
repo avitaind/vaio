@@ -595,7 +595,7 @@ section {
     border-bottom: 0;
   }
   .header .navbar-collapse .nav-link {
-    padding: 10px 0;
+    padding: 10px;
   }
   .header .navbar-collapse label.nav-link {
     color: #fff;
