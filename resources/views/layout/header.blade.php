@@ -16,15 +16,15 @@
         <!--- Products VAIO starts ---->
                 <li class="nav-item has-dropdown">
                   <input id="header_product" type="checkbox" hidden="">
-                    <a class="nav-link px-md-4 py-4"><label for="header_product">@lang('common.nav.product.title')</label></a>
+                    <a class="nav-link px-md-4 py-4"><label for="header_product"> @lang('common.nav.product.title')</label></a>
                 
                     <div class="dropdown">
                        <ul class="list-unstyled">
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2">@lang('common.nav.product.vaio_s14')</a>
+                                <a class="nav-link px-md-4 py-2"> @lang('common.nav.product.vaio_s14')</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2">@lang('common.nav.product.vaio_e15')</a>
+                                <a class="nav-link px-md-4 py-2"> @lang('common.nav.product.vaio_e15')</a>
                             </li>
                         </ul>
                     </div>
@@ -42,7 +42,7 @@
         <!--- Where to Buy starts ---->
              <li class="nav-item has-dropdown">
                     <input id="where_to_buy" type="checkbox" hidden="">
-                          <a class="nav-link px-md-4 py-4" href="{{ route('where_to_buy') }}"> <label for="where_to_buy">@lang('common.nav.where_to_buy')</label></a>
+                          <a class="nav-link px-md-4 py-4" href="{{ route('where_to_buy') }}"> <label for="where_to_buy"> @lang('common.nav.where_to_buy')</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
