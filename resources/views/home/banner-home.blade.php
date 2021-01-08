@@ -52,7 +52,6 @@ videoMethods.renderVideoPlayButton()
     <style type="text/css">
 .video-wrapper {
     position: relative;
-    margin-top:20px;
 }
 
 .video-wrapper > video {
