@@ -12,6 +12,7 @@ return array(
     'App\\Banner' => $baseDir . '/app/Banner.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Country' => $baseDir . '/app/Country.php',
+    'App\\Event' => $baseDir . '/app/Event.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Exports\\FormDataExport' => $baseDir . '/app/Exports/FormDataExport.php',
     'App\\Exports\\SurveryDataExport' => $baseDir . '/app/Exports/SurveryDataExport.php',

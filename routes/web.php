@@ -155,8 +155,13 @@ Route::post("/form", "HomeController@form_handler")->name("form_submit");
 
 Route::post('subscribe', 'HomeController@handleSubscription');
 
-Route::get('launch', 'HomeController@showEvent');
-Route::post('launch', ['as'=>'launch.store','uses'=>'HomeController@launchEvent']);
+Route::get('event-registration', 'EventController@registration');
+Route::get('event-login', 'EventController@login');
+
+Route::post('event-registration', ['as'=>'event.registration','uses'=>'EventController@eventRegistration']);
+Route::post('event-login', ['as'=>'event.login','uses'=>'EventController@eventLogin']);
+
+
 
 /**
  *

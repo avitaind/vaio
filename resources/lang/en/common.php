@@ -137,6 +137,11 @@ return [
             'news'       => 'Newsroom',
             'contact_us' => 'Contact Us',
         ],
+        'event'        => [
+            'title'      => 'VAIO INDIA Launch Event',
+            'registration'       => 'Event Registration',
+            'login' => 'Event Login',
+        ],
         'where_to_buy' => 'Where To Buy',
         'member'       => [
             'login'           => "Member Login",

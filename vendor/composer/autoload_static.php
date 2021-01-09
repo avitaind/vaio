@@ -667,6 +667,7 @@ class ComposerStaticInit18b19f98a173631ed277b543fbd74d3d
         'App\\Banner' => __DIR__ . '/../..' . '/app/Banner.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Country' => __DIR__ . '/../..' . '/app/Country.php',
+        'App\\Event' => __DIR__ . '/../..' . '/app/Event.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Exports\\FormDataExport' => __DIR__ . '/../..' . '/app/Exports/FormDataExport.php',
         'App\\Exports\\SurveryDataExport' => __DIR__ . '/../..' . '/app/Exports/SurveryDataExport.php',
