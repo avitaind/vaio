@@ -57,17 +57,17 @@
    <!--- Event Registration starts ---->
         
 
-   <!---
+  
              <li class="nav-item"> 
                      <a class="nav-link px-md-4 py-4" href="{{ route('event.registration') }}" > @lang('common.nav.event.registration')</a>
                 </li>
-        
+        <!---
                 <li class="nav-item"> 
                      <a class="nav-link px-md-4 py-4" href="{{ route('event.login') }}" > @lang('common.nav.event.login')</a>
                 </li>
 
-              ---->
-        
+           
+            ---->
         <!--- Event Registration end ---->
               
             </ul>
