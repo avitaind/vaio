@@ -53,9 +53,11 @@
                     </div>
                 </li>
 
-        <!--- Where to Buy starts ---->
-   <!--- About VAIO starts ---->
-        <!---
+        <!--- Where to Buy Ends ---->
+   <!--- Event Registration starts ---->
+        
+
+   <!---
              <li class="nav-item"> 
                      <a class="nav-link px-md-4 py-4" href="{{ route('event.registration') }}" > @lang('common.nav.event.registration')</a>
                 </li>
@@ -64,9 +66,9 @@
                      <a class="nav-link px-md-4 py-4" href="{{ route('event.login') }}" > @lang('common.nav.event.login')</a>
                 </li>
 
-                --->
+              ---->
         
-        <!--- About VAIO end ---->
+        <!--- Event Registration end ---->
               
             </ul>
         </div>

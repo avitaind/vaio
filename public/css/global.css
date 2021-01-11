@@ -2136,22 +2136,22 @@ pre{
 */
 
 
-section,
-.container {
+.launch-event-section,
+.event-container {
   margin: 0;
   padding: 0;
 }
 
-section{
+.launch-event-section{
   display: inline-block;
   position: relative;
 }
 
-section img {
+.launch-event-section img {
   display: block;
 }
 
-section .container {
+.launch-event-section .event-container {
   position: absolute;
   left: 25%;
   top: 50%;

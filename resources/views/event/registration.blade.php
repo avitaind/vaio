@@ -6,7 +6,7 @@
 
 <section class="launch-event-section" style="margin-top:70px; margin-bottom:-10px;">
     <img src="/images/banner/event-web-banner.jpg" alt="VAIO Launch Event" width="100%" />
-             <div class="container">
+             <div class="event-container">
                     <div class="row">
                           <div class="col-12">
                               @if (session('status'))
