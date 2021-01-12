@@ -2156,8 +2156,8 @@ Desktop Device
 
 .launch-event-section .event-container {
   position: absolute;
-  left: 25%;
-  top: 50%;
+  left: 30%;
+  top: 40%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   color: #fff;
@@ -2225,7 +2225,7 @@ Desktop Device
 Mobile Device
 */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     #desktop {
       display: none;
@@ -2328,7 +2328,7 @@ p#terms{
 iPad Device
 */
 
-@media (max-width: 1366px) {
+@media (max-width: 300px) {
 
   #desktop {
     display: none;
@@ -2433,7 +2433,7 @@ margin-bottom: -10px;
 iPad Device
 */
 
-@media (max-width: 540px) {
+@media (max-width: 1200px) {
 
   #desktop {
     display: none;
@@ -2478,13 +2478,15 @@ font-size: 8px;
 
 .launch-event-section .event-container {
 position: absolute;
-left: 45%;
-top: 55%;
+left: 35%;
+top: 70%;
 transform: translate(-50%, -50%);
 background-color: transparent;
 color: #fff;
 padding: 0px;
 border-radius: 5px;
+width: 40%;
+
 }
 
 .event-container .form-control {
