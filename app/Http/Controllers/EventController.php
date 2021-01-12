@@ -40,7 +40,7 @@ class EventController extends Controller
           ]);
 
          $event->save(); 
-         return redirect()->back()->with("status", "Thanks for Subscribing, You will get launch event link shortly.");
+         return redirect()->back()->with("status", "Thanks for registering ! You shall recieve an email shortly ");
 
 
 
