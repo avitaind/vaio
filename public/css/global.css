@@ -2328,7 +2328,7 @@ p#terms{
 iPad Device
 */
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
 
   #desktop {
     display: none;
@@ -2413,113 +2413,6 @@ font-style: 'ExtraLight';
 border-radius: 10px;
 height: 25px;
 margin: 0% 10% 40%;
-}
-
-p#terms{
-font-size: 9px;
-color: rgb(205, 167, 158);
-margin-bottom: -10px;
-
-}
-
-
-
-}
-
-
-
-
-/* 
-iPad Device
-*/
-
-@media (max-width: 1200px) {
-
-  #desktop {
-    display: none;
-
-  }
-  #mobile {
-    display: block;
-  }
-
-  #registrationimg{
-    width: 150px;
-    margin: 30px 10% 10px;
-  
-  }
-
-.launch-event-section,
-.event-container {
-  margin-top: 47px;
-  margin-bottom: -7px;
-  height: 115%;
-  
-}
-
-
-.alert {
-padding: 5px;
-margin-bottom: 1rem;
-border: 0px solid transparent;
-border-radius: .25rem;
-font-size: 8px;
-}
-
-
-.danger {
-padding: 5px;
-margin-bottom: 1rem;
-border: 0px solid transparent;
-border-radius: .25rem;
-font-size: 8px;
-}
-
-
-.launch-event-section .event-container {
-position: absolute;
-left: 35%;
-top: 70%;
-transform: translate(-50%, -50%);
-background-color: transparent;
-color: #fff;
-padding: 0px;
-border-radius: 5px;
-width: 40%;
-
-}
-
-.event-container .form-control {
-font-size: 12px;
-border-radius: 15px;
-height: 25px;
-border: 1px solid rgb(205, 167, 158);
-background-color: #000;
-color: #fff;
-}
-
-
-.launch-event-section .event-container .btn-primary {
-background-color: #000;
-color: #fff;
-border: 1px solid rgb(205, 167, 158);
-font-family: 'Montserrat', sans-serif;
-font-size:8px;
-font-style: 'ExtraLight';
-border-radius: 10px;
-height: 25px;
-margin: 0% 17% 40%;
-}
-
-.launch-event-section .event-container .btn-primary:hover {
-background-color: #fff;
-color: rgb(205, 167, 158);
-border: 1px solid rgb(205, 167, 158);
-font-family: 'Montserrat', sans-serif;
-font-style: 'ExtraLight';
-border-radius: 10px;
-height: 25px;
-margin: 0% 17% 40%;
 }
 
 p#terms{
