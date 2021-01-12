@@ -2126,6 +2126,7 @@ pre{
 Desktop Device
 */
 
+@media (max-width: 1920px) {
 
 .launch-event-section,
 .event-container {
@@ -2219,7 +2220,7 @@ Desktop Device
   font-size: 14px;
   color: rgb(205, 167, 158);
 }
-
+}
 /*
 Mobile Device
 */
@@ -2327,7 +2328,7 @@ p#terms{
 iPad Device
 */
 
-@media (max-width: 767px) {
+@media (max-width: 1366px) {
 
   #desktop {
     display: none;
