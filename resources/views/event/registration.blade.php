@@ -28,16 +28,17 @@
                                             </ul>
                                         </div>
                                     @endif
-                                   
-                                     <form action="{{ route('event.registration') }}" method="POST" role="form" enctype="multipart/form-data">
-                                        @csrf
-                                       <img src="images/events/registration.png" id="registrationimg"/>
-                                        <div class="form-group row text-md-center">
-                                        @if (session('status'))
+                                    @if (session('status'))
                                           <div class="alert alert-success">
                                               {{ session('status') }}
                                           </div>
                                             @endif
+                                            <br/>
+                                     <form action="{{ route('event.registration') }}" method="POST" role="form" enctype="multipart/form-data">
+                                        @csrf
+                                       <img src="images/events/registration.png" id="registrationimg"/>
+                                        <div class="form-group row text-md-center">
+                                      
                                             <div class="col-md-12 text-md-center">
                                                 <input id="name" type="text" placeholder="NAME*" class="form-control" name="name" required>
                                             </div>
