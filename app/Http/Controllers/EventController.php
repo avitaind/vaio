@@ -28,7 +28,7 @@ class EventController extends Controller
         $this->validate($request, [
             'name'      => 'required|',
             'email'     => 'required|string|email|max:255|unique:vaio_user_db.events',
-            'phone'     => 'required|digits:10|unique:vaio_user_db.events',
+            'phone'     => 'digits:10|unique:vaio_user_db.events',
 
            ]);
 
@@ -54,6 +54,8 @@ class EventController extends Controller
         $this->validate($request, [
             'name'      => 'required|',
             'email'     => 'required|string|email|max:255|unique:vaio_user_db.events',
+            'phone'     => 'required|string|phone|unique:vaio_user_db.events',
+
            ]);
 
         $event = new Event([
