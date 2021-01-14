@@ -1,9 +1,10 @@
 @extends('layout.app')
 
 @section('title', 'VAIO SE14')
-<div class="headerCover  product-header  "> </div>
+@section('product_nav')
+
     @include('products.se14.product_nav')
-   
+   @stop
 
 @section('content')
 
