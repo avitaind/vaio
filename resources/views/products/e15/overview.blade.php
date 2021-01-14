@@ -100,9 +100,9 @@
 
             <section class="pt-section text-center" style="background-color: #eeeeee" id="pt-1">
                 <div class="container">
-                     <h2 class="pt-title mt-4">Premium Japanese Craftsmanship</h2>
-                    <hr class="pt-title-hr">
-                    <div class="pt-content-wrapper mx-auto">	
+                    <div class="pt-content-wrapper mx-auto">
+                    <h2 class="pt-title mt-4">Premium Japanese Craftsmanship</h2>
+                    <hr class="pt-title-hr">	
 					<div class="fs-0 my-4 my-lg-5">
                         <img src="/images/e15/Premium_Japanese_Craftmanship.jpg" alt="">
                     </div>
@@ -113,10 +113,10 @@
                         VAIO brings the premium Japanese craftsmanship not only from its built but also through vibrant color variants inspired by Japanese cultural elements. Our signature Azumino finish is bound to add an extra touch of elegance to your work.
                         </p>
                         
-                    <div class="selling-pt-sm active px-3">Premium Japanese Craftsmanship</div>
-                    <hr class="pt-title-hr">
 
-						<p class="pt-content-title mx-auto">Blast From the Past</p>						
+						<p class="pt-content-title mx-auto">Blast From the Past</p>		
+                        <hr class="pt-title-hr">
+				
                         <p class="pt-content text-left">
                                Borrowing its signature DNA, the VAIO E15 is an elegant machine that is ergonomically designed to be comfortable in all situations.
                         </p>
@@ -128,16 +128,16 @@
                     
 				
 				<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/e15/se14pt01-2.png" class="w-50" alt=""><img src="/images/e15/se14pt01-3.png" class="w-50" alt="">
+                        <img src="/images/e15/VAIO_SILVER_E15-02.png" class="w-50" alt=""><img src="/images/e15/VAIO_SILVER_E15-01.png" class="w-50" alt="">
                     </div>
 				
 
-                    <div class="selling-pt-sm active px-3">Premium Japanese Craftsmanship</div>
-                    <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">						
 						<p class="pt-content-title mx-auto">Effortless Mobility</p>
+                        <hr class="pt-title-hr">
+
                         <p class="pt-content text-left">
-                              Weighing less than 1.70 kg* for the 15.6-inch model, packing it in your bag and taking it to work feels like breeze. Use it on the workstation of your office or a couch at the comfort of your home, it fits perfectly, no matter where you place it.
+                              Weighing less than 1.77 kg* for the 15.6-inch model, packing it in your bag and taking it to work feels like breeze. Use it on the workstation of your office or a couch at the comfort of your home, it fits perfectly, no matter where you place it.
                         </p>
                         <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
                             *Specifications as per the 15.6" model.
@@ -175,27 +175,25 @@
                         <img src="/images/e15/Robust_Performance.jpg" alt="">
                     </div>
                     <div class="pt-content-wrapper mx-auto">
-						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with up to 16GB RAM, up to 512GB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
+						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with up to 16GB DDR4 RAM, up to 512GB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
                     </div>
 					
 					
-        <div class="selling-pt-sm active px-3">Robust Performance</div>
-                    <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
 
                     <p class="pt-content-title mx-auto">Seamless Connectivity</p>
+                    <hr class="pt-title-hr">
 
 						 <p class="pt-content text-left">Carrying the right adaptor with you every single time is a task. Say goodbye to connectivity hassles since the VAIO E15 has all the ports right at your fingertips.  
                         The two USB Type-A ports ensure lightning-fast data transfers while the USB Type-C port improves scalability with peripherals and makes it futureproof. The VAIO E15 also features a microSD card slot and an HDMI v1.4 that add to the seamless experience of the laptop.</p>	
 					 </div>
                     <div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/e15/se14pt01-2.png" class="w-50" alt=""><img src="/images/e15/se14pt01-3.png" class="w-50" alt="">
+                        <img src="/images/e15/VAIO_SILVER_E15-02.png" class="w-50" alt=""><img src="/images/e15/VAIO_SILVER_E15-01.png" class="w-50" alt="">
                     </div>
-                    <div class="selling-pt-sm active px-3">Robust Performance</div>
-                    <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
 
                 <p class="pt-content-title mx-auto">All-Day Battery Life</p>
+                <hr class="pt-title-hr">
 
                     <p class="pt-content text-left">Lasting up to 8 hours*, the VAIO E15 offers best-in-class battery life. Power through your workday without finding the need to find a charger. It can also be charged with the provided USB Type-C port so you eliminate the hassle of carrying multiple chargers for your devices.</p>	
                     <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
@@ -234,8 +232,6 @@
 					<div class="fs-0 my-4 my-lg-5">
                         <img src="/images/e15/Mesmerizing_Audio_and_Visuals.jpg" alt="">
                     </div>
-                        <hr class="pt-title-hr">
-
 						 <p class="pt-content text-left">The stunning design is tastefully coupled with an equally stunning display. The E15 boasts a large 15.6 inch Full-HD IPS display that allows you to see every detail. Thin bezels achieve modern elegance that fits the screen in a compact body.
                 High-quality dual speakers are an essential part of the stellar media experience offered by the VAIO E15. The speakers feature superb quality capable of delivering impactful and vibrant sound. The VAIO E15 also comes with two microphones that work actively to remove any unnecessary sounds that might interfere with your video conferences.</p>
                     </div>

@@ -102,14 +102,15 @@
 
             <section class="pt-section text-center" style="background-color: #eeeeee" id="pt-1">
                 <div class="container">
-                     <div class="selling-pt-sm active px-3">Common features for work &amp; play</div>
                     <h2 class="pt-title mt-4">Performance &amp; Entertainment</h2>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">	
 					<div class="fs-0 my-4 my-lg-5">
                         <img src="/images/pt-pic/VAIO_0318.jpg" alt="">
                     </div>
-						<p class="pt-content-title mx-auto">Moving conference center</p>						
+						<p class="pt-content-title mx-auto">Moving conference center</p>	
+                        <hr class="pt-title-hr">
+					
                         <p class="pt-content text-left">
                             Top/Down firing Speaker: Implement 4 high quality speakers on top/bottom side, providing clear and higher quality audio.
                         </p>
@@ -135,11 +136,11 @@
                     </div>
 				
 
-                    <div class="selling-pt-sm active px-3">Common features for work &amp; play</div>
                    <!-- <h2 class="pt-title mt-4">All Day Power For Outside Work &amp; Play</h2>-->
-                    <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">						
 						<p class="pt-content-title mx-auto">All Day Power For Outside Work &amp; Play</p>
+                        <hr class="pt-title-hr">
+
                         <p class="pt-content text-left">Long battery Life: SE14 can provide up to 13-hour battery life for normal web browsing, email, and documentation even if you are out of office to work all day long. On long-distance flight, you can watch your favorite movies for the whole journey.</p>
                         <p class="pt-content text-left">
                             Quick charging: Quick charging technology can charge up 70% of the battery power in an hour. It allows you to go for to go for an external ad-hoc meeting. 
@@ -173,7 +174,6 @@
 
             <section class="pt-section text-center" id="pt-2">
                 <div class="container">
-                    <div class="selling-pt-sm active px-3">User experience</div>
                     <h2 class="pt-title mt-4">Delightful User Experience</h2>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
@@ -181,18 +181,18 @@
                         <!--<p class="pt-content-sm mt-3 mb-2">Natural Ergonomics Tilt reduces stress of palm and wrist while typing</p>-->
 						 <p class="pt-content text-left mb-5">Natural Ergonomics Tilt: With the screen opened(can be done by single hand), the body tilts up to form a natural slant angle with your tabletop. The stress to palm and wrist is greatly reduced while typing, providing comfortable and delightful user experience.<br><br>
 							 More Airflow, Better Performance: SE14 will be lifted slightly because of the tilted body. It not only increase the airflow but also decreases the body temperature for better performance.
-</p>	
+                    </p>	
 					<div class="fs-0 my-4 my-lg-5">
                         <img src="/images/pt-pic/VAIO_0419.jpg" alt="">
                     </div>
                     </div>
 					
 					
-<div class="selling-pt-sm active px-3">User experience</div>
-                    <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
 						 
                         <h3 class="pt-content-title">Backlit Keyboard with spill resistance</h3>
+                        <hr class="pt-title-hr">
+
                       <!--  <p class="pt-content-sm mt-3 mb-2">2-level back-light keyboard to keep you use in dark place + Full size keyboard provides a comfortable and precise typing experience</p>-->
 						 <p class="pt-content text-left">Convenient typing experience in a dimly-lit conference room or aircraft cabin. The backlit keyboard makes it easier for users to see the keycaps, offering a comfortable input experience that is not limited by the surrounding light environment. Water spill resistance keyboard brings you worry-free experience when working.</p>	
 						<p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
@@ -224,7 +224,6 @@
 
             <section class="pt-section text-center" id="pt-3">
                 <div class="container">
-					 <div class="selling-pt-sm active px-3">Productivity</div>
                      <h2 class="pt-title mt-4">Uncompromised Performance</h2>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
@@ -232,24 +231,28 @@
                         <img src="/images/pt-pic/VAIO_0524.jpg" alt="">
                     </div>
                         <h3 class="pt-content-title">Seamless Connectivity</h3>
+                        <hr class="pt-title-hr">
+
                         <!--<p class="pt-content-sm mt-3 mb-2">Highly connectivity (Multiple I/O ports)</p>-->
 						 <p class="pt-content text-left">Connection options are very comprehensive, including two USB Type-C™ ports, two USB type A 3.1 ports and a HDMI port.  Most ports are on the left side of the device, which can avoid your right hand being jammed by the cables from different devices such a mouse or an external HDD.</p>
                     </div>
 					
 	
-                    <hr class="pt-title-hr">
 					
                     <div class="pt-content-wrapper mx-auto">
                         <h3 class="pt-content-title">More Airflow, Better Performance</h3>
+                        <hr class="pt-title-hr">
+
                         <!--<p class="pt-content-sm mt-3 mb-2">Thinner and quieter fan + Ultimate thermal tech offers 10%~15% more airflow, better thermal design to achieve the maximum performance of laptop</p>-->
 						 <p class="pt-content text-left">By a more compact and quieter fan with 53 split-design blades, which offers 10%~15% more airflow, together with the tilted body, body temperature of SE14 can be decreased to reach better performance.</p>
                     </div>
                 
 		
-				<hr class="pt-title-hr">
 					
                     <div class="pt-content-wrapper mx-auto">
                         <h3 class="pt-content-title">Equipped with new processor</h3>
+                        <hr class="pt-title-hr">
+
                         <!--<p class="pt-content-sm mt-3 mb-2">Moving conference center…</p>-->
 						 <p class="pt-content text-left">The   VAIO® SE14 combines work and entertainment functions with a comprehensive range   of specifications aimed at the mainstream price arena, making it suitable for a   well-rounded variety of tasks and user groups. The VAIO® SE14 is equipped with   an 8th generation Intel® Core™ processor and a 14-inch full HD IPS screen with   ultra-narrow screen bezel design.</p>
                     </div>
@@ -281,7 +284,6 @@
 <section class="pt-section d-flex flex-wrap text-center text-white p-0" id="pt-4">
                 <div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #808090;">
                     <div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
-						<div class="selling-pt-sm active px-3" style="background-color: #b3b3bc;">Reliability</div>
                         <h2 class="pt-title mt-4">Built to be Secured</h2>
                         <hr class="pt-title-hr bg-white">
                         <div class="pt-content-wrapper-lg mx-auto">                            

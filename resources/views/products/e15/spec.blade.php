@@ -37,10 +37,10 @@
             <nav class="nav nav-tabs">
                 <a href="#spec-2" class="text-center spec-product nav-item nav-link col-12 active" data-toggle="tab" role="tab">
                     <h3 class="spec-product-name mb-4 pt-5 pt-lg-0">VAIO® E15</h3>
-                    <img src="/images/banner/S13vaio-black.png" class="my-5" alt="VAIO® S13">
+                    <img src="/images/banner/VAIO_E15-Black02.png" class="my-5" alt="VAIO® E15">
                     <ul class="color-pick-list list-unstyled d-flex flex-wrap mx-auto align-items-center justify-content-center">
-                        <li class="color-pick active" style="background-color: #37383a" data-src="/images/banner/S13vaio-black.png"></li>
-                        <li class="color-pick" style="background-color: #dbdcde" data-src="/images/banner/S13vaio-silver.png"></li>
+                        <li class="color-pick active" style="background-color: #37383a" data-src="/images/banner/VAIO_E15-Black02.png"></li>
+                        <li class="color-pick" style="background-color: #dbdcde" data-src="/images/banner/VAIO_E15-Silver02.png"></li>
                     </ul>
                 </a>
             </nav>
@@ -60,28 +60,27 @@
                             <sub>1</sub>
                         </div>
                         <div class="offset-md-1 spec-item-content">
-                            8th Gen Intel® Core™ i5-i7 Processor
-                            <br>- Trusted Platform Module (TPM): TCG Ver. 2.0
+                               AMD Ryzen 5 3500U / 7 3700U 
                         </div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Operating System
                             <sub>2</sub>
                         </div>
-                        <div class="offset-md-1 spec-item-content">Windows 10 Home / Windows 10 Pro</div>
+                        <div class="offset-md-1 spec-item-content">Windows 10 Home</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Display</div>
-                        <div class="offset-md-1 spec-item-content">13.3" FHD IPS (1920 x 1080)
-                            <br>- CMOS Sensor HD&nbsp; Web Cam</div>
+                        <div class="offset-md-1 spec-item-content">15.6" FHD IPS (1920 x 1080)
+                            <br>- 1MP Webcam</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Main Memory</div>
-                        <div class="offset-md-1 spec-item-content">8GB - 16GB LPDDR3</div>
+                        <div class="offset-md-1 spec-item-content">8GB - 16GB LPDDR4</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Storage</div>
-                        <div class="offset-md-1 spec-item-content">256GB - 512GB PCIe SSD</div>
+                        <div class="offset-md-1 spec-item-content">256GB - 1TB PCIe SSD</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>
@@ -89,42 +88,34 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Audio</div>
-                        <div class="offset-md-1 spec-item-content">Intel® HD Audio, Integrated Stereo Mic</div>
+                        <div class="offset-md-1 spec-item-content">Integrated Dual Speakers & Dual Microphones</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Wireless Lan</div>
-                        <div class="offset-md-1 spec-item-content">IEEE 802.11a/b/g/n/ac Wireless Lan, Bluetooth® 4.1</div>
+                        <div class="offset-md-1 spec-item-content">IEEE 802.11a/b/g/n/ac Wireless LAN, Bluetooth®️ 4.2</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Inputs &amp; Outputs</div>
                         <div class="offset-md-1 spec-item-content">
                             1 X Network (LAN)
-                            <br> 1 x SuperSpeed USB (3.0) With charge
-                            <br> 2 x SuperSpeed USB (3.0)
+                            <br> 1 x USB Type-C (with charging)
+                            <br> 2 x USB Type-A (3.1)
                             <br> 1 x HDMI
-                            <br> 1 x VGA
                             <br> 1 x Headphone + Microphone
                         </div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Card Slot</div>
-                        <div class="offset-md-1 spec-item-content">SD Card (SDHC、SDXC、UHS-I)</div>
+                        <div class="offset-md-1 spec-item-content">SD Card (SDHC, SDXC, UHS-I)</div>
                     </li>
-                    <li class="spec-item d-flex">
-                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Fingerprint</div>
-                        <div class="offset-md-1 spec-item-content">Yes</div>
-                    </li>
-                    <li class="spec-item d-flex">
-                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">4G LTE</div>
-                        <div class="offset-md-1 spec-item-content">Only available in specific model in colour black</div>
-                    </li>
+                                      
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Dimensions (W x D x H)</div>
-                        <div class="offset-md-1 spec-item-content">320.4mm × 15～17.9mm × 216.6mm</div>
+                        <div class="offset-md-1 spec-item-content">358.7mm × 239.2mm × 19.9 mm</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Weight <sub>3</sub></div>
-                        <div class="offset-md-1 spec-item-content">Approx. 1.07kg</div>
+                        <div class="offset-md-1 spec-item-content">Approx. 1.77kg</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Battery
