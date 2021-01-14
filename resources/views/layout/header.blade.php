@@ -1,3 +1,5 @@
+<div class="headerCover @hasSection('product_nav') product-header @endif "></div>
+
 <!-- Header -->
 <nav class="header navbar">
     <div class="navbar-inner">

@@ -4,9 +4,37 @@
 @section('product_nav')
 
     @include('products.se14.product_nav')
+
    @stop
 
 @section('content')
+<!------
+------>
+<div class="navbar-product-page d-lg-flex justify-content-lg-end" style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
+    <ul class="navbar-nav flex-wrap flex-row col col-lg-4 p-0">
+
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.overview_se14') }}" class="nav-link py-3 py-lg-2">@lang('common.overview')</a>
+        </li>
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.spec_se14') }}" class="nav-link py-3 py-lg-2">@lang('common.spec')</a>
+        </li>
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.gallery_se14') }}" class="nav-link py-3 py-lg-2">@lang('common.gallery')</a>
+        </li>
+
+        @if( $store_enabled )
+        
+        <li class="nav-item-preorder nav-item text-center" style="flex-grow: 4; border-left: 1px solid white;">
+                <a href="@lang('common.nav.Nexstmall_link')" target="_blank" class="nav-link py-3 py-lg-2">@lang('common.buy_now')</a>
+        </li>
+         
+        @endif
+    </ul>
+</div>
+
+
+
 
 <!--- Banner here------------------------------------>
 
@@ -42,6 +70,14 @@
             background-image: url(/images/se14/SE14-2.jpg);
             }
         }
+        @media(max-width: 991px) {
+
+            .feature-box{
+            margin:5px 0px;
+          }
+        }
+
+       
 
     </style>
 
@@ -52,7 +88,7 @@
 
     <section id="vaio-product">
         <div class="main-content container-fluid">
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center active">
                     <h2>Common features for work &amp; play</h2>
                 </a>
@@ -122,7 +158,7 @@
                 </div>
             </section>
 
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0  feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
                     <h2>Common features for work &amp; play</h2>
                 </a>
@@ -174,7 +210,7 @@
 
             
 
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0  feature-box" >
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
                     <h2>Common features for work &amp; play</h2>
                 </a>
@@ -229,7 +265,7 @@
 
             
 
-    <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+    <div class="d-flex flex-wrap nav-pt px-4 p-lg-0  feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
                     <h2>Common features for work &amp; play</h2>
                 </a>
