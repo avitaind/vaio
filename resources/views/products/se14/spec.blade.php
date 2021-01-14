@@ -66,7 +66,7 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">CPU<sup>1</sup></div>
-                        <div class="offset-md-1 spec-item-content">8th Gen Intel® Core™ Processor<br>i3 – 8145U<br>i5 – 8265U<br>i7 – 8565U</div>
+                        <div class="offset-md-1 spec-item-content">8th Gen Intel® Core™ Processor<br>i5 – 8265U</div>
                     </li>
 					 <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>

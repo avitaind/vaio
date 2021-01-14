@@ -390,7 +390,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         ],
         'card_13' => [
             'title'   => 'Disclaimers',
-            'content' => '* Azumino Finish is applicable to VAIO S11, VAIO S13, VAIO A12 and VAIO SX14 only', 
+            'content' => '* Azumino Finish is applicable to VAIO E15.', 
         ],
     ],
 	
