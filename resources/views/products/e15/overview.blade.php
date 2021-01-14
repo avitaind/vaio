@@ -181,11 +181,11 @@
 					
                     <div class="pt-content-wrapper mx-auto">
 
-                    <p class="pt-content-title mx-auto">Seamless Connectivity</p>
+                    <p class="pt-content-title mx-auto">Boundless Productivity</p>
                     <hr class="pt-title-hr">
 
 						 <p class="pt-content text-left">Carrying the right adaptor with you every single time is a task. Say goodbye to connectivity hassles since the VAIO E15 has all the ports right at your fingertips.  
-                        The two USB Type-A ports ensure lightning-fast data transfers while the USB Type-C port improves scalability with peripherals and makes it futureproof. The VAIO E15 also features a microSD card slot and an HDMI v1.4 that add to the seamless experience of the laptop.</p>	
+                        The two USB Type-A ports ensure lightning-fast data transfers while the USB Type-C port improves scalability with peripherals and makes it futureproof. The VAIO E15 also features a microSD card slot and an HDMI v1.4 that add to the seamless experience of the laptop. The E15 features a backlit keyboard that enhances visibility and typing in dark environments.</p>	
 					 </div>
                     <div class="fs-0 my-4 my-lg-5">
                         <img src="/images/e15/VAIO_SILVER_E15-02.png" class="w-50" alt=""><img src="/images/e15/VAIO_SILVER_E15-01.png" class="w-50" alt="">
