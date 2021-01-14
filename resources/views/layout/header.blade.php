@@ -35,7 +35,7 @@
         <!--- Product VAIO starts ---->
         <!--- Quality tab starts ---->
 
-
+<!---
         <li class="nav-item has-dropdown">
                     <input id="header_quality" type="checkbox" hidden="">
                     {{-- <a class="nav-link py-4"> --}}
@@ -55,8 +55,11 @@
                     </div>
 
                 </li>
+
+                ---->
         <!--- Quality tab Ends ---->
     <!--- Support tab starts ---->
+<!---
 
         <li class="nav-item  has-dropdown">
                     <input id="header_support" type="checkbox" hidden="">
@@ -85,7 +88,7 @@
                         </ul>
                     </div>
                 </li>
-
+--->
     <!--- Support tab ends ---->
 
 
