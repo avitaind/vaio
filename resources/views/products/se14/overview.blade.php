@@ -12,7 +12,7 @@
     <div class="swiper-container swiper-container-horizontal">
 
        <!--- 	<a href="https://vaio-sg.nexstmall.com" target="_blank"  class="swiper-slide"> --->
-                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/pt-pic/SE14.jpg)">
+                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/se14/SE14.jpg)">
                             <div class="main-banner" title=""></div>
                         </div>
          <!---           </a>  ---->
@@ -32,12 +32,12 @@
             }
         }
         .cms-banner-5 .main-banner {
-            background-image: url(/images/pt-pic/SE14.jpg);
+            background-image: url(/images/se/SE14.jpg);
         }
 
         @media(max-width: 991px) {
             .cms-banner-5 .main-banner {
-            background-image: url(/images/pt-pic/SE14-2.jpg);
+            background-image: url(/images/se/SE14-2.jpg);
             }
         }
 
