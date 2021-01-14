@@ -440,6 +440,8 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
             'general_phone_mo' => 'VAIO Hotline (Macau)',
             'press'            => 'Email',
             'pr_title'         => 'PR & Media Contact',
+            'toll_free'         => 'Toll Free',
+
         ],
         'sales'           => [
             'title'        => 'Sales Enquiry',

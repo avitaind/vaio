@@ -4,7 +4,31 @@
 
 
 @section('content')
-    <script src="{{ asset('js/html5gallery.js') }}"></script>
+
+<!------>
+
+<div class="navbar-product-page d-lg-flex justify-content-lg-end" style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
+    <ul class="navbar-nav flex-wrap flex-row col col-lg-4 p-0">
+
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.overview') }}" class="nav-link py-3 py-lg-2">@lang('common.overview')</a>
+        </li>
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.spec') }}" class="nav-link py-3 py-lg-2">@lang('common.spec')</a>
+        </li>
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.gallery_e15') }}" class="nav-link py-3 py-lg-2">@lang('common.gallery')</a>
+        </li>
+        @if( $store_enabled )
+            <li class="nav-item-preorder nav-item text-center" style="flex-grow: 4; border-left: 1px solid white;">
+                <a href="{{ $top_store_url }}" target="_blank" class="nav-link py-3 py-lg-2">@lang('common.buy_now')</a>
+            </li>
+        @endif
+
+    </ul>
+</div>
+
+<!--- ------->
 
 
 <style>
@@ -38,7 +62,7 @@
     <div style="text-align:center;">
     
     
-     <div style="display:none;margin:-150px auto 0px;" 
+    <div style="display:none;margin:0px auto 0px;" 
 	class="html5gallery"
 	data-responsive="true"
 	data-responsivefullscreen="true"
@@ -120,4 +144,6 @@
 
 @section('js')
     <script src="{{ asset('js/product.js') }}"></script>
+    <script src="{{ asset('js/html5gallery.js') }}"></script>
+
 @stop

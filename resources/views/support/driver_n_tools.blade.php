@@ -1,7 +1,7 @@
 <div id="driver_n_tools" class="support-search-wrap py-5">
     <div class="container">
         <div class="row">
-
+<!----------
         <div class="warranty-center-wrap py-5 text-center" style="background-color:#fff;">            
             	<div class="container h-100">
                 	<div class="row h-100 align-items-center">
@@ -20,10 +20,10 @@
                                 </a> 
                             </div>  
                         </div>                                     
-	                </div><!--row-->  
-                </div><!--container-->
+	                </div>
+                </div>
             </div>
-
+------>
 
             <div class="col-12 col-lg-10">
             

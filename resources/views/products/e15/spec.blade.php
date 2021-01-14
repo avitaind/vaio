@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'VAIO e15 Specification')
+@section('title', 'VAIO E15 Specification')
 
 @section('product_nav')
     @include('products.e15.product_nav')
@@ -76,7 +76,7 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Main Memory</div>
-                        <div class="offset-md-1 spec-item-content">8GB - 16GB LPDDR4</div>
+                        <div class="offset-md-1 spec-item-content">8GB - 16GB DDR4</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Storage</div>
@@ -84,7 +84,7 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>
-                        <div class="offset-md-1 spec-item-content">Intel® UHD Graphics 620</div>
+                        <div class="offset-md-1 spec-item-content">AMD Radeon Vega 8/10 Graphics</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Audio</div>
@@ -121,7 +121,7 @@
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Battery
                             <sub>4</sub>
                         </div>
-                        <div class="offset-md-1 spec-item-content">4-cell</div>
+                        <div class="offset-md-1 spec-item-content">Li-ion Battery</div>
                     </li>
                 </ul>
             </div>

@@ -94,7 +94,7 @@
                     <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Guaranteed Durability</h2>
+                    <h2>Enhanced Durability</h2>
                 </a>
             </div>
 
@@ -162,7 +162,7 @@
                     <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Guaranteed Durability</h2>
+                    <h2>Enhanced Durability</h2>
                 </a>
             </div>
 
@@ -175,7 +175,7 @@
                         <img src="/images/e15/Robust_Performance.jpg" alt="">
                     </div>
                     <div class="pt-content-wrapper mx-auto">
-						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with up to 16GB DDR4 RAM, up to 512GB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
+						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with up to 16GB DDR4 RAM, up to 1TB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
                     </div>
 					
 					
@@ -220,7 +220,7 @@
                     <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Guaranteed Durability</h2>
+                    <h2>Enhanced Durability</h2>
                 </a>
             </div>
 
@@ -253,7 +253,7 @@
                     <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Guaranteed Durability</h2>
+                    <h2>Enhanced Durability</h2>
                 </a>
             </div>
 
@@ -261,7 +261,7 @@
 <section class="pt-section d-flex flex-wrap text-center text-white p-0" id="pt-4">
                 <div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #808090;">
                     <div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
-                        <h2 class="pt-title mt-4">Guaranteed Durability</h2>
+                        <h2 class="pt-title mt-4">Enhanced Durability</h2>
                         <hr class="pt-title-hr bg-white">
                         <div class="pt-content-wrapper-lg mx-auto">                            
                             <p class="pt-content mx-auto" style="color: #ceced2"> Every VAIO laptop goes through rigorous quality testing that ensures that your device lasts longer. A strict quality control ensures the global standards are consistently met. VAIO’s arduous 3-point quality test ensures that every detail is carefully inspected before it reaches your hands. </p>
@@ -288,7 +288,7 @@
                         The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
                         <br />
                       <br />
-                    * Azumino Finish and all Quality control Tests are applicable to VAIO E15 only.<br/>
+                    * Azumino Finish and all quality control tests are applicable to VAIO E15 only.<br/>
                     * Specifications may vary according to different configurations.
                     </p>
 

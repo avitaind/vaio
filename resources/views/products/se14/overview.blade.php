@@ -313,7 +313,7 @@
                         The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
                         <br />
                       <br />
-                    * Azumino Finish and all Quality control Tests are applicable to VAIO S11, VAIO S13, VAIO A12 and VAIO SX14 only.
+                    * Azumino Finish and all quality control tests are applicable to VAIO S11, VAIO S13, VAIO A12 and VAIO SX14 only.
                     </p>
 
                 </div>
