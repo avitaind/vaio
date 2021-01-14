@@ -115,7 +115,19 @@ class ProductController extends Controller
         return view('products.e15.spec');
     }
 
+    public function getProductGallery15( ) {
 
+        $locale = \App::getLocale();
+
+        $view_file = 'products.e15.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.e15.gallery');
+    }
 	
 	public function getProductOverviewSx14( ) {
 

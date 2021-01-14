@@ -33,6 +33,61 @@
                 </li>
 
         <!--- Product VAIO starts ---->
+        <!--- Quality tab starts ---->
+
+
+        <li class="nav-item has-dropdown">
+                    <input id="header_quality" type="checkbox" hidden="">
+                    {{-- <a class="nav-link py-4"> --}}
+                    <label class="nav-link px-md-4 py-4" for="header_quality">@lang('common.nav.quality.title')</label>
+                    {{-- </a> --}}
+
+                    <div class="dropdown">
+                        <ul class="list-unstyled">
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('quality.azumino_finish') }}" class="">@lang('common.nav.quality.azumino_finish')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('quality') }}">@lang('common.nav.quality.tests')</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </li>
+        <!--- Quality tab Ends ---->
+    <!--- Support tab starts ---->
+
+        <li class="nav-item  has-dropdown">
+                    <input id="header_support" type="checkbox" hidden="">
+
+                    {{-- <a class="nav-link py-4"> --}}
+                    <label class="nav-link px-md-4 py-4" for="header_support">@lang('common.nav.support.title')</label>
+                    {{-- </a> --}}
+
+                    <div class="dropdown">
+                        <ul class="list-unstyled">
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('support') }}#support-center">@lang('common.nav.support.service_center')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('support') }}#faq">@lang('common.nav.support.faq')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('support') }}#driver_n_tools">@lang('common.nav.support.tools')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('support') }}#support-warranty">@lang('common.nav.support.warranty')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('support.repair_tnc') }}">@lang('common.nav.support.terms_cond')</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+    <!--- Support tab ends ---->
+
 
         <!--- About VAIO starts ---->
         

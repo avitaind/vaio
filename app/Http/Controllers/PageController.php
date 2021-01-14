@@ -80,7 +80,5 @@ class PageController extends Controller
 
         return view('pages.support_regions');
 
-
-
     }
 }

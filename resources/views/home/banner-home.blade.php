@@ -53,6 +53,7 @@ videoMethods.renderVideoPlayButton()
 .video-wrapper {
     position: relative;
     padding: 30px 0;
+    background: #000;
 }
 
 .video-wrapper > video {

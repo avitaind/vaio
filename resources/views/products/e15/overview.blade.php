@@ -1,19 +1,43 @@
 @extends('layout.app')
 
 @section('title', 'VAIO E15')
-
 @section('product_nav')
-    @include('products.e15.product_nav')
-@stop
 
+@include('products.e15.product_nav')
+   @stop
 
 @section('content')
+
+<!------>
+
+<div class="navbar-product-page d-lg-flex justify-content-lg-end" style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
+    <ul class="navbar-nav flex-wrap flex-row col col-lg-4 p-0">
+
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.overview') }}" class="nav-link py-3 py-lg-2">@lang('common.overview')</a>
+        </li>
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.spec') }}" class="nav-link py-3 py-lg-2">@lang('common.spec')</a>
+        </li>
+        <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
+            <a href="{{ route('product.gallery_e15') }}" class="nav-link py-3 py-lg-2">@lang('common.gallery')</a>
+        </li>
+        @if( $store_enabled )
+            <li class="nav-item-preorder nav-item text-center" style="flex-grow: 4; border-left: 1px solid white;">
+                <a href="{{ $top_store_url }}" target="_blank" class="nav-link py-3 py-lg-2">@lang('common.buy_now')</a>
+            </li>
+        @endif
+
+    </ul>
+</div>
+
+<!--- ------->
 <!--- Banner here------------------------------------>
 <section class="main-banner-section" style="height: fit-content;">
     <div class="swiper-container swiper-container-horizontal">
 
        <!--- 	<a href="https://vaio-sg.nexstmall.com" target="_blank"  class="swiper-slide"> --->
-                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/se14/SE14.jpg)">
+                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/e15/E15.jpg)">
                             <div class="main-banner" title=""></div>
                         </div>
          <!---           </a>  ---->
@@ -33,14 +57,22 @@
             }
         }
         .cms-banner-5 .main-banner {
-            background-image: url(/images/se/SE14.jpg);
+            background-image: url(/images/e15/E15.jpg);
         }
 
         @media(max-width: 991px) {
             .cms-banner-5 .main-banner {
-            background-image: url(/images/se/SE14-2.jpg);
+            background-image: url(/images/e15/E15-2.jpg);
             }
         }
+
+        @media(max-width: 991px) {
+
+            .feature-box{
+            margin:5px 0px;
+             }
+       }
+
 
     </style>
 
@@ -51,195 +83,181 @@
 
     <section id="vaio-product">
         <div class="main-content container-fluid">
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Common features for work &amp; play</h2>
+                    <h2>Premium Japanese Craftsmanship</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>User experience</h2>
+                    <h2>Robust Performance</h2>
                 </a>
                 <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Productivity</h2>
+                    <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Reliability</h2>
+                    <h2>Guaranteed Durability</h2>
                 </a>
             </div>
 
             <section class="pt-section text-center" style="background-color: #eeeeee" id="pt-1">
                 <div class="container">
-                     <div class="selling-pt-sm active px-3">Common features for work &amp; play</div>
-                    <h2 class="pt-title mt-4">Performance &amp; Entertainment</h2>
+                     <h2 class="pt-title mt-4">Premium Japanese Craftsmanship</h2>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">	
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0318.jpg" alt="">
+                        <img src="/images/e15/Premium_Japanese_Craftmanship.jpg" alt="">
                     </div>
-						<p class="pt-content-title mx-auto">Moving conference center</p>						
-                        <p class="pt-content text-left">
-                            Top/Down firing Speaker: Implement 4 high quality speakers on top/bottom side, providing clear and higher quality audio.
+                    <p class="pt-content text-left">
+                        The VAIO E15 is built keeping in mind the modern design sensibilities. Sleek lines and minimal aesthetics are combined into a body that is light and portable without compromising the premium feel. Work never looked more stylish.
                         </p>
                         <p class="pt-content text-left">
-                            720P/1080P Web Camera: Combine high quality Web Cam with 2 digital array microphone to correctly receive the voice in front of the screen. AEC* solution will decrease unnecessary echo and noise to allow you have good conference call all the time. 
+                        VAIO brings the premium Japanese craftsmanship not only from its built but also through vibrant color variants inspired by Japanese cultural elements. Our signature Azumino finish is bound to add an extra touch of elegance to your work.
                         </p>
-						<p class="pt-content text-left">
-                            Single/Multiple Conference Mode: Use F4 key to quick switch from different conference mode. Microphone will also automatically adjust to Activate Noise Cancellation(ANC) to optimize audio reception.
-<ul class="text-left">
-	<li>Single Mode: Limit and optimize the reception of microphone under 45 degree. You can have a short meeting with the client even in a noisy environment.</li>
-<li>Multiple Mode: Microphone accepts the voice from 180 degree, optimizing the voice for meetings with a lot of attendants. </li>
-						</ul>
+                        
+                    <div class="selling-pt-sm active px-3">Premium Japanese Craftsmanship</div>
+                    <hr class="pt-title-hr">
+
+						<p class="pt-content-title mx-auto">Blast From the Past</p>						
+                        <p class="pt-content text-left">
+                               Borrowing its signature DNA, the VAIO E15 is an elegant machine that is ergonomically designed to be comfortable in all situations.
                         </p>
-						<!--<p class="pt-content  text-left">
-                           SE14 features an AMD RadeonTM 550X discrete graphics chip (optional) for enhanced graphics performance, which provides a more engaging experience for digital media-oriented users when watching movies or playing games.</p>-->
-					 <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">* Acoustic Echo Cancellation</p>
-					
+                        <p class="pt-content text-left">
+                        The natural tilt offers comfort to the hand and the wrist, all the while ensuring adequate airflow that keeps the laptop cool and quiet, so there are no distractions stopping you from finishing your final presentation.
+                        </p>
+
                     </div>
                     
 				
 				<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/se14pt01-2.png" class="w-50" alt=""><img src="/images/pt-pic/se14pt01-3.png" class="w-50" alt="">
+                        <img src="/images/e15/se14pt01-2.png" class="w-50" alt=""><img src="/images/e15/se14pt01-3.png" class="w-50" alt="">
                     </div>
 				
 
-                    <div class="selling-pt-sm active px-3">Common features for work &amp; play</div>
-                   <!-- <h2 class="pt-title mt-4">All Day Power For Outside Work &amp; Play</h2>-->
+                    <div class="selling-pt-sm active px-3">Premium Japanese Craftsmanship</div>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">						
-						<p class="pt-content-title mx-auto">All Day Power For Outside Work &amp; Play</p>
-                        <p class="pt-content text-left">Long battery Life: SE14 can provide up to 13-hour battery life for normal web browsing, email, and documentation even if you are out of office to work all day long. On long-distance flight, you can watch your favorite movies for the whole journey.</p>
+						<p class="pt-content-title mx-auto">Effortless Mobility</p>
                         <p class="pt-content text-left">
-                            Quick charging: Quick charging technology can charge up 70% of the battery power in an hour. It allows you to go for to go for an external ad-hoc meeting. 
+                              Weighing less than 1.70 kg* for the 15.6-inch model, packing it in your bag and taking it to work feels like breeze. Use it on the workstation of your office or a couch at the comfort of your home, it fits perfectly, no matter where you place it.
                         </p>
-						 <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
-                            * Data on battery life is obtained from tests deploying internal tools by engineers. The actual battery performances could vary from battery life tests shown above, due to differences in operating environment and conditions.
-                        </p>	
+                        <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
+                            *Specifications as per the 15.6" model.
+                        </p>
+							
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0492.jpg" alt="">
+                        <img src="/images/e15/Effortless_Mobility.jpg" alt="">
                     </div>
                     </div>
 
                 </div>
             </section>
 
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Common features for work &amp; play</h2>
+                    <h2>Premium Japanese Craftsmanship</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>User experience</h2>
+                    <h2>Robust Performance</h2>
                 </a>
                 <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Productivity</h2>
+                    <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Reliability</h2>
+                    <h2>Guaranteed Durability</h2>
                 </a>
             </div>
 
 
             <section class="pt-section text-center" id="pt-2">
                 <div class="container">
-                    <div class="selling-pt-sm active px-3">User experience</div>
-                    <h2 class="pt-title mt-4">Delightful User Experience</h2>
+                    <h2 class="pt-title mt-4">Robust Performance</h2>
+                    <hr class="pt-title-hr">
+                    <div class="fs-0 my-4 my-lg-5">
+                        <img src="/images/e15/Robust_Performance.jpg" alt="">
+                    </div>
+                    <div class="pt-content-wrapper mx-auto">
+						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with up to 16GB RAM, up to 512GB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
+                    </div>
+					
+					
+        <div class="selling-pt-sm active px-3">Robust Performance</div>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
-                        <h3 class="pt-content-title">Ergonomics for Work Comfort</h3>
-                        <!--<p class="pt-content-sm mt-3 mb-2">Natural Ergonomics Tilt reduces stress of palm and wrist while typing</p>-->
-						 <p class="pt-content text-left mb-5">Natural Ergonomics Tilt: With the screen opened(can be done by single hand), the body tilts up to form a natural slant angle with your tabletop. The stress to palm and wrist is greatly reduced while typing, providing comfortable and delightful user experience.<br><br>
-							 More Airflow, Better Performance: SE14 will be lifted slightly because of the tilted body. It not only increase the airflow but also decreases the body temperature for better performance.
-</p>	
-					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0419.jpg" alt="">
+
+                    <p class="pt-content-title mx-auto">Seamless Connectivity</p>
+
+						 <p class="pt-content text-left">Carrying the right adaptor with you every single time is a task. Say goodbye to connectivity hassles since the VAIO E15 has all the ports right at your fingertips.  
+                        The two USB Type-A ports ensure lightning-fast data transfers while the USB Type-C port improves scalability with peripherals and makes it futureproof. The VAIO E15 also features a microSD card slot and an HDMI v1.4 that add to the seamless experience of the laptop.</p>	
+					 </div>
+                    <div class="fs-0 my-4 my-lg-5">
+                        <img src="/images/e15/se14pt01-2.png" class="w-50" alt=""><img src="/images/e15/se14pt01-3.png" class="w-50" alt="">
                     </div>
-                    </div>
-					
-					
-<div class="selling-pt-sm active px-3">User experience</div>
+                    <div class="selling-pt-sm active px-3">Robust Performance</div>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
-						 
-                        <h3 class="pt-content-title">Backlit Keyboard with spill resistance</h3>
-                      <!--  <p class="pt-content-sm mt-3 mb-2">2-level back-light keyboard to keep you use in dark place + Full size keyboard provides a comfortable and precise typing experience</p>-->
-						 <p class="pt-content text-left">Convenient typing experience in a dimly-lit conference room or aircraft cabin. The backlit keyboard makes it easier for users to see the keycaps, offering a comfortable input experience that is not limited by the surrounding light environment. Water spill resistance keyboard brings you worry-free experience when working.</p>	
-						<p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
-                            * In the event of a water spillage, users should wipe away the water, before bringing the laptop to a VAIO service center for inspection or repair.<br>
-							* The anti-spill feature is only available on the keyboard and is not applicable on water damage to other parts of the laptop.
-                        </p>	
-                    </div>
-					
+
+                <p class="pt-content-title mx-auto">All-Day Battery Life</p>
+
+                    <p class="pt-content text-left">Lasting up to 8 hours*, the VAIO E15 offers best-in-class battery life. Power through your workday without finding the need to find a charger. It can also be charged with the provided USB Type-C port so you eliminate the hassle of carrying multiple chargers for your devices.</p>	
+                    <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
+                          *Data on battery life is obtained from tests deploying internal tools by engineers. The actual battery performances could vary from battery life tests, due to differences in operating environment and conditions.
+                    </p>	
+                </div>
 
                 </div>
+
+
+                
             </section>
 
             
 
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Common features for work &amp; play</h2>
+                    <h2>Premium Japanese Craftsmanship</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>User experience</h2>
+                    <h2>Robust Performance</h2>
                 </a>
                 <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Productivity</h2>
+                    <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Reliability</h2>
+                    <h2>Guaranteed Durability</h2>
                 </a>
             </div>
 
             <section class="pt-section text-center" id="pt-3">
                 <div class="container">
-					 <div class="selling-pt-sm active px-3">Productivity</div>
-                     <h2 class="pt-title mt-4">Uncompromised Performance</h2>
+                     <h2 class="pt-title mt-4">Mesmerizing Audio and Visuals</h2>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0524.jpg" alt="">
+                        <img src="/images/e15/Mesmerizing_Audio_and_Visuals.jpg" alt="">
                     </div>
-                        <h3 class="pt-content-title">Seamless Connectivity</h3>
-                        <!--<p class="pt-content-sm mt-3 mb-2">Highly connectivity (Multiple I/O ports)</p>-->
-						 <p class="pt-content text-left">Connection options are very comprehensive, including two USB Type-C™ ports, two USB type A 3.1 ports and a HDMI port.  Most ports are on the left side of the device, which can avoid your right hand being jammed by the cables from different devices such a mouse or an external HDD.</p>
+                        <hr class="pt-title-hr">
+
+						 <p class="pt-content text-left">The stunning design is tastefully coupled with an equally stunning display. The E15 boasts a large 15.6 inch Full-HD IPS display that allows you to see every detail. Thin bezels achieve modern elegance that fits the screen in a compact body.
+                High-quality dual speakers are an essential part of the stellar media experience offered by the VAIO E15. The speakers feature superb quality capable of delivering impactful and vibrant sound. The VAIO E15 also comes with two microphones that work actively to remove any unnecessary sounds that might interfere with your video conferences.</p>
                     </div>
 					
-	
-                    <hr class="pt-title-hr">
-					
-                    <div class="pt-content-wrapper mx-auto">
-                        <h3 class="pt-content-title">More Airflow, Better Performance</h3>
-                        <!--<p class="pt-content-sm mt-3 mb-2">Thinner and quieter fan + Ultimate thermal tech offers 10%~15% more airflow, better thermal design to achieve the maximum performance of laptop</p>-->
-						 <p class="pt-content text-left">By a more compact and quieter fan with 53 split-design blades, which offers 10%~15% more airflow, together with the tilted body, body temperature of SE14 can be decreased to reach better performance.</p>
-                    </div>
-                
-		
-				<hr class="pt-title-hr">
-					
-                    <div class="pt-content-wrapper mx-auto">
-                        <h3 class="pt-content-title">Equipped with new processor</h3>
-                        <!--<p class="pt-content-sm mt-3 mb-2">Moving conference center…</p>-->
-						 <p class="pt-content text-left">The   VAIO® SE14 combines work and entertainment functions with a comprehensive range   of specifications aimed at the mainstream price arena, making it suitable for a   well-rounded variety of tasks and user groups. The VAIO® SE14 is equipped with   an 8th generation Intel® Core™ processor and a 14-inch full HD IPS screen with   ultra-narrow screen bezel design.</p>
-                    </div>
-                
-				
 				</div>
-				
 				
             </section>
 
             
 
-    <div class="d-flex flex-wrap nav-pt px-4 p-lg-0">
+    <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Common features for work &amp; play</h2>
+                    <h2>Premium Japanese Craftsmanship</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>User experience</h2>
+                    <h2>Robust Performance</h2>
                 </a>
                 <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Productivity</h2>
+                    <h2>Mesmerizing Audio and Visuals</h2>
                 </a>
                 <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Reliability</h2>
+                    <h2>Guaranteed Durability</h2>
                 </a>
             </div>
 
@@ -247,18 +265,15 @@
 <section class="pt-section d-flex flex-wrap text-center text-white p-0" id="pt-4">
                 <div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #808090;">
                     <div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
-						<div class="selling-pt-sm active px-3" style="background-color: #b3b3bc;">Reliability</div>
-                        <h2 class="pt-title mt-4">Built to be Secured</h2>
+                        <h2 class="pt-title mt-4">Guaranteed Durability</h2>
                         <hr class="pt-title-hr bg-white">
                         <div class="pt-content-wrapper-lg mx-auto">                            
-                            <p class="pt-content-title mb-0 mt-4">One Touch Quick Login</p>
-							<!--<p class="pt-content-sm mt-3 mb-2" style="color: #ceced2">Windows Hello: Finger print &amp; IR camera</p>-->
-                            <p class="pt-content mx-auto" style="color: #ceced2">Besides the dedicated design and functionality, SE14 also focuses on protecting personal privacy, and comes with a built-in fingerprint reader and TPM 2.0 chip to provide hardware-based security functions which prevent malicious access to private data. The fingerprint reader thwarts biometric hacking with anti-spoofing technology, and does not disclose login authentication when the user signs in. The user can also choose an IR Camera option that supports Windows Hello, enabling quick login with one touch (or a smile) in front of the camera.</p>
+                            <p class="pt-content mx-auto" style="color: #ceced2"> Every VAIO laptop goes through rigorous quality testing that ensures that your device lasts longer. A strict quality control ensures the global standards are consistently met. VAIO’s arduous 3-point quality test ensures that every detail is carefully inspected before it reaches your hands. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0">
-                    <div class="rect-banner" title="VAIO SE14 Thin and Lightweight Body" style="background-image: url('/images/pt-pic/product-banner-se14-1.jpg');"></div>
+                    <div class="rect-banner" title="VAIO SE14 Thin and Lightweight Body" style="background-image: url('/images/e15/Guaranteed_Durability.jpg');"></div>
                 </div>
             </section>
 
@@ -277,7 +292,8 @@
                         The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
                         <br />
                       <br />
-                    * Azumino Finish and all Quality control Tests are applicable to VAIO S11, VAIO S13, VAIO A12 and VAIO SX14 only.
+                    * Azumino Finish and all Quality control Tests are applicable to VAIO E15 only.<br/>
+                    * Specifications may vary according to different configurations.
                     </p>
 
                 </div>

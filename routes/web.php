@@ -76,6 +76,8 @@ Route::group([
     //e15
     Route::get('/product/e15/overview', 'ProductController@getProductOverview15')->name('product.overview');
     Route::get('/product/e15/spec', 'ProductController@getProductSpecification15')->name('product.spec');
+    Route::get('/product/e15/gallery', 'ProductController@getProductGallery15')->name('product.gallery_e15');
+
     
     //se14
     Route::get('/product/se14/overview', 'ProductController@getProductOverview14')->name('product.overview_se14');
