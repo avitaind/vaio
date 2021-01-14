@@ -175,7 +175,7 @@
                         <img src="/images/e15/Robust_Performance.jpg" alt="">
                     </div>
                     <div class="pt-content-wrapper mx-auto">
-						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with up to 16GB DDR4 RAM, up to 1TB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
+						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with up to 8GB DDR4 RAM, up to 512TB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
                     </div>
 					
 					

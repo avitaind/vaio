@@ -76,11 +76,11 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Main Memory</div>
-                        <div class="offset-md-1 spec-item-content">8GB - 16GB DDR4</div>
+                        <div class="offset-md-1 spec-item-content">8GB DDR4</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Storage</div>
-                        <div class="offset-md-1 spec-item-content">256GB - 1TB PCIe SSD</div>
+                        <div class="offset-md-1 spec-item-content">256GB - 512GB PCIe SSD</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>
