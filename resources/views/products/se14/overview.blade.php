@@ -1,13 +1,14 @@
 @extends('layout.app')
 
 @section('title', 'VAIO SE14')
-
-@section('product_nav')
+<div class="headerCover  product-header  "> </div>
     @include('products.se14.product_nav')
-@stop
+   
 
 @section('content')
+
 <!--- Banner here------------------------------------>
+
 <section class="main-banner-section" style="height: fit-content;">
     <div class="swiper-container swiper-container-horizontal">
 
@@ -32,12 +33,12 @@
             }
         }
         .cms-banner-5 .main-banner {
-            background-image: url(/images/se/SE14.jpg);
+            background-image: url(/images/se14/SE14.jpg);
         }
 
         @media(max-width: 991px) {
             .cms-banner-5 .main-banner {
-            background-image: url(/images/se/SE14-2.jpg);
+            background-image: url(/images/se14/SE14-2.jpg);
             }
         }
 
