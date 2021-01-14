@@ -140,12 +140,7 @@
                 features, use, wireless functionality, and power management settings. The maximum capacity of the battery
                 will naturally decrease with time and usage.</p>
 
-            <p class="spec-item-name" style="font-size: 0.8rem;">
-                Intel, the Intel logo, the Intel Inside logo and Intel Core are trademarks of Intel Corporation in the U.S. and/or other countries.<br>
-                The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
-            </p>
-
-
+           
 
         </div>
     </section>
