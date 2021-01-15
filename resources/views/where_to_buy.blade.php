@@ -8,12 +8,10 @@
 
         <div class="container py-5">
           <!--- <h2 class="page-title mb-5">@lang('common.nav.where_to_buy')</h2> --->
-            <h2 class="page-title mb-5">Stay Tuned For More</h2>
+          <!---  <h2 class="page-title mb-5">Stay Tuned For More</h2> ------>
 
             <div class="row">
-            
-
-            <a class="px-md-4 py-2" target="_blank" href="https://www.flipkart.com/vaio-laptops-store?otracker=clp_banner_1_4.banner.BANNER_laptops-store_I9MXHU2TP6HG"> <img src="images/flipkart-logo.jpeg" id="desktop" alt="Where to Buy" width="10%" /></a>
+            <a class="px-md-4 py-2" target="_blank" href="https://www.flipkart.com/vaio-laptops-store?otracker=clp_banner_1_4.banner.BANNER_laptops-store_I9MXHU2TP6HG"> <img src="images/flipkart-logo.jpeg" id="desktop" alt="Where to Buy" width="50%" /></a>
             <a class="px-md-4 py-2" target="_blank" href="https://www.flipkart.com/vaio-laptops-store?otracker=clp_banner_1_4.banner.BANNER_laptops-store_I9MXHU2TP6HG">    <img src="images/flipkart-logo.jpeg" id="mobile" alt="Where to Buy" width="50%" style="margin-left: 25%;"/></a>
                 <!--<div class="col-12 col-md-12 col-lg-8 mt-3">
                     <div class="map-wrap embed-responsive embed-responsive-1by1">
