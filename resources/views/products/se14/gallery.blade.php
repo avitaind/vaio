@@ -6,6 +6,7 @@
 @section('content')
 
 <!----
+------>
 
 <div class="navbar-product-page d-lg-flex justify-content-lg-end" style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
     <ul class="navbar-nav flex-wrap flex-row col col-lg-4 p-0">
@@ -27,7 +28,7 @@
 
     </ul>
 </div>
-
+<!-----
 ------->
 
 
