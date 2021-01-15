@@ -15,12 +15,12 @@
 
         <div class="container">
             <div class="mt-5 pt-0 pt-lg-4">
-                <h2 class="page-title mb-5">@lang('common.contact_us.headquarter.title')</h2>
+                <h2 class="page-title mb-5">General Enquiry</h2>
                 <div class="row">
 
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/phone.png">
-                        <p class="content-text mt-3 mb-0">General Enquiry</p>
+                        <p class="content-text mt-3 mb-0">Phone (General Enquiry)</p>
                         <a href="tel:18001039635" class="sub-text">1800-103-9635</a>
                     </div>
 
