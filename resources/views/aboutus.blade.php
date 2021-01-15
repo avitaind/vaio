@@ -9,7 +9,7 @@
             <div class="container py-3 py-md-5">
                 <div class="aboutus-main-content">
                     <h1 class="page-title mb-4 text-white">@lang('common.about_us.title')</h1>
-                    <div class="content-text text-white"  style="text-align: justify;">
+                    <div class="content-text text-white"  style="text-align: center;">
                         @lang('common.about_us.content')
                     </div>
                 </div>
