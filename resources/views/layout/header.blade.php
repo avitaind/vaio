@@ -23,10 +23,10 @@
                     <div class="dropdown">
                        <ul class="list-unstyled">
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2"> @lang('common.nav.product.vaio_s14')</a>
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14') }}"> @lang('common.nav.product.vaio_s14')</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2"> @lang('common.nav.product.vaio_e15')</a>
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_e15') }}"> @lang('common.nav.product.vaio_e15')</a>
                             </li>
                         </ul>
                     </div>
