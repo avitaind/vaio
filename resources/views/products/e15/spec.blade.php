@@ -82,11 +82,7 @@
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Storage</div>
                         <div class="offset-md-1 spec-item-content"> 512GB PCIe SSD</div>
                     </li>
-                    <li class="spec-item d-flex">
-                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Keyboard</div>
-                        <div class="offset-md-1 spec-item-content"> Backlit Keyboard</div>
-                    </li>
-                    <li class="spec-item d-flex">
+                   <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>
                         <div class="offset-md-1 spec-item-content">AMD Radeon Vega 8/10 Graphics</div>
                     </li>
@@ -101,7 +97,8 @@
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Inputs &amp; Outputs</div>
                         <div class="offset-md-1 spec-item-content">
-                            1 X Network (LAN)
+                                Backlit Keyboard
+                            <br> 1 X Network (LAN)
                             <br> 1 x USB Type-C (with charging)
                             <br> 2 x USB Type-A (3.1)
                             <br> 1 x HDMI
@@ -126,6 +123,11 @@
                             <sub>4</sub>
                         </div>
                         <div class="offset-md-1 spec-item-content">Li-ion Battery</div>
+                    </li>
+                    <li class="spec-item d-flex">
+                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Warranty
+                      </div>
+                        <div class="offset-md-1 spec-item-content">2-Year Onsite</div>
                     </li>
                 </ul>
             </div>

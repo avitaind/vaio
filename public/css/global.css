@@ -2088,6 +2088,16 @@ pre{
     background: url(/images/icons/phone.png) no-repeat left center / 100% auto;
 }
 
+.shopsList a.email:before {
+  content: '';
+  display: inline-grid;
+  vertical-align: bottom;
+  margin-right: 7px;
+  width: 15px;
+  height: 22px;
+  background: url(/images/icons/email-icon.png) no-repeat left center / 100% auto;
+}
+
 
 
 .shopsList .col-md-6:nth-child(2n+1) {

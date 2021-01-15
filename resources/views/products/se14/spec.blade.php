@@ -136,6 +136,11 @@
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Wireless</div>
                         <div class="offset-md-1 spec-item-content">802.11 ac Bluetooth® 5.0</div>
                     </li>					
+                    <li class="spec-item d-flex">
+                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Warranty
+                      </div>
+                        <div class="offset-md-1 spec-item-content">2-Year Onsite</div>
+                    </li>
 					
                 </ul>
             </div>

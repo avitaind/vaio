@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include('home.banner-home')
+    @include('home.banner')
 
     <!-- Recommended Products -->
              <!---

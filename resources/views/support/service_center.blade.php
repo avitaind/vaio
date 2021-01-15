@@ -7,7 +7,7 @@
         <div class="row  ">
             <div class="row no-gutters my-4 col-12 mx-auto ml-0 ml-md-4">
                 <div class="col-12 page-title mb-3 ls-0">@lang('common.contact_us.service_support.title')</div>
-
+<!---
                 <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                     <img class="info-icon" src="/images/icons/phone.png">
                     <p class="content-text mt-3 mb-0">@lang('common.contact_us.headquarter.general_phone')</p>
@@ -20,7 +20,7 @@
                     <a href="mailto:salesin@in.vaio.com" class="sub-text">Salesin@in.vaio.com</a>
                 </div>
               
-
+----->
 
 
                   	<div class="shopsList">
