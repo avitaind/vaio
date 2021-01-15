@@ -25,11 +25,12 @@
                     </a>
                 @else
 
-                    <div class="swiper-slide">
+               <!---     <div class="swiper-slide">
                         <div class="main-banner-wrapper cms-banner cms-banner-{{ $index }}">
                             <div class="main-banner" title=""></div>
                         </div>
                     </div>
+                    --->
                 @endif
 
             @endforeach
@@ -72,8 +73,6 @@
                 background-image: url( {{ $banner->mobile_banner_url }} );
             }
         }
-
-
         @endforeach
     </style>
 
