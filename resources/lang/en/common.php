@@ -433,7 +433,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
             ],
         ],
         'headquarter'     => [
-            'title'            => 'General Enquiry',
+            'title'            => 'General Sales Enquiry',
             'general'          => 'Email (General Enquiry)',
             'general_phone'    => 'VAIO Hotline',
             'general_phone_hk' => 'VAIO Hotline (Hong Kong)',
