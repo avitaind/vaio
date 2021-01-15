@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        @include('support.service_center')
+      
 
         <div class="container">
             <div class="mt-5 pt-0 pt-lg-4">
@@ -35,6 +35,8 @@
 
             <div class="mt-5 pt-0 pt-lg-4">
                 <h2 class="page-title mb-5">@lang('common.contact_us.headquarter.pr_title')</h2>
+                <h3 class="sub-title mt-3 mb-5">@lang('common.contact_us.sales.open_hour')</h3>
+
                 <div class="row">
 
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
@@ -44,10 +46,9 @@
                     </div>
                 </div>
             </div>
-
+        <!-----
             <div class="contact-enquire-wrapper mt-5 pt-0 pt-lg-4">
                 <h2 class="page-title">@lang('common.contact_us.sales.title')</h2>
-                <h3 class="sub-title mt-3 mb-5">@lang('common.contact_us.sales.open_hour')</h3>
                 <div class="row">
                     {{--<div class="col-12 col-md-4 text-center mb-4 mb-lg-0">--}}
                     {{--<img class="info-icon" src="/images/icons/phone.png">--}}
@@ -61,6 +62,8 @@
                     </div>
                 </div>
             </div>
+
+            ------>
         </div>
 
 
