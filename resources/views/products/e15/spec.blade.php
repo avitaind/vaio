@@ -134,8 +134,9 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Bundling
+                        <sub>5</sub>
                       </div>
-                        <div class="offset-md-1 spec-item-content">MS Office 365*</div>
+                        <div class="offset-md-1 spec-item-content">MS Office 365</div>
                     </li>
                 </ul>
             </div>
@@ -153,7 +154,7 @@
             <p class="spec-item-name" style="font-size: 0.8rem;">4. Battery life will vary depending on various factors including product model, configuration, loaded applications,
                 features, use, wireless functionality, and power management settings. The maximum capacity of the battery
                 will naturally decrease with time and usage.</p>
-                <p class="spec-item-name" style="font-size: 0.8rem;">*Up to 1 Year</p>
+                <p class="spec-item-name" style="font-size: 0.8rem;">5. Up to 1 Year.</p>
 
            
 
