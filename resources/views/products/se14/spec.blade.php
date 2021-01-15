@@ -62,7 +62,7 @@
                     </li>
 					<li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Operating System<sup>2</sup></div>
-                        <div class="offset-md-1 spec-item-content">Windows 10 Home / Pro</div>
+                        <div class="offset-md-1 spec-item-content">Windows 10 Home</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">CPU<sup>1</sup></div>
@@ -139,7 +139,7 @@
                       </div>
                         <div class="offset-md-1 spec-item-content">2-Year Onsite</div>
                     </li>
-					
+                    
                 </ul>
             </div>
         </div>

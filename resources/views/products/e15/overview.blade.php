@@ -109,11 +109,6 @@
                     <p class="pt-content text-left">
                         The VAIO E15 is built keeping in mind the modern design sensibilities. Sleek lines and minimal aesthetics are combined into a body that is light and portable without compromising the premium feel. Work never looked more stylish.
                         </p>
-                        <p class="pt-content text-left">
-                        VAIO brings the Minimalist Premium Design from its build quality. Our signature Azumino finish is bound to add an extra touch of elegance to your work.
-                        </p>
-                        
-
 						<p class="pt-content-title mx-auto">Blast From the Past</p>		
                         <hr class="pt-title-hr">
 				
@@ -175,7 +170,10 @@
                         <img src="/images/e15/Robust_Performance.jpg" alt="">
                     </div>
                     <div class="pt-content-wrapper mx-auto">
-						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with 8GB DDR4 RAM, up to 512GB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>	
+						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with 8GB DDR4 RAM, 512GB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>
+                         <p class="pt-content text-left mb-5">Equipped with AMD Radeon Vega graphics that efficiently synchronizes with the AMD Ryzen processor, the E15 provides stellar gaming performance. The processor is able to learn and adapt to your usage and effectively optimizes image and video output, be it playing a high-end title or broadcasting a video game play through on a livestream.
+                         
+                         </p>	
                     </div>
 					
 					
@@ -195,7 +193,7 @@
                 <p class="pt-content-title mx-auto">All-Day Battery Life</p>
                 <hr class="pt-title-hr">
 
-                    <p class="pt-content text-left">Lasting up to 8 hours*, the VAIO E15 offers all-day battery life. Power through your workday without finding the need to find a charger. It can also be charged with the provided USB Type-C* port so you eliminate the hassle of carrying multiple chargers for your devices.</p>	
+                    <p class="pt-content text-left">Lasting up to 8 hours*, the VAIO E15 offers all-day endurance. Power through your workday without finding the need to find a charger. It can also be charged with the provided USB Type-C* port so you eliminate the hassle of carrying multiple chargers for your devices.</p>	
                     <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
                           *Data on battery life is obtained from tests deploying internal tools by engineers. The actual battery performances could vary from battery life tests, due to differences in operating environment and conditions.
                     </p>	
@@ -264,7 +262,7 @@
                         <h2 class="pt-title mt-4">Enhanced Durability</h2>
                         <hr class="pt-title-hr bg-white">
                         <div class="pt-content-wrapper-lg mx-auto">                            
-                            <p class="pt-content mx-auto" style="color: #ceced2"> Every VAIO laptop goes through rigorous quality testing that ensures that your device lasts longer. A strict quality control ensures the global standards are consistently met. VAIO’s arduous 3-point quality test ensures that every detail is carefully inspected before it reaches your hands. </p>
+                            <p class="pt-content mx-auto" style="color: #ceced2"> Every VAIO laptop goes through rigorous quality testing that ensures that your device lasts longer. A strict quality control ensures the global standards are consistently met. VAIO’s arduous quality tests ensure that every detail is carefully inspected before it reaches your hands. </p>
                         </div>
                     </div>
                 </div>
@@ -287,8 +285,7 @@
                         The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
                         <br />
                       <br />
-                    * Azumino Finish and all quality control tests are applicable to VAIO E15 only.<br/>
-                    * Specifications may vary according to different configurations.
+                    *Specifications may vary according to different configurations.
                     </p>
 
                 </div>

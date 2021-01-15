@@ -71,7 +71,7 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Display</div>
-                        <div class="offset-md-1 spec-item-content">15.6" FHD IPS (1920 x 1080)
+                        <div class="offset-md-1 spec-item-content">16:9 Full HD IPS anti-glare LCD screen (1920x1080) ultra-wide viewing angle
                             <br>- 1MP Webcam</div>
                     </li>
                     <li class="spec-item d-flex">
@@ -131,6 +131,11 @@
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Warranty
                       </div>
                         <div class="offset-md-1 spec-item-content">2-Year Onsite</div>
+                    </li>
+                    <li class="spec-item d-flex">
+                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Bundling
+                      </div>
+                        <div class="offset-md-1 spec-item-content">Windows 10 Home</div>
                     </li>
                 </ul>
             </div>
