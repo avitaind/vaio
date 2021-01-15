@@ -68,7 +68,7 @@ class PageController extends Controller
         }
 
 
-        return view('pages.repair_tnc', compact('term'));
+        return view('pages.repair_tnc_en', compact('term'));
 
     }
 
