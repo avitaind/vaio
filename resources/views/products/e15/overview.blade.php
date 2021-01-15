@@ -85,7 +85,7 @@
         <div class="main-content container-fluid">
             <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Premium Japanese Craftsmanship</h2>
+                    <h2>Minimalist Premium Design</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
                     <h2>Superlative Performance</h2>
@@ -101,7 +101,7 @@
             <section class="pt-section text-center" style="background-color: #eeeeee" id="pt-1">
                 <div class="container">
                     <div class="pt-content-wrapper mx-auto">
-                    <h2 class="pt-title mt-4">Premium Japanese Craftsmanship</h2>
+                    <h2 class="pt-title mt-4">Minimalist Premium Design</h2>
                     <hr class="pt-title-hr">	
 					<div class="fs-0 my-4 my-lg-5">
                         <img src="/images/e15/Premium_Japanese_Craftmanship.jpg" alt="">
@@ -110,7 +110,7 @@
                         The VAIO E15 is built keeping in mind the modern design sensibilities. Sleek lines and minimal aesthetics are combined into a body that is light and portable without compromising the premium feel. Work never looked more stylish.
                         </p>
                         <p class="pt-content text-left">
-                        VAIO brings the premium Japanese craftsmanship from its build quality. Our signature Azumino finish is bound to add an extra touch of elegance to your work.
+                        VAIO brings the Minimalist Premium Design from its build quality. Our signature Azumino finish is bound to add an extra touch of elegance to your work.
                         </p>
                         
 
@@ -153,7 +153,7 @@
 
             <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Premium Japanese Craftsmanship</h2>
+                    <h2>Minimalist Premium Design</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center active">
                     <h2>Superlative Performance</h2>
@@ -211,7 +211,7 @@
 
             <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Premium Japanese Craftsmanship</h2>
+                    <h2>Minimalist Premium Design</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
                     <h2>Superlative Performance</h2>
@@ -244,7 +244,7 @@
 
     <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
                 <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Premium Japanese Craftsmanship</h2>
+                    <h2>Minimalist Premium Design</h2>
                 </a>
                 <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
                     <h2>Superlative Performance</h2>

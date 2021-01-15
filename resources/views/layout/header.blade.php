@@ -111,7 +111,7 @@
 
   
              <li class="nav-item"> 
-                     <a class="nav-link px-md-4 py-4" href="{{ route('event.registration') }}" > @lang('common.nav.event.registration')</a>
+                     <a class="nav-link px-md-4 py-4" href="https://live2.streamy.in/vaiolaunchindia/" >Enter Event</a>
                 </li>
         <!---
                 <li class="nav-item"> 
