@@ -60,7 +60,7 @@
                             <sub>1</sub>
                         </div>
                         <div class="offset-md-1 spec-item-content">
-                               AMD Ryzen 5 3500U / 7 3700U 
+                           AMD Ryzen™️ 5 3500U / AMD Ryzen™️ 7 3700U
                         </div>
                     </li>
                     <li class="spec-item d-flex">
@@ -71,20 +71,20 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Display</div>
-                        <div class="offset-md-1 spec-item-content">16:9 Full HD IPS anti-glare LCD screen (1920x1080) ultra-wide viewing angle
+                        <div class="offset-md-1 spec-item-content">15.6" 16:9 Full HD IPS anti-glare LCD screen (1920x1080) ultra-wide viewing angle
                             <br>- 1MP Webcam</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Main Memory</div>
-                        <div class="offset-md-1 spec-item-content">8GB DDR4</div>
+                        <div class="offset-md-1 spec-item-content">8GB DDR4 2400MHz</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Storage</div>
-                        <div class="offset-md-1 spec-item-content"> 512GB PCIe SSD</div>
+                        <div class="offset-md-1 spec-item-content">512GB SSD</div>
                     </li>
                    <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>
-                        <div class="offset-md-1 spec-item-content">AMD Radeon Vega 8/10 Graphics</div>
+                        <div class="offset-md-1 spec-item-content">Radeon™️ Vega 8 Graphics / Radeon™️ RX Vega 10 Graphics</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Audio</div>
