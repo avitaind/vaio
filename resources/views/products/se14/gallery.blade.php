@@ -5,7 +5,7 @@
 
 @section('content')
 
-<!------>
+<!----
 
 <div class="navbar-product-page d-lg-flex justify-content-lg-end" style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
     <ul class="navbar-nav flex-wrap flex-row col col-lg-4 p-0">
@@ -28,7 +28,7 @@
     </ul>
 </div>
 
-<!--- ------->
+------->
 
 
 <style>
@@ -62,7 +62,7 @@
     <div style="text-align:center;">
     
     
-    <div style="display:none;margin:0px auto 0px;" 
+    <div style="display:none;margin:-150px auto 0px;" 
 	class="html5gallery"
 	data-responsive="true"
 	data-responsivefullscreen="true"
