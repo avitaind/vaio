@@ -135,7 +135,7 @@
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Bundling
                       </div>
-                        <div class="offset-md-1 spec-item-content">Windows 10 Home</div>
+                        <div class="offset-md-1 spec-item-content">Microsoft Office</div>
                     </li>
                 </ul>
             </div>
