@@ -20,14 +20,14 @@
 
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/phone.png">
-                        <p class="content-text mt-3 mb-0">@lang('common.contact_us.headquarter.general_phone')</p>
+                        <p class="content-text mt-3 mb-0">General Enquiry</p>
                         <a href="tel:18001039635" class="sub-text">1800-103-9635</a>
                     </div>
 
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/email-icon.png">
                         <p class="content-text mt-3 mb-0 ">@lang('common.contact_us.headquarter.general')</p>
-                        <a href="mailto:salesin@in.vaio.com" class="sub-text">Salesin@in.vaio.com</a>
+                        <a href="mailto:salesin@in.vaio.com" class="sub-text">Supportin@in.vaio.com</a>
                     </div>
                 </div>
             </div>
