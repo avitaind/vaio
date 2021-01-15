@@ -32,7 +32,7 @@ class DataController extends Controller
     public function getFAQs(Request $request)
     {
 
-        $type = $request->get('type', 'general');
+       // $type = $request->get('type', 'general');
 
 
         $faqs = FAQ::whereCategory($type)->orderBy('question_no')->get()->map(function($faq) {
