@@ -22,12 +22,13 @@
                 
                     <div class="dropdown">
                        <ul class="list-unstyled">
+                           <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_e15') }}"> @lang('common.nav.product.vaio_e15')</a>
+                            </li>
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_se14') }}"> @lang('common.nav.product.vaio_s14')</a>
                             </li>
-                            <li class="nav-item text-center">
-                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_e15') }}"> @lang('common.nav.product.vaio_e15')</a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </li>
@@ -91,12 +92,32 @@
 
     <!--- Support tab ends ---->
 
+    <li class="nav-item has-dropdown">
+                    <input id="header_about_vaio" type="checkbox" hidden="">
+                    {{-- <a class="nav-link py-4"> --}}
+                    <label class="nav-link px-md-4 py-4" for="header_about_vaio">@lang('common.nav.about.title')</label>
+                    {{-- </a> --}}
 
+                    <div class="dropdown">
+                        <ul class="list-unstyled">
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('about_us') }}">@lang('common.nav.about.title')</a>
+                            </li>
+                           
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('contact_us') }}">@lang('common.nav.about.contact_us')</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
         <!--- About VAIO starts ---->
         
+        <!---
                 <li class="nav-item"> 
                      <a class="nav-link px-md-4 py-4" href="{{ route('about_us') }}" > @lang('common.nav.about.title')</a>
                 </li>
+            ------>    
         
         <!--- About VAIO end ---->
         <!--- Where to Buy starts ---->
