@@ -27,7 +27,7 @@
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/email-icon.png">
                         <p class="content-text mt-3 mb-0 ">@lang('common.contact_us.headquarter.general')</p>
-                        <a href="mailto:salesin@in.vaio.com" class="sub-text">Supportin@in.vaio.com</a>
+                        <a href="mailto:salesin@in.vaio.com" class="sub-text">supportin@in.vaio.com</a>
                     </div>
                 </div>
             </div>
