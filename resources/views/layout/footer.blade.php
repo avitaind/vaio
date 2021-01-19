@@ -19,12 +19,20 @@
                                     </div>
                                 </div>
                             @endif
-                        <!---
+                        
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
-                                    <a href="{{ route('product.overview') }}" class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.product.title')</a>
+                                    <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.product.title')</div>
                                 </div>
+                                <div class="footer-item col-12 p-0 my-2">
+                                    <a href="{{ route('product.overview_e15') }}" class=""> @lang('common.nav.product.vaio_e15')</a>
+                                </div>
+                                <div class="footer-item col-12 p-0 my-2">
+                                    <a href="{{ route('product.overview_se14') }}" class=""> @lang('common.nav.product.vaio_s14')</a>
+                                </div>
+                               
                             </div>
+                            <!---
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <a href="{{ route('news.news') }}" class=""><div class="sub-title my-1 text-white">@lang('common.nav.offer')</div></a>
@@ -55,7 +63,7 @@
                                 </div>
                             </div>
                             --->
-                            <!---
+                         
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.support.title')</div>
@@ -77,7 +85,6 @@
                                 </div>
                             </div>
                       
-                        --->
                         </div>
                         <div class="col-4 mr-3 ml-md-0 small-lsm-little">
                             <div class="footer-content col-12 p-0 mb-3">
@@ -115,19 +122,17 @@
                     <!-- Mobile Footer -->
 
                     <div class="footer-md col-12 p-0 hidden-sm-up">
+                   
                         <div class="col-12 p-0">
-                       <!--- <span class="demo">
-                               Count Down <p id="demo"> </p> Stay Tuned!
-                               </span>
-                        --->
-                       <!--
+                      
                                 <div class="col-12 p-0">
+                                {{-- 
                                 <div class="footer-title footer-product d-flex">
                                     <a href="{{ route('product.overview') }}" class="sub-title my-1 text-white">@lang('common.nav.product.title')</a>
                                 </div>
                             </div>
-                           
-                               {{--   <div class="col-12 p-0">
+                            --}}
+                               <div class="col-12 p-0">
                                  <a class="footer-title footer-product d-flex" data-toggle="collapse" href="#footerProduct" aria-expanded="false" aria-controls="footerProduct">
                                     <div class="sub-title my-1 text-white">@lang('common.nav.product.title')</div>
                                     <i class="fa fa-chevron-down text-white" aria-hidden="true"></i>
@@ -135,14 +140,14 @@
                             </div>
                               <div class="collapse" id="footerProduct">
                                 <div class="footer-item col-12 p-0 my-3">
-                                    <a href="{{ route('product.overview') }}" class="">@lang('common.nav.product.vaio_s11')</a>
+                                    <a href="{{ route('product.overview_e15') }}" class=""> @lang('common.nav.product.vaio_e15')</a>
                                 </div>
                                 <div class="footer-item col-12 p-0 my-3">
-                                    <a href="{{ route('product.overview') }}" class="">@lang('common.nav.product.vaio_s13')</a>
+                                    <a href="{{ route('product.overview_se14') }}" class=""> @lang('common.nav.product.vaio_s14')</a>
                                 </div>
                             </div>
-                        </div>--}}
-
+                        </div>
+                        <!----        
                             <div class="col-12 p-0">
                                 <div class="col-12 p-0">
                                     <div class="footer-title footer-offer d-flex">
@@ -179,6 +184,7 @@
                                     </div>
                                 </div>
                             </div>
+                            ---->
                             <div class="col-12 p-0">
                                 <div class="col-12 p-0">
                                     <a class="footer-title  footer-support d-flex"  data-toggle="collapse" href="#footerSupport" aria-expanded="false" aria-controls="footerSupport">
@@ -205,7 +211,7 @@
                                 </div>
                             </div>
 
-                             -->
+                           
                                 <div class="col-12 p-0">
                                     <div class="col-12 p-0">
                                         <a class="footer-title  footer-about d-flex"  data-toggle="collapse" href="#footerAbout" aria-expanded="false" aria-controls="footerAbout">
@@ -290,34 +296,3 @@
             </div>
         </div>
 </footer>
-
-@section('css')
-<style>
-span.demo {
-        position: absolute;
-        font-size:15px;
-        font-style:poppins;
-        top: auto;
-        transform: translate(-50%, -50%);
-        color:#fff;
-        text-align:center;
-        z-index:1;
-    }
-
-    @media( max-width: 991px) {
-          
-            span.demo {
-        position: absolute;
-        font-size:16px;
-        font-style:poppins;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color:#fff;
-        text-align:center;
-        z-index:1;
-    }
-        }
-
-    </style>
-@endsection

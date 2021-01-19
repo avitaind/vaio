@@ -73,7 +73,7 @@ class RegisterController extends Controller
         $user = new User( $data );
         $user->password = bcrypt($data['password']);
         $user->accept_edm = ( array_get($data, 'edm')  === 'accept' );
-        $user->register_region = session('country', 'hk');
+        $user->register_region = session('country', 'in');
         $user->save();
 
         return $user;
