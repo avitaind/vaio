@@ -103,7 +103,7 @@
                             </div>
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
-                                    <a href="{{ route('where_to_buy') }}" class=""  target="_blank"><div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div></a>
+                                    <a href="{{ route('where_to_buy') }}" class="" ><div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div></a>
                                 </div>
                             </div>
                             {{--
@@ -236,7 +236,7 @@
 
                                 <div class="col-12 p-0">
                                     <div class="col-12 p-0">
-                                        <a href="{{ route('where_to_buy') }}"  target="_blank" class="footer-title  footer-where d-flex">
+                                        <a href="{{ route('where_to_buy') }}" class="footer-title  footer-where d-flex">
                                             <div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div>
                                             {{-- <i class="fa fa-chevron-down text-white" aria-hidden="true"></i> --}}
                                         </a>
