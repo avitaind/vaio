@@ -169,8 +169,6 @@
                     </div>
                     <div class="pt-content-wrapper mx-auto">
 						 <p class="pt-content text-left mb-5">E15 is a veritable powerhouse, housing the latest AMD Ryzen processors, the performance capabilities are unmatched. Be it intensive photo and video editing or a last-minute sales pitch, the E15 is always ready to take on any processing challenge you throw at it. Equipped with 8GB DDR4 RAM, 512GB of SSD storage, and pre-installed Windows 10 Home, the VAIO E15 ensures a fluid and responsive interface.</p>
-                         <p class="pt-content text-left mb-5">Equipped with AMD Radeon Vega graphics that efficiently synchronizes with the AMD Ryzen processor, the E15 provides stellar gaming performance. The processor is able to learn and adapt to your usage and effectively optimizes image and video output, be it playing a high-end title or broadcasting a video game play through on a livestream.
-                         
                          </p>	
                     </div>
 					
