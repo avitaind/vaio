@@ -561,6 +561,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         'point_2' => 'Specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.',
         'point_3' => 'Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.',
         'point_4' => 'We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.',
+        'point_5' => 'Data on battery life is obtained from tests deploying internal tools by engineers. The actual battery performances could vary from battery life tests shown above, due to differences in operating environment and conditions.',
     ],
 
     // Reset Password
