@@ -19,7 +19,6 @@
         <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
             <a href="{{ route('product.gallery_se14') }}" class="nav-link py-3 py-lg-2">@lang('common.gallery')</a>
         </li>
-
         @if( $store_enabled )
         
         <li class="nav-item-preorder nav-item text-center" style="flex-grow: 4; border-left: 1px solid white;">
