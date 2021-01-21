@@ -5,36 +5,36 @@
     @include('home.banner')
 
     <!-- Recommended Products -->
-             <!---
+           
     <section class="py-5">
         <div class="container py-0 py-lg-4">
             <h2 class="section-title mb-3 mb-lg-5">@lang('common.homepage.recommended_products')</h2>
                 <div class="home-product-list">
                      <div class="row no-gutters">
                 <div class="col-6 d-flex align-items-end text-center recommend-item">
-                        <a href="{{ route('product.overview_sx12') }}" class="d-block w-100">
-                            <img src="/images/elements/sx12.jpg">
+                        <a href="{{ route('product.overview_se14') }}" class="d-block w-100">
+                            <img src="/images/elements/se14.jpg">
                             <div class="recommend-item-info">
-                                <div class="recommend-model mb-1">VAIO® SX12</div>
+                                <div class="recommend-model mb-1">VAIO® SE14</div>
                                 <div class="orange-label px-2">@lang('common.homepage.available')</div>
-                                <div class="mb-2">@lang('common.homepage.tag_SX12')</div>
+                               <!--- <div class="mb-2">@lang('common.homepage.tag_SE14')</div> --->
                                 <div class="py-3"></div>
                             </div>
                         </a>
                 </div>  
                 <div class="col-6 d-flex align-items-end text-center recommend-item">
-                        <a href="{{ route('product.overview_a12') }}" class="d-block w-100">
-                            <img src="/images/elements/a12.jpg">
+                        <a href="{{ route('product.overview_e15') }}" class="d-block w-100">
+                            <img src="/images/elements/e15.jpg">
                             <div class="recommend-item-info">
-                                <div class="recommend-model mb-1">VAIO® A12</div>
+                                <div class="recommend-model mb-1">VAIO® E15</div>
                                 <div class="orange-label px-2">@lang('common.homepage.available')</div>
-                                <div class="mb-2">@lang('common.homepage.tag_A12')</div>
+                              <!----  <div class="mb-2">@lang('common.homepage.tag_E15')</div> --->
                                 <div class="py-3"></div>
                             </div>
                         </a>
                 </div>  
                    
-                  
+                 <!--- 
                 <div class="col-6 d-flex align-items-end text-center recommend-item">
                         <a href="{{ route('product.overview_sx14') }}" class="d-block w-100">
                             <img src="/images/elements/sx14.jpg">
@@ -99,7 +99,7 @@
                         </a>
                     </div>  
                     
-                  
+                  ------->
                 
                     
           </div>
