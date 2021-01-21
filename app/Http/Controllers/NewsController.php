@@ -86,9 +86,11 @@ class NewsController extends Controller
                 'url' => route('news.offers')
             ];
 
-        }
+        }       
+        
+        //return view('news.details', compact('breadcrumbs', 'news', 'parent_page'));
+        return view('news.details', compact('news', 'parent_page'));
 
-        return view('news.details', compact('breadcrumbs', 'news', 'parent_page'));
     }
 
 

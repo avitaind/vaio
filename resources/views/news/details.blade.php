@@ -19,7 +19,7 @@
             @if($news->type == "offer")
                 <p class="content-text mb-4">{{ $news->tagline }}</p>
             @else
-                <p class="content-text mb-4">{{ $news->eventDateString() }}</p>
+                <p class="content-text mb-4">{{ date('d/m/Y', strtotime($news->start_date)) }}</p>
             @endif
 
 

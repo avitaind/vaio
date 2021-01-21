@@ -57,7 +57,7 @@
                 <ul class="list-unstyled spec-list">
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Colour</div>
-                        <div class="offset-md-1 spec-item-content">Red Copper, Dark Gray</div>
+                        <div class="offset-md-1 spec-item-content">Red Copper, Dark Grey</div>
                     </li>
 					<li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Operating System<sup>2</sup></div>

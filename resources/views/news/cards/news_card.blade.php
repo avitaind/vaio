@@ -5,7 +5,7 @@
         </div>
         <div class="list-item-content px-5 py-4">
             <p class="list-item-title font-weight-bold">{!!$item->title !!}</p>
-            <p class="card-date pb-4">{!! $item->eventDateString() !!} </p>
+            <p class="card-date pb-4">{{ date('d/m/Y', strtotime($item->start_date)) }}</p>
             <p class="list-item-para">{!! $item->present()->excerpt !!}</p>
         </div>
     </a>
