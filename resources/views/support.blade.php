@@ -24,7 +24,7 @@
                     <div class="row no-gutters my-4 col-12 mx-auto ml-0 ml-md-4">
                     <div class="col-12 page-title mb-3 ls-0">@lang('common.support.warranty.title')</div>
 
-                    <!---
+                 
                             <div class="warranty-img col-12 mb-3">
                                 <div class="sub-panel py-5 px-3">
                                     <div class="col-md-6 offset-md-6 text-right">
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                       </div>
-                        --->
+                       
                         
 
                         <div class="p-2 pt-3 pt-md-0 p-md-5" style="background: white">
