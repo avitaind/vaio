@@ -192,8 +192,9 @@
         </section>
     @endif
 
+<!---
     @if( $news->count() > 0 )
-    <!-- News -->
+    
  <section class="deep-grey-section pb-4">
         <div class="container">
             <h2 class="section-title text-white pt-4 pb-3">@lang('common.homepage.newsroom')</h2>
@@ -209,6 +210,7 @@
         </div>
   </section>
     @endif
+    ---->
 
 <section class="email-subscription py-5 ls-0" style="width: 100%; margin-top: -37px;">
   <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST" action="{{ url('/subscribe') }}"  enctype="multipart/form-data" >
