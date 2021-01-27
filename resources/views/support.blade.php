@@ -54,10 +54,8 @@
                                 </div>
                             </div>
                       </div>
-                       
-                        
-
-                        <div class="p-2 pt-3 pt-md-0 p-md-5" style="background: white">
+                    
+                       <div class="p-2 pt-3 pt-md-0 p-md-5" style="background: white">
                             <div class="col-12 ls-0" id="warranty_scroll" style=" height: 500px; overflow-y: auto; background-color: white;">
                                 <div class="terms">
                                     {!! $warranty->terms  !!}

@@ -5,9 +5,9 @@ return [
         'keywords'    => 'VAIO laptops India, VAIO laptops 2020, VAIO laptops coming back, VAIO laptops under 30000, VAIO laptop amazon, VAIO all laptops, VAIO laptops flipkart, VAIO laptops buy online, VAIO laptops battery, VAIO laptop deals',
         'description' => 'Bringing Japanese craftsmanship to India, VAIO presents a range of premium laptops that are designed to deliver robust performance in a premium build',
     ],
-    'website_title' => 'VAIO | VAIO INDIA Official Website',
+    'website_title' => 'VAIO | VAIO India Official Website',
 
-    'website_title_suffix' => '| VAIO INDIA Official Website',
+    'website_title_suffix' => '| VAIO India Official Website',
 
     'overview'  => 'Overview',
     'spec'      => 'Tech Spec',
@@ -138,7 +138,7 @@ return [
             'contact_us' => 'Contact Us',
         ],
         'event'        => [
-            'title'      => 'VAIO INDIA Launch Event',
+            'title'      => 'VAIO India Launch Event',
             'registration'       => 'Event Registration',
             'login' => 'Event Login',
         ],
