@@ -72,6 +72,7 @@ Route::group([
     
 
     ///
+    Route::get('/product/fuji-z/overview', 'ProductController@getProductOverviewfuji')->name('product.overview_fuji-z');
 
     //e15
     Route::get('/product/e15/overview', 'ProductController@getProductOverview15')->name('product.overview_e15');

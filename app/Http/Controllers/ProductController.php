@@ -128,6 +128,25 @@ class ProductController extends Controller
 
         return view('products.e15.gallery');
     }
+
+    public function getProductOverviewfuji() {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.fuji-z.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.fuji-z.overview', $view_data);
+    }
+
+    
 	
 	public function getProductOverviewSx14( ) {
 

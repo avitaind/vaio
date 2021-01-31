@@ -103,6 +103,7 @@ return [
             'vaio_s13' => 'VAIO S13',
             'vaio_s14' => 'VAIO SE14', 
             'vaio_e15' => 'VAIO E15 [ALL NEW]', 
+            'vaio_fuji-z' => 'VAIO Fuji Z', 
             'vaio_sx14' => 'VAIO SX14',
             'vaio_a12' => 'VAIO A12',
 			'vaio_sx12' => 'VAIO SX12',

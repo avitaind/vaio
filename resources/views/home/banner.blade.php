@@ -25,19 +25,19 @@
                     </a>
                 @else
 
-               <!---     <div class="swiper-slide">
+                  <div class="swiper-slide">
                         <div class="main-banner-wrapper cms-banner cms-banner-{{ $index }}">
                             <div class="main-banner" title=""></div>
                         </div>
                     </div>
-                    --->
+                    
                 @endif
 
             @endforeach
 
         </div>
         
-      <!---  <div class="swiper-pagination"></div> --->
+      <!--- <div class="swiper-pagination"></div> --->
 
     </div>
 
