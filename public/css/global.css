@@ -2150,6 +2150,9 @@ Desktop Device
   margin-left: 20%;
 
 }
+.pc_only {display:block;}
+  .mb_only {display:none}
+
 
  #desktop {display:block;}
   #mobile {display:none}

@@ -7,12 +7,23 @@
 @section('content')
 
 <!--- Banner here------------------------------------>
-<section class="fuji-z-section">
-    <a href="/login" ><img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" id="desktop" alt="VAIO Launch Event" width="100%" /></a>
-    <a href="/login" ><img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" id="mobile" alt="VAIO Launch Event" width="100%" /></a>
-
-
+<section class="main-section text-center">
+   <img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" class="pc_only" usemap="#pc_img" hidefocus="true">
+	  
+	<map name="pc_img">
+		<area href="/login" coords="596,853,207,787" shape="rect">
+	</map>
+	
+	
+	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" class="mb_only" usemap="#mo_img" hidefocus="true" style="">
+	 
+	<map name="mo_img">
+		<area href="/login" coords="433,143,1264,155" shape="rect">
+	</map>
+	
+	
 </section>
+
 
 <!--- Banner end here------------------------------------>
 
