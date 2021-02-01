@@ -147,11 +147,67 @@
             ---->
         <!--- Event Registration end ---->
               
+        @if( Auth::user() )
+                    <li class="nav-item hidden-md-down">
+                        <a class="nav-link px-md-4 py-4" href="{{ route('member.profile') }}">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item hidden-md-down">
+
+                        <a class="nav-link px-md-4 py-4" href="" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            <i class="" aria-hidden="true">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                            </i>
+                        </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            {{ csrf_field() }}
+                        </form>
+                    </li>
+                    @else
+                    <li class="nav-item hidden-md-down">
+                        <a class="nav-link px-md-4 py-4" href="{{ route('login') }}">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    @endif
+
+                @php
+                    $supportedLocales = LaravelLocalization::getSupportedLocales();
+                @endphp
+
+                @if( count( $supportedLocales ) > 1 )
+
+                <li class="nav-item has-dropdown">
+                    <input id="header_language" type="checkbox" hidden="">
+
+                    <label class="nav-link py-4 hidden-md-down" for="header_language">{{ LaravelLocalization::getCurrentLocaleNative() }}</label>
+                    <label class="nav-link py-4 hidden-lg-up" for="header_language">{{ __("common.nav.languages")  }}</label>
+
+                    <div class="dropdown lang">
+                        <ul class="list-unstyled">
+
+                            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2"  rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                    {{ $properties['native'] }}
+                                </a>
+                            </li>
+                            @endforeach
+
+                        </ul>
+                    </div>
+
+                </li>
+
+                @endif
+
             </ul>
         </div>
-   <!-- <div id="overlay">
-        </div> -->
+
+
         @if( $user = Auth::user( ) )
+
             <aside class="navbar-user-warp hidden-md-up">
                 <div class="navbar-user navbar-md-user">
                     <div class="user-header pt-2 px-4">
@@ -185,7 +241,7 @@
                 </div>
             </aside>
 
-        @endif
+            @endif
 
     </div>
 </nav>

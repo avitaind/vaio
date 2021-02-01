@@ -8,8 +8,8 @@
 
 <!--- Banner here------------------------------------>
 <section class="main-section text-center">
-  <a href="/login"><img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" id="desktop" alt="VAIO Fuji Z Launch" width="100%" /></a>
-  <a href="/login"><img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" id="mobile" alt="VAIO Fuji Z Event" width="100%" /></a>
+  <a href="{{ route('login') }}"><img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" id="desktop" alt="VAIO Fuji Z Launch" width="100%" /></a>
+  <a href="{{ route('login') }}"><img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" id="mobile" alt="VAIO Fuji Z Event" width="100%" /></a>
 
 </section>
 
