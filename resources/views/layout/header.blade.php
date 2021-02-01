@@ -166,8 +166,8 @@
                     </li>
                     @else
                     <li class="nav-item hidden-md-down">
-                        <a class="nav-link px-md-4 py-4" href="{{ route('login') }}">
-                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        <a class="nav-link px-md-4 py-4" href="{{ route('login') }}"> 
+                            <i class="fa fa-user-o" aria-hidden="true"></i> @lang('common.user.login')
                         </a>
                     </li>
                     @endif

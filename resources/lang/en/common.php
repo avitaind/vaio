@@ -29,7 +29,10 @@ return [
     'Female' => 'Female',
 
     "search" => "Search",
-
+    'user' => [
+        "login"  => "Sign In",
+        "logout" => "Sign Out",
+    ],
     'age_group' => [
         "<=15"  => "15 or Below",
         "16-20" => "16 - 20",
