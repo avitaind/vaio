@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Fuji Z')
+@section('title', 'COMING SOON')
 @section('product_nav')
 
 
