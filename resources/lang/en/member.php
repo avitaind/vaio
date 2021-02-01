@@ -10,7 +10,7 @@ return [
     //************ to be confirmed ***************/
     'product_list_th_4'             => 'Purchase Date',
     'product_header_expire_date'    => 'Warranty expire',
-
+    'product_registration_title' => 'Product Registration',
 
     'sidebar' => [
         'my_account'           => 'My Account',
