@@ -2150,8 +2150,7 @@ Desktop Device
   margin-left: 20%;
 
 }
-.pc_only {display:block;}
-  .mb_only {display:none}
+
 
 
  #desktop {display:block;}
@@ -2239,10 +2238,6 @@ Mobile Device
 */
 
 @media (max-width: 768px) {
-
-
-  .pc_only {display:none;}
-  .mb_only {display:block}
 
 
     #desktop {
@@ -2347,11 +2342,8 @@ iPad Device
 */
 
 @media (max-width: 320px) {
+
   
-  .pc_only {display:none;}
-  .mb_only {display:block}
-
-
   #desktop {
     display: none;
 
