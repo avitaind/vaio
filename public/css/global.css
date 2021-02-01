@@ -2240,6 +2240,11 @@ Mobile Device
 
 @media (max-width: 768px) {
 
+
+  .pc_only {display:none;}
+  .mb_only {display:block}
+
+
     #desktop {
       display: none;
 
@@ -2342,6 +2347,10 @@ iPad Device
 */
 
 @media (max-width: 320px) {
+  
+  .pc_only {display:none;}
+  .mb_only {display:block}
+
 
   #desktop {
     display: none;
