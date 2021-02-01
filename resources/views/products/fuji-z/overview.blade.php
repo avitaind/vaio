@@ -7,50 +7,13 @@
 @section('content')
 
 <!--- Banner here------------------------------------>
-<section class="main-banner-section" style="height: fit-content;">
-    <div class="swiper-container swiper-container-horizontal">
+<section class="fuji-z-section">
+    <img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" id="desktop" alt="VAIO Launch Event" width="100%" />
+    <img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" id="mobile" alt="VAIO Launch Event" width="100%" />
 
-       <!--- 	<a href="https://vaio-sg.nexstmall.com" target="_blank"  class="swiper-slide"> --->
-                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/fuji-z/vaio_comingsoon_page_pc_en.jpg)">
-                            <div class="main-banner" title=""></div>
-                        </div>
-         <!---           </a>  ---->
-        
-    </div>
+
 </section>
-@push('css')
 
-    <style>
-        .cms-banner:before {
-            padding-top: 37.51%;
-        }
-
-        @media( max-width: 991px) {
-            .cms-banner:before {
-                padding-top: 106%;
-            }
-        }
-        .cms-banner-5 .main-banner {
-            background-image: url(/images/fuji-z/vaio_comingsoon_page_pc_en.jpg);
-        }
-
-        @media(max-width: 991px) {
-            .cms-banner-5 .main-banner {
-            background-image: url(/images/fuji-z/vaio_comingsoon_page_mo_en.jpg);
-            }
-        }
-
-        @media(max-width: 991px) {
-
-            .feature-box{
-            margin:5px 0px;
-             }
-       }
-
-
-    </style>
-
-@endpush
 <!--- Banner end here------------------------------------>
 
 
