@@ -18,7 +18,7 @@
 	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" class="mb_only" usemap="#mo_img" hidefocus="true" style="">
 	 
 	<map name="mo_img">
-		<area href="/login" coords="85,326,248,353" shape="rect">
+		<area href="/login" coords="433,143,1264,155" shape="rect">
 	</map>
 	
 	
