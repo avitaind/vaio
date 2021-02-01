@@ -8,8 +8,8 @@
 
 <!--- Banner here------------------------------------>
 <section class="fuji-z-section">
-    <img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" id="desktop" alt="VAIO Launch Event" width="100%" />
-    <img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" id="mobile" alt="VAIO Launch Event" width="100%" />
+    <a href="/login" ><img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" id="desktop" alt="VAIO Launch Event" width="100%" /></a>
+    <a href="/login" ><img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" id="mobile" alt="VAIO Launch Event" width="100%" /></a>
 
 
 </section>
