@@ -10,7 +10,7 @@
                 
         <div class="container">
             <div class="mt-5 pt-0 pt-lg-4">
-                <h2 class="page-title mb-5">@lang('common.contact_us.headquarter.title')</h2>
+               <!--- <h2 class="page-title mb-5">@lang('common.contact_us.headquarter.title')</h2> --->
                 <div class="row no-gutters my-4 col-12 mx-auto ml-0 ml-md-4">
 
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
@@ -22,7 +22,7 @@
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/email-icon.png">
                         <p class="content-text mt-3 mb-0 ">@lang('common.contact_us.headquarter.general')</p>
-                        <a href="mailto:salesin@in.vaio.com" class="sub-text">Salesin@in.vaio.com</a>
+                        <a href="mailto:Supportin@in.vaio.com" class="sub-text">Supportin@in.vaio.com</a>
                     </div>
                 </div>
             </div>

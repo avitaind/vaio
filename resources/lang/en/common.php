@@ -438,7 +438,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         ],
         'headquarter'     => [
             'title'            => 'General Sales Enquiry',
-            'general'          => 'Email (General Enquiry)',
+            'general'          => 'Email (Service Support)',
             'general_phone'    => 'VAIO Hotline',
             'general_phone_hk' => 'VAIO Hotline (Hong Kong)',
             'general_phone_mo' => 'VAIO Hotline (Macau)',
