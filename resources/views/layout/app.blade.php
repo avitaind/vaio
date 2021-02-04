@@ -64,6 +64,8 @@
     <script src="{{ asset('libs/blazy-master/blazy.min.js') }}"></script>
     <script src="{{ asset('js/footer.js') }}"></script>
     <script src="{{ asset('js/demo.js') }}"></script>
+    <script src="{{ asset('js/jquery.rwdImageMaps.min.js') }}"></script>
+
 
 
     @yield('libjs')

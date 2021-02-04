@@ -7,10 +7,31 @@
 @section('content')
 
 <!--- Banner here------------------------------------>
+<!---
 <section class="main-section text-center">
   <a href="{{ route('login') }}"><img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" id="desktop" alt="VAIO Fuji Z Launch" width="100%" /></a>
   <a href="{{ route('login') }}"><img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" id="mobile" alt="VAIO Fuji Z Event" width="100%" /></a>
 
+</section>
+----->
+
+<section class="main-section text-center">
+   <img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" class="pc_only" usemap="#pc_img" hidefocus="true">
+	  
+	<map name="pc_img">
+	<!--	<area href="{{ route('login') }}" coords="596,853,207,787" shape="rect"> --->
+		<area href="{{ route('login') }}" coords="596,860,209,797" shape="rect">
+
+	</map>
+	
+	
+	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" class="mb_only" usemap="#mo_img" hidefocus="true" style="">
+	 
+	<map name="mo_img">
+		<area href="{{ route('login') }}" coords="433,163,1264,176" shape="rect">
+	</map>
+	
+	
 </section>
 
 
@@ -21,10 +42,13 @@
    
 <style>
 		
+
+    
 		img.map, map area{
 			outline: none;
+			
 		}
-        
+
 		main{
 			background-color: #000; 
 		}
@@ -66,4 +90,11 @@
 
 @section('js')
     <script src="{{ asset('js/product.js') }}"></script>
+    <script>
+		$(document).ready(function(e) {
+			$('img[usemap]').rwdImageMaps(); 
+		});
+	</script> 
+
+
 @stop
