@@ -16,7 +16,7 @@
                             <img src="/images/elements/se14.jpg">
                             <div class="recommend-item-info">
                                 <div class="recommend-model mb-1">VAIO® SE14</div>
-                                <div class="orange-label px-2">@lang('common.homepage.available')</div>
+                            <!--- <div class="orange-label px-2">@lang('common.homepage.available')</div> --->
                                <!--- <div class="mb-2">@lang('common.homepage.tag_SE14')</div> --->
                                 <div class="py-3"></div>
                             </div>
