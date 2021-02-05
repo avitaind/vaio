@@ -109,7 +109,7 @@
              
         </div>
     </section>
-    ---->
+   
     <!-- VAIO Life -->
 
     @if( $lifes->count() > 0 )
@@ -139,7 +139,7 @@
 
     <!-- Support -->
 
-    <!--- 
+  <!---
 
     <section id="main-support-section" class="main-banner-section">
         <div class="main-support-content container">
@@ -172,8 +172,7 @@
             </div>
         </div>
     </section>
---->
-
+----->
     @if( $offers->count() > 0 )
         <!-- Offer -->
         <section class="deep-grey-section pb-4" style="background-color: #67678e;">
@@ -192,14 +191,14 @@
         </section>
     @endif
 
-<!---
+
     @if( $news->count() > 0 )
     
  <section class="deep-grey-section pb-4">
         <div class="container">
             <h2 class="section-title text-white pt-4 pb-3">@lang('common.homepage.newsroom')</h2>
             <div class="row">
-
+                
                 @foreach($news as $new )
                     @component('home.news_card', ['item' => $new])
 
@@ -210,7 +209,7 @@
         </div>
   </section>
     @endif
-    ---->
+   
 
 <section class="email-subscription py-5 ls-0" style="width: 100%; margin-top: -37px;">
   <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST" action="{{ url('/subscribe') }}"  enctype="multipart/form-data" >
