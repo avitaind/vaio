@@ -1,4 +1,3 @@
-Header add Link "</style.css>; as=style; rel=preload, </font.css>; as=style; rel=preload"
 
 
 <IfModule mod_rewrite.c>
