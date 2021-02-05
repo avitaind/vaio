@@ -172,8 +172,8 @@
     <div class="up-arrow"></div>
 </div>
 
-<script src="{{ asset('js/main.js') }}"></script>
-<script src="https://unpkg.com/sweetalert2@7.18.0/dist/sweetalert2.all.js"></script>
+<script src="{{ asset('js/main.js') }}" defer></script>
+<script src="{{ asset('js/sweetalert2.all.js') }}" defer></script>
 
 @yield('js')
 @stack('js')
