@@ -83,11 +83,12 @@
 
 @section('js')
     <script src="{{ asset('js/product.js') }}"></script>
-    <script>
+  <!--
+	   <script>
 		$(document).ready(function(e) {
 			$('img[usemap]').rwdImageMaps(); 
 		});
 	</script> 
-
+----->
 
 @stop
