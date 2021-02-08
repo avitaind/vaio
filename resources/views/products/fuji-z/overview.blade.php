@@ -13,7 +13,7 @@
    <img src="/images/fuji-z/vaio_comingsoon_page_pc_en.jpg" class="pc_only" usemap="#pc_img" hidefocus="true">
 	  
 	<map name="pc_img">
-		<area href="{{ route('login') }}" coords="208,794,601,860" shape="rect">
+		<area href="{{ route('login') }}" coords="600,857,206,797" shape="rect">
 
 	</map>
 	
@@ -21,7 +21,7 @@
 	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en.jpg" class="mb_only" usemap="#mo_img" hidefocus="true" style="">
 	 
 	<map name="mo_img">
-		<area href="{{ route('login') }}" coords="208,794,601,860" shape="rect">
+		<area href="{{ route('login') }}" coords="207,794,600,860" shape="rect">
 	</map>
 	
 	
