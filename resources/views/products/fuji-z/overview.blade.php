@@ -10,7 +10,7 @@
 
 
 <section class="main-section text-center">
-   <img src="/images/fuji-z/vaio_comingsoon_page_pc_en_v1.2.jpg" class="pc_only" usemap="#pc_img" hidefocus="true">
+   <img src="/images/fuji-z/vaio_comingsoon_mo_en_v1.2.jpg" class="pc_only" usemap="#pc_img" hidefocus="true">
 	  
 	<map name="pc_img">
 		<area href="{{ route('login') }}" coords="600,857,206,797" shape="rect">
