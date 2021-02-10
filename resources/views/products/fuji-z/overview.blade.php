@@ -58,7 +58,7 @@
 				display:block;
         }
 
-        @media(max-width: 720px) {
+        @media(max-width: 768px) {
 		 
           .pc_only {
 				display:none;
