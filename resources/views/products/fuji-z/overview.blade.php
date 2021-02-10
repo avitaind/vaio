@@ -13,7 +13,7 @@
    <img src="/images/fuji-z/vaio_comingsoon_mo_en_v1.2.jpg" class="pc_only" usemap="#pc_img" hidefocus="true">
 	  
 	<map name="pc_img">
-		<area href="{{ route('login') }}" coords="209,794,593,850" shape="rect">
+		<area href="{{ route('login') }}" coords="596,853,207,787" shape="rect">
 
 	</map>
 	
