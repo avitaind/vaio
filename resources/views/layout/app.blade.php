@@ -26,7 +26,6 @@
             @lang('common.website_title')
         @endif
 
-
     </title>
 
 
