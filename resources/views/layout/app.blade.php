@@ -32,8 +32,8 @@
 
 
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="https://use.typekit.net/psr0fyl.css">
+    <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/oswald.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/psr0fyl.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/font-awesome/css/font-awesome.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/swiper/swiper.min.css') }}" />
