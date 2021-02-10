@@ -18,7 +18,7 @@
 	</map>
 	
 	
-	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en_v1.2.jpg" class="mb_only" usemap="#mo_img" hidefocus="true">
+	<a href="{{ route('login') }}">	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en_v1.2.jpg" class="mb_only" usemap="#mo_img" hidefocus="true"></a>
 	 
 	<map name="mo_img">
 		<area href="{{ route('login') }}" coords="433,131,1264,142" shape="rect">
