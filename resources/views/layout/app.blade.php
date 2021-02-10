@@ -173,7 +173,6 @@
 </div>
 
 <script src="{{ asset('js/main.js') }}" ></script>
-<script src="{{ asset('js/sweetalert2.all.js') }}" ></script>
 
 @yield('js')
 @stack('js')
