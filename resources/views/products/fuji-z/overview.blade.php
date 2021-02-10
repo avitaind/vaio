@@ -18,7 +18,7 @@
 	</map>
 	
 	
-	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en_v1.2.jpg" class="mb_only" usemap="#mo_img" hidefocus="true" style="">
+	<img src="/images/fuji-z/vaio_comingsoon_page_mo_en_v1.2.jpg" class="mb_only" usemap="#mo_img" hidefocus="true">
 	 
 	<map name="mo_img">
 		<area href="{{ route('login') }}" coords="433,131,1264,142" shape="rect">
@@ -58,7 +58,7 @@
 				display:block;
         }
 
-        @media(max-width: 991px) {
+        @media(max-width: 720px) {
 		 
           .pc_only {
 				display:none;
@@ -83,12 +83,12 @@
 
 @section('js')
     <script src="{{ asset('js/product.js') }}"></script>
-  <!--
+ 
 	   <script>
 		$(document).ready(function(e) {
 			$('img[usemap]').rwdImageMaps(); 
 		});
 	</script> 
------>
+
 
 @stop
