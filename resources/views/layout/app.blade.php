@@ -55,15 +55,15 @@
 
 <!-- Scripts -->
     <!-- JS -->
-    <script async src="{{ asset('libs/swiper/swiper.min.js') }}" ></script>
-    <script async src="{{ asset('libs/jquery/jquery.min.js') }}" ></script>
-    <script async src="{{ asset('libs/popperjs/popperjs.min.js') }}" ></script>
-    <script async src="{{ asset('libs/tether/js/tether.min.js') }}" ></script>
-    <script async src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}" ></script>
-    <script async src="{{ asset('libs/blazy-master/blazy.min.js') }}" ></script>
-    <script async src="{{ asset('js/footer.js') }}" ></script>
-    <script async src="{{ asset('js/demo.js') }}" ></script>
-    <script async src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" ></script>
+    <script defer src="{{ asset('libs/swiper/swiper.min.js') }}" ></script>
+    <script defer src="{{ asset('libs/jquery/jquery.min.js') }}" ></script>
+    <script defer src="{{ asset('libs/popperjs/popperjs.min.js') }}" ></script>
+    <script defer src="{{ asset('libs/tether/js/tether.min.js') }}" ></script>
+    <script defer src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}" ></script>
+    <script defer src="{{ asset('libs/blazy-master/blazy.min.js') }}" ></script>
+    <script defer src="{{ asset('js/footer.js') }}" ></script>
+    <script defer src="{{ asset('js/demo.js') }}" ></script>
+    <script defer src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" ></script>
 
 
 
@@ -94,7 +94,7 @@
     <!-- End Google Analytics -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8MS82GVESW"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-8MS82GVESW"></script>
  <script>
    window.dataLayer = window.dataLayer || [];
    function gtag(){dataLayer.push(arguments);}
@@ -126,7 +126,7 @@
 
 
     <!-- Global site tag (gtag.js) - AdWords: 878181922 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
@@ -153,6 +153,7 @@
 
 
 <!-- End Facebook Pixel Code -->
+<script defer type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
 
 
 
@@ -172,6 +173,7 @@
 </div>
 
 <script src="{{ asset('js/main.js') }}" ></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 
 @yield('js')
 @stack('js')
