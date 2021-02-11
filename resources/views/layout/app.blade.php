@@ -172,8 +172,7 @@
     <div class="up-arrow"></div>
 </div>
 
-<script src="{{ asset('js/main.js') }}" ></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 
 @yield('js')
 @stack('js')
