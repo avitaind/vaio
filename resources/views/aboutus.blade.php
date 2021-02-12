@@ -1,9 +1,6 @@
 @extends('layout.app')
-
 @section('title', __('common.nav.about.title'))
-
 @section('content')
-
     <section id="about-us">
         <div class="aboutus-main-wrapper">
             <div class="container py-3 py-md-5">
