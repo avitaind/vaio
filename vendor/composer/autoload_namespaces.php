@@ -11,6 +11,7 @@ return array(
     'Mockery' => array($vendorDir . '/mockery/mockery/library'),
     'Mcamara\\LaravelLocalization' => array($vendorDir . '/mcamara/laravel-localization/src'),
     'Laracasts\\Presenter' => array($vendorDir . '/laracasts/presenter/src'),
-    'Laracasts\\Flash' => array($vendorDir . '/vinkla/alert/src'),
+    'Laracasts\\Flash' => array($vendorDir . '/laracasts/flash/src'),
+    'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
     'Barryvdh' => array($vendorDir . '/barryvdh/reflection-docblock/src'),
 );
