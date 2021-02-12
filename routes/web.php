@@ -20,7 +20,8 @@ Route::group([
     'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ],
 ], function(){
 
-    Route::get('/', 'HomeController@index')->name('index');
+    //Route::get('/', 'HomeController@index')->name('index');
+    Route::get('/','HomeController@index')->middleware('cacheable:5');
 
     Auth::routes();
 
