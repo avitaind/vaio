@@ -31,7 +31,7 @@
 
 
     <!-- Styles -->
-
+<!--- 
     <link rel="preload" href="{{ asset('libs/bootstrap/css/oswald.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ asset('libs/bootstrap/css/psr0fyl.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -40,7 +40,7 @@
     <link rel="preload" href="{{ asset('libs/tether/css/tether.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ asset('css/global.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    <!---  
+      --->
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/oswald.css') }}"> 
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/psr0fyl.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" />
@@ -48,11 +48,10 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/swiper/swiper.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/tether/css/tether.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}" />
-    --->
+   
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/azumino.css') }}" />--}}
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/main.css') }}" />--}}
   
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
 
