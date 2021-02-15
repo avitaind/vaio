@@ -70,15 +70,15 @@
 
 <!-- Scripts -->
     <!-- JS -->
-    <script defer src="{{ asset('libs/swiper/swiper.min.js') }}" ></script>
-    <script defer src="{{ asset('libs/jquery/jquery.min.js') }}" ></script>
-    <script defer src="{{ asset('libs/popperjs/popperjs.min.js') }}" ></script>
-    <script defer src="{{ asset('libs/tether/js/tether.min.js') }}" ></script>
-    <script defer src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}" ></script>
-    <script defer src="{{ asset('libs/blazy-master/blazy.min.js') }}" ></script>
-    <script defer src="{{ asset('js/footer.js') }}" ></script>
-    <script defer src="{{ asset('js/demo.js') }}" ></script>
-    <script defer src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" ></script>
+    <script  src="{{ asset('libs/swiper/swiper.min.js') }}" ></script>
+    <script  src="{{ asset('libs/jquery/jquery.min.js') }}" ></script>
+    <script  src="{{ asset('libs/popperjs/popperjs.min.js') }}" ></script>
+    <script  src="{{ asset('libs/tether/js/tether.min.js') }}" ></script>
+    <script  src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}" ></script>
+    <script  src="{{ asset('libs/blazy-master/blazy.min.js') }}" ></script>
+    <script  src="{{ asset('js/footer.js') }}" ></script>
+    <script  src="{{ asset('js/demo.js') }}" ></script>
+    <script  src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" ></script>
 
 
 
