@@ -52,6 +52,7 @@
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/azumino.css') }}" />--}}
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/main.css') }}" />--}}
   
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
 
