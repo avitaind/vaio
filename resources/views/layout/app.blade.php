@@ -68,6 +68,8 @@
     @stack('css')
 
 <!-- Scripts -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
     <!-- JS -->
     <script defer src="{{ asset('libs/swiper/swiper.min.js') }}" ></script>
     <script defer src="{{ asset('libs/jquery/jquery.min.js') }}" ></script>
@@ -187,7 +189,6 @@
     <div class="up-arrow"></div>
 </div>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 
 @yield('js')
 @stack('js')
