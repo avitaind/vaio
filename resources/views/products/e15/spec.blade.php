@@ -39,8 +39,8 @@
                     <h3 class="spec-product-name mb-4 pt-5 pt-lg-0">VAIO® E15</h3>
                     <img src="/images/banner/VAIO_E15-Black02.png" class="my-5" alt="VAIO® E15">
                     <ul class="color-pick-list list-unstyled d-flex flex-wrap mx-auto align-items-center justify-content-center">
-                        <li class="color-pick " style="background-color: #37383a" data-src="/images/banner/VAIO_E15-Black02.png"></li>
-                        <li class="color-pick active" style="background-color: #dbdcde" data-src="/images/banner/VAIO_E15-Silver02.png"></li>
+                        <li class="color-pick active" style="background-color: #37383a" data-src="/images/banner/VAIO_E15-Black02.png"></li>
+                        <li class="color-pick" style="background-color: #dbdcde" data-src="/images/banner/VAIO_E15-Silver02.png"></li>
                     </ul>
                 </a>
             </nav>
@@ -60,7 +60,7 @@
                             <sub>1</sub>
                         </div>
                         <div class="offset-md-1 spec-item-content">
-                           AMD Ryzen™️ 5 3500U / AMD Ryzen™️ 7 3700U
+                           AMD Ryzen<sup>TM</sup> 5 3500U / AMD Ryzen<sup>TM</sup> 7 3700U
                         </div>
                     </li>
                     <li class="spec-item d-flex">
@@ -84,7 +84,7 @@
                     </li>
                    <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Graphics</div>
-                        <div class="offset-md-1 spec-item-content">Radeon™️ Vega 8 Graphics / Radeon™️ RX Vega 10 Graphics</div>
+                        <div class="offset-md-1 spec-item-content">Radeon<sup>TM</sup> Vega 8 Graphics / Radeon<sup>TM</sup> RX Vega 10 Graphics</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Audio</div>
@@ -96,7 +96,7 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Wireless Lan</div>
-                        <div class="offset-md-1 spec-item-content">IEEE 802.11a/b/g/n/ac Wireless LAN, Bluetooth®️ 4.2</div>
+                        <div class="offset-md-1 spec-item-content">IEEE 802.11a/b/g/n/ac Wireless LAN, Bluetooth<sup>©</sup> 4.2</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Inputs &amp; Outputs</div>
