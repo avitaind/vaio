@@ -80,8 +80,7 @@
     <script defer src="{{ asset('js/footer.js') }}" ></script>
     <script defer src="{{ asset('js/demo.js') }}" ></script>
     <script defer src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" ></script>
-    <script defer src="{{ asset('js/product.js') }}"></script>
-    <script defer src="{{ asset('js/html5gallery.js') }}"></script>
+
 
 
     @yield('libjs')
