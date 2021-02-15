@@ -158,8 +158,7 @@
                 The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
             </p>
           <p class="spec-item-name" style="font-size: 0.8rem;">5. Weights vary depending on configuration and manufacturing variability.</p>
-          
-            <p class="spec-item-name" style="font-size: 0.8rem;">6. Up to 1 Year.</p>
+          <p class="spec-item-name" style="font-size: 0.8rem;">6. Up to 1 Year.</p>
 
       </div>
     </section>
@@ -174,5 +173,5 @@
 
 @section('js')
 
-    <script src="{{ asset('js/product.js') }}"></script>
+    <script defer src="{{ asset('js/product.js') }}"></script>
 @stop
