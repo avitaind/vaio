@@ -140,6 +140,7 @@
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Bundling
+                        <sub>6</sub>
                       </div>
                         <div class="offset-md-1 spec-item-content">Microsoft Office</div>
                     </li>
@@ -157,6 +158,8 @@
                 Intel, the Intel logo, the Intel Inside logo and Intel Core are trademarks of Intel Corporation in the U.S. and/or other countries.<br>
                 The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
             </p>
+            <p class="spec-item-name" style="font-size: 0.8rem;">6. Up to 1 Year.</p>
+
       </div>
     </section>
 

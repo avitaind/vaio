@@ -162,9 +162,7 @@
                 will naturally decrease with time and usage.</p>
                 <p class="spec-item-name" style="font-size: 0.8rem;">5. Under Test Conditions.</p>
                 <p class="spec-item-name" style="font-size: 0.8rem;">6. Up to 1 Year.</p>
-           
-
-        </div>
+            </div>
     </section>
 
 
@@ -177,5 +175,5 @@
 
 @section('js')
 
-    <script src="{{ asset('js/product.js') }}"></script>
+    <script defer src="{{ asset('js/product.js') }}"></script>
 @stop
