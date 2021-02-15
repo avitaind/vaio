@@ -131,7 +131,7 @@
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Battery Life
                             <sub>5</sub>
                         </div>
-                        <div class="offset-md-1 spec-item-content">Up to 8 hours*</div>
+                        <div class="offset-md-1 spec-item-content">Up to 8 hours</div>
                     </li>
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Warranty
