@@ -112,7 +112,7 @@
                     </li>
                   
 					<li class="spec-item d-flex">
-                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Keyboard<sup>5</sup></div>
+                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Keyboard<sup>4</sup></div>
                         <div class="offset-md-1 spec-item-content">Island style keyboard (Optional: backlit) with spill resistance</div>
                     </li>
 					<li class="spec-item d-flex">
@@ -126,7 +126,7 @@
                         <div class="offset-md-1 spec-item-content">324.4 x 229.6 x 19.55mm</div>
                     </li>
 					<li class="spec-item d-flex">
-                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Weight<sup>4</sup></div>
+                        <div class="offset-md-1 col-4 col-md-3 spec-item-name">Weight<sup>5</sup></div>
                         <div class="offset-md-1 spec-item-content">Approx. 1.35kg</div>
                     </li>
 					<li class="spec-item d-flex">
@@ -151,13 +151,14 @@
             <p class="spec-item-name" style="font-size: 0.8rem;">1. Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers and/or software to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See http://www.microsoft.com.</p>
              <p class="spec-item-name" style="font-size: 0.8rem;">2. Multi-Core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from use of this technology. Performance and clock frequency will vary depending on application workload and your hardware and software configurations. Intel’s numbering is not a measurement of higher performance.</p>
             <p class="spec-item-name" style="font-size: 0.8rem;">3. Data on battery life is obtained from tests deploying internal tools by engineers. The actual battery performances could vary from battery life tests shown above, due to differences in operating environment and conditions.</p>
-            <p class="spec-item-name" style="font-size: 0.8rem;">4. Weights vary depending on configuration and manufacturing variability.</p>
-			<p class="spec-item-name" style="font-size: 0.8rem;">5. In the event of a water spillage, users should wipe away the water, before bringing the laptop to a VAIO service center for inspection or repair.<br>
+			<p class="spec-item-name" style="font-size: 0.8rem;">4. In the event of a water spillage, users should wipe away the water, before bringing the laptop to a VAIO service center for inspection or repair.<br>
 		  The anti-spill feature is only available on the keyboard and is not applicable on water damage to other parts of the laptop.</p>
           <p class="spec-item-name" style="font-size: 0.8rem;">
                 Intel, the Intel logo, the Intel Inside logo and Intel Core are trademarks of Intel Corporation in the U.S. and/or other countries.<br>
                 The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
             </p>
+          <p class="spec-item-name" style="font-size: 0.8rem;">5. Weights vary depending on configuration and manufacturing variability.</p>
+          
             <p class="spec-item-name" style="font-size: 0.8rem;">6. Up to 1 Year.</p>
 
       </div>
