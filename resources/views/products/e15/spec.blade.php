@@ -35,7 +35,7 @@
     <section style="background-color: #ededed;">
         <div class="container">
             <nav class="nav nav-tabs">
-                <a href="#spec-2" class="text-center spec-product nav-item nav-link col-12 active" data-toggle="tab" role="tab">
+                <a href="#spec-1" class="text-center spec-product nav-item nav-link col-12 active" data-toggle="tab" role="tab">
                     <h3 class="spec-product-name mb-4 pt-5 pt-lg-0">VAIO® E15</h3>
                     <img src="/images/banner/VAIO_E15-Black02.png" class="my-5" alt="VAIO® E15">
                     <ul class="color-pick-list list-unstyled d-flex flex-wrap mx-auto align-items-center justify-content-center">
