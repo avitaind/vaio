@@ -38,7 +38,7 @@
 }
 
 .html5gallery-thumbs-0{
-   /* margin: auto !important;*/
+    margin: auto !important;
 }
 
 
@@ -144,7 +144,7 @@
 @stop
 
 @section('js')
-    <script src="{{ asset('js/product.js') }}"></script>
-    <script src="{{ asset('js/html5gallery.js') }}"></script>
+<script defer src="{{ asset('js/html5gallery.js') }}"></script>
+    <script defer src="{{ asset('js/product.js') }}"></script>
 
 @stop
