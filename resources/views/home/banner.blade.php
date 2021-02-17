@@ -2,7 +2,6 @@
     <div class="swiper-container swiper-container-horizontal">
         <div class="swiper-wrapper">
 
-
 	  @foreach( $banners as $index => $banner )
 
               @if( $banner->url )
