@@ -81,9 +81,6 @@
     <script  src="{{ asset('js/footer.js') }}" ></script>
     <script  src="{{ asset('js/demo.js') }}" ></script>
     <script  src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" ></script>
-    <script  src="{{ asset('js/product.js') }}"></script>
-    <script  src="{{ asset('js/html5gallery.js') }}"></script>
-
 
     @yield('libjs')
     @stack('libjs')
