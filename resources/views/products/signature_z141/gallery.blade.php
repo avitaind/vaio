@@ -62,7 +62,7 @@
 
     <div style="text-align:center;">
     
-     <div style="display:none;margin:-150px auto 0px;" 
+     <div style="display:none;margin:0px auto 0px;" 
 	class="html5gallery"
 	data-responsive="true"
 	data-responsivefullscreen="true"
