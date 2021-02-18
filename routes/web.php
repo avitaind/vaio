@@ -86,6 +86,18 @@ Route::group([
     Route::get('/product/se14/spec', 'ProductController@getProductSpecification14')->name('product.spec_se14');
     Route::get('/product/se14/gallery', 'ProductController@getProductGallery14')->name('product.gallery_se14');
 
+
+    //signature_z141
+    Route::get('/product/signature_z141/overview', 'ProductController@getProductOverviewsignature_z141')->name('product.overview_signature_z141');
+    Route::get('/product/signature_z141/spec', 'ProductController@getProductSpecificationsignature_z141')->name('product.spec_signature_z141');
+    Route::get('/product/signature_z141/gallery', 'ProductController@getProductGallerysignature_z141')->name('product.gallery_signature_z141');
+
+
+      //fuji-z
+      Route::get('/product/z/overview', 'ProductController@getProductOverviewfuji_z')->name('product.overview_fuji_z');
+      Route::get('/product/z/spec', 'ProductController@getProductSpecificationfuji_z')->name('product.spec_fuji_z');
+      Route::get('/product/z/gallery', 'ProductController@getProductGalleryfuji_z')->name('product.gallery_fuji_z');
+
     ///
 	
 	Route::get('/product/sx14/overview', 'ProductController@getProductOverviewSx14')->name('product.overview_sx14');

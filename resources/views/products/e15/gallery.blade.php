@@ -132,15 +132,8 @@
             <a href="/images/gallery/e15/VAIO_E15-Black07.jpg">
                 <img src="/images/gallery/e15/VAIO_E15-Black07.jpg" alt="VAIO E15">
             </a>
-
-
-           
         </div>
-    
-    </div>  
-
- 
-
+     </div>  
 
 @stop
 
@@ -150,6 +143,6 @@
 
 @section('js')
    <script defer src="{{ asset('js/html5gallery.js') }}"></script>
-    <script defer src="{{ asset('js/product.js') }}"></script>
+   <script defer src="{{ asset('js/product.js') }}"></script>
 
 @stop

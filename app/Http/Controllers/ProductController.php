@@ -128,8 +128,8 @@ class ProductController extends Controller
 
         return view('products.e15.gallery');
     }
-
-    public function getProductOverviewfuji() {
+///
+    public function getProductOverviewfuji_z() {
 
         $locale = \App::getLocale();
 
@@ -143,9 +143,89 @@ class ProductController extends Controller
             return view($view_file, $view_data);
         }
 
-        return view('products.fuji-z.overview', $view_data);
+        return view('products.fuji_z.overview', $view_data);
     }
 
+
+    
+    public function getProductSpecificationfuji_z( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.fuji_z.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.fuji_z.spec');
+    }
+    public function getProductGalleryfuji_z( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.fuji_z.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.fuji_z.gallery');
+    }
+
+    ///
+    
+
+    ///
+    public function getProductOverviewsignature_z141() {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.fuji-z.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.signature_z141.overview', $view_data);
+    }
+
+
+    
+    public function getProductSpecificationsignature_z141( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.signature_z141.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.signature_z141.spec');
+    }
+    public function getProductGallerysignature_z141( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.signature_z141.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.signature_z141.gallery');
+    }
+
+    ///
     
 	
 	public function getProductOverviewSx14( ) {
