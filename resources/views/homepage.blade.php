@@ -13,7 +13,7 @@
                      <div class="row no-gutters">
 
                      <div class="col-6 d-flex align-items-end text-center recommend-item">
-                        <a href="{{ route('product.overview_sx14') }}" class="d-block w-100">
+                        <a href="{{ route('product.overview_fuji_z') }}" class="d-block w-100">
                             <img src="/images/elements/z.jpg">
                             <div class="recommend-item-info">
                                 <div class="recommend-model mb-1">VAIO® Z</div>
@@ -25,7 +25,7 @@
                 </div>  
                     
                 <div class="col-6 d-flex align-items-end text-center recommend-item">
-                    <a href="{{ route('product.overview') }}" class="d-block w-100">
+                    <a href="{{ route('product.overview_signature_z141') }}" class="d-block w-100">
                         <img src="/images/elements/signature_z141.jpg">
                         <div class="recommend-item-info">
                             <div class="recommend-model mb-1">VAIO® Z SIGNATURE EDITION</div> 
