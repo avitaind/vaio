@@ -194,7 +194,10 @@ The use of the "VAIO" <img src="/images/vaio.png" style="height:10px"> trademark
         'tag_SE14' 			  	  => 'Enhance your worlds',
         'tag_S11' 			  	  => 'The Quest For Perfection',
         'tag_S13' 			  	  => 'The Quest For Perfection',
-		'tag_SX12' 			  	  => 'The Tiniest VAIO® Born to be Mighty'
+		'tag_SX12' 			  	  => 'The Tiniest VAIO® Born to be Mighty',
+        'tag_Z' 			  	  => 'Push the limits, shatter the boundaries',
+        'tag_Z_Signature' 		 => 'Where exquisite experience meets innovation'
+
     ],
 
 

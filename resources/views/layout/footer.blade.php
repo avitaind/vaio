@@ -30,6 +30,12 @@
                                 <div class="footer-item col-12 p-0 my-2">
                                     <a href="{{ route('product.overview_se14') }}" class=""> @lang('common.nav.product.vaio_s14')</a>
                                 </div>
+                                <div class="footer-item col-12 p-0 my-2">
+                                    <a href="{{ route('product.overview_fuji_z') }}" class=""> @lang('common.nav.product.vaio_fuji_z')</a>
+                                </div>
+                                <div class="footer-item col-12 p-0 my-2">
+                                    <a href="{{ route('product.overview_signature_z141') }}" class=""> @lang('common.nav.product.vaio_signature_z141')</a>
+                                </div>
                              <!---
                                 <div class="footer-item col-12 p-0 my-2">
                                         <a href="{{ route('product.overview_fuji-z') }}" class="" > @lang('common.nav.product.vaio_fuji-z')</a>
