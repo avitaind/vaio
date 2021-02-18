@@ -114,7 +114,11 @@ return [
              'vaio_sx12_whl' => 'VAIO SX12 WHL',
              'vaio_sx14_cml' => 'VAIO SX14 CML',
              'vaio_sx14_whl' => 'VAIO SX14 WHL',
-             'vaio_se14_whl' => 'VAIO SE14 WHL'
+             'vaio_se14_whl' => 'VAIO SE14 WHL',
+             'vaio_fuji_z' => 'VAIO Z',
+             'vaio_signature_z141' => 'VAIO Z SIGNATURE EDITION'
+
+
 			
         ],
         'quality'      => [
