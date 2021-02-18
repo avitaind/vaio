@@ -255,7 +255,7 @@ The use of the "VAIO" <img src="/images/vaio.png" style="height:10px"> trademark
             ],
 			 'card_10' => [
                 'title'   => 'Disclaimers',
-				'content' => '* General quality control testing is applicable to VAIO S11, VAIO S13, VAIO A12 and VAIO SX14 only.',
+				'content' => '* General quality control testing is applicable to VAIO Z only.',
 				'content_remark' => '※	Quality tests are carried out in specific environments based on VAIO’s regulations. The product’s quality tests do not guarantee that it is free from any damage or malfunction, nor do they guarantee the safety of the data in the SSD.',
             ],
         ],
@@ -401,7 +401,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         ],
         'card_13' => [
             'title'   => 'Disclaimers',
-            'content' => '* Azumino Finish is applicable to VAIO E15.', 
+            'content' => '* Azumino Finish is applicable to VAIO Z only.', 
         ],
     ],
 	
