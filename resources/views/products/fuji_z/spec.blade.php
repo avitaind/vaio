@@ -138,8 +138,8 @@
             </li>
 			
 			  <li class="spec-item d-flex">
-              <div class="offset-md-1 col-4 col-md-3 spec-item-name">Secutiry</div>
-              <div class="offset-md-1 spec-item-content">-TPM2.0 (TCG ver.2.0 compliant)<br/>-Secutiry Lock slot</div>
+              <div class="offset-md-1 col-4 col-md-3 spec-item-name">Security</div>
+              <div class="offset-md-1 spec-item-content">-TPM2.0 (TCG ver.2.0 compliant)<br/>-Security Lock slot</div>
             </li>
 			  
           </ul>
