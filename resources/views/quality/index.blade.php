@@ -7,13 +7,14 @@
         <div class="container py-5">
             <h1 class="page-title mb-5">@lang('common.quality.title')</h1>
 
-
+<!---
             <ul class="d-flex no-gutters mb-5 nav nav-tabs">
                 <li class="nav-item col-3">
                     <a class="tab-toggler active p-3 py-md-4 navTab_button" data-toggle="tab" role="tab" href="#general-tab">
                         @lang('common.quality.general_test')
                     </a>
                 </li>
+                
                 <li class="nav-item col-3">
                     <a class="tab-toggler p-3 py-md-4 navTab_button" data-toggle="tab" role="tab" href="#s11-13-tab">
                         @lang('common.quality.product_test')
@@ -29,8 +30,9 @@
                         @lang('common.quality.product_a_12_test')
                     </a>
                 </li>
+               
             </ul>
-
+ --->
             <div class="tab-content">
 
                 <!-- General Tab -->

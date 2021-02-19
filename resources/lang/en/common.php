@@ -204,7 +204,7 @@ The use of the "VAIO" <img src="/images/vaio.png" style="height:10px"> trademark
     //Quality -> index
     'quality'        => [
         'title'     => 'Quality',
-        'sub_title' => 'General quality control testing for all models*',
+        'sub_title' => 'General quality control testing*',
 
         'general_test'       => 'General Test',
         'general_test_intro' => 'All VAIO devices are strictly quality-tested so our users can have a smooth and safe laptop experience anytime anywhere. Through simulations of every possible scenario when using the device, dozens of stringent inspections are carried out to ensure the quality of our products.',
