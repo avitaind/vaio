@@ -36,7 +36,7 @@
             @lang('member.form_reseller_name'): <span class="required">*</span>
         </label>
         <div class="col-12 col-md-8 col-lg-7 col-xl-6">
-            <input class="form-control" id="purchase_from" required="required" name="purchase_from" type="text" value="{{ old('purchase_from') }}">
+            <input class="form-control" id="purchase_from" required="required" name="purchase_from" type="date" value="{{ old('purchase_from') }}">
 
             @if ($errors->has('purchase_from')) <small class="text-danger form-error">{{ $errors->first('purchase_from')}}</small>@endif
         </div>
