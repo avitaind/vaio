@@ -136,13 +136,13 @@ class MemberController extends Controller
 
     }
 
-//    public function handleProductSNCheck(Request $request) {
-//
-//        $this->validate($request, ['sn' => "required", 'model' => 'required']);
-//
-//        return ASPAPIService::getSNRegistrationStatus( $request->sn, $request->model );
-//
-//    }
+    public function handleProductSNCheck(Request $request) {
+
+       $this->validate($request, ['sn' => "required", 'model' => 'required']);
+
+       return ASPAPIService::getSNRegistrationStatus( $request->sn, $request->model );
+
+   }
 
     public function handleProductRegistration(Request $request) {
 
