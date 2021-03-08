@@ -116,7 +116,9 @@
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-4" href="{{ route('about_us') }}">@lang('common.nav.about.title')</a>
                             </li>
-                           
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-4" href="{{ route('news.news') }}">@lang('common.nav.about.news')</a>
+                            </li>
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-4" href="{{ route('contact_us') }}">@lang('common.nav.about.contact_us')</a>
                             </li>

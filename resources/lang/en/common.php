@@ -470,7 +470,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         'old_news'     => 'Older News',
         'related_news' => 'Related News',
         'select_month' => 'Select Month',
-        'article'      => 'Articles'
+        'article'      => 'Coverage'
 
     ],
 
