@@ -358,7 +358,10 @@
 				
 				
 			</div><!-- row -->
+			<p class="m-note small" style="margin-bottom:1%;">* VAIO Z's chassis comprises processed carbon fibers, which are layered and three-dimensionally molded into one sturdy piece. Crevices and overlaps may occur naturally due to the properties of the material or the manufacturing process, and do not affect laptop performance. Thus, please be noted that returns or exchanges for reasons such as crevices, overlaps, textures or colors are not accepted.<br/></p>
+		
 		</div><!--container -->
+
     </section> 	
 
 

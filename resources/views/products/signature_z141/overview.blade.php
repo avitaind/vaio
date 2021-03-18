@@ -385,11 +385,11 @@
 			 
 		</div>	
   
-		<!--
+		
 		<div class="col-12 my-4">
 		   <img src="/images/signature_z141/area2_logo.png"  >
 		</div>
-		-->
+
 		
 		
 		
