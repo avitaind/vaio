@@ -7,6 +7,7 @@
 @stop
 
 @section('content')
+
 <div class="navbar-product-page d-lg-flex justify-content-lg-end" style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
     <ul class="navbar-nav flex-wrap flex-row col col-lg-4 p-0">
 
@@ -29,6 +30,7 @@
 
     </ul>
 </div>
+
 <!--------------- Product SPEC here----------------------->
 
     <section  style="background-color: #ededed;">
@@ -130,7 +132,7 @@
             </li>
             
             <li class="spec-item d-flex">
-              <div class="offset-md-1 col-4 col-md-3 spec-item-name">Weight<sup>3</sup></div>
+              <div class="offset-md-1 col-4 col-md-3 spec-item-name">Weight<sup>3^</sup></div>
               <div class="offset-md-1 spec-item-content">Approx. 1.06kg</div>
             </li>
 			<li class="spec-item d-flex">
@@ -146,7 +148,7 @@
       <div class="container">
         <p class="spec-item-name" style="font-size: 0.8rem;">1. Multi-Core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from use of this technology. Performance and clock frequency will vary depending on application workload and your hardware and software configurations. Intel’s numbering is not a measurement of higher performance.</p>
             <p class="spec-item-name" style="font-size: 0.8rem;">2. Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers and/or software to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See http://www.microsoft.com.</p>
-          <p class="spec-item-name" style="font-size: 0.8rem;">3. Weights vary depending on configuration and manufacturing variability.</p>
+          <p class="spec-item-name" style="font-size: 0.8rem;">3. ^Weights vary depending on configuration and manufacturing variability.</p>
             <p class="spec-item-name" style="font-size: 0.8rem;">4. Battery life will vary depending on various factors including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage.</p>
 			<p class="spec-item-name" style="font-size: 0.8rem;">5. In the event of a water spillage, users should wipe away the water, before bringing the laptop to a VAIO service center for inspection or repair.<br>
 		  The anti-spill feature is only available on the keyboard and is not applicable on water damage to other parts of the laptop.</p>

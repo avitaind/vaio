@@ -30,7 +30,6 @@
     </ul>
 </div>
 
-
 <style>
 .html5gallery{
 	width:100% !important;	
@@ -142,5 +141,4 @@
 @section('js')
 <script defer src="{{ asset('js/html5gallery.js') }}"></script>
     <script defer src="{{ asset('js/product.js') }}"></script>
-	
 	@stop
