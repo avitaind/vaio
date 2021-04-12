@@ -42,6 +42,11 @@
               
 ----->
 
+            <div class="container">
+                    <div class="alert alert-dismissible alert-info">
+                    Due to the global outbreak of the coronavirus (COVID-19), the service center will adjust the operation time or temporarily shut down for the time being. The adjustment will be subjected to local regulations and will be updated as soon as possible. We thank you for your patience and understanding.
+                    </div>
+            </div>
                 <div class="col-12 page-title mb-3 ls-0">@lang('common.contact_us.service_support.title')</div>
                   	<div class="shopsList">
 
