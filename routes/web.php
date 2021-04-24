@@ -42,13 +42,13 @@ Route::group([
 
     Route::get('/about-us', 'PageController@getAboutUs')->name('about_us');
     Route::get('/contact-us', 'PageController@getContactUs')->name('contact_us');
-    Route::get('/support', 'PageController@getSupport')->name('support');
+    // Route::get('/support', 'PageController@getSupport')->name('support');
 
     Route::get('/support/repair-tnc', 'PageController@getRepairTnc' )->name('support.repair_tnc');
     Route::get('/privacy', 'PageController@getPrivacy')->name('privacy');
 
     Route::get('/where-to-buy', 'PageController@getWhereToBuy')->name('where_to_buy');
-	  
+
 
 
     Route::get('/news', 'NewsController@getNews')->name('news.news');
@@ -66,11 +66,11 @@ Route::group([
     Route::get('/quality', 'PageController@getQuality')->name('quality');
     Route::get('/quality/azumino-finish', 'PageController@getQualityAzuminoFinish')->name('quality.azumino_finish');
 
-   
+
     // Product
     Route::get('/product/s11-s13/overview', 'ProductController@getProductOverview')->name('product.overview');
     Route::get('/product/s11-s13/spec', 'ProductController@getProductSpecification')->name('product.spec');
-    
+
 
     ///
     Route::get('/product/comingsoon/overview', 'ProductController@getProductOverviewfuji')->name('product.overview_fuji-z');
@@ -80,7 +80,7 @@ Route::group([
     Route::get('/product/e15/spec', 'ProductController@getProductSpecification15')->name('product.spec');
     Route::get('/product/e15/gallery', 'ProductController@getProductGallery15')->name('product.gallery_e15');
 
-    
+
     //se14
     Route::get('/product/se14/overview', 'ProductController@getProductOverview14')->name('product.overview_se14');
     Route::get('/product/se14/spec', 'ProductController@getProductSpecification14')->name('product.spec_se14');
@@ -99,46 +99,46 @@ Route::group([
       Route::get('/product/z/gallery', 'ProductController@getProductGalleryfuji_z')->name('product.gallery_fuji_z');
 
     ///
-	
+
 	Route::get('/product/sx14/overview', 'ProductController@getProductOverviewSx14')->name('product.overview_sx14');
     Route::get('/product/sx14/spec', 'ProductController@getProductSpecificationSx14')->name('product.spec_sx14');
     Route::get('/product/sx14/gallery', 'ProductController@getProductGallerySx14')->name('product.gallery_sx14');
-	 
+
     Route::get('/product/a12/overview', 'ProductController@getProductOverview12')->name('product.overview_a12');
     Route::get('/product/a12/spec', 'ProductController@getProductSpecification12')->name('product.spec_a12');
     Route::get('/product/a12/gallery', 'ProductController@getProductGallery12')->name('product.gallery_a12');
-	
+
 	Route::get('/product/sx12/overview', 'ProductController@getProductOverviewSx12')->name('product.overview_sx12');
     Route::get('/product/sx12/spec', 'ProductController@getProductSpecificationSx12')->name('product.spec_sx12');
     Route::get('/product/sx12/gallery', 'ProductController@getProductGallerySx12')->name('product.gallery_sx12');
-    
+
     Route::get('/product/fe14/overview', 'ProductController@getProductOverviewFe14')->name('product.overview_fe14');
     Route::get('/product/fe14/spec', 'ProductController@getProductSpecificationFe14')->name('product.spec_fe14');
     Route::get('/product/fe14/gallery', 'ProductController@getProductGalleryFe14')->name('product.gallery_fe14');
-	
-    // New Products 
-    
+
+    // New Products
+
     Route::get('/product/sx12/whl/overview', 'ProductController@getProductOverviewSx12whl')->name('product.overview_sx12_whl');
     Route::get('/product/sx12/whl/spec', 'ProductController@getProductSpecificationSx12whl')->name('product.spec_sx12_whl');
     Route::get('/product/sx12/whl/gallery', 'ProductController@getProductGallerySx12whl')->name('product.gallery_sx12_whl');
-	
-    
+
+
     Route::get('/product/sx14/whl/overview', 'ProductController@getProductOverviewSx14whl')->name('product.overview_sx14_whl');
     Route::get('/product/sx14/whl/spec', 'ProductController@getProductSpecificationSx14whl')->name('product.spec_sx14_whl');
     Route::get('/product/sx14/whl/gallery', 'ProductController@getProductGallerySx14whl')->name('product.gallery_sx14_whl');
-	
-    
+
+
     Route::get('/product/sx14/cml/overview', 'ProductController@getProductOverviewSx14cml')->name('product.overview_sx14_cml');
     Route::get('/product/sx14/cml/spec', 'ProductController@getProductSpecificationSx14cml')->name('product.spec_sx14_cml');
     Route::get('/product/sx14/cml/gallery', 'ProductController@getProductGallerySx14cml')->name('product.gallery_sx14_cml');
-	
+
     Route::get('/product/se14/whl/overview', 'ProductController@getProductOverviewSe14whl')->name('product.overview_se14_whl');
     Route::get('/product/se14/whl/spec', 'ProductController@getProductSpecificationSe14whl')->name('product.spec_se14_whl');
     Route::get('/product/se14/whl/gallery', 'ProductController@getProductGallerySe14whl')->name('product.gallery_se14_whl');
-	
-    
+
+
     //
-    
+
     // Drivers
     Route::get('/drivers', 'ProductDriverController@showDriverList');
 
@@ -177,7 +177,11 @@ Route::get('event-login', 'EventController@login');
 Route::post('event-registration', ['as'=>'event.registration','uses'=>'EventController@eventRegistration']);
 Route::post('event-login', ['as'=>'event.login','uses'=>'EventController@eventLogin']);
 
+Route::get('/support', 'PageController@getSupport')->name('support');
 
+// Route::get('/support', 'SearchController@index')->name('support');
+
+Route::get('/search', 'SearchController@search');
 
 /**
  *

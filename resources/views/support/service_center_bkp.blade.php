@@ -1,13 +1,13 @@
 @php
-    $centers = \App\NewServiceCenter::orderBy('id', 'asc')->get();
+    $centers = \App\ServiceCenter::orderBy('seq', 'asc')->get();
 @endphp
 
 <div id="support-center" class="support-center-wrap">
     <div class="container  ">
         <div class="row  ">
+        
 
-
-
+                
         <div class="container">
             <div class="mt-5 pt-0 pt-lg-4">
                <!--- <h2 class="page-title mb-5">@lang('common.contact_us.headquarter.title')</h2> --->
@@ -39,7 +39,7 @@
                     <p class="content-text mt-3 mb-0 ">@lang('common.contact_us.headquarter.general')</p>
                     <a href="mailto:salesin@in.vaio.com" class="sub-text">Salesin@in.vaio.com</a>
                 </div>
-
+              
 ----->
 
             <div class="container">
@@ -48,57 +48,28 @@
                     </div>
             </div>
                 <div class="col-12 page-title mb-3 ls-0">@lang('common.contact_us.service_support.title')</div>
+                  	<div class="shopsList">
 
-                <div class="form-group">
-
-                    <div class="input-group">
-
-                    <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State or Postal Code Here"> </input>
-                    <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
-
-                    </div>
-                </div>
-
-                  	<div class="shopsList" id="shopsList">
-
-                        @foreach( $centers as $search )
-                     <div class="col-md-6">
-                                <div>
-                                    <span class="address">{{ $search->address }}</span>
-                                </div>
-
-                                <div>
-                                    <i class="fa fa-clock-o icon"></i>
-                                    <span class="openinghour">{{ $search->opening_hour }}</span>
-                                </div>
-
-                                <div>
-                                    <a class="tel" href="tel:{{ $search->phone }}">{{ $search->phone }}</a>
-                                </div>
-                                <br><br>
-                         </div>
-                     @endforeach
-
-                            {{-- @for( $i = 0 ; $i < count($centers) ; $i++ )
+                            @for( $i = 0 ; $i < count($centers) ; $i++ )
 
                                 @php
                                     $center = $centers[$i];
                                 @endphp
-
+                                
                                 <div class="col-md-6">
                                 <h4>{{ $center->name }}</h4>
                                 <span class="address">{{ $center->address }}</span>
-                                <span class="openinghour">{{ $center->opening_hour }}</span>
+                                <span class="openinghour">{{ $center->opening_hour }}</span> 
                                 <a class="tel" href="tel:{{ $center->phone }}">{{ $center->phone }}</a>
                                 <a class="email" href="mailto:{{ $center->email }}">{{ $center->email }}</a>
                                 <div class="spacer-single"></div>
                                 </div>
-
-                            @endfor --}}
-
-
-                    </div><!--shopsList-->
-
+                                 
+                            @endfor
+                            
+                            
+                    </div><!--shopsList-->  
+                
             </div>
         </div>
     </div>
@@ -182,7 +153,7 @@
                         scrollTop: $("#support-center").offset().top - 72
                     });
                 }
-            }
+            } 
 
         }
 
@@ -232,42 +203,6 @@
 
 
     </script>
-
-<script type="text/javascript">
-
-    $('#search').on('keyup', function(){
-            $value=$(this).val();
-            $.ajax({
-                type: 'get',
-                url: '{{URL::to('search')}}',
-                data: { 'search': $value},
-                success:function(data){
-                    $('#shopsList').html(data);
-                }
-            })
-        })
-
-    </script>
-
-
-<script type="text/javascript" src="{{ asset('js/support.js') }}"></script><script type="text/javascript">
-
-            $('#search').on('keyup', function(){
-                    $value=$(this).val();
-                    $.ajax({
-                        type: 'get',
-                        url: '{{URL::to('search')}}',
-                        data: { 'search': $value},
-                        success:function(data){
-                            $('#shopsList').html(data);
-                        }
-                    })
-                })
-
-            </script>
-
-
-    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
 
 
