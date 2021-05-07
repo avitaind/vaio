@@ -2441,3 +2441,26 @@ margin-bottom: -10px;
 }
 
 
+/* Create three equal columns that floats next to each other */
+.logo-col {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  height: 250px;
+ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.logo-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .logo-col {
+    width: 100%;
+  }
+}
+
+
