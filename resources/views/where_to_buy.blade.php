@@ -22,7 +22,7 @@
             <div class="logo-col">
             <a class="px-md-4 py-2" target="_blank" > <img src="images/AZ-logo.png" alt="Where to Buy" /></a>
         <br/>
-        <center>Coming Soon</center>        
+        <!-- <center>Coming Soon</center>         -->
         </div>
             </div>
 
