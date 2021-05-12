@@ -76,20 +76,22 @@
                                 <a class="btn btn-primary text-center mt-2 px-4 ls-0 font-weight-light hidden-md-up col-12 " href="{{ route('register') }}">@lang('common.login.signup.btn_text')</a>
                             </div>
                             <div class="col-12 mx-auto pt-4 p-0">
+                                <!-- 
                                 <div class="text-left pt-4 extra-login ls-1">@lang('common.login.social_media_text')</div>
                                 <div class="row mt-3">
                                     <div class="col-12">
+                                     
                                         <a class="login-facebook pr-4" href="{{ route('login.facebook') }}">
                                             <i class="fa fa-facebook" aria-hidden="true"></i>
                                         </a>
-                                        <!--<a class="login-googleplus" href="{{ route('login.google') }}">
+                                      <a class="login-googleplus" href="{{ route('login.google') }}">
                                             <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                        </a>-->
+                                        </a>
                                     </div>
 
                                 </div>
+                                -->
                             </div>
-
                     </div>
                 </div>
             </div>
