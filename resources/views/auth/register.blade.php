@@ -13,10 +13,11 @@
             <div class="page-title pt-md-3 my-3">
                 @lang('common.registration_title') </div>
             <div class="d-flex hidden-xs-down my-4">
-                <a href="/login/facebook" class="pr-2">
+            <!-- 
+                     <a href="/login/facebook" class="pr-2">
                     <img src="/images/btn_register_facebook.jpg" alt="Register with Facebook" class="pb-2">
                 </a>
-               <!-- <a href="/login/google" class="pr-2">
+              <a href="/login/google" class="pr-2">
                     <img src="/images/btn_register_google.jpg" alt="Register with Google Account" class="pb-2">
                 </a>-->
             </div>
