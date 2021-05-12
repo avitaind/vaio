@@ -131,7 +131,7 @@
                     <div class="form-group row ">
                         <label class="col-12 col-md-5 col-lg-4 col-xl-3 col-form-label" for="birthday">@lang('member.form_birthday'): </label>
                         <div class="col-12 col-md-7 col-lg-6 col-xl-5">
-                            <input class="form-control" id="birthday" data-date-format="yyyy-mm-dd" name="birthday" type="text" value="{{ old('birthday') }}">
+                            <input class="form-control" id="birthday" data-date-format="yyyy-mm-dd" name="birthday" type="date" value="{{ old('birthday') }}">
 
                             @if ($errors->has('birthday')) <small class="text-danger form-error">{{ $errors->first('birthday')}}</small>@endif
 
