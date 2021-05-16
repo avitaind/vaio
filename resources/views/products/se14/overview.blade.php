@@ -1,11 +1,14 @@
 @extends('layout.app')
 
-@section('title', 'VAIO SE14')
+@section('title', 'VAIO SE14 2021')
 
+@section('product_nav')
+    @include('products.se14.product_nav')
+	
+@stop
 
 @section('content')
-<!------
------->
+
 <div class="navbar-product-page d-lg-flex justify-content-lg-end" style="border-top: 1px solid #fff; border-bottom: 1px solid #fff;">
     <ul class="navbar-nav flex-wrap flex-row col col-lg-4 p-0">
 
@@ -15,35 +18,28 @@
         <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
             <a href="{{ route('product.spec_se14') }}" class="nav-link py-3 py-lg-2">@lang('common.spec')</a>
         </li>
+		
         <li class="nav-item text-center" style="flex-grow: 1; border-left: 1px solid white;">
             <a href="{{ route('product.gallery_se14') }}" class="nav-link py-3 py-lg-2">@lang('common.gallery')</a>
         </li>
-
+ 
         @if( $store_enabled )
-        
-        <li class="nav-item-preorder nav-item text-center" style="flex-grow: 4; border-left: 1px solid white;">
-                <a href="@lang('common.nav.Nexstmall_link')" target="_blank" class="nav-link py-3 py-lg-2">@lang('common.buy_now')</a>
-        </li>
-         
+            <li class="nav-item-preorder nav-item text-center" style="flex-grow: 4; border-left: 1px solid white;">
+                <a href="@lang('common.se14_buy_now_url')" target="_blank" class="nav-link py-3 py-lg-2">@lang('common.buy_now')</a>
+            </li>
         @endif
+ 
+
     </ul>
 </div>
-
-
-<!------
------->
-
 <!--- Banner here------------------------------------>
-
 <section class="main-banner-section" style="height: fit-content;">
-    <div class="swiper-container swiper-container-horizontal">
-
-       <!--- 	<a href="https://vaio-sg.nexstmall.com" target="_blank"  class="swiper-slide"> --->
-                        <div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/se14/SE14.jpg)">
-                            <div class="main-banner" title=""></div>
-                        </div>
-         <!---           </a>  ---->
-        
+    <div class="swiper-container-horizontal"> 
+		<a class="swiper-slide">
+			<div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/z/vaio_z_kv_pc_en.jpg)">
+				<div class="main-banner" title=""></div>
+			</div>
+		</a>
     </div>
 </section>
 @push('css')
@@ -59,246 +55,563 @@
             }
         }
         .cms-banner-5 .main-banner {
-            background-image: url(/images/se14/SE14.jpg);
+            background-image: url(/images/se2021/VAIO_SE14_Product_Creatives_1920X720px.jpg);
         }
-
         @media(max-width: 991px) {
-            .cms-banner-5 .main-banner {
-            background-image: url(/images/se14/SE14-2.jpg);
+        .cms-banner-5 .main-banner {
+            background-image: url(/images/se2021/VAIO_SE14_Product_Creatives 991X1050px.jpg);
             }
         }
-        @media(max-width: 991px) {
+		
+		/* CSS for Z images */
+		.mb_px-10 {
+			padding: 0px 0px 0px 0px;
+		} 
 
-            .feature-box{
-            margin:5px 0px;
-          }
+       .mb_only {
+				display:none;
         }
+       .pc_only {
+				display:block;
+        }
+		
+		
+		h1{
+			font-size: 3rem;
+			font-weight: bolder;
+			letter-spacing: 2px;
+		}
+		
+		h3{
+			font-weight: bold;
+			color: #000;
+		}
+			
+		
+		.pt-title {
+			font-size: 2.3rem;
+			font-weight: bold; 
+		}
+		
+		.pt-content-wrapper-lg, .pt-content-wrapper:not(:lang(zh-hk)){
+			width: calc(100% - 60px);
+		}
+		
+		.pt-container-m{
+			padding: 45px;
+		}
+		
+		
+		.pt-container-s{
+			padding: 30px;
+		}
+		
+		
+		
+		.bg-grey{
+			background-color: #f0f0f0;
+		}
+		
+		.text-white{
+			color: #fff  !imporant;
+		}
+		
+		.box{
+			border:1px solid #fff;
+			padding: 30px;
+		}
+		
+		.white-btn{
+			border: 1px solid #fff;
+			background-color: transparent;
+			color: #fff;
+			border-radius: 0;
+			padding: 1rem 4rem;
+		}
+		
+		.white-btn:hover{
+			border: 1px solid #fff;
+			background-color: transparent;
+			color: #fff;
+			opacity: 0.7;
+		}
+		
+		.black-btn{
+			border: 1px solid #000;
+			background-color: transparent;
+			color: #000;
+			border-radius: 0;
+			padding: 1rem 1.5rem;
+		}
+		
+		.black-btn:hover{
+			border: 1px solid #000;
+			background-color: transparent;
+			color: #000;
+			opacity: 0.7;
+		}
+		
 
-       
+		
+        @media(max-width: 991px) {
+		.mb_px-10 {
+			padding: 10px 0px 10px 0px;
+		}
+			 
+            .pc_only {
+				display:none;
+            }
+            .mb_only {
+				display:block;
+            }
+			
+			
+			
+			h1{
+				font-size: 2rem;
+				font-weight: bolder;
+				letter-spacing: 0px;
+    			line-height: 1.1;
+			}
+			
+			.pt-title{
+				font-size: 1.5rem; 
+    			letter-spacing: 0px !important;
+			}
+			
+			h3{
+				font-size: 1.2rem;
+    			line-height: 1;
+			}
+			
+			.pt-content-wrapper-lg, .pt-content-wrapper:not(:lang(zh-hk)){
+				width: calc(100% - 30px);
+			}
+			
+			.py-5 {
+				padding-top: 2rem!important;
+				padding-bottom: 2rem!important;
+			}
+			
+			h1.my-4{
+				margin-top: 0rem!important;
+    			margin-bottom: 0rem!important;
+			}
+			
+			.black-btn{				
+				padding: .5rem;
+				font-size: 12px;
+				letter-spacing: 0px;
+				width: auto;
+				min-width: auto;
+				max-width: 100%;
+				margin-bottom: 40px;
+			}
+			
+			.box{ 
+   				padding: 15px;
+			}
+			
+			.pt-container-m{				
+    			padding: 30px;
+			}
+		
+			
+        }
 
     </style>
 
-@endpush
-<!--- Banner end here------------------------------------>
+@endpush 
 
 <!---Page content here--------------------------------------------->
 
     <section id="vaio-product">
         <div class="main-content container-fluid">
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0 feature-box">
-                <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Common features for work &amp; play</h2>
-                </a>
-                <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>User experience</h2>
-                </a>
-                <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Productivity</h2>
-                </a>
-                <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Reliability</h2>
-                </a>
-            </div>
+			 
+			<section class="pt-section text-center">
+				<div class="container">  
+					
+						<h2 class="pt-title mt-4">WORK / PLAY．SMARTER</h2>
+						<hr class="pt-title-hr">
+						<div class="pt-content-wrapper mx-auto">	
+						<p class="pt-content text-left">
+						The NEW VAIO SE14 empower you for enjoying the best of work and play. Prepare yourself for a more immersive experience with the 11th Gen Intel® Core™ Processor of the NEW VAIO SE14.
+						</p>
+						<p class="pt-content text-left">
+						Boasting a 14” full High Definition resolution display, framed in a slim bezel, for stunning colours and visual details, and a 4-speaker system that offers dynamic audio reproduction – the NEW VAIO SE14 delivers true-to-life experiences and enhances efficiency, effortlessly.
+						</p> 
 
-            <section class="pt-section text-center" style="background-color: #eeeeee" id="pt-1">
-                <div class="container">
-                    <h2 class="pt-title mt-4">Performance &amp; Entertainment</h2>
+
+						</div> 
+						 
+				</div>
+			</section>
+			
+			<section class="pt-section text-center" style="background-color: #fff; padding-top: 0px;">
+                <div class="container"> 
+                    
+					<div class="row">
+						
+                   <div class="col-12 pt-content-wrapper mx-auto">	
+                       
+						<h2 class="pt-title mt-4">VAIO SE14 with New 11th Gen Intel® Core™ Processor</h2>
+						<hr class="pt-title-hr">
+				
+						<div class="fs-0 my-4 my-lg-5">
+							<img src="/images/se2021/se14_2021_1.jpg" >
+						</div>
+					 
+
+						<div class="pt-content-wrapper mx-auto">						 
+							<p class="pt-content text-left">SE14 is the first VAIO line-up to bring high performance laptop with 11th Gen Intel® Core™ Processor with Iris Xe Integrated GPUs for consumers who seek for high productivity and immersive entertainment. </p> 
+							<p class="pt-content text-left">Our New Airflow cooling enhancement and long battery life also help you to reach the best performance.</p> 
+						</div>
+					   
+					  
+                    </div> 
+                    </div>  
+                </div>
+            </section>
+			
+			 
+			
+			<section class="pt-section text-center p-0">
+                <div class="container">  
+					<div class="row">
+                   <div class="pt-content-wrapper mx-auto">	 
+						<h1 class="mt-4">Uncompromised Performance</h1>
+						<hr class="pt-title-hr"> 
+                    </div>  
+                </div>
+                </div>
+            </section>
+			
+			  
+			
+			<section class="pt-section d-flex flex-wrap text-center  p-0" id="pt-1">
+				
+				<div class="container">   
+					<div class="row">
+
+				
+					<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+						<div class="rect-banner"  style="background-image: url('/images/se2021/se14_2021_2.jpg');"></div>
+					</div>
+						
+
+					<div class="col-12 col-lg-6 py-5 order-1 order-lg-2" >
+						<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+							
+							<div class="fs-0  my-lg-5 mo">
+                                <img src="/images/se2021/se14_2021_2.jpg" alt=""> 
+                            </div>
+							
+							<h2 class="pt-title mt-4">Mobile Conference Centre</h2>
+							<hr class="pt-title-hr">
+							<div class="pt-content-wrapper-lg mx-auto">     
+								<p class="pt-content mx-auto text-left">
+									SE14 is a veritable mobile conference centre with its high quality Web Cam with 2 digital array microphones to correctly receive the voice in front of the screen. The inbuilt AEC technology negates echo and noise to make your conference call smooth while its 4 high quality top and bottom firing speakers provide rich clear audio. You can also switch between single/multiple conference modes with just the press of a button.
+								</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>	
+			  </div>	
+               
+            </section>
+			
+			
+			
+			<section class="pt-section d-flex flex-wrap text-center p-0">
+				
+				<div class="container"> 
+				
+					<div class="row">
+
+					<div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #fff;">
+						<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+							
+							<div class="fs-0  my-lg-5 mo">
+                                <img src="/images/se2021/se14_2021_3.jpg" alt=""> 
+                            </div>
+							
+							<h2 class="pt-title mt-4">Uncompromising Productivity</h2>
+							<hr class="pt-title-hr">
+							<div class="pt-content-wrapper-lg mx-auto">     
+								<p class="pt-content mx-auto text-left" >
+									SE14 is optimized for uninhibited work and play with its unparalleled battery life of 12 hours*. Its prowess is further exacerbated by its ultra-fast charging technology which enable 70% charge within just an hour. The preloaded Windows 10 Home ensures that your long hours spent on this powerful device is immensely fruitful whether it is work or entertainment.
+								</p>
+								<p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
+									* Under Test Conditions
+								</p>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+						<div class="rect-banner"  style="background-image: url('/images/se2021/se14_2021_3.jpg');"></div>
+					</div>
+					
+					</div>			
+               </div>
+               
+            </section>
+			 
+            <section class="pt-section text-center" id="pt-1">
+                
+				<div class="container">    
+					
+					
+						
+                    <h2 class="pt-title mt-4">Stringent Security</h2>
                     <hr class="pt-title-hr">
                     <div class="pt-content-wrapper mx-auto">	
 					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0318.jpg" alt="">
-                    </div>
-						<p class="pt-content-title mx-auto">Moving conference center</p>	
-                        <hr class="pt-title-hr">
-					
+                        <img src="/images/se2021/se14_2021_4.jpg" alt="">
+                    </div> 					
                         <p class="pt-content text-left">
-                            Top/Down firing Speaker: Implement 4 high quality speakers on top/bottom side, providing clear and higher quality audio.
+                            SE14 comes with a chassis lock support slot which makes it a safehouse for all your important work and data. 
                         </p>
                         <p class="pt-content text-left">
-                            720P/1080P Web Camera: Combine high quality Web Cam with 2 digital array microphone to correctly receive the voice in front of the screen. AEC* solution will decrease unnecessary echo and noise to allow you have good conference call all the time. 
-                        </p>
-						<p class="pt-content text-left">
-                            Single/Multiple Conference Mode: Use F4 key to quick switch from different conference mode. Microphone will also automatically adjust to Activate Noise Cancellation(ANC) to optimize audio reception.
-<ul class="text-left">
-	<li>Single Mode: Limit and optimize the reception of microphone under 45 degree. You can have a short meeting with the client even in a noisy environment.</li>
-<li>Multiple Mode: Microphone accepts the voice from 180 degree, optimizing the voice for meetings with a lot of attendants. </li>
-						</ul>
-                        </p>
-						<!--<p class="pt-content  text-left">
-                           SE14 features an AMD RadeonTM 550X discrete graphics chip (optional) for enhanced graphics performance, which provides a more engaging experience for digital media-oriented users when watching movies or playing games.</p>-->
-					 <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">* Acoustic Echo Cancellation</p>
-					
-                    </div>
-                    
-				
-				<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/se14pt01-2.png" class="w-50" alt=""><img src="/images/pt-pic/se14pt01-3.png" class="w-50" alt="">
-                    </div>
-				
-
-                   <!-- <h2 class="pt-title mt-4">All Day Power For Outside Work &amp; Play</h2>-->
-                    <div class="pt-content-wrapper mx-auto">						
-						<p class="pt-content-title mx-auto">All Day Power For Outside Work &amp; Play</p>
-                        <hr class="pt-title-hr">
-
-                        <p class="pt-content text-left">Long battery Life: SE14 can provide up to 13-hour battery life for normal web browsing, email, and documentation even if you are out of office to work all day long. On long-distance flight, you can watch your favorite movies for the whole journey.</p>
-                        <p class="pt-content text-left">
-                            Quick charging: Quick charging technology can charge up 70% of the battery power in an hour. It allows you to go for to go for an external ad-hoc meeting. 
-                        </p>
-						 <p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
-                            * Data on battery life is obtained from tests deploying internal tools by engineers. The actual battery performances could vary from battery life tests shown above, due to differences in operating environment and conditions.
-                        </p>	
-					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0492.jpg" alt="">
-                    </div>
-                    </div>
-
+                            Its fingerprint reader integrated with power button allows you to login with just one touch making it a handy gadget ready to be unleashed at a moment’s notice.
+                        </p> 
+                    </div>                     
+                </div>         
+            </section>
+			  
+			
+			<section class="pt-section text-center p-0" >
+                <div class="container">     
+					<div class="row">
+                   <div class="pt-content-wrapper mx-auto">	 
+						<h1 class="mt-4">Delightful  Entertainment Experience</h1>
+						<hr class="pt-title-hr"> 
+                    </div>  
+                </div>
                 </div>
             </section>
-
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0  feature-box">
-                <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Common features for work &amp; play</h2>
-                </a>
-                <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>User experience</h2>
-                </a>
-                <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Productivity</h2>
-                </a>
-                <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Reliability</h2>
-                </a>
-            </div>
-
-
-            <section class="pt-section text-center" id="pt-2">
-                <div class="container">
-                    <h2 class="pt-title mt-4">Delightful User Experience</h2>
-                    <hr class="pt-title-hr">
-                    <div class="pt-content-wrapper mx-auto">
-                        <h3 class="pt-content-title">Ergonomics for Work Comfort</h3>
-                        <!--<p class="pt-content-sm mt-3 mb-2">Natural Ergonomics Tilt reduces stress of palm and wrist while typing</p>-->
-						 <p class="pt-content text-left mb-5">Natural Ergonomics Tilt: With the screen opened(can be done by single hand), the body tilts up to form a natural slant angle with your tabletop. The stress to palm and wrist is greatly reduced while typing, providing comfortable and delightful user experience.<br><br>
-							 More Airflow, Better Performance: SE14 will be lifted slightly because of the tilted body. It not only increase the airflow but also decreases the body temperature for better performance.
-                    </p>	
-					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0419.jpg" alt="">
-                    </div>
-                    </div>
-					
-					
-                    <div class="pt-content-wrapper mx-auto">
-						 
-                        <h3 class="pt-content-title">Backlit Keyboard with spill resistance</h3>
-                        <hr class="pt-title-hr">
-
-                      <!--  <p class="pt-content-sm mt-3 mb-2">2-level back-light keyboard to keep you use in dark place + Full size keyboard provides a comfortable and precise typing experience</p>-->
-						 <p class="pt-content text-left">Convenient typing experience in a dimly-lit conference room or aircraft cabin. The backlit keyboard makes it easier for users to see the keycaps, offering a comfortable input experience that is not limited by the surrounding light environment. Water spill resistance keyboard brings you worry-free experience when working.</p>	
-						<p class="pt-content-sm mt-3 mb-5 text-left" style="font-size: 0.8rem;">
-                            * In the event of a water spillage, users should wipe away the water, before bringing the laptop to a VAIO service center for inspection or repair.<br>
-							* The anti-spill feature is only available on the keyboard and is not applicable on water damage to other parts of the laptop.
-                        </p>	
-                    </div>
-					
-
-                </div>
-            </section>
-
-            
-
-            <div class="d-flex flex-wrap nav-pt px-4 p-lg-0  feature-box" >
-                <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Common features for work &amp; play</h2>
-                </a>
-                <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>User experience</h2>
-                </a>
-                <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Productivity</h2>
-                </a>
-                <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Reliability</h2>
-                </a>
-            </div>
-
-            <section class="pt-section text-center" id="pt-3">
-                <div class="container">
-                     <h2 class="pt-title mt-4">Uncompromised Performance</h2>
-                    <hr class="pt-title-hr">
-                    <div class="pt-content-wrapper mx-auto">
-					<div class="fs-0 my-4 my-lg-5">
-                        <img src="/images/pt-pic/VAIO_0524.jpg" alt="">
-                    </div>
-                        <h3 class="pt-content-title">Seamless Connectivity</h3>
-                        <hr class="pt-title-hr">
-
-                        <!--<p class="pt-content-sm mt-3 mb-2">Highly connectivity (Multiple I/O ports)</p>-->
-						 <p class="pt-content text-left">Connection options are very comprehensive, including two USB Type-C™ ports, two USB type A 3.1 ports and a HDMI port.  Most ports are on the left side of the device, which can avoid your right hand being jammed by the cables from different devices such a mouse or an external HDD.</p>
-                    </div>
-					
-	
-					
-                    <div class="pt-content-wrapper mx-auto">
-                        <h3 class="pt-content-title">More Airflow, Better Performance</h3>
-                        <hr class="pt-title-hr">
-
-                        <!--<p class="pt-content-sm mt-3 mb-2">Thinner and quieter fan + Ultimate thermal tech offers 10%~15% more airflow, better thermal design to achieve the maximum performance of laptop</p>-->
-						 <p class="pt-content text-left">By a more compact and quieter fan with 53 split-design blades, which offers 10%~15% more airflow, together with the tilted body, body temperature of SE14 can be decreased to reach better performance.</p>
-                    </div>
-                
-		
-					
-                    <div class="pt-content-wrapper mx-auto">
-                        <h3 class="pt-content-title">Equipped with new processor</h3>
-                        <hr class="pt-title-hr">
-
-                        <!--<p class="pt-content-sm mt-3 mb-2">Moving conference center…</p>-->
-						 <p class="pt-content text-left">The   VAIO® SE14 combines work and entertainment functions with a comprehensive range   of specifications aimed at the mainstream price arena, making it suitable for a   well-rounded variety of tasks and user groups. The VAIO® SE14 is equipped with   an 8th generation Intel® Core™ processor and a 14-inch full HD IPS screen with   ultra-narrow screen bezel design.</p>
-                    </div>
-                
+			
+			   
 				
+			<section class="pt-section d-flex flex-wrap text-center p-0" id="pt-2">
+				
+				<div class="container">   
+					<div class="row">
+						
+					<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+						<div class="rect-banner"  style="background-image: url('/images/se2021/se14_2021_5.jpg');"></div>
+					</div>
+
+					<div class="col-12 col-lg-6 py-5 order-1 order-lg-2">
+						<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+							<div class="fs-0  my-lg-5 mo">
+								<img src="/images/se2021/se14_2021_5.jpg" alt=""> 
+                            </div>
+							<h2 class="pt-title mt-4">A Visual Treat</h2>
+							<hr class="pt-title-hr">
+							<div class="pt-content-wrapper-lg mx-auto">     
+								<p class="pt-content mx-auto text-left" >
+									The wide angle FHD IPS display of SE14 comes with ultra-narrow bezels enabling a mesmeric visual experience. The 14-inch screen is easy on the eyes with inbuilt anti-glare technology. The amazing display feedback at a stable response time ensures that you never miss out on any details during work or play.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				
-				
+				</div> 
             </section>
+			
+			
+			
+			<section class="pt-section d-flex flex-wrap text-center p-0">
+				 
+				<div class="container">   
+					<div class="row">
+				
+					<div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #fff;">
+						<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+							
+							<div class="fs-0  my-lg-5 mo">
+                                <img src="/images/se2021/se14_2021_6.jpg" alt=""> 
+                            </div>
+							
+							
+							<h2 class="pt-title mt-4">Lightning-Fast SSD</h2>
+							<hr class="pt-title-hr">
+							<div class="pt-content-wrapper-lg mx-auto">     
+								<p class="pt-content mx-auto text-left">
+									SE14 is powered by SSD storage drive which acts as optimal storage for all your files and propels the laptop performance in top gear. The robust SSD facilitates easy multitasking and negates sudden breakdowns while working on CPU draining programs.
+								</p>
 
-            
+							</div>
+						</div>
+					</div>
 
-    <div class="d-flex flex-wrap nav-pt px-4 p-lg-0  feature-box">
-                <a href="#pt-1" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Common features for work &amp; play</h2>
-                </a>
-                <a href="#pt-2" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>User experience</h2>
-                </a>
-                <a href="#pt-3" class="col-6 col-lg-3 selling-pt py-4 text-center">
-                    <h2>Productivity</h2>
-                </a>
-                <a href="#pt-4" class="col-6 col-lg-3 selling-pt py-4 text-center active">
-                    <h2>Reliability</h2>
-                </a>
-            </div>
-
-
-<section class="pt-section d-flex flex-wrap text-center text-white p-0" id="pt-4">
-                <div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #808090;">
-                    <div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
-                        <h2 class="pt-title mt-4">Built to be Secured</h2>
-                        <hr class="pt-title-hr bg-white">
-                        <div class="pt-content-wrapper-lg mx-auto">                            
-                            <p class="pt-content-title mb-0 mt-4">One Touch Quick Login</p>
-							<!--<p class="pt-content-sm mt-3 mb-2" style="color: #ceced2">Windows Hello: Finger print &amp; IR camera</p>-->
-                            <p class="pt-content mx-auto" style="color: #ceced2">Besides the dedicated design and functionality, SE14 also focuses on protecting personal privacy, and comes with a built-in fingerprint reader and TPM 2.0 chip to provide hardware-based security functions which prevent malicious access to private data. The fingerprint reader thwarts biometric hacking with anti-spoofing technology, and does not disclose login authentication when the user signs in. The user can also choose an IR Camera option that supports Windows Hello, enabling quick login with one touch (or a smile) in front of the camera.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0">
-                    <div class="rect-banner" title="VAIO SE14 Thin and Lightweight Body" style="background-image: url('/images/pt-pic/product-banner-se14-1.jpg');"></div>
+					<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+						<div class="rect-banner" style="background-image: url('/images/se2021/se14_2021_6.jpg');"></div>
+					</div>
+				
+			
+				</div>
+				</div> 	
+               
+            </section>
+			 
+			
+			<section class="pt-section text-center p-0" > 
+				<div class="container">    
+                   <div class="pt-content-wrapper mx-auto">	 
+						<h1 class="pt-title mt-4">Common features for work & play</h1>
+						<hr class="pt-title-hr"> 
+                    </div>   
                 </div>
             </section>
+			 
+			
+				
+			<section class="pt-section d-flex flex-wrap text-center p-0" id="pt-3">
+				 
+				<div class="container">   
+					<div class="row">
 
+						<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+							<div class="rect-banner" style="background-image: url('/images/se2021/se14_2021_7.jpg');"></div>
+						</div>
 
+						<div class="col-12 col-lg-6 py-5 order-1 order-lg-2">
+							<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+								
+								<div class="fs-0  my-lg-5 mo">
+									<img src="/images/se2021/se14_2021_7.jpg" alt=""> 
+								</div>
+							
+								
+								<h2 class="pt-title mt-4">Versatile Connectivity</h2>
+								<hr class="pt-title-hr">
+								<div class="pt-content-wrapper-lg mx-auto">     
+									<p class="pt-content mx-auto text-left">
+										The comprehensive ports of SE14, including two USB Type-C™ Thunderbolt 4 ports, two USB type A 3.2 ports, an HDMI port and Wi-Fi 6 allow you to seamlessly connect with multiple devices at the same time. Now, turn your laptop into a multifarious device and simultaneously charge, transfer data, display, and connect to various devices. 
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>        
+            </section>
+			
+			
+			
+			<section class="pt-section d-flex flex-wrap text-center p-0" >
+				 
+				
+				<div class="container">   
+					<div class="row">
+
+						<div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #fff;">
+							<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+								
+								<div class="fs-0  my-lg-5 mo">
+									<img src="/images/se2021/se14_2021_8.jpg" alt=""> 
+								</div>
+							
+								
+								<h2 class="pt-title mt-4">Signature Ergonomic Hinge</h2>
+								<hr class="pt-title-hr">
+								<div class="pt-content-wrapper-lg mx-auto">     
+									<p class="pt-content mx-auto text-left">
+										VAIO’s signature ergonomic hinge allows SE14 to form a natural slant angle with your tabletop. The stress to palm and wrist is greatly reduced while typing, providing comfortable and delightful user experience. It also increases the airflow and reduces body temperature for better performance. 
+									</p>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+							<div class="rect-banner"  style="background-image: url('/images/se2021/se14_2021_8.jpg');"></div>
+						</div>
+						
+				
+					</div>
+				</div>      		
+               
+            </section>
+			
+			 
+			
+				
+			<section class="pt-section d-flex flex-wrap text-center  p-0" >
+				 
+				<div class="container">   
+					<div class="row">
+				
+						<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+							<div class="rect-banner" style="background-image: url('/images/se2021/se14_2021_9.jpg');"></div>
+						</div>
+
+						<div class="col-12 col-lg-6 py-5 order-1 order-lg-2" >
+							<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+								
+								<div class="fs-0  my-lg-5 mo">
+									<img src="/images/se2021/se14_2021_2.jpg" alt=""> 
+								</div>
+
+								
+								<h2 class="pt-title mt-4">Backlit Keyboard</h2>
+								<hr class="pt-title-hr ">
+								<div class="pt-content-wrapper-lg mx-auto">     
+									<p class="pt-content mx-auto text-left" >
+										Input experience is fun, versatile and carefree with SE14’s backlit keyboard. Get convenient typing experience whether it is a dimly loot conference room or an aircraft cabin with backlit keys and stay nonchalant in any environment.
+									</p>
+								</div>
+							</div>
+						</div>
+               
+					</div>
+				</div>
+            </section>
+			
+			
+			
+			<section class="pt-section d-flex flex-wrap text-center  p-0">
+				 
+				<div class="container">   
+					<div class="row">
+				
+						<div class="col-12 col-lg-6 py-5 order-1 order-lg-2" style="background-color: #fff;">
+							<div class="d-flex flex-wrap flex-column align-items-center justify-content-center h-100">
+								
+									
+								<div class="fs-0  my-lg-5 mo">
+									<img src="/images/se2021/se14_2021_10.jpg" alt=""> 
+								</div>
+							
+								
+								<h2 class="pt-title mt-4">Minimalist Premium Design</h2>
+								<hr class="pt-title-hr">
+								<div class="pt-content-wrapper-lg mx-auto">     
+									<p class="pt-content mx-auto text-left">
+										SE14 is packed in a stylish portable body that weighs just 1.39kg. The minimal and sleek design of the SE14 is complimented with an aluminium frame that offers superior build quality and premium feel to the hand.
+									</p>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-6 rect-banner-wrapper order-2 order-lg-1 px-0 pc">
+							<div class="rect-banner" style="background-image: url('/images/se2021/se14_2021_10.jpg');"></div>
+						</div>
+               
+					</div>
+				</div>
+            </section>
+			
+			
+			 
+			
+			
+			
 
 
 
@@ -313,12 +626,16 @@
                         The use of the "VAIO" trademark is by the permission of and subject to license with VAIO Corporation.
                         <br />
                       <br />
-                    </p>
+                <!---    * Azumino Finish and all Quality control Tests are applicable to VAIO S11, VAIO S13, VAIO A12 and VAIO SX14 only. ----> </p>
 
                 </div>
             </div>
         </div>
     </div>
+		
+		
+	</div>
+</section>
 
 
 <!---Page content end here--------------------------------------------->
@@ -331,4 +648,6 @@
 
 @section('js')
     <script src="{{ asset('js/product.js') }}"></script>
+	<script defer src="{{ asset('js/html5gallery.js') }}"></script>
+
 @stop

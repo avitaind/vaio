@@ -54,12 +54,10 @@
 
     <div class="form-group row">
             <div class="col-12 col-lg-10 col-xl-9">
-            <!-- <button type="button" style="float: right;" class="btn btn-primary  my-3 py-3 btn btn-primary next-step next-button">
+            <button type="button" style="float: right;" class="btn btn-primary  my-3 py-3 btn btn-primary next-step next-button">
                 @lang('member.form_next')
-            </button> -->
+            </button>
 
-         
-                       
     </div>
     </div>
 
