@@ -32,196 +32,106 @@
 
     </ul>
 </div>
-<!--- Banner here------------------------------------>
+<!--- Banner here------------------------------------> 
+
 <section class="main-banner-section" style="height: fit-content;">
-    <div class="swiper-container-horizontal"> 
-		<a class="swiper-slide">
-			<div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/z/vaio_z_kv_pc_en.jpg)">
-				<div class="main-banner" title=""></div>
-			</div>
-		</a>
+    <div class="swiper-container swiper-container-horizontal">
+			
+        <div class="swiper-wrapper">
+             <a href=""  target="_blank" class="swiper-slide">
+                <div class="main-banner-wrapper cms-banner cms-banner-1">
+                    <div class="main-banner" title=""></div>
+                </div>
+            </a>
+            
+             <!-- <a href=""  target="_blank" class="swiper-slide">
+                <div class="main-banner-wrapper cms-banner cms-banner-2">
+                    <div class="main-banner" title=""></div>
+                </div>
+            </a> -->
+             
+        </div>
+        <!-- <div class="swiper-pagination"></div>   -->
     </div>
 </section>
+
+
 @push('css')
 
     <style>
         .cms-banner:before {
             padding-top: 37.51%;
         }
+		
+		
+		.pt-title{ 
+    		font-size: 2.5rem;
+		}
+		
+		.pt-section.p-0{
+			padding: 20px 0 !important;
+		}
+		
+		.rect-banner{ 
+			background-size: contain; 
+			background-repeat: no-repeat;
+		}
 
         @media( max-width: 991px) {
             .cms-banner:before {
                 padding-top: 106%;
             }
         }
-        .cms-banner-5 .main-banner {
+        .cms-banner-1 .main-banner {
             background-image: url(/images/se2021/VAIO_SE14_Product_Creatives_1920X720px.jpg);
         }
-        @media(max-width: 991px) {
-        .cms-banner-5 .main-banner {
-            background-image: url(/images/se2021/VAIO_SE14_Product_Creatives 991X1050px.jpg);
-            }
-        }
 		
-		/* CSS for Z images */
-		.mb_px-10 {
-			padding: 0px 0px 0px 0px;
-		} 
+		/* .cms-banner-2 .main-banner {
+            background-image: url(/images/se2021/VAIO-SE14-Clack-II_2_pc_en.jpg);
+        } */
 
-       .mb_only {
-				display:none;
-        }
-       .pc_only {
-				display:block;
-        }
-		
-		
-		h1{
-			font-size: 3rem;
-			font-weight: bolder;
-			letter-spacing: 2px;
+		@media(min-width: 992px) {
+			.mo{
+			 	display:none;
+			}
 		}
-		
-		h3{
-			font-weight: bold;
-			color: #000;
-		}
-			
-		
-		.pt-title {
-			font-size: 2.3rem;
-			font-weight: bold; 
-		}
-		
-		.pt-content-wrapper-lg, .pt-content-wrapper:not(:lang(zh-hk)){
-			width: calc(100% - 60px);
-		}
-		
-		.pt-container-m{
-			padding: 45px;
-		}
-		
-		
-		.pt-container-s{
-			padding: 30px;
-		}
-		
-		
-		
-		.bg-grey{
-			background-color: #f0f0f0;
-		}
-		
-		.text-white{
-			color: #fff  !imporant;
-		}
-		
-		.box{
-			border:1px solid #fff;
-			padding: 30px;
-		}
-		
-		.white-btn{
-			border: 1px solid #fff;
-			background-color: transparent;
-			color: #fff;
-			border-radius: 0;
-			padding: 1rem 4rem;
-		}
-		
-		.white-btn:hover{
-			border: 1px solid #fff;
-			background-color: transparent;
-			color: #fff;
-			opacity: 0.7;
-		}
-		
-		.black-btn{
-			border: 1px solid #000;
-			background-color: transparent;
-			color: #000;
-			border-radius: 0;
-			padding: 1rem 1.5rem;
-		}
-		
-		.black-btn:hover{
-			border: 1px solid #000;
-			background-color: transparent;
-			color: #000;
-			opacity: 0.7;
-		}
-		
 
-		
         @media(max-width: 991px) {
-		.mb_px-10 {
-			padding: 10px 0px 10px 0px;
-		}
-			 
-            .pc_only {
-				display:none;
-            }
-            .mb_only {
-				display:block;
+            .cms-banner-1 .main-banner {
+            	background-image: url(/images/se2021/VAIO_SE14_Product_Creatives_991X1050px.jpg);
             }
 			
+			/* .cms-banner-2 .main-banner {
+            	background-image: url(/images/se2021/VAIO-SE14-Clack-II_2_mo_en.jpg);
+            } */
 			
-			
-			h1{
-				font-size: 2rem;
-				font-weight: bolder;
-				letter-spacing: 0px;
-    			line-height: 1.1;
+			.pc{
+				display:none !important;
 			}
 			
-			.pt-title{
-				font-size: 1.5rem; 
-    			letter-spacing: 0px !important;
+			
+			h1{ 
+				font-size: 2.0rem;
+			}
+			.pt-title {
+				font-size: 1.5rem;
 			}
 			
-			h3{
-				font-size: 1.2rem;
-    			line-height: 1;
+			.py-5{
+				padding-top: 1.0rem!important;
+				padding-bottom: 1.0rem!important;
 			}
 			
-			.pt-content-wrapper-lg, .pt-content-wrapper:not(:lang(zh-hk)){
-				width: calc(100% - 30px);
+			.pt-section{
+				padding: 20px 0 !important;
 			}
-			
-			.py-5 {
-				padding-top: 2rem!important;
-				padding-bottom: 2rem!important;
-			}
-			
-			h1.my-4{
-				margin-top: 0rem!important;
-    			margin-bottom: 0rem!important;
-			}
-			
-			.black-btn{				
-				padding: .5rem;
-				font-size: 12px;
-				letter-spacing: 0px;
-				width: auto;
-				min-width: auto;
-				max-width: 100%;
-				margin-bottom: 40px;
-			}
-			
-			.box{ 
-   				padding: 15px;
-			}
-			
-			.pt-container-m{				
-    			padding: 30px;
-			}
-		
 			
         }
+		
 
     </style>
 
-@endpush 
+@endpush
 
 <!---Page content here--------------------------------------------->
 
