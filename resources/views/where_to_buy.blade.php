@@ -20,18 +20,19 @@
 
             </div>
             <div class="logo-col">
-            <a class="px-md-4 py-2" target="_blank" href="#"> <img src="images/AZ-logo.png" alt="Where to Buy" /></a>
+            <a class="px-md-4 py-2" target="_blank" href="https://amzn.to/3fpWnA1"> <img src="images/AZ-logo.png" alt="Where to Buy" /></a>
       
         <br/>
+
+<!---
   <br/>
         <center> <span class="px-md-2 py-4"><a href="https://www.amazon.in/NP14V3IN034P-i5-1135G7-Graphics-Fingerprint-Carrying/dp/B0936H27SM/" target="_blank">VAIO SE14</a> | <a href="https://www.amazon.in/11gen-signature-black-Graphics-802-11/dp/B092DTT7MC/"  target="_blank">VAIO Z</a></span>
-</center>        
+</center>    
+
+--->    
         </div>
             </div>
-
-
-
-          <!--
+  <!--
             <a class="px-md-4 py-2" target="_blank" href="https://bit.ly/3ffjy0b">    <img src="images/flipkart-logo.jpeg" id="mobile" alt="Where to Buy" width="50%" style="margin-left: 25%;"/></a>
                 <div class="col-12 col-md-12 col-lg-8 mt-3">
                     <div class="map-wrap embed-responsive embed-responsive-1by1">
