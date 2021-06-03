@@ -16,15 +16,20 @@ class LaravelFacebookPixel
      * @var string
      */
     protected $id;
-    
+    /**
+     * @var string
+     */
+    protected $cspNonceCallback;
+
     /**
      * LaravelFacebookPixel constructor.
-     * @param $config
+     * @param $id
      */
     public function __construct($id)
     {
         $this->id = $id;
         $this->enabled = true;
+        $this->cspNonceCallback = '';
     }
     
     /**
@@ -71,29 +76,24 @@ class LaravelFacebookPixel
     {
         return $this->enabled;
     }
-    
+
     /**
      * @return string
      */
-    public function headContent()
+    public function getCspNonceCallback()
     {
-        return "<!-- Facebook Pixel Code -->
-        <script>
-            !function(f,b,e,v,n,t,s)
-              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                  n.queue=[];t=b.createElement(e);t.async=!0;
-                  t.src=v;s=b.getElementsByTagName(e)[0];
-                  s.parentNode.insertBefore(t,s)}(window, document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '" . $this->id . "');
-              fbq('track', 'PageView');
-            </script>
-            <noscript><img height='1' width='1' style='display:none'
-            src='https://www.facebook.com/tr?id=" . $this->id . "&ev=PageView&noscript=1'
-            /></noscript>
-            <!-- End Facebook Pixel Code -->";
+        return $this->cspNonceCallback;
+    }
+
+    /**
+     * @param string $callback
+     */
+    public function addCspNonce($callback)
+    {
+        if (!function_exists($callback)) {
+            return;
+        }
+        $this->cspNonceCallback = $callback;
     }
     
     /**
@@ -108,7 +108,9 @@ class LaravelFacebookPixel
                 $pixelCode .= "fbq('track', '" . $facebookPixel["name"] . "', " . json_encode($facebookPixel["parameters"]) . ");";
             };
             session()->forget('facebookPixelSession');
-            
+            if($this->cspNonceCallback) {
+                return "<script nonce='" . call_user_func($this->cspNonceCallback) . "'>" . $pixelCode . "</script>";
+            }
             return "<script>" . $pixelCode . "</script>";
         }
         

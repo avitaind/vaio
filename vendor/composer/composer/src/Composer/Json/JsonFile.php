@@ -80,6 +80,7 @@ class JsonFile
     /**
      * Reads json file.
      *
+     * @throws ParsingException
      * @throws \RuntimeException
      * @return mixed
      */
@@ -93,7 +94,7 @@ class JsonFile
                     $realpathInfo = '';
                     $realpath = realpath($this->path);
                     if (false !== $realpath && $realpath !== $this->path) {
-                         $realpathInfo = ' (' . $realpath . ')';
+                        $realpathInfo = ' (' . $realpath . ')';
                     }
                     $this->io->writeError('Reading ' . $this->path . $realpathInfo);
                 }
@@ -172,6 +173,7 @@ class JsonFile
      * @param  int                     $schema     a JsonFile::*_SCHEMA constant
      * @param  string|null             $schemaFile a path to the schema file
      * @throws JsonValidationException
+     * @throws ParsingException
      * @return bool                    true on success
      */
     public function validateSchema($schema = self::STRICT_SCHEMA, $schemaFile = null)
@@ -194,9 +196,9 @@ class JsonFile
 
         $schemaData = (object) array('$ref' => $schemaFile);
 
-        if ($schema === self::LAX_SCHEMA) {
-            $schemaData->additionalProperties = true;
-            $schemaData->required = array();
+        if ($schema !== self::LAX_SCHEMA) {
+            $schemaData->additionalProperties = false;
+            $schemaData->required = array('name', 'description');
         }
 
         $validator = new Validator();
@@ -289,6 +291,7 @@ class JsonFile
      * @param string $json json string
      * @param string $file the json file
      *
+     * @throws ParsingException
      * @return mixed
      */
     public static function parseJson($json, $file = null)
