@@ -18,8 +18,13 @@
                             </a>
 
                         </li>
-                        <li role="presentation" class="nav-item mx-auto">
+                        {{-- <li role="presentation" class="nav-item mx-auto">
                             <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="@lang('member.step2')" class="nav-link disabled">
+                                <span class="round-tab"><div>2</div></span>
+                            </a>
+                        </li> --}}
+                        <li role="presentation" class="nav-item mx-auto">
+                            <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="@lang('member.step2')" class="nav-link  next-step next-button">
                                 <span class="round-tab"><div>2</div></span>
                             </a>
                         </li>
