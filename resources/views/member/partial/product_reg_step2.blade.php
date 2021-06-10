@@ -89,7 +89,7 @@
     </div>
     <div class="form-group row">
             <div class="col-12 col-lg-10 col-xl-9">
-            <button type="submit" class="btn btn-primary submit my-3 py-3"  style="float: right; display:none;">
+            <button type="button" class="btn btn-primary submit my-3 py-3"  style="float: right;display: none;">
                 @lang('member.form_submit')
             </button>
             </div>
