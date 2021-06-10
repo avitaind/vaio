@@ -46,7 +46,7 @@
             @lang('member.form_purchase_date'): <span class="required">*</span>
         </label>
         <div class="col-12 col-md-8 col-lg-7 col-xl-6">
-            <input class="form-control" id="purchase_date" data-date-format="yyyy-mm-dd" data-date-end-date="0d" required="required" name="purchase_date" type="text" value="{{ old('purchase_date') }}">
+            <input class="form-control" id="purchase_date" data-date-format="yyyy-mm-dd" data-date-end-date="0d" required="required" name="purchase_date" type="date" value="{{ old('purchase_date') }}">
 
             @if ($errors->has('purchase_date')) <small class="text-danger form-error">{{ $errors->first('purchase_date')}}</small>@endif
         </div>

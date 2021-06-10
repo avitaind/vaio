@@ -84,7 +84,7 @@
             <span class="required">*</span>
         </label>
         <div class="col-12 col-md-8 col-lg-7 col-xl-6">
-            <input class="form-control" id="birthday" data-date-format="yyyy-mm-dd" data-date-end-date="0d" name="birthday" required="required" type="text" value="{{ old('birthday') }}">
+            <input class="form-control" id="birthday" data-date-format="yyyy-mm-dd" data-date-end-date="0d" name="birthday" required="required" type="date" value="{{ old('birthday') }}">
         </div>
     </div>
     <div class="form-group row">
