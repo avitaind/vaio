@@ -101,16 +101,17 @@
               <div class="offset-md-1 spec-item-content">IEEE802.11 a/b/g/n/ac/ax compliant Wi-Fi 6 compliant</div>
             </li>
             <li class="spec-item d-flex">
-              <div class="offset-md-1 col-4 col-md-3 spec-item-name">External I/O Ports</div>
+              <div class="offset-md-1 col-4 col-md-3 spec-item-name">I/O Ports</div>
               <div class="offset-md-1 spec-item-content">
-							1x HDMI<br/>
-							1x Combo Headphone+Microphone<br/>
-							2x USB Type-C™ Supports<br/>
-						 -Thunderbolt™ 4<br/>
-						 -USB Power Delivery<br/>
-						 -SuperSpeed USB 20Gbps (USB4™)<br/>
-						 -DisplayPort 1.4<br/>
-						 -5V assist charge
+							-1x HDMI<br/>
+							-1x Combo Headphone+Microphone<br/>
+							-2x USB Type-C™ Supports<br/>
+						  -Thunderbolt™ 4<br/>
+						  -USB Power Delivery<br/>
+						  -USB4™<br/>
+						  -USB 3.1<br/>
+						  -Display Port 1.4<br/>
+              -5V assist charge
 				</div>
             </li>
             
