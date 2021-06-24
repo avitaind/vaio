@@ -101,8 +101,8 @@
                     <li class="spec-item d-flex">
                         <div class="offset-md-1 col-4 col-md-3 spec-item-name">Inputs &amp; Outputs</div>
                         <div class="offset-md-1 spec-item-content">
-                             1 X Network (LAN)
-                            <br> 1 x USB Type-C (with charging)
+                             <!-- 1 X Network (LAN) -->
+                             1 x USB Type-C (with charging)
                             <br> 2 x USB Type-A (3.1)
                             <br> 1 x HDMI
                             <br> 1 x Headphone + Microphone
