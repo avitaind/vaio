@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', __('common.nav.support.terms_cond'))
+@section('title', __('Product Range'))
 
 @section('content')
 <!--- Banner here VAIO z------------------------------------>
