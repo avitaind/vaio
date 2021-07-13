@@ -52,9 +52,9 @@ class PageController extends Controller
 
     public function getWhereToBuy( ) {
         return view('where_to_buy');
-		
+
 		//return redirect('https://vaio-sg.nexstmall.com/');
-		
+
     }
 
     public function getRepairTnc( ) {
@@ -80,5 +80,10 @@ class PageController extends Controller
 
         return view('pages.support_regions');
 
+    }
+
+    public function product_Range(){
+
+        return view('pages.product_range');
     }
 }

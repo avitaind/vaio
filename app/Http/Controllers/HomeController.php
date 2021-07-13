@@ -40,12 +40,12 @@ class HomeController extends Controller
         $this->validate($request, [
              'email'     => 'required',
             ]);
-    
+
         $subscription = new Subscription([
            'email'     => $request->input('email'),
          ]);
-        
-           
+
+
         $subscription->save();
       //  $mailer->sendSubscriberInformation(Auth::user(), $subscription);
       //  return redirect()->back()->with("status", "Thanks for Subscribing, We will connect you shortly.");
@@ -54,12 +54,12 @@ class HomeController extends Controller
     }
 
     public function showEvent(){
-        
+
         return view('launch');
     }
 
     public function launchEvent(Request $request){
-        
+
         $this->validate($request, [
             'name'      => 'required|',
             'email'     => 'required|string|email|max:255|unique:vaio_user_db.launches',
@@ -70,11 +70,10 @@ class HomeController extends Controller
             'email'     => $request->input('email'),
           ]);
 
-         $launch->save(); 
+         $launch->save();
          return redirect()->back()->with("status", "Thanks for Subscribing, You will get launch event link shortly.");
 
 
 
     }
-
 }

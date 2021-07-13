@@ -183,6 +183,9 @@ Route::get('/support', 'PageController@getSupport')->name('support');
 
 Route::get('/search', 'SearchController@search');
 
+Route::get('/product_range', 'PageController@product_Range')->name('product_range');
+
+
 /**
  *
  *  Kevin 2018-06-24
