@@ -409,7 +409,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
     //about us
     'about_us'       => [
         'title'   => 'About Us',
-        'content' => 'June 4th, 2018, Nexstgo Company Limited announced that they will be licensed by VAIO Corporation to oversee the business in Asia. This license agreement between Hong Kong-based Nexstgo and the Japan-based VAIO Corporation will include manufacturing, sales and marketing as well as servicing of VAIO laptops under the VAIO trademark in the Hong Kong, Macau, Malaysia, MEA, India and Taiwan markets.',
+        'content' => 'June 4th, 2018, Nexstgo Company Limited announced that they will be licensed by VAIO Corporation to oversee the business in Asia. This license agreement between Hong Kong-based Nexstgo and the Japan-based VAIO Corporation will include manufacturing, sales and marketing as well as servicing of VAIO laptops under the VAIO trademark in the Hong Kong, Macau, Malaysia, Singapore, MEA, India and Taiwan markets.',
 
         'vaio'    => [
             'title'   => 'About VAIO Corporation',
