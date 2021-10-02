@@ -55,12 +55,12 @@
             }
         }
         .cms-banner-5 .main-banner {
-            background-image: url(/images/e15/E15.jpg);
+            background-image: url(/images/e15/e15-banner-web.jpg);
         }
 
         @media(max-width: 991px) {
             .cms-banner-5 .main-banner {
-            background-image: url(/images/e15/E15-2.jpg);
+            background-image: url(/images/e15/e15-banner-mob.jpg);
             }
         }
 
