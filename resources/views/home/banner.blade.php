@@ -29,14 +29,14 @@
                             <div class="main-banner" title=""></div>
                         </div>
                     </div>
-                    
+
                 @endif
 
             @endforeach
 
         </div>
-        
-     <div class="swiper-pagination"></div> 
+
+     <div class="swiper-pagination"></div>
 
     </div>
 
@@ -47,19 +47,19 @@
 
     <style>
 
-   
+
         .cms-banner:before {
             padding-top: 37.51%;
-           
+
         }
 
         @media( max-width: 991px) {
             .cms-banner:before {
                 padding-top: 106%;
             }
-          
+
     }
-        
+
 
 
         @foreach( $banners as $index => $banner )
