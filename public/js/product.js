@@ -44,7 +44,7 @@ $(document).ready(function(){
    speed: 1500,
    autoplay:{
      delay: 5000,
-     disableOnInteraction: false,
+     disableOnInteraction: true,
    },
    pagination:{
      el: '.swiper-pagination',
