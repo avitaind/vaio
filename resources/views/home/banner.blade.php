@@ -36,7 +36,7 @@
 
         </div>
 
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
 
     </div>
 
