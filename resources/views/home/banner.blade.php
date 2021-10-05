@@ -4,7 +4,7 @@
 
             @foreach( $banners as $index => $banner )
 
-                @if( $banner->url )
+                <!-- @if( $banner->url )
                     @php
                         $url_host = parse_url($banner->url, PHP_URL_HOST);
 
@@ -15,20 +15,20 @@
                             $is_same_host = ( $url_host == request()->getHost() );
                         }
 
-                    @endphp
+                    @endphp -->
 
                     <a href="{{ $banner->url }}" @if(!$is_same_host) target="_blank" @endif class="swiper-slide">
                         <div class="main-banner-wrapper cms-banner cms-banner-{{ $index }}">
                             <div class="main-banner" title=""></div>
                         </div>
                     </a>
-                @else
+                <!-- @else
                     <div class="swiper-slide">
                         <div class="main-banner-wrapper cms-banner cms-banner-{{ $index }}">
                             <div class="main-banner" title=""></div>
                         </div>
                     </div>
-                @endif
+                @endif -->
 
 
 
