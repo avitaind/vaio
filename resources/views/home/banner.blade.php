@@ -17,7 +17,7 @@
 
                     @endphp
 
-                    <a href="{{ $banner->url }}" @if(!$is_same_host) target="_blank" @endif class="swiper-slide">
+                    <a href="{{ $banner->url }}" @if($is_same_host) target="_blank" @endif class="swiper-slide">
                         <div class="main-banner-wrapper cms-banner cms-banner-{{ $index }}">
                             <div class="main-banner" title=""></div>
                         </div>
