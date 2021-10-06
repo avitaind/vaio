@@ -1,3 +1,6 @@
+@php
+    $centers = \App\NewWhereToBuy::orderBy('id', 'asc')->paginate(10);
+@endphp
 @extends('layout.app')
 
 @section('title', __('common.nav.where_to_buy'))
@@ -21,15 +24,15 @@
             </div>
             <div class="logo-col">
             <a class="px-md-4 py-2" target="_blank" href="https://amzn.to/3fpWnA1"> <img src="images/AZ-logo.png" alt="Where to Buy" /></a>
-      
+
         <br/>
 
 <!---
   <br/>
         <center> <span class="px-md-2 py-4"><a href="https://www.amazon.in/NP14V3IN034P-i5-1135G7-Graphics-Fingerprint-Carrying/dp/B0936H27SM/" target="_blank">VAIO SE14</a> | <a href="https://www.amazon.in/11gen-signature-black-Graphics-802-11/dp/B092DTT7MC/"  target="_blank">VAIO Z</a></span>
-</center>    
+</center>
 
---->    
+--->
         </div>
             </div>
   <!--
@@ -66,11 +69,44 @@
 
                         </ul>
                     </div>
-                </div>--> 
-                
-             	<div class="shopsList"></div> 
-                
+                </div>-->
+
+                {{-- Search Bar Start --}}
+                <div class="container">
+                    <div class="input-group">
+                    <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State Here"> </input>
+                    <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+                {{-- Search Bar End --}}
+
+                <div class="container  ls-0">
+                    <div class="shopsList" id="shopsList">
+                    @if(!empty($centers) && $centers->count())
+                        @foreach( $centers as $shop )
+                            <div class="col-md-6">
+                                <div class="pb-1"><h4>{{ $shop->name }}</h4></div>
+                                <div class="">
+                                    <i class="fa fa-map icon"></i>
+                                    {{ $shop->address }}
+                                </div>
+                                <div class="">
+                                    <i class="fa fa-phone icon"></i>
+                                    {{ $shop->phone }}
+                                </div>
+                                <br>
+                            </div>
+                        @endforeach
+
+                    </div>
+                </div>
+
+
+
+             	{{--  <div class="shopsList"></div>  --}}
+
             </div>
+            {!! $centers->links() !!}
 
             <div class="contact-enquire-wrapper mt-5 pt-0 pt-lg-4">
                 <h2 class="page-title">@lang('common.contact_us.sales.title')</h2>
@@ -94,6 +130,31 @@
 
 @stop
 
+
+@section('js')
+            <script type="text/javascript">
+
+            $('#search').on('keyup', function(){
+                    $value=$(this).val();
+                    $.ajax({
+                        type: 'get',
+                        url: '{{URL::to('searchWhereToBuy')}}',
+                        data: { 'search': $value},
+                        success:function(data){
+                            $('#shopsList').html(data);
+                        }
+                    })
+                })
+
+            </script>
+
+
+    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+
+
+@endsection
+
+{{--
 @section('js')
 
    <script>
@@ -129,7 +190,7 @@
                 $(json.shops).each(function ( index ) {
                     var location = new google.maps.LatLng(this.lat, this.long);
                     if(index==0){
-                       // maps.setCenter(location); 
+                       // maps.setCenter(location);
                     }
                     var marker = new google.maps.Marker({
                         position: location,
@@ -170,4 +231,4 @@
 
 
 
-@stop
+@stop  --}}

@@ -1,5 +1,5 @@
 @php
-    $centers = \App\NewServiceCenter::orderBy('id', 'asc')->get();
+    $centers = \App\NewServiceCenter::orderBy('id', 'asc')->paginate(10);
 @endphp
 
 <div id="support-center" class="support-center-wrap">
@@ -60,7 +60,7 @@
                 </div>
 
                   	<div class="shopsList" id="shopsList">
-
+                        @if(!empty($centers) && $centers->count())
                         @foreach( $centers as $search )
                      <div class="col-md-6">
                                 <div>
@@ -78,7 +78,11 @@
                                 <br><br>
                          </div>
                      @endforeach
-
+                     @else
+                     <tr>
+                         <td colspan="10">There are no data.</td>
+                     </tr>
+                 @endif
                             {{-- @for( $i = 0 ; $i < count($centers) ; $i++ )
 
                                 @php
@@ -101,6 +105,7 @@
 
             </div>
         </div>
+        {!! $centers->links() !!}
     </div>
 </div>
 

@@ -49,6 +49,8 @@ Route::group([
 
     Route::get('/where-to-buy', 'PageController@getWhereToBuy')->name('where_to_buy');
 
+    Route::get('/searchWhereToBuy', 'WhereToBuyController@searchWhereToBuy');
+
 
 
     Route::get('/news', 'NewsController@getNews')->name('news.news');
