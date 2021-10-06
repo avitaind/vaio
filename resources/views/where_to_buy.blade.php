@@ -97,7 +97,11 @@
                                 <br>
                             </div>
                         @endforeach
-
+                        @else
+                        <tr>
+                            <td colspan="10">There are no data.</td>
+                        </tr>
+                    @endif
                     </div>
                 </div>
 

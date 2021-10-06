@@ -7,7 +7,7 @@
                 @if( $banner->url )
                     @php
                         $url_host = parse_url($banner->url, PHP_URL_HOST);
-                        
+
                         if ( $url_host == null ) {
                             $is_same_host = true;
 
