@@ -5,7 +5,7 @@
     @include('home.banner')
 
     <!-- Recommended Products -->
-           
+
     <section class="py-5">
         <div class="container py-0 py-lg-4">
             <h2 class="section-title mb-3 mb-lg-5">@lang('common.homepage.recommended_products')</h2>
@@ -22,13 +22,13 @@
                                     <div class="py-3"></div>
                                 </div>
                             </a>
-                        </div>  
-                        
+                        </div>
+
                         <div class="col-6 d-flex align-items-end text-center recommend-item">
                             <a href="{{ route('product.overview_signature_z141') }}" class="d-block w-100">
                                 <img src="/images/elements/signature_z141.jpg">
                                 <div class="recommend-item-info">
-                                    <div class="recommend-model mb-1">VAIO® Z SIGNATURE EDITION</div> 
+                                    <div class="recommend-model mb-1">VAIO® Z SIGNATURE EDITION</div>
                                     <div class="orange-label px-2">@lang('common.homepage.available')</div>
                                     <div class="mb-2">@lang('common.homepage.tag_Z_Signature')</div>
                                     <div class="mb-2">&nbsp;</div>
@@ -46,7 +46,7 @@
                                     <div class="py-3"></div>
                                 </div>
                             </a>
-                        </div>  
+                        </div>
 
                         <div class="col-6 d-flex align-items-end text-center recommend-item">
                             <a href="{{ route('product.overview_e15') }}" class="d-block w-100">
@@ -58,25 +58,25 @@
                                     <div class="py-3"></div>
                                 </div>
                             </a>
-                        </div>  
-                   
-              
-     
-                        <!--- 
-                        
+                        </div>
+
+
+
+                        <!---
+
                         <div class="col-6 d-flex align-items-end text-center recommend-item">
                                 <a href="{{ route('product.overview') }}" class="d-block w-100">
                                     <img src="/images/elements/s13.jpg">
                                     <div class="recommend-item-info">
-                                        <div class="recommend-model mb-1">VAIO® S13</div> 
+                                        <div class="recommend-model mb-1">VAIO® S13</div>
                                         <div class="mb-2">@lang('common.homepage.tag_S13')</div>
                                         <div class="mb-2">&nbsp;</div>
                                     </div>
                                 </a>
                             </div>
-                    
-                        
-                            
+
+
+
                             <div class="col-6 d-flex align-items-end text-center recommend-item">
                                 <a href="{{ route('product.overview_se14_whl') }}" class="d-block w-100">
                                     <img src="/images/elements/se14.jpg">
@@ -87,9 +87,9 @@
                                         <div class="py-3"></div>
                                     </div>
                                 </a>
-                            </div>  
-                            
-                                
+                            </div>
+
+
                             <div class="col-6 d-flex align-items-end text-center recommend-item">
                                 <a href="{{ route('product.overview_se14_whl') }}" class="d-block w-100">
                                     <img src="/images/elements/se14.jpg">
@@ -100,16 +100,16 @@
                                         <div class="py-3"></div>
                                     </div>
                                 </a>
-                            </div>  
-                            
+                            </div>
+
                             ------->
-                
-                    
+
+
                     </div>
-                </div>    
+                </div>
             </div>
     </section>
-   
+
     <!-- VAIO Life -->
 
     @if( $lifes->count() > 0 )
@@ -193,12 +193,12 @@
 
 
     @if( $news->count() > 0 )
-    
+
  <section class="deep-grey-section pb-4">
         <div class="container">
             <h2 class="section-title text-white pt-4 pb-3">@lang('common.homepage.newsroom')</h2>
             <div class="row">
-                
+
                 @foreach($news as $new )
                     @component('home.news_card', ['item' => $new])
 
@@ -209,7 +209,7 @@
         </div>
   </section>
     @endif
-   
+
 
 <section class="email-subscription py-5 ls-0" style="width: 100%; margin-top: -37px;">
   <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST" action="{{ url('/subscribe') }}"  enctype="multipart/form-data" >
@@ -218,7 +218,7 @@
     @include('includes.flash')
   <h2 class="text-center mt-4 mb-3 font-weight-light">{{ __('messages.home_join') }}</h2>
       <!---    <div class="text-center mt-3 mb-4 lead">{{ __('messages.home_receiving') }}</div> --->
-             
+
                   <div class="row my-4 no-gutters justify-content-center">
                     <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                 <div class="input-group">
