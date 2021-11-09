@@ -25,6 +25,12 @@
             <div class="logo-col">
             <a class="px-md-4 py-2" target="_blank" href="https://amzn.to/3fpWnA1"> <img src="images/AZ-logo.png" alt="Where to Buy" /></a>
 
+            </div>
+            <div class="text-center">
+            <a class="px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/collections/vaio/"> <img class=" w-50" src="images/Nexstgo_mall_logo.png" alt="Where to Buy" /></a>
+
+            </div>
+        <br/>
         <br/>
 
 <!---
@@ -33,7 +39,7 @@
 </center>
 
 --->
-        </div>
+
             </div>
   <!--
             <a class="px-md-4 py-2" target="_blank" href="https://bit.ly/3ffjy0b">    <img src="images/flipkart-logo.jpeg" id="mobile" alt="Where to Buy" width="50%" style="margin-left: 25%;"/></a>
