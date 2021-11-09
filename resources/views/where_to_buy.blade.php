@@ -14,6 +14,10 @@
           <!---  <h2 class="page-title mb-5">Stay Tuned For More</h2> ------>
           <div class="row">
          <div class="logo-row">
+            <div class="text-center">
+            <a class="px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/collections/vaio/"> <img class=" w-50" src="images/Nexstgo_mall_logo.png" alt="Where to Buy" /></a>
+
+           </div>
             <div class="logo-col">
             <a class="px-md-4 py-2" target="_blank" href="https://bit.ly/3ffjy0b"> <img src="images/FK-logo.png" alt="Where to Buy" /></a>
 
@@ -26,10 +30,10 @@
             <a class="px-md-4 py-2" target="_blank" href="https://amzn.to/3fpWnA1"> <img src="images/AZ-logo.png" alt="Where to Buy" /></a>
 
             </div>
-            <div class="text-center">
+            {{--  <div class="text-center">
             <a class="px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/collections/vaio/"> <img class=" w-50" src="images/Nexstgo_mall_logo.png" alt="Where to Buy" /></a>
 
-            </div>
+            </div>  --}}
         <br/>
         <br/>
 
