@@ -557,7 +557,7 @@
 @stop
 
 @section('js')
-    <script src="{{ asset('js/product.js') }}"></script>
+    {{--  <script src="{{ asset('js/product.js') }}"></script>  --}}
 	<script defer src="{{ asset('js/html5gallery.js') }}"></script>
 
 @stop
