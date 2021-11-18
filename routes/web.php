@@ -100,6 +100,28 @@ Route::group([
       Route::get('/product/z/spec', 'ProductController@getProductSpecificationfuji_z')->name('product.spec_fuji_z');
       Route::get('/product/z/gallery', 'ProductController@getProductGalleryfuji_z')->name('product.gallery_fuji_z');
 
+
+      //new_sx14
+    Route::get('/product/new_sx14/overview', 'ProductController@getProductOverview14new')->name('product.overview_new_sx14');
+    Route::get('/product/new_sx14/spec', 'ProductController@getProductSpecification14new')->name('product.spec_new_sx14');
+    Route::get('/product/new_sx14/gallery', 'ProductController@getProductGallery14new')->name('product.gallery_new_sx14');
+
+    //sx14_kachiiro
+    Route::get('/product/sx14_kachiiro/overview', 'ProductController@getProductOverview14kachiiro')->name('product.overview_sx14_kachiiro');
+    Route::get('/product/sx14_kachiiro/spec', 'ProductController@getProductSpecification14kachiiro')->name('product.spec_sx14_kachiiro');
+    Route::get('/product/sx14_kachiiro/gallery', 'ProductController@getProductGallery14kachiiro')->name('product.gallery_sx14_kachiiro');
+
+    //sx14_abe
+    Route::get('/product/sx14_abe/overview', 'ProductController@getProductOverview14abe')->name('product.overview_sx14_abe');
+    Route::get('/product/sx14_abe/spec', 'ProductController@getProductSpecification14abe')->name('product.spec_sx14_abe');
+    Route::get('/product/sx14_abe/gallery', 'ProductController@getProductGallery14abe')->name('product.gallery_sx14_abe');
+
+    //z_kachiiro
+    Route::get('/product/z_kachiiro/overview', 'ProductController@getProductOverviewzkachiiro')->name('product.overview_z_kachiiro');
+    Route::get('/product/z_kachiiro/spec', 'ProductController@getProductSpecificationzkachiiro')->name('product.spec_z_kachiiro');
+    Route::get('/product/z_kachiiro/gallery', 'ProductController@getProductGalleryz_kachiiro')->name('product.gallery_z_kachiiro');
+
+
     ///
 
 	Route::get('/product/sx14/overview', 'ProductController@getProductOverviewSx14')->name('product.overview_sx14');

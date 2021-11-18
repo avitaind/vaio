@@ -42,6 +42,18 @@
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_fuji-z') }}"> @lang('common.nav.product.vaio_fuji-z')</a>
                             </li>
                             --->
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_new_sx14') }}"> @lang('common.nav.product.new_sx14')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14_kachiiro') }}"> @lang('common.nav.product.sx14_kachiiro')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_sx14_abe') }}"> @lang('common.nav.product.sx14_abe')</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_z_kachiiro') }}"> @lang('common.nav.product.z_kachiiro')</a>
+                            </li>
                         </ul>
                     </div>
                 </li>

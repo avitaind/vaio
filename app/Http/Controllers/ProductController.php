@@ -594,6 +594,202 @@ class ProductController extends Controller
 
         return view('products.se14.whl.gallery');
     }
+    
+    //getProductOverview14new 1
+
+     
+    public function getProductOverview14new( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.new_sx14.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.new_sx14.overview', $view_data);
+    }
+
+    public function getProductSpecification14new( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.new_sx14.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.new_sx14.spec');
+    }
+    public function getProductGallery14new( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.new_sx14.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.new_sx14.gallery');
+    }
 	
     
+
+	
+    //getProductGallery14kachiiro 2
+
+     
+    public function getProductOverview14kachiiro( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14_kachiiro.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.sx14_kachiiro.overview', $view_data);
+    }
+
+    public function getProductSpecification14kachiiro( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14_kachiiro.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14_kachiiro.spec');
+    }
+    public function getProductGallery14kachiiro( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14_kachiiro.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14_kachiiro.gallery');
+    }
+	
+    //
+
+       //getProductGallery14abe 3
+
+     
+       public function getProductOverview14abe( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14_abe.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.sx14_abe.overview', $view_data);
+    }
+
+    public function getProductSpecification14abe( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14_abe.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14_abe.spec');
+    }
+    public function getProductGallery14abe( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.sx14_abe.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.sx14_abe.gallery');
+    }
+	
+    //
+
+       //getProductGalleryz_kachiiro 4
+
+     
+       public function getProductOverviewzkachiiro( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.z_kachiiro.overview_'.$locale;
+
+        $banners = Banner::where('type', 'product')->orderBy('seq', 'asc')->get();
+
+        $view_data = compact('banners');
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file, $view_data);
+        }
+
+        return view('products.z_kachiiro.overview', $view_data);
+    }
+
+    public function getProductSpecificationzkachiiro( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.z_kachiiro.spec_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.z_kachiiro.spec');
+    }
+    public function getProductGalleryz_kachiiro( ) {
+
+        $locale = \App::getLocale();
+
+        $view_file = 'products.z_kachiiro.gallery_'.$locale;
+
+        if ( \View::exists($view_file) ) {
+            return view($view_file);
+        }
+
+
+        return view('products.z_kachiiro.gallery');
+    }
+	
+    //
+    //
 }

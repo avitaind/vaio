@@ -116,9 +116,11 @@ return [
              'vaio_sx14_whl' => 'VAIO SX14 WHL',
              'vaio_se14_whl' => 'VAIO SE14 WHL',
              'vaio_fuji_z' => 'VAIO Z',
-             'vaio_signature_z141' => 'VAIO Z SIGNATURE EDITION'
-
-
+             'vaio_signature_z141' => 'VAIO Z SIGNATURE EDITION',
+             'new_sx14' => 'NEW SX14',
+             'sx14_kachiiro' => 'SX14 KACHI-IRO',
+             'sx14_abe' => 'SX14 [All Black Edition]',
+             'z_kachiiro' => 'VAIO Z KACHI-IRO'
 			
         ],
         'quality'      => [
