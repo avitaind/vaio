@@ -101,12 +101,12 @@ return [
         'AddOn_link'      => 'https://addonsystems.net/vaio?utm_source=sg.vaio.com&utm_medium=mainmenu&utm_campaign=vaiomallhomepage1',
         'offer'        => 'Offer',
         'product'      => [
-            'title'    => 'Product', 			
+            'title'    => 'Product',
             'vaio_s11' => 'VAIO S11',
             'vaio_s13' => 'VAIO S13',
-            'vaio_s14' => 'VAIO SE14 [ALL NEW]', 
-            'vaio_e15' => 'VAIO E15 [ALL NEW]', 
-            'vaio_fuji-z' => 'VAIO Fuji Z', 
+            'vaio_s14' => 'VAIO SE14 [ALL NEW]',
+            'vaio_e15' => 'VAIO E15 [ALL NEW]',
+            'vaio_fuji-z' => 'VAIO Fuji Z',
             'vaio_sx14' => 'VAIO SX14',
             'vaio_a12' => 'VAIO A12',
 			'vaio_sx12' => 'VAIO SX12',
@@ -117,11 +117,11 @@ return [
              'vaio_se14_whl' => 'VAIO SE14 WHL',
              'vaio_fuji_z' => 'VAIO Z',
              'vaio_signature_z141' => 'VAIO Z SIGNATURE EDITION',
-             'new_sx14' => 'NEW VAIO SX14',
-             'sx14_kachiiro' => 'VAIO SX14 KACHI-IRO',
-             'sx14_abe' => 'VAIO SX14 [All Black Edition]',
-             'z_kachiiro' => 'VAIO Z KACHI-IRO'
-			
+             'new_sx14' => 'NEW VAIO SX14 [Coming Soon]',
+             'sx14_kachiiro' => 'VAIO SX14 KACHI-IRO [Coming Soon]',
+             'sx14_abe' => 'VAIO SX14 [All Black Edition] [Coming Soon]',
+             'z_kachiiro' => 'VAIO Z KACHI-IRO [Coming Soon]'
+
         ],
         'quality'      => [
             'title'          => 'Quality',
@@ -131,7 +131,7 @@ return [
         'life'         => 'VAIO Life',
         'launch'      => [
             'title'          => 'VAIO Launch',
-         
+
         ],
         'support'      => [
             'title'          => 'Support',
@@ -344,7 +344,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
                 'title'   => 'Tablet detachment test',
                 'content' => '<p class="content-text">Smooth docking experience that everyone can feel</p><p class="content-text">Everyone has different habits detaching the display from the keyboard base. Technicians at VAIO, therefore, test the device by detaching the screen from various angles and with different strengths, making sure a smooth and pleasant docking experience for every user.</p>'
             ],
-        ], 
+        ],
     ],
 
      //Quality -> Azumino Finish
@@ -403,11 +403,11 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         ],
         'card_13' => [
             'title'   => 'Disclaimers',
-            'content' => '* Azumino Finish is applicable to VAIO Z only.', 
+            'content' => '* Azumino Finish is applicable to VAIO Z only.',
         ],
     ],
-	
-	
+
+
     //about us
     'about_us'       => [
         'title'   => 'About Us',
