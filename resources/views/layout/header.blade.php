@@ -19,7 +19,7 @@
                 <li class="nav-item has-dropdown">
                   <input id="header_product" type="checkbox" hidden="">
                     <a class="nav-link px-md-4 py-4"><label for="header_product"> @lang('common.nav.product.title')</label></a>
-                
+
                     <div class="dropdown">
                        <ul class="list-unstyled">
                           <li class="nav-item text-center">
@@ -38,7 +38,7 @@
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2"> VAIO SX14 [COMING SOON]</a>
                             </li>
-                       
+
                             <li class="nav-item text-center">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview_fuji-z') }}"> @lang('common.nav.product.vaio_fuji-z')</a>
                             </li>
@@ -83,7 +83,7 @@
 
                 </li>
 
-              
+
         <!--- Quality tab Ends ---->
     <!--- Support tab starts ---->
 
@@ -140,37 +140,37 @@
                     </div>
                 </li>
         <!--- About VAIO starts ---->
-        
+
         <!---
-                <li class="nav-item"> 
+                <li class="nav-item">
                      <a class="nav-link px-md-4 py-4" href="{{ route('about_us') }}" > @lang('common.nav.about.title')</a>
                 </li>
-            ------>    
-        
+            ------>
+
         <!--- About VAIO end ---->
         <!--- Where to Buy starts ---->
-            <li class="nav-item"> 
+            <li class="nav-item">
                      <a class="nav-link px-md-4 py-4" href="{{ route('where_to_buy') }}" > @lang('common.nav.where_to_buy')</a>
                 </li>
 
 
              <!--- Where to Buy Ends ---->
    <!--- Event Registration starts ---->
-        
+
   <!---
-  
-             <li class="nav-item"> 
+
+             <li class="nav-item">
                      <a class="nav-link px-md-4 py-4" href="https://live2.streamy.in/vaiolaunchindia/" >Enter Event</a>
                 </li>
-      
-                <li class="nav-item"> 
+
+                <li class="nav-item">
                      <a class="nav-link px-md-4 py-4" href="{{ route('event.login') }}" > @lang('common.nav.event.login')</a>
                 </li>
 
-           
+
             ---->
         <!--- Event Registration end ---->
-              
+
         @if( Auth::user() )
                     <li class="nav-item hidden-md-down">
                         <a class="nav-link px-md-4 py-4" href="{{ route('member.profile') }}">
@@ -190,7 +190,7 @@
                     </li>
                     @else
                     <li class="nav-item hidden-md-down">
-                        <a class="nav-link px-md-4 py-4" href="{{ route('login') }}"> 
+                        <a class="nav-link px-md-4 py-4" href="{{ route('login') }}">
                             <i class="fa fa-user-o" aria-hidden="true"></i> @lang('common.user.login')
                         </a>
                     </li>

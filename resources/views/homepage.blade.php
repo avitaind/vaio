@@ -13,6 +13,30 @@
                     <div class="row no-gutters">
 
                         <div class="col-6 d-flex align-items-end text-center recommend-item">
+                            <a href="{{ route('product.overview_new_sx14') }}" class="d-block w-100">
+                                <img src="/images/elements/new_sx14.jpg">
+                                <div class="recommend-item-info">
+                                    <div class="recommend-model mb-1">SX14</div>
+                                    <div class="orange-label px-2">@lang('common.homepage.available')</div>
+                                    <div class="mb-2">@lang('common.homepage.tag_Z')</div>
+                                    <div class="py-3"></div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-6 d-flex align-items-end text-center recommend-item">
+                            <a href="{{ route('product.overview_z_kachiiro') }}" class="d-block w-100">
+                                <img src="/images/elements/vaio_z_kachiiro_special_edition.jpg">
+                                <div class="recommend-item-info">
+                                    <div class="recommend-model mb-1">VAIO® Z Kachiiro</div>
+                                    <div class="orange-label px-2">@lang('common.homepage.available')</div>
+                                    <div class="mb-2">@lang('common.homepage.tag_Z')</div>
+                                    <div class="py-3"></div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-6 d-flex align-items-end text-center recommend-item">
                             <a href="{{ route('product.overview_fuji_z') }}" class="d-block w-100">
                                 <img src="/images/elements/z.jpg">
                                 <div class="recommend-item-info">

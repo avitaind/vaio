@@ -147,7 +147,7 @@ class ProductController extends Controller
     }
 
 
-    
+
     public function getProductSpecificationfuji_z( ) {
 
         $locale = \App::getLocale();
@@ -176,7 +176,7 @@ class ProductController extends Controller
     }
 
     ///
-    
+
 
     ///
     public function getProductOverviewsignature_z141() {
@@ -197,7 +197,7 @@ class ProductController extends Controller
     }
 
 
-    
+
     public function getProductSpecificationsignature_z141( ) {
 
         $locale = \App::getLocale();
@@ -226,8 +226,8 @@ class ProductController extends Controller
     }
 
     ///
-    
-	
+
+
 	public function getProductOverviewSx14( ) {
 
         $locale = \App::getLocale();
@@ -271,10 +271,10 @@ class ProductController extends Controller
 
         return view('products.sx14.gallery');
     }
-	
-	
-	
-	
+
+
+
+
 	public function getProductOverview12( ) {
 
         $locale = \App::getLocale();
@@ -318,10 +318,10 @@ class ProductController extends Controller
 
         return view('products.a12.gallery');
     }
-	
-	
-	
-	
+
+
+
+
 	public function getProductOverviewSx12( ) {
 
         $locale = \App::getLocale();
@@ -365,9 +365,9 @@ class ProductController extends Controller
 
         return view('products.sx12.gallery');
     }
-	
+
 	/*FE14*/
-   
+
  public function getProductOverviewFe14( ) {
 
         $locale = \App::getLocale();
@@ -411,10 +411,10 @@ class ProductController extends Controller
 
         return view('products.fe14.gallery');
     }
-	
-    
+
+
     // New Products
-    
+
      public function getProductOverviewSx12whl( ) {
 
         $locale = \App::getLocale();
@@ -458,8 +458,8 @@ class ProductController extends Controller
 
         return view('products.sx12.whl.gallery');
     }
-	
-    
+
+
       public function getProductOverviewSx14whl( ) {
 
         $locale = \App::getLocale();
@@ -503,8 +503,8 @@ class ProductController extends Controller
 
         return view('products.sx14.whl.gallery');
     }
-	
-    
+
+
      public function getProductOverviewSx14cml( ) {
 
         $locale = \App::getLocale();
@@ -548,9 +548,9 @@ class ProductController extends Controller
 
         return view('products.sx14.cml.gallery');
     }
-    
-    
-     
+
+
+
       public function getProductOverviewSe14whl( ) {
 
         $locale = \App::getLocale();
@@ -594,10 +594,10 @@ class ProductController extends Controller
 
         return view('products.se14.whl.gallery');
     }
-    
+
     //getProductOverview14new 1
 
-     
+
     public function getProductOverview14new( ) {
 
         $locale = \App::getLocale();
@@ -641,13 +641,13 @@ class ProductController extends Controller
 
         return view('products.new_sx14.gallery');
     }
-	
-    
 
-	
+
+
+
     //getProductGallery14kachiiro 2
 
-     
+
     public function getProductOverview14kachiiro( ) {
 
         $locale = \App::getLocale();
@@ -691,12 +691,12 @@ class ProductController extends Controller
 
         return view('products.sx14_kachiiro.gallery');
     }
-	
+
     //
 
        //getProductGallery14abe 3
 
-     
+
        public function getProductOverview14abe( ) {
 
         $locale = \App::getLocale();
@@ -740,12 +740,12 @@ class ProductController extends Controller
 
         return view('products.sx14_abe.gallery');
     }
-	
+
     //
 
        //getProductGalleryz_kachiiro 4
 
-     
+
        public function getProductOverviewzkachiiro( ) {
 
         $locale = \App::getLocale();
@@ -789,7 +789,7 @@ class ProductController extends Controller
 
         return view('products.z_kachiiro.gallery');
     }
-	
+
     //
     //
 }
