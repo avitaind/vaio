@@ -649,7 +649,7 @@
 			
 		<div class="col-12 order-1 order-lg-2 py-4 text-center">  	 
 			<video controls>
-			  <source src="/video/new_vaio_sx14_ai_noise_canceling.mp4" type="video/mp4">  
+			  <source src="/videos/new_vaio_sx14_ai_noise_canceling.mp4" type="video/mp4">  
 			</video>
 		</div>
 				 
