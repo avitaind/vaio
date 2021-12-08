@@ -25,17 +25,28 @@
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.product.title')</div>
                                 </div>
                                 <div class="footer-item col-12 p-0 my-2">
+                                    <a href="{{ route('product.overview_fuji_z') }}" class=""> @lang('common.nav.product.vaio_fuji_z')</a>
+                                </div>
+                                <div class="footer-item col-12 p-0 my-2">
                                     <a href="{{ route('product.overview_e15') }}" class=""> @lang('common.nav.product.vaio_e15')</a>
                                 </div>
                                 <div class="footer-item col-12 p-0 my-2">
                                     <a href="{{ route('product.overview_se14') }}" class=""> @lang('common.nav.product.vaio_s14')</a>
                                 </div>
                                 <div class="footer-item col-12 p-0 my-2">
-                                    <a href="{{ route('product.overview_fuji_z') }}" class=""> @lang('common.nav.product.vaio_fuji_z')</a>
+                                    <a href="{{ route('product.overview_new_sx14') }}" class=""> @lang('common.nav.product.new_sx14')</a>
                                 </div>
                                 <div class="footer-item col-12 p-0 my-2">
-                                    <a href="{{ route('product.overview_signature_z141') }}" class=""> @lang('common.nav.product.vaio_signature_z141')</a>
+                                    <a href="{{ route('product.overview_sx14_kachiiro') }}" class=""> @lang('common.nav.product.sx14_kachiiro')</a>
                                 </div>
+                                <div class="footer-item col-12 p-0 my-2">
+                                    <a href="{{ route('product.overview_sx14_abe') }}" class=""> @lang('common.nav.product.sx14_abe')</a>
+                                </div>
+                                <div class="footer-item col-12 p-0 my-2">
+                                    <a href="{{ route('product.overview_z_kachiiro') }}" class=""> @lang('common.nav.product.z_kachiiro')</a>
+                                </div>
+                                
+                                
                              <!---
                                 <div class="footer-item col-12 p-0 my-2">
                                         <a href="{{ route('product.overview_fuji-z') }}" class="" > @lang('common.nav.product.vaio_fuji-z')</a>
