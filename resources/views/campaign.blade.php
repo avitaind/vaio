@@ -13,6 +13,12 @@
     </div>
 </section>
 
+<div class="admiror-video">
+    <video autoplay="" controls="" muted="" loop="">
+    <source src="/images/Nexstgo_video/The_Success_Story_of_AVITA.mp4" type="video/mp4">
+    </video>
+</div>
+
 
 @endsection
 
