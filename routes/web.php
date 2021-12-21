@@ -43,6 +43,7 @@ Route::group([
     Route::get('/about-us', 'PageController@getAboutUs')->name('about_us');
     Route::get('/contact-us', 'PageController@getContactUs')->name('contact_us');
     // Route::get('/support', 'PageController@getSupport')->name('support');
+    Route::get('/campaign83', 'PageController@campaign83')->name('campaign');
 
     Route::get('/support/repair-tnc', 'PageController@getRepairTnc' )->name('support.repair_tnc');
     Route::get('/privacy', 'PageController@getPrivacy')->name('privacy');

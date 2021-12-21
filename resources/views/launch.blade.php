@@ -8,7 +8,7 @@
              <div class="container">
                             <div class="row">
                                <div class="col-12">
-                  
+
                                @if (session('status'))
                                 <div class="alert alert-success">
                                     {{ session('status') }}
@@ -29,7 +29,7 @@
                                             </ul>
                                         </div>
                                     @endif
-                                   
+
                                      <form action="{{ route('launch.store') }}" method="POST" role="form" enctype="multipart/form-data">
                                         @csrf
                                         <div class="form-group row">
@@ -45,7 +45,7 @@
                                             </div>
 
                                         </div>
-                                      
+
                                         <div class="form-group row">
                                             <div class="col-md-6 text-md-right">
                                                 <button type="submit" style="margin:10px;" class="btn btn-primary">Submit</button>
@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                         </div>
-       
+
 
 
     </section>
@@ -72,4 +72,3 @@
 @stop
 
 
-   

@@ -584,5 +584,6 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
     'latest_news'      => 'Latest News',
     'latest_vaio_life' => 'Latest VAIO Life',
     'latest_offer'     => 'Latest Offer',
+    'campaign'         => 'Campaign 83'
 
 ];

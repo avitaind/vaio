@@ -32,6 +32,10 @@ class PageController extends Controller
         return view('contactus');
     }
 
+    public function campaign83( ) {
+        return view('campaign');
+    }
+
     public function getSupport( ) {
 
         $warranty = WarrantyTerm::whereCode('warranty')->first();
