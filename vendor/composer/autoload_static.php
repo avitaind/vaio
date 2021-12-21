@@ -765,6 +765,7 @@ class ComposerStaticInit738b5646d8d9de9597298051618dfa9c
         'App\\Subscription' => __DIR__ . '/../..' . '/app/Subscription.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'App\\WarrantyTerm' => __DIR__ . '/../..' . '/app/WarrantyTerm.php',
+        'App\\campaign83' => __DIR__ . '/../..' . '/app/campaign83.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Barryvdh\\Debugbar\\Console\\ClearCommand' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Console/ClearCommand.php',
         'Barryvdh\\Debugbar\\Controllers\\AssetController' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Controllers/AssetController.php',

@@ -77,6 +77,7 @@ return array(
     'App\\Subscription' => $baseDir . '/app/Subscription.php',
     'App\\User' => $baseDir . '/app/User.php',
     'App\\WarrantyTerm' => $baseDir . '/app/WarrantyTerm.php',
+    'App\\campaign83' => $baseDir . '/app/campaign83.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Barryvdh\\Debugbar\\Console\\ClearCommand' => $vendorDir . '/barryvdh/laravel-debugbar/src/Console/ClearCommand.php',
     'Barryvdh\\Debugbar\\Controllers\\AssetController' => $vendorDir . '/barryvdh/laravel-debugbar/src/Controllers/AssetController.php',
