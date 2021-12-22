@@ -103,7 +103,7 @@
                                             </div>
                                             <div class="form-group">
                                               <label for="exampleInputPassword1">Phone</label>
-                                              <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="form-control"  name="phone" id="exampleInputPassword1" placeholder="Enter Your Mobile Number" required>
+                                              <input type="tel" class="form-control"  name="phone" id="exampleInputPassword1" placeholder="Enter Your Mobile Number" required>
                                             </div>
 {{--
                                             <button type="submit" class="btn btn-primary">Submit</button>
