@@ -37,16 +37,22 @@
 
                       </td>
                   </tr>
+                </tr>
+                <td>
+                    <h4 class="steps-heading">Step 3: Follow us on </h4>
+
+                    <a href="https://www.instagram.com/vaioind/" class="fa fa-instagram text-white"  style="text-decoration:none; font-size:25px; margin-top:15px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/VAIOIndia/" class="fa fa-facebook text-white"  style="text-decoration:none; font-size:25px; margin-top:15px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/vaioind/" class="fa fa-twitter text-white"  style="text-decoration:none; font-size:25px; margin-top:15px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
             <tr>
-            <td>
-                <h3 class="bold-heading"><strong> And stand a chance to win VAIO merchandise and goodies.</strong></h3>
+                <td>
+                  <br/>  <h3 class="bold-heading"><strong> And stand a chance to win VAIO merchandise and goodies.</strong></h3>
              </td>
         </tr>
 
                 </table>
-
-                <a href="https://www.instagram.com/vaioind/" class="fa fa-instagram text-white"  style="font-size:45px; margin-top:15px;" aria-hidden="true"></a>
-
 
             </div>
 
@@ -89,7 +95,6 @@
                                                 {{ session()->get('message') }}
                                             </div>
                                         @endif
-                                     {{-- <form action="{{ route('giftsonair.store') }}" method="POST" role="form" enctype="multipart/form-data"> --}}
                                         <form class="my-5" method="POST" action="{{ route('campaign83.store')}}">
                                             @csrf
                                             <div class="form-group">
@@ -105,9 +110,7 @@
                                               <label for="exampleInputPassword1">Phone</label>
                                               <input type="text" class="form-control"  name="phone" id="exampleInputPassword1" placeholder="Enter Your Mobile Number" required>
                                             </div>
-{{--
-                                            <button type="submit" class="btn btn-primary">Submit</button>
-                                          </form> --}}
+
 
                                 </div>
                             </div>
@@ -118,11 +121,10 @@
         </div>
 
 
-     <h2 class="desclimer text-center mt-4"><strong>Q & A</strong></h3>
+     <h2 class="text-center mt-4"><strong>Q & A</strong></h3>
        <hr>
        <div class="row container">
         <div class="col-md-6">
-       {{-- <form class=""> --}}
           <div class="form-group">
 
 
@@ -221,7 +223,7 @@
                           </div>
                     </div>
                     <div class="form-group">
-                        <label for="question1">5.Is Nexstgo Company Ltd licensing partner for VAIO sales and services in India ?</label>
+                        <label for="question1">5. Is Nexstgo Company Ltd licensing partner for VAIO sales and services in India ?</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5" value="Yes">
                             <label class="form-check-label" for="flexRadioDefault5">
