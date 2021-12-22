@@ -55,7 +55,7 @@ class PageController extends Controller
         $campaign83->save();
 
 
-        return redirect()->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
+        return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly');
 
     }
 
