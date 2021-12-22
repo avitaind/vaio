@@ -3,14 +3,26 @@
 @section('title', __('common.campaign'))
 
 @section('content')
+<style>
+.background-bg{
+    background-image: url('/images/background_BG_1920_1080_web.png');
+    /* background-repeat:no-repeat; */
+    color:white;
+    }
+    @media (max-width: 576px) {
+      .background-bg{
+        background-image: url('/images/background_BG_1920_1080_mob.png');
+    /* background-repeat:no-repeat; */
+        color:white;
+        }
+    }
+</style>
 
-
- <div class="main-div" style="background-image: url('/images/background.jpg');">
+<section class="background-bg">
+ <div class="main-div" >
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 py-5" style="margin-top: 10%; text-align: center">
-               {{-- <img src="/images/giftsonair_logo.png" class="logo"> --}}
-
                 <h3 class="alert-heading">You have landed at the right place! Follow the below-mentioned steps and crack the quiz. </h3>
                 <hr>
                 <table>
@@ -33,18 +45,18 @@
 
                 </table>
 
-                <a href="https://www.instagram.com/vaioind/" class="fa fa-instagram"  style="font-size:45px; margin-top:15px;" aria-hidden="true"></a>
+                <a href="https://www.instagram.com/vaioind/" class="fa fa-instagram text-white"  style="font-size:45px; margin-top:15px;" aria-hidden="true"></a>
 
 
             </div>
 
             <div class="col-md-6" style="margin-top: 10%;">
-                <div class="card" style="position: relative;
+                <div class="" style="position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    /* background-color: rgba(255, 255, 255, 0.63); */
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 25px;
@@ -59,7 +71,7 @@
                             <div class="row">
                                <div class="col-12">
                                     @if ($errors->any())
-                                        <div class="alert alert-danger alert-dismissible" role="alert">
+                                        <div class="alert alert-danger alert-dismissible text-center" role="alert">
                                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                                 <span aria-hidden="true">×</span>
                                             </button>
@@ -78,23 +90,24 @@
                                             </div>
                                         @endif
                                      {{-- <form action="{{ route('giftsonair.store') }}" method="POST" role="form" enctype="multipart/form-data"> --}}
-                                        <form class="my-5">
+                                        <form class="my-5" method="POST" action="{{ route('campaign83.store')}}">
+                                            @csrf
                                             <div class="form-group">
                                                 <label for="exampleInputEmail1">Name</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                                                <input type="text" class="form-control" name="name" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name" required>
                                               </div>
                                             <div class="form-group">
                                               <label for="exampleInputEmail1">Email Address</label>
-                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
-                                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                              <input type="email" class="form-control"  name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
+                                              <small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small>
                                             </div>
                                             <div class="form-group">
                                               <label for="exampleInputPassword1">Phone</label>
-                                              <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Mobile Number">
+                                              <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="form-control"  name="phone" id="exampleInputPassword1" placeholder="Enter Your Mobile Number" required>
                                             </div>
-
+{{--
                                             <button type="submit" class="btn btn-primary">Submit</button>
-                                          </form>
+                                          </form> --}}
 
                                 </div>
                             </div>
@@ -109,27 +122,27 @@
        <hr>
        <div class="row container">
         <div class="col-md-6">
-       <form class="">
+       {{-- <form class=""> --}}
           <div class="form-group">
 
 
             <label for="question1">1. Where are the headquarters of VAIO located ?</label>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" value="Queensland, Australia">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Queensland, Australia
 
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" value="Azumino City, Japan">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Azumino City, Japan
 
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" value="Bejing, China">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Bejing, China
 
@@ -139,19 +152,19 @@
             <div class="form-group">
                 <label for="question1">2. In which year, VAIO Corporation was established ? </label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" value="2018">
                     <label class="form-check-label" for="flexRadioDefault2">
                         2018
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" value="2014">
                     <label class="form-check-label" for="flexRadioDefault2">
                         2014
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" value="2013">
                     <label class="form-check-label" for="flexRadioDefault2">
                         2013
                     </label>
@@ -163,21 +176,21 @@
                 <div class="form-group">
                     <label for="question1">3. What is the name of VAIO’s first 3D carbon fiber laptop ? </label>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO Z">
                         <label class="form-check-label" for="flexRadioDefault3">
                             VAIO Z
 
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO E15">
                         <label class="form-check-label" for="flexRadioDefault3">
                             VAIO E15
 
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO SE14">
                         <label class="form-check-label" for="flexRadioDefault3">
                             VAIO SE14
 
@@ -187,32 +200,51 @@
                     <div class="form-group">
                         <label for="question1">4. Which are the two new laptops launched in the KACHI-IRO edition ?</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4" value="VAIO E15, VAIO SE14">
+                            <label class="form-check-label" for="flexRadioDefault4">
                                 VAIO E15, VAIO SE14
 
                             </label>
                           </div>
                           <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2">
-                            <label class="form-check-label" for="flexRadioDefault2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4" value="VAIO Z, VAIO SX14">
+                            <label class="form-check-label" for="flexRadioDefault4">
                                 VAIO Z, VAIO SX14
 
                             </label>
                           </div>
                           <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2">
-                            <label class="form-check-label" for="flexRadioDefault2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4" value="VAIO Z, VAIO SE14">
+                            <label class="form-check-label" for="flexRadioDefault4">
                                 VAIO Z, VAIO SE14
                             </label>
                           </div>
-                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="question1">5.Is Nexstgo Company Ltd licensing partner for VAIO sales and services in India ?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5" value="Yes">
+                            <label class="form-check-label" for="flexRadioDefault5">
+                                    YES
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5" value="No">
+                            <label class="form-check-label" for="flexRadioDefault5">
+                                    No
+                            </label>
+                          </div>
+
+                    </div>
                 </div>
               </div>
               <button type="submit" class="btn btn-primary m-4">Submit</button>
 
+
         </form>
  </div>
 </div>
+
+</section>
 
 @endsection

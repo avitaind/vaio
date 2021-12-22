@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Campaign83;
 use App\RepairTerm;
 use App\Shop;
 use App\WarrantyTerm;
@@ -35,6 +36,30 @@ class PageController extends Controller
     public function campaign83( ) {
         return view('campaign');
     }
+
+    public function campaign83_store(Request $request) {
+
+        $this->validate($request, [
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:campaign83',
+            'phone' => 'required|min:10',
+            'flexRadioDefault1' => 'required',
+            'flexRadioDefault2' => 'required',
+            'flexRadioDefault3' => 'required',
+            'flexRadioDefault4' => 'required',
+            'flexRadioDefault5' => 'required',
+
+        ]);
+
+        $campaign83 = new Campaign83($request->all());
+        $campaign83->save();
+
+
+        return redirect()->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
+
+    }
+
+
 
     public function getSupport( ) {
 
