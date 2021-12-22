@@ -5,13 +5,13 @@
 @section('content')
 <style>
 .background-bg{
-    background-image: url('/images/background_BG_1920_1080_web.png');
+    background-image: url('/images/background_BG_1920_1080_web.jpg');
     /* background-repeat:no-repeat; */
     color:white;
     }
     @media (max-width: 576px) {
       .background-bg{
-        background-image: url('/images/background_BG_1920_1080_mob.png');
+        background-image: url('/images/background_BG_1920_1080_mob.jpg');
     /* background-repeat:no-repeat; */
         color:white;
         }
