@@ -21,7 +21,7 @@
         }
     }
 
-        .blink_me {
+        /* .blink_me {
         animation: blinker 1s linear infinite;
     }
 
@@ -29,7 +29,7 @@
     70% {
         opacity: 0;
         }
-    }
+    } */
 
         .card {
         /* Add shadows to create the "card" effect */
@@ -54,7 +54,7 @@
  <div class="main-div" >
 
     <div class="container">
-        <h1 class="heading" style="padding-top:5%; text-align: center; font-size: 60px;
+        <h1 class="heading" style="padding-top:5%; text-align: center; font-size: 70px;
         font-family: fantasy;">83 GIVEAWAY</h1>
         <div class="row justify-content-center ">
             <div class="col-md-6 py-4 main" style="margin-top: 5%;">
