@@ -50,7 +50,7 @@
             height: 40px;
         }
 
-.alert .alert-success{
+    .alert-success{
 
         margin-top: 10px;
     font-size: 21px;
