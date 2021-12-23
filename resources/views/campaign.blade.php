@@ -147,10 +147,10 @@
         </div>
 
 
-     <h2 class="text-center mt-4"><strong>Q & A</strong></h3>
+     <h2 class="text-center mt-4 "><strong>Q & A</strong></h3>
        <hr>
        <div class="row container">
-        <div class="col-md-6">
+        <div class="col-md-6 mb-4">
           <div class="form-group">
 
 
@@ -198,9 +198,6 @@
                     </label>
                   </div>
                 </div>
-              </div>
-                <div class="col-md-6">
-
                 <div class="form-group">
                     <label for="question1">3. What is the name of VAIO’s first 3D carbon fiber laptop ? </label>
                     <div class="form-check">
@@ -225,6 +222,9 @@
                         </label>
                       </div>
                     </div>
+              </div>
+                <div class="col-md-6">
+
                     <div class="form-group">
                         <label for="question1">4. Which are the two new laptops launched in the KACHI-IRO edition ?</label>
                         <div class="form-check">
@@ -263,10 +263,12 @@
                             </label>
                           </div>
 
+                        </div>
+                        <br/>
+                        <button type="submit" class="btn btn-primary my-4">Submit</button>
                     </div>
-                </div>
+
               </div>
-              <button type="submit" class="btn btn-primary m-4">Submit</button>
 
 
         </form>
