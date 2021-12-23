@@ -21,8 +21,6 @@ class CreateCampaign83Table extends Migration
             $table->string('flexRadioDefault1');
             $table->string('flexRadioDefault2');
             $table->string('flexRadioDefault3');
-            $table->string('flexRadioDefault4');
-            $table->string('flexRadioDefault5');
             $table->timestamps();
         });
     }

@@ -12,6 +12,5 @@ class Campaign83 extends Model
     //
     protected $fillable = [
         'name', 'email', 'phone', 'flexRadioDefault1', 'flexRadioDefault2', 'flexRadioDefault3',
-        'flexRadioDefault4', 'flexRadioDefault5',
     ];
 }

@@ -46,8 +46,6 @@ class PageController extends Controller
             'flexRadioDefault1' => 'required',
             'flexRadioDefault2' => 'required',
             'flexRadioDefault3' => 'required',
-            'flexRadioDefault4' => 'required',
-            'flexRadioDefault5' => 'required',
 
         ]);
 

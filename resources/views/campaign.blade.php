@@ -15,6 +15,10 @@
     /* background-repeat:no-repeat; */
         color:white;
         }
+
+        .main{
+            text-align: center;
+        }
     }
 
         .blink_me {
@@ -38,6 +42,11 @@
         box-shadow: 0 8px 16px 0 rgba(255,255,255,0.2);
         }
 
+        .form-control{
+            border-radius: 20px;
+            height: 40px;
+        }
+
 
 </style>
 
@@ -47,8 +56,8 @@
     <div class="container">
         <h1 class="heading" style="padding-top:5%; text-align: center; font-size: 70px;
         font-family: fantasy;">83 GIVEAWAY</h1>
-        <div class="row justify-content-center">
-            <div class="col-md-6 py-4" style="margin-top: 5%; text-align: center">
+        <div class="row justify-content-center ">
+            <div class="col-md-6 py-4 main" style="margin-top: 5%;">
                 <h3 class="alert-heading">You have landed at the right place! Follow the below-mentioned steps and crack the quiz. </h3>
                 <hr>
                 <table>
@@ -59,7 +68,7 @@
 
                 </tr>
                       <td>
-                          <h4 class="steps-heading">Step 2: Tick the right answer </h4>
+                          <h4 class="steps-heading">Step 2: Select the right answer </h4>
 
                       </td>
                   </tr>
@@ -67,9 +76,9 @@
                 <td>
                     <h4 class="steps-heading">Step 3: Follow us on </h4>
 
-                    <a href="https://www.instagram.com/vaioind/" class="fa fa-instagram text-white"  style="text-decoration:none; font-size:25px; margin-top:15px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://www.facebook.com/VAIOIndia/" class="fa fa-facebook text-white"  style="text-decoration:none; font-size:25px; margin-top:15px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://twitter.com/vaioind/" class="fa fa-twitter text-white"  style="text-decoration:none; font-size:25px; margin-top:15px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/vaioind/" class="fa fa-instagram text-white"  style="text-decoration:none; font-size:25px; margin-top:25px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/VAIOIndia/" class="fa fa-facebook text-white"  style="text-decoration:none; font-size:25px; margin-top:25px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/vaioind/" class="fa fa-twitter text-white"  style="text-decoration:none; font-size:25px; margin-top:5px;" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                 </td>
             </tr>
             <tr>
@@ -198,33 +207,34 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group">
-                    <label for="question1">3. What is the name of VAIO’s first 3D carbon fiber laptop ? </label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO Z">
-                        <label class="form-check-label" for="flexRadioDefault3">
-                            VAIO Z
-
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO E15">
-                        <label class="form-check-label" for="flexRadioDefault3">
-                            VAIO E15
-
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO SE14">
-                        <label class="form-check-label" for="flexRadioDefault3">
-                            VAIO SE14
-
-                        </label>
-                      </div>
-                    </div>
               </div>
                 <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="question1">3. What is the name of VAIO’s first 3D carbon fiber laptop ? </label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO Z">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                VAIO Z
 
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO E15">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                VAIO E15
+
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO SE14">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                VAIO SE14
+
+                            </label>
+                          </div>
+                        </div>
+
+{{--
                     <div class="form-group">
                         <label for="question1">4. Which are the two new laptops launched in the KACHI-IRO edition ?</label>
                         <div class="form-check">
@@ -263,7 +273,7 @@
                             </label>
                           </div>
 
-                        </div>
+                        </div> --}}
                         <br/>
                         <button type="submit" class="btn btn-primary my-4">Submit</button>
                     </div>
