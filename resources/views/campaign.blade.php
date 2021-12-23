@@ -53,7 +53,7 @@
     .alert-success{
 
         margin-top: 10px;
-    font-size: 21px;
+    font-size: 19px;
     text-align: center;
 }
 
