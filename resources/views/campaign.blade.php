@@ -55,7 +55,7 @@
 
     <div class="container">
         <h1 class="heading" style="padding-top:5%; text-align: center; font-size: 70px;
-        font-family: fantasy;">83 GIVEAWAY</h1>
+        font-family: impact;">83 GIVEAWAY</h1>
         <div class="row justify-content-center ">
             <div class="col-md-6 py-4 main" style="margin-top: 5%;">
                 <h3 class="alert-heading">You have landed at the right place! Follow the below-mentioned steps and crack the quiz. </h3>
