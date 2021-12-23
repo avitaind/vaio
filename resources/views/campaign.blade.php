@@ -16,8 +16,11 @@
         color:white;
         }
 
-        .main{
-            text-align: center;
+        .alert-success{
+
+        margin-top: 5px;
+        font-size: 13px;
+        text-align: center;
         }
     }
 
@@ -47,6 +50,12 @@
             height: 40px;
         }
 
+.alert .alert-success{
+
+        margin-top: 10px;
+    font-size: 21px;
+    text-align: center;
+}
 
 </style>
 
