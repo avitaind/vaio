@@ -27,14 +27,28 @@
         }
     }
 
+        .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(255,255,255,0.8);
+        transition: 0.3s;
+        }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(255,255,255,0.2);
+        }
+
+
 </style>
 
 <section class="background-bg">
  <div class="main-div" >
+
     <div class="container">
+        <h1 class="heading" style="padding-top:5%; text-align: center; font-size: 70px;
+        font-family: fantasy;">83 GIVEAWAY</h1>
         <div class="row justify-content-center">
-            <div class="col-md-6 py-5" style="margin-top: 10%; text-align: center">
-                <h1 class="heading" style="margin-bottom: 5%; text-align: center">GIVE AWAY</h1>
+            <div class="col-md-6 py-4" style="margin-top: 5%; text-align: center">
                 <h3 class="alert-heading">You have landed at the right place! Follow the below-mentioned steps and crack the quiz. </h3>
                 <hr>
                 <table>
@@ -68,15 +82,15 @@
 
             </div>
 
-            <div class="col-md-6" style="margin-top: 10%;">
-                <div class="" style="position: relative;
+            <div class="col-md-6" style="margin-top: 5%;">
+                <div class="card" style="position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    /* background-color: rgba(255, 255, 255, 0.63); */
+    background-color: transparent;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(255,255,255, 0.5);
     border-radius: 25px;
     padding:2%;">
                         <div class="card-body">
