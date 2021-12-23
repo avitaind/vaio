@@ -54,7 +54,7 @@
  <div class="main-div" >
 
     <div class="container">
-        <h1 class="heading" style="padding-top:5%; text-align: center; font-size: 70px;
+        <h1 class="heading" style="padding-top:5%; text-align: center; font-size: 60px;
         font-family: fantasy;">83 GIVEAWAY</h1>
         <div class="row justify-content-center ">
             <div class="col-md-6 py-4 main" style="margin-top: 5%;">
