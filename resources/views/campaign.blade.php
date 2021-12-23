@@ -16,6 +16,17 @@
         color:white;
         }
     }
+
+        .blink_me {
+        animation: blinker 1s linear infinite;
+    }
+
+    @keyframes blinker {
+    70% {
+        opacity: 0;
+        }
+    }
+
 </style>
 
 <section class="background-bg">
@@ -23,6 +34,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 py-5" style="margin-top: 10%; text-align: center">
+                <h1 class="heading" style="margin-bottom: 5%; text-align: center">GIVE AWAY</h1>
                 <h3 class="alert-heading">You have landed at the right place! Follow the below-mentioned steps and crack the quiz. </h3>
                 <hr>
                 <table>
