@@ -148,7 +148,7 @@
                                             <div class="form-group">
                                               <label for="exampleInputEmail1">Email Address</label>
                                               <input type="email" class="form-control"  name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
-                                              <small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small>
+                                              {{-- <small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small> --}}
                                             </div>
                                             <div class="form-group">
                                               <label for="exampleInputPassword1">Phone</label>
@@ -170,8 +170,6 @@
        <div class="row container">
         <div class="col-md-6 mb-4">
           <div class="form-group">
-
-
             <label for="question1">1. Where are the headquarters of VAIO located ?</label>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" value="Queensland, Australia">
@@ -195,8 +193,9 @@
                 </label>
               </div>
             </div>
+            <br/>
             <div class="form-group">
-                <label for="question1">2. In which year, VAIO Corporation was established ? </label>
+                <label for="question2">2. In which year, VAIO Corporation was established ? </label>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" value="2018">
                     <label class="form-check-label" for="flexRadioDefault2">
@@ -219,7 +218,7 @@
               </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="question1">3. What is the name of VAIO’s first 3D carbon fiber laptop ? </label>
+                        <label for="question3">3. What is the name of VAIO’s first 3D carbon fiber laptop ? </label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" value="VAIO Z">
                             <label class="form-check-label" for="flexRadioDefault3">
