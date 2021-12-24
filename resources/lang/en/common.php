@@ -153,7 +153,8 @@ return [
             'login' => 'Event Login',
         ],
         'where_to_buy' => 'Where To Buy',
-        'campaign_83' => 'Campaign83',
+        'campaign_83' => '83 The Movie',
+        'campaign' => 'Campaign',
         'member'       => [
             'login'           => "Member Login",
             'logout'          => "Member Logout",
