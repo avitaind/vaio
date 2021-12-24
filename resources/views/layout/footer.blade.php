@@ -19,7 +19,7 @@
                                     </div>
                                 </div>
                             @endif
-                        
+
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.product.title')</div>
@@ -45,14 +45,14 @@
                                 <div class="footer-item col-12 p-0 my-2">
                                     <a href="{{ route('product.overview_z_kachiiro') }}" class=""> @lang('common.nav.product.z_kachiiro')</a>
                                 </div>
-                                
-                                
+
+
                              <!---
                                 <div class="footer-item col-12 p-0 my-2">
                                         <a href="{{ route('product.overview_fuji-z') }}" class="" > @lang('common.nav.product.vaio_fuji-z')</a>
                                 </div>
                                 ---->
-                               
+
                             </div>
                             <!---
                             <div class="footer-content col-12 p-0 mb-3">
@@ -67,10 +67,10 @@
                                 {{--</div>--}}
                             {{--</div>--}}
                         </div>
-                       
+
                         <div class="col-4 mr-3 ml-md-0 small-lsm-little">
-                              
-      
+
+
 
                           <!---
                             <div class="footer-content col-12 p-0 mb-3">
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                             --->
-                         
+
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.support.title')</div>
@@ -106,7 +106,7 @@
                                     <a href="{{ route('support.repair_tnc') }}" class="">@lang('common.nav.support.terms_cond')</a>
                                 </div>
                             </div>
-                      
+
                         </div>
                         <div class="col-4 mr-3 ml-md-0 small-lsm-little">
                             <div class="footer-content col-12 p-0 mb-3">
@@ -127,6 +127,9 @@
                                 <div class="footer-title col-12 p-0">
                                     <a href="{{ route('where_to_buy') }}" class="" ><div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div></a>
                                 </div>
+                                <div class="footer-title col-12 p-0">
+                                    <a href="{{ route('campaign') }}" class="" ><div class="sub-title my-1 text-white">@lang('common.nav.campaign_83')</div></a>
+                                </div>
                             </div>
                             {{--
                             <div class="footer-content col-12 p-0 mb-3">
@@ -144,11 +147,11 @@
                     <!-- Mobile Footer -->
 
                     <div class="footer-md col-12 p-0 hidden-sm-up">
-                   
+
                         <div class="col-12 p-0">
-                      
+
                                 <div class="col-12 p-0">
-                                {{-- 
+                                {{--
                                 <div class="footer-title footer-product d-flex">
                                     <a href="{{ route('product.overview') }}" class="sub-title my-1 text-white">@lang('common.nav.product.title')</a>
                                 </div>
@@ -171,10 +174,10 @@
                                 <div class="footer-item col-12 p-0 my-3">
                                         <a href="{{ route('product.overview_fuji-z') }}" class="" > @lang('common.nav.product.vaio_fuji-z')</a>
                                 </div>
-                                 --->   
+                                 --->
                             </div>
                         </div>
-                        <!----        
+                        <!----
                             <div class="col-12 p-0">
                                 <div class="col-12 p-0">
                                     <div class="footer-title footer-offer d-flex">
@@ -182,7 +185,7 @@
                                     </div>
                                 </div>
                             </div>
-                        
+
                             <div class="col-12 p-0">
                                 <div class="col-12 p-0">
                                     <div class="footer-title footer-life d-flex">
@@ -190,11 +193,11 @@
                                         {{-- <i class="fa fa-chevron-down text-white" aria-hidden="true"></i> --}}
                                     </div>
                                 </div>
-                            </div> 
-                            
-                           
+                            </div>
 
-                            
+
+
+
                             <div class="col-12 p-0">
                                 <div class="col-12 p-0">
                                     <a class="footer-title footer-quality d-flex"  data-toggle="collapse" href="#footerQuality" aria-expanded="false" aria-controls="footerQuality">
@@ -238,7 +241,7 @@
                                 </div>
                             </div>
 
-                           
+
                                 <div class="col-12 p-0">
                                     <div class="col-12 p-0">
                                         <a class="footer-title  footer-about d-flex"  data-toggle="collapse" href="#footerAbout" aria-expanded="false" aria-controls="footerAbout">
@@ -268,6 +271,18 @@
                                             {{-- <i class="fa fa-chevron-down text-white" aria-hidden="true"></i> --}}
                                         </a>
                                     </div>
+
+
+                                </div>
+
+
+                                <div class="col-12 p-0">
+                                    <div class="col-12 p-0">
+                                        <a href="{{ route('campaign') }}" class="" ><div class="sub-title my-1 text-white">@lang('common.nav.campaign_83')</div></a>
+
+                                    </div>
+
+
                                 </div>
 
 
@@ -317,7 +332,7 @@
                 </div>
                 <div class="row">
                     <div class="offset-md-2 col-md-8 offset-md-2 my-3 p-0"  style="text-align: justify;">
-                        <?php echo '© '.date('Y').' Nexstgo Company Ltd'; ?> 
+                        <?php echo '© '.date('Y').' Nexstgo Company Ltd'; ?>
                     </div>
                 </div>
             </div>

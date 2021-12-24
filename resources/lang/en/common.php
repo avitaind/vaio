@@ -153,6 +153,7 @@ return [
             'login' => 'Event Login',
         ],
         'where_to_buy' => 'Where To Buy',
+        'campaign_83' => 'Campaign83',
         'member'       => [
             'login'           => "Member Login",
             'logout'          => "Member Logout",
