@@ -1259,7 +1259,7 @@
 
 
 						<video controls>
-						  <source src="/video/new_vaio_sx14_ai_noise_canceling.mp4" type="video/mp4">
+						  <source src="https://hk.vaio.com/video/new_vaio_sx14_ai_noise_canceling.mp4" type="video/mp4">
 						</video>
 
 				</div>
