@@ -99,8 +99,6 @@
                                 </a>
                             </div>
 
-
-
                             <div class="col-6 d-flex align-items-end text-center recommend-item">
                                 <a href="{{ route('product.overview_se14_whl') }}" class="d-block w-100">
                                     <img src="/images/elements/se14.jpg">
@@ -125,7 +123,6 @@
                                     </div>
                                 </a>
                             </div>
-
                             ------->
 
 
