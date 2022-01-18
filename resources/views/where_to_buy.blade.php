@@ -9,78 +9,48 @@
 
     <section class="top-nav-padding" style="background-color:white; margin-top: 50px;">
 
-        <div class="container py-5">
-          <!--- <h2 class="page-title mb-5">@lang('common.nav.where_to_buy')</h2> --->
-          <!---  <h2 class="page-title mb-5">Stay Tuned For More</h2> ------>
-          <div class="row">
-         <div class="logo-row">
-            <div class="text-center">
-            <a class="px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/collections/vaio/"> <img class=" w-50" src="images/Nexstgo_mall_logo.png" alt="Where to Buy" /></a>
-
-           </div>
-            <div class="logo-col">
-            <a class="px-md-4 py-2" target="_blank" href="https://bit.ly/3ffjy0b"> <img src="images/FK-logo.png" alt="Where to Buy" /></a>
-
+        <div class="container">
+            <div class="contact-enquire-wrapper mt-5 pt-0 pt-lg-4">
+                <h2 class="page-title ">Online Stores</h2>
             </div>
-            <div class="logo-col">
-            <a class="px-md-4 py-2" target="_blank" href="https://www.reliancedigital.in/search?q=vaio:relevance"> <img src="images/RD-logo.png" alt="Where to Buy" /></a>
-
-            </div>
-            <div class="logo-col">
-            <a class="px-md-4 py-2" target="_blank" href="https://amzn.to/3fpWnA1"> <img src="images/AZ-logo.png" alt="Where to Buy" /></a>
-
-            </div>
-            {{--  <div class="text-center">
-            <a class="px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/collections/vaio/"> <img class=" w-50" src="images/Nexstgo_mall_logo.png" alt="Where to Buy" /></a>
-
-            </div>  --}}
-        <br/>
+        </div>
         <br/>
 
-<!---
-  <br/>
-        <center> <span class="px-md-2 py-4"><a href="https://www.amazon.in/NP14V3IN034P-i5-1135G7-Graphics-Fingerprint-Carrying/dp/B0936H27SM/" target="_blank">VAIO SE14</a> | <a href="https://www.amazon.in/11gen-signature-black-Graphics-802-11/dp/B092DTT7MC/"  target="_blank">VAIO Z</a></span>
-</center>
 
---->
-
-            </div>
-  <!--
-            <a class="px-md-4 py-2" target="_blank" href="https://bit.ly/3ffjy0b">    <img src="images/flipkart-logo.jpeg" id="mobile" alt="Where to Buy" width="50%" style="margin-left: 25%;"/></a>
-                <div class="col-12 col-md-12 col-lg-8 mt-3">
-                    <div class="map-wrap embed-responsive embed-responsive-1by1">
-                        <div id="gmap-embed" class="embed-responsive-item google_map" data-lng="114.181758" data-lat="22.278394" style="height:100%;"></div>
-                    </div>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card" style="border:none;">
+                    <a class="" target="_blank" href="https://in.nexstmall.com/collections/vaio/">
+                        <img class="pt-4"  src="images/Nexstgo_mall_logo.png">
+                    </a>
                 </div>
-                <div id="hk_info" class="col-12 col-md-12 col-lg-4 mt-3" style="background-color:  white;">
-                    <div class="col-12 py-4" style="border:1px solid #f5f5f5">
-                        <div class="row flex-no-wrap">
-                            <div class="col pr-0">
-                                <input id="search_field" placeholder="@lang('common.search')" type="text" class="form-control" style="min-height: 50px;">
-                            </div>
-                            <div class="col col-auto">
-                                <button class="btn btn-primary support-search-btn-block" style="min-width: auto !important; min-height: 50px;"  >
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                  {{--  <div class="col-12 d-flex p-3 ls-0"  style="border:1px solid #f5f5f5">
-                        <div class="">Select Category</div>
-                        <i class="fa fa-chevron-down ml-auto" aria-hidden="true"></i>
+                <div class="card" style="border:none;">
+                    <a class="" target="_blank" href="https://bit.ly/3ffjy0b">
+                        <img class=""  src="images/FK-logo.png">
+                    </a>
+                </div>
+                <div class="card" style="border:none;">
+                    <a class="" target="_blank" href="https://www.reliancedigital.in/search?q=vaio:relevance">
+                        <img class=""  src="images/RD-logo.png">
+                    </a>
+                </div>
+                <div class="card" style="border:none;">
+                    <a class="" target="_blank" href="https://amzn.to/3fpWnA1">
+                        <img class="pt-4"  src="images/AZ-logo.png">
+                    </a>
+                </div>
+            </div>
+        </div>
 
-                    </div>--}}
-                    <div class="col-12" style="
-                        height: 630.328px;
-                        overflow-y: auto;
-                        background-color: #f4f4f4;
-                        ">
-                        <ul id="shop_list" class="shops p-0">
 
-                        </ul>
-                    </div>
-                </div>-->
+        <div class="container">
+            <div class="contact-enquire-wrapper mt-5 pt-0 pt-lg-4">
+                <h2 class="page-title ">Offline Stores</h2>
+            </div>
+        </div>
 
+        <div class="container py-5">
+          <div class="row">
                 {{-- Search Bar Start --}}
                 <div class="container">
                     <div class="input-group">
@@ -114,12 +84,8 @@
                     @endif
                     </div>
                 </div>
-
-
-
-             	{{--  <div class="shopsList"></div>  --}}
-
             </div>
+
             {!! $centers->links() !!}
 
             <div class="contact-enquire-wrapper mt-5 pt-0 pt-lg-4">
@@ -138,16 +104,13 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-
 @stop
 
 
 @section('js')
-            <script type="text/javascript">
-
+        <script type="text/javascript">
             $('#search').on('keyup', function(){
                     $value=$(this).val();
                     $.ajax({
@@ -159,90 +122,8 @@
                         }
                     })
                 })
-
-            </script>
-
+        </script>
 
     <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
-
 @endsection
-
-{{--
-@section('js')
-
-   <script>
-        var maps;
-        var icon = '/images/marker.png';
-
-        function initMap() {
-
-            // Get all lat lng
-            $('.google_map').each(function (index, item) {
-
-                var data = $(item).data();
-                var location = new google.maps.LatLng(data.lat, data.lng);
-                var map = new google.maps.Map(item, {
-                    zoom: 18,
-                    maxZoom: 18,
-                    minZoom: 18,
-                    disableDefaultUI: true,
-                });
-                maps = map;
-            });
-
-
-
-        }
-
-        function loadShops( ) {
-
-            $.ajax({
-                url: "/data/shops",
-                cache: false
-            }).done(function (json) {
-                $(json.shops).each(function ( index ) {
-                    var location = new google.maps.LatLng(this.lat, this.long);
-                    if(index==0){
-                       // maps.setCenter(location);
-                    }
-                    var marker = new google.maps.Marker({
-                        position: location,
-                        map: maps,
-                        icon: icon
-                    });
-                    //$(".shops").append('<a href="#" class="shop" data-lng="' + this.long + '" data-lat="' + this.lat + '"><li class="shop-info ls-0 pl-5 py-2"><div class="sub-title shop-name">' + this.name + '</div><div class="sub-text">' + this.address + '</div><div class="sub-text">' + this.phone + '</div></li></a>');
-					$(".shopsList").append('<div class="col-md-6"><h4>' + this.name + '</h4><span class="address">' + this.address + '</span><a class="tel" href="tel:' + this.phone + '">' + this.phone + '</a><div class="spacer-single"></div></div>');
-                });
-            });
-
-
-        }
-
-        $(function () {
-            // Bind Click event
-            $("ul").on("click", "a.shop", function () {
-
-                var data = $(this).data();
-                var location = new google.maps.LatLng(data.lat, data.lng);
-                maps.setCenter(location);
-            });
-
-            loadShops();
-        });
-        $(document).ready(function(){
-              $("#search_field").on("keyup", function() {
-             var value = $(this).val().toLowerCase();
-            $("#shop_list .shop-info").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                    });
-            });
-        });
-    </script>
-
-
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_MAP_AK') }}&callback=initMap"></script>
-
-
-
-@stop  --}}
