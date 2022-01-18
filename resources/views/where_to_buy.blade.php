@@ -30,13 +30,13 @@
                     </a>
                 </div>
                 <div class="card" style="border:none;">
-                    <a class="" target="_blank" href="https://www.reliancedigital.in/search?q=vaio:relevance">
-                        <img class=""  src="images/RD-logo.png">
+                    <a class="" target="_blank" href="https://amzn.to/3fpWnA1">
+                        <img class="pt-4"  src="images/AZ-logo.png">
                     </a>
                 </div>
                 <div class="card" style="border:none;">
-                    <a class="" target="_blank" href="https://amzn.to/3fpWnA1">
-                        <img class="pt-4"  src="images/AZ-logo.png">
+                    <a class="" target="_blank" href="https://www.reliancedigital.in/search?q=vaio:relevance">
+                        <img class=""  src="images/RD-logo.png">
                     </a>
                 </div>
             </div>
