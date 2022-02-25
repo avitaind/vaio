@@ -42,7 +42,7 @@
 <section class="main-banner-section" style="height: fit-content;">
     <div class="swiper-container-horizontal">
 		<a class="swiper-slide">
-			<div class="main-banner-wrapper cms-banner cms-banner-5" style="background-image:url(/images/z/vaio_z_kv_pc_en.jpg)">
+			<div class="main-banner-wrapper cms-banner cms-banner-5">
 				<div class="main-banner" title=""></div>
 			</div>
 		</a>
@@ -61,11 +61,13 @@
             }
         }
         .cms-banner-5 .main-banner {
-            {{--  background-image: url(/images/z/VAIO-Z-revel_1920-x-720.jpg);  --}}
+             background-image: url(/images/z/vaio_z_kv_pc_en.jpg);
+             /* background-image: url(/images/z/VAIO-Z-revel_1920-x-720.jpg); */
         }
         @media(max-width: 991px) {
         .cms-banner-5 .main-banner {
-            {{--  background-image: url(/images/z/VAIO-Z-revel_991-x-1050.jpg);  --}}
+              background-image: url(/images/z/vaio_z_kv_mo_en.jpg);
+              /* background-image: url(/images/z/VAIO-Z-revel_991-x-1050.jpg); */
             }
         }
 
