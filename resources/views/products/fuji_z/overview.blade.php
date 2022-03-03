@@ -940,7 +940,7 @@
 						<div class="pt-content mx-auto text-left">
 							<h3 class="my-4">Smudge-proof keycaps and palm rest</h3>
 						    <p class="pt-content text-left">
-							 To retain their clean, smudge-free appearance all year along, all keycaps and the palm rest are coated with an abrasion resistance fluoride coating that is specially developed to keep fingerprints and smudges away.
+							 To retain their clean, smudge-free appearance all year along, all keycaps and the palm rest are coated with an abrasion resistance coating that is specially developed to keep fingerprints and smudges away.
 						    </p>
 						</div>
 
