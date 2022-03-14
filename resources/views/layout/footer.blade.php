@@ -123,15 +123,14 @@
                                     <a href="{{ route('contact_us') }}" class="">@lang('common.nav.about.contact_us')</a>
                                 </div>
                             </div>
-                            <div class="footer-content col-12 p-0 mb-3">
+                            {{-- <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <div class="sub-title mt-1 mt-md-0 mb-1 text-white">@lang('common.nav.campaign')</div>
                                 </div>
                                 <div class="footer-item col-12 p-0 my-2">
                                     <a href="{{ route('campaign') }}" class="" ><div class="sub-title my-1 text-white">@lang('common.nav.campaign_83')</div></a>
                                 </div>
-
-                            </div>
+                            </div> --}}
                             <div class="footer-content col-12 p-0 mb-3">
                                 <div class="footer-title col-12 p-0">
                                     <a href="{{ route('where_to_buy') }}" class="" ><div class="sub-title my-1 text-white">@lang('common.nav.where_to_buy')</div></a>
@@ -274,7 +273,7 @@
 
 
 
-                                <div class="col-12 p-0">
+                                {{-- <div class="col-12 p-0">
                                     <div class="col-12 p-0">
                                         <a class="footer-title  footer-about d-flex"  data-toggle="collapse" href="#footerCampaign" aria-expanded="false" aria-controls="footerCampaign">
                                             <div class="sub-title my-1 text-white">@lang('common.nav.campaign')</div>
@@ -284,11 +283,9 @@
                                     <div class="collapse" id="footerCampaign">
                                         <div class="footer-item col-12 my-3 p-0">
                                             <a href="{{ route('campaign') }}" class="" ><div class="sub-title my-1 text-white">@lang('common.nav.campaign_83')</div></a>
-
                                         </div>
-
                                     </div>
-                                </div>
+                                </div> --}}
 
 
                                 <div class="col-12 p-0">
