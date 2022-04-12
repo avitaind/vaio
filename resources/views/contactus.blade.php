@@ -11,7 +11,7 @@
             </div>
         </div>
 
-      
+
 
         <div class="container">
             <div class="mt-5 pt-0 pt-lg-4">
@@ -21,7 +21,7 @@
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/phone.png">
                         <p class="content-text mt-3 mb-0">Phone (General Enquiry)</p>
-                        <a href="tel:18001039635" class="sub-text">1800-103-9635</a>
+                        <a href="tel:18001039635" class="sub-text">0120-4761661</a>
                     </div>
 
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">

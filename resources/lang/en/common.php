@@ -460,7 +460,7 @@ Imagine yourself carrying a laptop inside a crowded train compartment during pea
         ],
         'sales'           => [
             'title'        => 'Sales Enquiry',
-            'open_hour'    => 'Operation Hours:  09:00-18:00 (Mon-Fri)',
+            'open_hour'    => 'Operation Hours:  09:30 AM - 06:30 PM (Mon-Sat)',
             'phone'        => 'Phone',
             'phone_number' => '(60) 1-2518-3633',
             'email'        => 'Email'
