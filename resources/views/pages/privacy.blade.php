@@ -132,6 +132,8 @@
 
         <p>Please note, however, that some Services may be designed to work using cookies and that disabling cookies may affect your ability to use those Services, or certain parts of them.</p>
 
+        <p>We use Cookies on this website to personalize content and ads and analyze our traffic. This information about your use of our website is also shared with our partners on other social media platforms including advertisers and analytical partner. They may combine this data with the one that that they have collected from you or your use of their services.</p>
+
         <p class="privacy-title">5.2	Other Local Storage</p>
 
         <p>We, along with certain third parties, may use other kinds of local storage technologies, such as Local Shared Objects (also referred to as “Flash cookies”) and HTML5 local storage, in connection with our Services. These technologies are similar to the cookies discussed above in that they are stored on your device and can be used to store certain information about your activities and preferences. However, these technologies may make use of different parts of your device from standard cookies, and so you might not be able to control them using standard browser tools and settings. For information about disabling or deleting information contained in Flash cookies, please click here.</p>
