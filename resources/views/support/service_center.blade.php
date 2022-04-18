@@ -16,7 +16,7 @@
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
                         <img class="info-icon" src="/images/icons/phone.png">
                         <p class="content-text mt-3 mb-0">@lang('common.contact_us.headquarter.general_phone')</p>
-                        <a href="tel:18001039635" class="sub-text">1800-103-9635</a>
+                        <a href="tel:18001039635" class="sub-text">0120-4761661</a>
                     </div>
 
                     <div class="col-12 col-md-4 text-center mb-4 mb-lg-0">
