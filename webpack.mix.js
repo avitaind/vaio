@@ -1,5 +1,5 @@
 let mix = require('laravel-mix');
-var Swiper = require('swiper'); 
+var Swiper = require('swiper');
 
 /*
  |--------------------------------------------------------------------------
@@ -16,3 +16,5 @@ var Swiper = require('swiper');
 //    .sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.browserSync('vaio.test');
+mix.js('resources/js/app.js', 'public/js')
+    .version();
