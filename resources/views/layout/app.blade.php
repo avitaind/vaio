@@ -40,9 +40,9 @@
     <link rel="preload" href="{{ asset('libs/tether/css/tether.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ asset('css/global.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-     
-      <!--- 
-    <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/oswald.css') }}"> 
+
+      <!---
+    <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/oswald.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/psr0fyl.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/font-awesome/css/font-awesome.min.css') }}" />
@@ -52,7 +52,7 @@
     --->
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/azumino.css') }}" />--}}
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/main.css') }}" />--}}
-  
+
 
 
 
@@ -72,15 +72,15 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 
     <!-- JS -->
-    <script  src="{{ asset('libs/swiper/swiper.min.js') }}" ></script>
-    <script  src="{{ asset('libs/jquery/jquery.min.js') }}" ></script>
-    <script  src="{{ asset('libs/popperjs/popperjs.min.js') }}" ></script>
-    <script  src="{{ asset('libs/tether/js/tether.min.js') }}" ></script>
-    <script  src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}" ></script>
-    <script  src="{{ asset('libs/blazy-master/blazy.min.js') }}" ></script>
-    <script  src="{{ asset('js/footer.js') }}" ></script>
-    <script  src="{{ asset('js/demo.js') }}" ></script>
-    <script  src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" ></script>
+    <script  src="{{ asset('libs/swiper/swiper.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/jquery/jquery.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/popperjs/popperjs.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/tether/js/tether.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/blazy-master/blazy.min.js') }}" defer ></script>
+    <script  src="{{ asset('js/footer.js') }}" defer ></script>
+    <script  src="{{ asset('js/demo.js') }}" defer ></script>
+    <script  src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" defer ></script>
 
     @yield('libjs')
     @stack('libjs')
