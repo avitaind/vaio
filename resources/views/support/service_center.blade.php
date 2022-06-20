@@ -50,9 +50,9 @@ $centers = \App\NewServiceCenter::orderBy('id', 'asc')->paginate(10);
                         understanding.
                     </div>
                 </div>
-                {{-- <div class="col-12 page-title mb-3 ls-0">@lang('common.contact_us.service_support.title')</div> --}}
+                <div class="col-12 page-title mb-3 ls-0">@lang('common.contact_us.service_support.title')</div>
 
-                {{-- <div class="form-group">
+                <div class="form-group">
 
                     <div class="input-group">
 
@@ -60,9 +60,9 @@ $centers = \App\NewServiceCenter::orderBy('id', 'asc')->paginate(10);
                     <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
 
                     </div>
-                </div> --}}
+                </div>
 
-              <!--  <div class="shopsList" id="shopsList">
+             <div class="shopsList" id="shopsList">
                     @if (!empty($centers) && $centers->count())
                         @foreach ($centers as $search)
                             <div class="col-md-6">
@@ -104,12 +104,12 @@ $centers = \App\NewServiceCenter::orderBy('id', 'asc')->paginate(10);
                             @endfor --}}
 
 
-                </div> -->
+                </div>
                 <!--shopsList-->
 
             </div>
         </div>
-        {{-- {!! $centers->links() !!} --}}
+        {!! $centers->links() !!}
     </div>
 </div>
 
