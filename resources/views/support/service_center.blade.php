@@ -230,22 +230,7 @@ $centers = \App\NewServiceCenter::orderBy('id', 'asc')->paginate(10);
         });
     </script>
 
-    <script type="text/javascript">
-        $('#search').on('keyup', function() {
-            $value = $(this).val();
-            $.ajax({
-                type: 'get',
-                url: '{{ URL::to('search') }}',
-                data: {
-                    'search': $value
-                },
-                success: function(data) {
-                    $('#shopsList').html(data);
-                }
-            })
-        })
-    </script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
     <script type="text/javascript">
@@ -263,7 +248,4 @@ $centers = \App\NewServiceCenter::orderBy('id', 'asc')->paginate(10);
             })
         })
     </script>
-
-
-    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 @endpush
