@@ -84,7 +84,7 @@
                 {{-- Search Bar Start --}}
                 <div class="container">
                     <div class="input-group">
-                    <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State Here"> </input>
+                    <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State Here">
                     <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                     $value=$(this).val();
                     $.ajax({
                         type: 'get',
-                        url: '{{URL::to('searchWhereToBuy')}}',
+                        url:"{{ route('searchWhereToBuy') }}",
                         data: { 'search': $value},
                         success:function(data){
                             $('#shopsList').html(data);

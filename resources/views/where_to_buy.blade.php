@@ -1,5 +1,5 @@
 @php
-    $centers = \App\NewWhereToBuy::orderBy('id', 'asc')->paginate(10);
+$centers = \App\NewWhereToBuy::orderBy('id', 'asc')->paginate(10);
 @endphp
 @extends('layout.app')
 
@@ -14,29 +14,29 @@
                 <h2 class="page-title ">Online Stores</h2>
             </div>
         </div>
-        <br/>
+        <br />
 
 
         <div class="container">
             <div class="card-deck">
                 <div class="card" style="border:none;">
                     <a class="" target="_blank" href="https://in.nexstmall.com/collections/vaio/">
-                        <img class="pt-4"  src="images/Nexstgo_mall_logo.png">
+                        <img class="pt-4" src="images/Nexstgo_mall_logo.png">
                     </a>
                 </div>
                 <div class="card" style="border:none;">
                     <a class="" target="_blank" href="https://bit.ly/3ffjy0b">
-                        <img class=""  src="images/FK-logo.png">
+                        <img class="" src="images/FK-logo.png">
                     </a>
                 </div>
                 <div class="card" style="border:none;">
                     <a class="" target="_blank" href="https://amzn.to/3fpWnA1">
-                        <img class="pt-4"  src="images/AZ-logo.png">
+                        <img class="pt-4" src="images/AZ-logo.png">
                     </a>
                 </div>
                 <div class="card" style="border:none;">
                     <a class="" target="_blank" href="https://www.reliancedigital.in/search?q=vaio:relevance">
-                        <img class=""  src="images/RD-logo.png">
+                        <img class="" src="images/RD-logo.png">
                     </a>
                 </div>
             </div>
@@ -50,38 +50,41 @@
         </div>
 
         <div class="container py-5">
-          <div class="row">
+            <div class="row">
                 {{-- Search Bar Start --}}
                 <div class="container">
                     <div class="input-group">
-                    <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State Here"> </input>
-                    <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
+                        <input type="text" class="form-control" id="search" name="search"
+                            placeholder="Type your City / State Here"> </input>
+                        <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
                     </div>
                 </div>
                 {{-- Search Bar End --}}
 
                 <div class="container  ls-0">
                     <div class="shopsList" id="shopsList">
-                    @if(!empty($centers) && $centers->count())
-                        @foreach( $centers as $shop )
-                            <div class="col-md-6">
-                                <div class="pb-1"><h4>{{ $shop->name }}</h4></div>
-                                <div class="">
-                                    <i class="fa fa-map icon"></i>
-                                    {{ $shop->address }}
+                        @if (!empty($centers) && $centers->count())
+                            @foreach ($centers as $shop)
+                                <div class="col-md-6">
+                                    <div class="pb-1">
+                                        <h4>{{ $shop->name }}</h4>
+                                    </div>
+                                    <div class="">
+                                        <i class="fa fa-map icon"></i>
+                                        {{ $shop->address }}
+                                    </div>
+                                    <div class="">
+                                        <i class="fa fa-phone icon"></i>
+                                        {{ $shop->phone }}
+                                    </div>
+                                    <br>
                                 </div>
-                                <div class="">
-                                    <i class="fa fa-phone icon"></i>
-                                    {{ $shop->phone }}
-                                </div>
-                                <br>
-                            </div>
-                        @endforeach
+                            @endforeach
                         @else
-                        <tr>
-                            <td colspan="10">There are no data.</td>
-                        </tr>
-                    @endif
+                            <tr>
+                                <td colspan="10">There are no data.</td>
+                            </tr>
+                        @endif
                     </div>
                 </div>
             </div>
@@ -110,19 +113,48 @@
 
 
 @section('js')
-        <script type="text/javascript">
-            $('#search').on('keyup', function(){
-                    $value=$(this).val();
-                    $.ajax({
-                        type: 'get',
-                        url: '{{URL::to('searchWhereToBuy')}}',
-                        data: { 'search': $value},
-                        success:function(data){
-                            $('#shopsList').html(data);
-                        }
-                    })
-                })
-        </script>
+    {{-- <script type="text/javascript">
+        $('#search').on('keyup', function() {
+            var value = $(this).val();
+            $.ajax({
+                type: 'get',
+                url: '{{ URL::to('searchWhereToBuy') }}',
+                data: {
+                    'search': value
+                },
+                success: function(data) {
+                    $('#shopsList').html(data);
+                }
+            })
+        })
+    </script> --}}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#search').on('keyup',function() {
+            var value = $(this).val();
+            $.ajax({
+
+                url:"{{ URL::to('searchWhereToBuy') }}",
+
+                type:"GET",
+
+                data:{'search':value},
+
+                success:function (data) {
+
+                    $('#shopsList').html(data);
+                }
+            })
+            // end of ajax call
+        });
+    });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> --}}
+        {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> --}}
 
     <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
