@@ -209,8 +209,7 @@
 
                 </div>
             </div>
-        </section>
-    @endif
+        </section>    @endif
 
 
     @if( $news->count() > 0 )

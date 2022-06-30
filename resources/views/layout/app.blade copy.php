@@ -7,7 +7,6 @@
     <meta name="author" content="VAIO Corporation.">
     <meta name="keywords" content="@lang('common.meta.keywords')">
     <meta name="description" content="@lang('common.meta.description')">
-
     <meta property="og:title" content="VAIO">
     <meta property="og:site_name" content="VAIO">
     <meta property="og:type" content="website">
@@ -27,22 +26,35 @@
             @lang('common.website_title')
         @endif
 
-
     </title>
 
 
 
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/psr0fyl.css">
+
+    <link rel="preload" href="{{ asset('libs/bootstrap/css/oswald.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('libs/bootstrap/css/psr0fyl.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('libs/font-awesome/css/font-awesome.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('libs/swiper/swiper.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('libs/tether/css/tether.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('css/global.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+      <!---
+    <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/oswald.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/psr0fyl.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/font-awesome/css/font-awesome.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/swiper/swiper.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('libs/tether/css/tether.min.css') }}" />
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}" />
-
+    --->
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/azumino.css') }}" />--}}
     {{--<link type="text/css" rel="stylesheet" href="{{ asset('css/main.css') }}" />--}}
+
+
+
 
     <style>
 
@@ -57,16 +69,18 @@
     @stack('css')
 
 <!-- Scripts -->
-    <!-- JS -->
-    <script src="{{ asset('libs/swiper/swiper.min.js') }}"></script>
-    <script src="{{ asset('libs/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('libs/popperjs/popperjs.min.js') }}"></script>
-    <script src="{{ asset('libs/tether/js/tether.min.js') }}"></script>
-    <script src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('libs/blazy-master/blazy.min.js') }}"></script>
-    <script src="{{ asset('js/footer.js') }}"></script>
-    <script src="{{ asset('js/demo.js') }}"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 
+    <!-- JS -->
+    <script  src="{{ asset('libs/swiper/swiper.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/jquery/jquery.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/popperjs/popperjs.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/tether/js/tether.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}" defer ></script>
+    <script  src="{{ asset('libs/blazy-master/blazy.min.js') }}" defer ></script>
+    <script  src="{{ asset('js/footer.js') }}" defer ></script>
+    <script  src="{{ asset('js/demo.js') }}" defer ></script>
+    <script  src="{{ asset('js/jquery.rwdImageMaps.min.js') }}" defer ></script>
 
     @yield('libjs')
     @stack('libjs')
@@ -83,7 +97,7 @@
 
 
     <!-- Google Analytics -->
-    {{-- <script>
+    <!-- <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -91,22 +105,22 @@
 
         ga('create', 'UA-119970250-5', 'auto');
         ga('send', 'pageview');
-    </script> --}}
+    </script> -->
     <!-- End Google Analytics -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script defer src="https://www.googletagmanager.com/gtag/js?id=G-8MS82GVESW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
 
-  gtag('config', 'G-8MS82GVESW');
-</script>
+   gtag('config', 'G-8MS82GVESW');
+ </script>
 
-       <!-- Facebook Pixel Code -->
+    <!-- Facebook Pixel Code -->
 
-       <script>
+    <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){
             n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -136,7 +150,7 @@
 
  <!-- Facebook Pixel Code -->
 
- <script>
+    <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -151,6 +165,11 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=1366117793720319&ev=PageView&noscript=1"/>
     </noscript>
+
+
+<!-- End Facebook Pixel Code -->
+<script defer type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
+
 
 
 </head>
@@ -168,7 +187,7 @@
     <div class="up-arrow"></div>
 </div>
 
-<script src="{{ asset('js/main.js') }}"></script>
+
 @yield('js')
 @stack('js')
 

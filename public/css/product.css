@@ -135,6 +135,7 @@ html.overlay-open, body.overlay-open{
   width: auto;
   right: 10%;
   left: auto;
+  display: none;
 }
 .main-banner-section .swiper-pagination-bullet{
   background-color: #fff;
@@ -482,7 +483,7 @@ html.overlay-open, body.overlay-open{
   .video-mobile-page .cross:after{
     transform: translateX(-50%) rotate(45deg);
   }
- 
+
   .custom-description{
     letter-spacing: 0;
   }
